@@ -113,10 +113,10 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Use Node.js ${{ env.NODE_VERSION }}
+      - name: Use Node.js ${{ needs.config.outputs.node-version }}
         uses: actions/setup-node@v4
         with:
-          node-version: ${{ env.NODE_VERSION }}
+          node-version: ${{ needs.config.outputs.node-version }}
 
       - name: Enable corepack
         run: npm i -g corepack@latest && corepack enable

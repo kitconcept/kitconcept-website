@@ -1,5 +1,4 @@
 name: "kitconcept-site: Manual Deploy"
-description: "Always using the branch / tag name"
 
 on:
   workflow_dispatch:
