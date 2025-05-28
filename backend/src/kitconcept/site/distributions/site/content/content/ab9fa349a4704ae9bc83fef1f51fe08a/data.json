@@ -1,0 +1,92 @@
+{
+  "@id": "/features/comments",
+  "@type": "Document",
+  "UID": "ab9fa349a4704ae9bc83fef1f51fe08a",
+  "allow_discussion": false,
+  "blocks": {
+    "771341aa-39a3-41c5-9032-6dfd36013d86": {
+      "@type": "slate"
+    },
+    "c6200ae2-dd66-47fa-85a0-3f8299464160": {
+      "@type": "image",
+      "align": "full",
+      "credit": {},
+      "description": "",
+      "image_field": "image",
+      "size": "l",
+      "title": "volodymyr-hryshchenko-V5vqWC9gyEU-unsplash.jpg",
+      "url": "../../resolveuid/575ada43fa3047218a8824890fd3355a"
+    },
+    "ea292231-010c-435c-ae47-6c5c6f9d32c3": {
+      "@type": "title"
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "ea292231-010c-435c-ae47-6c5c6f9d32c3",
+      "c6200ae2-dd66-47fa-85a0-3f8299464160",
+      "771341aa-39a3-41c5-9032-6dfd36013d86"
+    ]
+  },
+  "contributors": [],
+  "created": "2024-05-17T08:19:49+00:00",
+  "creators": [
+    "admin"
+  ],
+  "description": "Stimulate discussion and social interaction with comments on documents.",
+  "effective": "2024-05-17T11:53:00",
+  "exclude_from_nav": false,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "exportimport.versions": {},
+  "id": "comments",
+  "is_folderish": true,
+  "language": "##DEFAULT##",
+  "layout": "document_view",
+  "lock": {
+    "locked": false,
+    "stealable": true
+  },
+  "modified": "2024-06-24T17:09:41+00:00",
+  "parent": {
+    "@id": "/features",
+    "@type": "Document",
+    "UID": "f29a0a79ff974cbab0ea9b016944336a",
+    "description": "",
+    "image_field": null,
+    "image_scales": {},
+    "review_state": "published",
+    "title": "Features",
+    "type_title": "Page"
+  },
+  "preview_caption_link": null,
+  "review_state": "published",
+  "rights": "",
+  "searchwords": [],
+  "showinsearch": true,
+  "subjects": [],
+  "title": "Comments",
+  "type_title": "Page",
+  "version": "current",
+  "workflow_history": {
+    "simple_publication_workflow": [
+      {
+        "action": null,
+        "actor": "admin",
+        "comments": "",
+        "review_state": "published",
+        "time": "2024-05-17T08:19:49+00:00"
+      },
+      {
+        "action": "publish",
+        "actor": "admin",
+        "comments": "",
+        "review_state": "published",
+        "time": "2024-05-17T09:53:03+00:00"
+      }
+    ]
+  },
+  "working_copy": null,
+  "working_copy_of": null
+}

@@ -1,0 +1,8 @@
+{
+    "site_id": "Plone",
+    "title": "Plone Site by kitconcept",
+    "description": "A Plone Site distribution provided by kitconcept GmbH",
+    "default_language": "en",
+    "portal_timezone": "Europe/Berlin",
+    "setup_content": true
+}

@@ -1,0 +1,74 @@
+{
+  "@id": "/features/responsive-design",
+  "@type": "Document",
+  "UID": "144516507ac74892b96c1f7b574af7c4",
+  "allow_discussion": false,
+  "blocks": {
+    "7c8dcae2-84b5-466c-8f9e-3e40856f76d9": {
+      "@type": "slate"
+    },
+    "e7d678c6-f114-4127-a3d0-b080ffbef8bb": {
+      "@type": "title"
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "e7d678c6-f114-4127-a3d0-b080ffbef8bb",
+      "7c8dcae2-84b5-466c-8f9e-3e40856f76d9"
+    ]
+  },
+  "contributors": [],
+  "created": "2024-05-20T08:38:33+00:00",
+  "creators": [
+    "admin"
+  ],
+  "description": "",
+  "effective": null,
+  "exclude_from_nav": false,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "exportimport.versions": {},
+  "id": "responsive-design",
+  "is_folderish": true,
+  "language": "##DEFAULT##",
+  "layout": "document_view",
+  "lock": {
+    "locked": false,
+    "stealable": true
+  },
+  "modified": "2024-05-20T08:38:33+00:00",
+  "parent": {
+    "@id": "/features",
+    "@type": "Document",
+    "UID": "f29a0a79ff974cbab0ea9b016944336a",
+    "description": "",
+    "image_field": null,
+    "image_scales": {},
+    "review_state": "published",
+    "title": "Features",
+    "type_title": "Page"
+  },
+  "preview_caption_link": null,
+  "review_state": "published",
+  "rights": "",
+  "searchwords": [],
+  "showinsearch": true,
+  "subjects": [],
+  "title": "Responsive Design",
+  "type_title": "Page",
+  "version": "current",
+  "workflow_history": {
+    "simple_publication_workflow": [
+      {
+        "action": null,
+        "actor": "admin",
+        "comments": "",
+        "review_state": "published",
+        "time": "2024-05-20T08:38:33+00:00"
+      }
+    ]
+  },
+  "working_copy": null,
+  "working_copy_of": null
+}

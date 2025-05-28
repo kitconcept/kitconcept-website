@@ -1,0 +1,18 @@
+{
+  "core": {
+    "output": "./",
+    "package": "@plone/volto",
+    "url": "git@github.com:plone/volto.git",
+    "https": "https://github.com/plone/volto.git",
+    "tag": "18.22.0",
+    "filterBlobs": true
+  },
+  "volto-light-theme": {
+    "develop": false,
+    "output": "./packages",
+    "package": "@kitconcept/volto-light-theme",
+    "url": "git@github.com:kitconcept/volto-light-theme.git",
+    "https": "https://github.com/kitconcept/volto-light-theme.git",
+    "branch": "main"
+  }
+}

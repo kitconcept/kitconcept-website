@@ -1,0 +1,49 @@
+name: "kitconcept.site: CI"
+description: "Main workflow for kitconcept.site"
+
+on:
+  push:
+    paths:
+      - "backend/**"
+      - "frontend/**"
+      - ".github/workflows/backend.yml"
+      - ".github/workflows/frontend.yml"
+      - ".github/workflows/main.yml"
+      - "devops/**"
+  workflow_dispatch:
+
+jobs:
+
+  config:
+    name: "Config: Compute values used in workflow"
+    uses: ./.github/workflows/config.yml
+
+  backend:
+    uses: ./.github/workflows/backend.yml
+    needs:
+        - config
+    with:
+        base-tag: ${{ needs.config.outputs.base-tag }}
+        image-name-prefix: ${{ needs.config.outputs.image-name-prefix }}
+        image-name-suffix: backend
+        python-version: ${{ needs.config.outputs.python-version }}
+        kc-version: ${{ needs.config.outputs.kc-version }}
+    if: ${{ needs.config.outputs.backend == 'true' }}
+    permissions:
+      contents: read
+      packages: write
+
+  frontend:
+    uses: ./.github/workflows/frontend.yml
+    needs:
+        - config
+    with:
+        base-tag: ${{ needs.config.outputs.base-tag }}
+        image-name-prefix: ${{ needs.config.outputs.image-name-prefix }}
+        image-name-suffix: frontend
+        node-version: ${{ needs.config.outputs.node-version }}
+        volto-version: ${{ needs.config.outputs.volto-version }}
+    if: ${{ needs.config.outputs.frontend == 'true' }}
+    permissions:
+      contents: read
+      packages: write
