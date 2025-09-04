@@ -1,5 +1,5 @@
-from kitconcept.site import _types as t
-from kitconcept.site.utils.authentication import keycloak as utils
+from kitconcept.website import _types as t
+from kitconcept.website.utils.authentication import keycloak as utils
 
 import pytest
 

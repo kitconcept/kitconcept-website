@@ -30,7 +30,7 @@ class TestSiteCreation:
             ["google/scope", ["profile", "email"]],
             [
                 "google/access_headers/User-Agent",
-                "Plone (kitconcept.site)",
+                "Plone (kitconcept.website)",
             ],
         ],
     )

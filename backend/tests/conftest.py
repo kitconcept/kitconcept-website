@@ -1,5 +1,5 @@
-from kitconcept.site.testing import FUNCTIONAL_TESTING
-from kitconcept.site.testing import INTEGRATION_TESTING
+from kitconcept.website.testing import FUNCTIONAL_TESTING
+from kitconcept.website.testing import INTEGRATION_TESTING
 from pytest_plone import fixtures_factory
 from typing import Any
 from zope.component.hooks import site
@@ -19,7 +19,7 @@ globals().update(
 @pytest.fixture(scope="session")
 def distribution_name() -> str:
     """Distribution name."""
-    return "kitconcept-site"
+    return "kitconcept-website"
 
 
 @pytest.fixture(scope="class")

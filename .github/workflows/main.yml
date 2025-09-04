@@ -1,4 +1,4 @@
-name: "kitconcept.site: CI"
+name: "kitconcept.website: CI"
 
 on:
   push:

@@ -15,9 +15,9 @@ GREEN=`tput setaf 2`
 RESET=`tput sgr0`
 YELLOW=`tput setaf 3`
 
-PACKAGE_NAME=kitconcept.site
+PACKAGE_NAME=kitconcept.website
 
-IMAGE_NAME_PREFIX=ghcr.io/kitconcept/kitconcept-site
+IMAGE_NAME_PREFIX=ghcr.io/kitconcept/kitconcept-website
 IMAGE_TAG=latest
 
 # Python checks
@@ -31,7 +31,7 @@ endif
 PLONE_SITE_ID=Plone
 BACKEND_FOLDER=$(shell dirname $(realpath $(firstword $(MAKEFILE_LIST))))
 KC_VERSION=$(shell cat $(BACKEND_FOLDER)/version.txt)
-EXAMPLE_CONTENT_FOLDER=${BACKEND_FOLDER}/src/kitconcept/site/setuphandlers/examplecontent
+EXAMPLE_CONTENT_FOLDER=${BACKEND_FOLDER}/src/kitconcept/website/setuphandlers/examplecontent
 
 VENV_FOLDER=$(BACKEND_FOLDER)/.venv
 BIN_FOLDER=$(VENV_FOLDER)/bin
@@ -39,7 +39,7 @@ BIN_FOLDER=$(VENV_FOLDER)/bin
 SEED=$(shell date +'%Y%m%d-%H%M%S')
 
 # Environment variables to be exported
-export ALLOWED_DISTRIBUTIONS := kitconcept-site
+export ALLOWED_DISTRIBUTIONS := kitconcept-website
 export PYTHONWARNINGS := ignore
 export DOCKER_BUILDKIT := 1
 
@@ -119,7 +119,7 @@ format: ## Check and fix code base according to Plone standards
 .PHONY: i18n
 i18n: $(VENV_FOLDER) ## Update locales
 	@echo "$(GREEN)==> Updating locales$(RESET)"
-	@uv run python -m kitconcept.site.locales
+	@uv run python -m kitconcept.website.locales
 
 # Tests
 .PHONY: test
@@ -128,7 +128,7 @@ test: $(VENV_FOLDER) ## run tests
 
 .PHONY: test-coverage
 test-coverage: $(VENV_FOLDER) ## run tests with coverage
-	@uv run pytest --cov=kitconcept.site --cov-report term-missing
+	@uv run pytest --cov=kitconcept.website --cov-report term-missing
 
 # Build Docker images
 .PHONY: build-image
@@ -141,7 +141,7 @@ build-image:  ## Build Docker Images
 # Acceptance tests
 .PHONY: acceptance-backend-start
 acceptance-backend-start: ## Start backend acceptance server
-	ZSERVER_HOST=0.0.0.0 ZSERVER_PORT=55001 LISTEN_PORT=55001 APPLY_PROFILES="kitconcept.site:default" CONFIGURE_PACKAGES="plone.restapi,plone.volto,plone.volto.cors,plonegovbr/site" $(BIN_FOLDER)/robot-server plone.app.robotframework.testing.VOLTO_ROBOT_TESTING
+	ZSERVER_HOST=0.0.0.0 ZSERVER_PORT=55001 LISTEN_PORT=55001 APPLY_PROFILES="kitconcept.website:default" CONFIGURE_PACKAGES="plone.restapi,plone.volto,plone.volto.cors,kitconcept.website" $(BIN_FOLDER)/robot-server plone.app.robotframework.testing.VOLTO_ROBOT_TESTING
 
 .PHONY: acceptance-image-build
 acceptance-image-build:  ## Build Docker Images

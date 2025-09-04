@@ -1,4 +1,4 @@
-name: "kitconcept-site: Manual Deploy"
+name: "kitconcept-website: Manual Deploy"
 
 on:
   workflow_dispatch:

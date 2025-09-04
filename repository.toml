@@ -1,15 +1,15 @@
 [repository]
-name = "kitconcept.site"
+name = "kitconcept.website"
 changelog = "CHANGELOG.md"
 version = "version.txt"
-compose = "docker-compose.yml"
+compose = ["docker-compose.yml"]
 
 [repository.towncrier]
 section = "Project"
 settings = "towncrier.toml"
 
 [backend.package]
-name = "kitconcept.site"
+name = "kitconcept.website"
 path = "backend"
 changelog = "backend/CHANGELOG.md"
 towncrier_settings = "backend/pyproject.toml"
@@ -17,9 +17,9 @@ base_package = "kitconcept.core"
 publish = true
 
 [frontend.package]
-name = "@kitconcept/volto-site"
-path = "frontend/packages/volto-site"
-changelog = "frontend/packages/volto-site/CHANGELOG.md"
-towncrier_settings = "frontend/packages/volto-site/towncrier.toml"
+name = "@kitconcept/website"
+path = "frontend/packages/website"
+changelog = "frontend/packages/website/CHANGELOG.md"
+towncrier_settings = "frontend/packages/website/towncrier.toml"
 base_package = "@kitconcept/core"
 publish = true

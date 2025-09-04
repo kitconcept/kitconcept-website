@@ -1,4 +1,4 @@
-kitconcept.site Copyright 2023, kitconcept GmbH
+kitconcept.website Copyright 2023, kitconcept GmbH
 
 This program is free software; you can redistribute it and/or
 modify it under the terms of the GNU General Public License version 2

@@ -1,0 +1,49 @@
+{
+  "name": "@kitconcept/website",
+  "version": "1.0.0-beta.3",
+  "description": "A CMS solution for public websites. Created by kitconcept.",
+  "main": "src/index.ts",
+  "license": "MIT",
+  "keywords": [
+    "volto-addon",
+    "volto",
+    "plone",
+    "react"
+  ],
+  "author": "kitconcept GmbH",
+  "homepage": "https://github.com/kitconcept/kitconcept-website#readme",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:kitconcept/kitconcept-website.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "i18n": "rm -rf build/messages && NODE_ENV=production i18n --addon",
+    "dry-release": "release-it --dry-run",
+    "release": "release-it",
+    "release-major-alpha": "release-it major --preRelease=alpha",
+    "release-alpha": "release-it --preRelease=alpha"
+  },
+  "peerDependencies": {
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-intl": "^3.12.1",
+    "react-redux": "^8.1.2"
+  },
+  "devDependencies": {
+    "@plone/scripts": "workspace:*",
+    "@plone/types": "workspace:*",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "release-it": "^17.7.0"
+  },
+  "addons": [
+    "@kitconcept/core"
+  ],
+  "dependencies": {
+    "@plone/components": "workspace:*",
+    "@kitconcept/core": "1.0.0-alpha.22"
+  }
+}

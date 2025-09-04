@@ -19,7 +19,7 @@ class TestRegistration:
     @pytest.mark.parametrize(
         "attr,expected",
         [
-            ["title", "kitconcept Site"],
+            ["title", "kitconcept Website"],
             [
                 "description",
                 "A CMS solution for public websites. Created by kitconcept.",

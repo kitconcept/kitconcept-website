@@ -23,8 +23,8 @@ KC_VERSION=6
 DOCKER_IMAGE=plone/server-dev:${KC_VERSION}
 DOCKER_IMAGE_ACCEPTANCE=plone/server-acceptance:${KC_VERSION}
 
-ADDON_NAME='@kitconcept/volto-site'
-IMAGE_NAME=ghcr.io/kitconcept/kitconcept-site-frontend
+ADDON_NAME='@kitconcept/website'
+IMAGE_NAME=ghcr.io/kitconcept/kitconcept-website-frontend
 IMAGE_TAG=latest
 VOLTO_VERSION = $(shell cat ./mrs.developer.json | python -c "import sys, json; print(json.load(sys.stdin)['core']['tag'])")
 
@@ -35,7 +35,7 @@ help: ## Show this help
 # Dev Helpers
 .PHONY: clean
 clean: ## Clean up environment
-	rm -Rf core node_modules packages/volto-light-theme packages/volto-site/node_modules
+	rm -Rf core node_modules packages/volto-light-theme packages/website/node_modules
 
 .PHONY: install
 install: ## Installs the add-on in a development environment

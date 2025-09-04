@@ -1,5 +1,5 @@
-from kitconcept.site import _types as t
-from kitconcept.site.utils.authentication import authomatic as utils
+from kitconcept.website import _types as t
+from kitconcept.website.utils.authentication import authomatic as utils
 
 import pytest
 
@@ -36,7 +36,7 @@ def answers_factory():
         ["google", "google/consumer_key", "google-12345"],
         ["google", "google/consumer_secret", "12345678"],
         ["google", "google/scope", ["profile", "email"]],
-        ["google", "google/access_headers/User-Agent", "Plone (kitconcept.site)"],
+        ["google", "google/access_headers/User-Agent", "Plone (kitconcept.website)"],
         ["github", "github/id", 1],
         ["github", "github/propertymap/email", "email"],
         ["github", "github/propertymap/link", "home_page"],
@@ -47,7 +47,7 @@ def answers_factory():
         ["github", "github/consumer_key", "gh-32510011"],
         ["github", "github/consumer_secret", "12345678"],
         ["github", "github/scope", ["read:user", "user:email"]],
-        ["github", "github/access_headers/User-Agent", "Plone (kitconcept.site)"],
+        ["github", "github/access_headers/User-Agent", "Plone (kitconcept.website)"],
     ],
 )
 def test__prepare_json_config(

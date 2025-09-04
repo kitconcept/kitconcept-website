@@ -1,5 +1,5 @@
 from kitconcept.core.utils.scripts import create_site
-from kitconcept.site.interfaces import IBrowserLayer
+from kitconcept.website.interfaces import IBrowserLayer
 from pathlib import Path
 
 import os

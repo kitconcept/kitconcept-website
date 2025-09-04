@@ -28,7 +28,8 @@ class TestContentTypeFTI:
     @pytest.mark.parametrize(
         "name,expected",
         [
-            ("volto.preview_image_link", True),
+            ("volto.preview_image_link", False),
+            ("kitconcept.core.person_image", True),
         ],
     )
     def test_behavior(self, name: str, expected: bool):

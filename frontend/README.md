@@ -1,11 +1,11 @@
-# kitconcept Site (@kitconcept/volto-site)
+# kitconcept Site (@kitconcept/website)
 
 A CMS solution for public websites. Created by kitconcept.
 
-[![npm](https://img.shields.io/npm/v/volto-site)](https://www.npmjs.com/package/volto-site)
-[![](https://img.shields.io/badge/-Storybook-ff4785?logo=Storybook&logoColor=white&style=flat-square)](https://kitconcept.github.io/volto-site/)
-[![Code analysis checks](https://github.com/kitconcept/volto-site/actions/workflows/code.yml/badge.svg)](https://github.com/kitconcept/volto-site/actions/workflows/code.yml)
-[![Unit tests](https://github.com/kitconcept/volto-site/actions/workflows/unit.yml/badge.svg)](https://github.com/kitconcept/volto-site/actions/workflows/unit.yml)
+[![npm](https://img.shields.io/npm/v/website)](https://www.npmjs.com/package/website)
+[![](https://img.shields.io/badge/-Storybook-ff4785?logo=Storybook&logoColor=white&style=flat-square)](https://kitconcept.github.io/website/)
+[![Code analysis checks](https://github.com/kitconcept/website/actions/workflows/code.yml/badge.svg)](https://github.com/kitconcept/website/actions/workflows/code.yml)
+[![Unit tests](https://github.com/kitconcept/website/actions/workflows/unit.yml/badge.svg)](https://github.com/kitconcept/website/actions/workflows/unit.yml)
 
 ## Features
 
@@ -22,19 +22,19 @@ Create a new Volto project (you can skip this step if you already have one):
 
 ```
 npm install -g yo @plone/generator-volto
-yo @plone/volto my-volto-project --addon volto-site
+yo @plone/volto my-volto-project --addon website
 cd my-volto-project
 ```
 
-Add `volto-site` to your package.json:
+Add `website` to your package.json:
 
 ```JSON
 "addons": [
-    "volto-site"
+    "website"
 ],
 
 "dependencies": {
-    "volto-site": "*"
+    "website": "*"
 }
 ```
 
@@ -52,24 +52,24 @@ yarn start
 
 ### Volto 18 and later
 
-Add `volto-site` to your `package.json`:
+Add `website` to your `package.json`:
 
 ```json
 "dependencies": {
-    "volto-site": "*"
+    "website": "*"
 }
 ```
 
-Add `volto-site` to your `volto.config.js`:
+Add `website` to your `volto.config.js`:
 
 ```javascript
-const addons = ['volto-site'];
+const addons = ['website'];
 ```
 
 If this package provides a Volto theme, and you want to activate it, then add the following to your `volto.config.js`:
 
 ```javascript
-const theme = 'volto-site';
+const theme = 'website';
 ```
 
 ## Test installation

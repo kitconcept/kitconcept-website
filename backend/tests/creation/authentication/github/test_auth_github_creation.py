@@ -29,7 +29,7 @@ class TestSiteCreation:
             ["github/consumer_key", "gh-32510011"],
             ["github/consumer_secret", "12345678"],
             ["github/scope", ["read:user", "user:email"]],
-            ["github/access_headers/User-Agent", "Plone (kitconcept.site)"],
+            ["github/access_headers/User-Agent", "Plone (kitconcept.website)"],
         ],
     )
     def test_authomatic_settings(self, traverse, authomatic_config, path, expected):

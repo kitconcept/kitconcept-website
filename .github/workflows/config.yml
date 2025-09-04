@@ -1,4 +1,4 @@
-name: 'kitconcept-site: Compute Config variables'
+name: 'kitconcept-website: Compute Config variables'
 
 on:
   workflow_call:
@@ -21,7 +21,7 @@ on:
       image-name-prefix:
         required: false
         type: string
-        default: "ghcr.io/kitconcept/kitconcept-site"
+        default: "ghcr.io/kitconcept/kitconcept-website"
       node-version:
         required: false
         type: string

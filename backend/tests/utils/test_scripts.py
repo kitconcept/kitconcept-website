@@ -1,4 +1,4 @@
-from kitconcept.site.utils.scripts import parse_answers
+from kitconcept.website.utils.scripts import parse_answers
 from pathlib import Path
 
 import pytest

@@ -1,8 +1,8 @@
 # syntax=docker/dockerfile:1
-ARG VOLTO_VERSION
+ARG VOLTO_VERSION=latest
 FROM plone/frontend-builder:${VOLTO_VERSION} AS builder
 
-COPY --chown=node packages/volto-site /app/packages/volto-site
+COPY --chown=node packages/website /app/packages/website
 COPY --chown=node volto.config.js /app/
 COPY --chown=node pnpm-workspace.yaml /app/
 COPY --chown=node package.json /app/package.json.temp
@@ -19,7 +19,7 @@ EOT
 FROM plone/frontend-prod-config:${VOLTO_VERSION}
 
 LABEL maintainer="kitconcept GmbH <info@kitconcept.com>" \
-      org.label-schema.name="kitconcept-site-frontend" \
+      org.label-schema.name="kitconcept-website-frontend" \
       org.label-schema.description="kitconcept Site frontend image." \
       org.label-schema.vendor="kitconcept GmbH"
 

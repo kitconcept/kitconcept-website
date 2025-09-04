@@ -11,9 +11,9 @@ MAKEFLAGS+=--no-builtin-rules
 CURRENT_DIR:=$(shell dirname $(realpath $(lastword $(MAKEFILE_LIST))))
 GIT_FOLDER=$(CURRENT_DIR)/.git
 
-PROJECT_NAME=kitconcept-site
+PROJECT_NAME=kitconcept-website
 STACK_FILE=docker-compose-dev.yml
-STACK_HOSTNAME=kitconcept-site.localhost
+STACK_HOSTNAME=kitconcept-website.localhost
 
 VOLTO_VERSION = $(shell cat frontend/mrs.developer.json | python -c "import sys, json; print(json.load(sys.stdin)['core']['tag'])")
 KC_VERSION=$(shell cat backend/version.txt)
@@ -133,7 +133,7 @@ build-images:  ## Build docker images
 stack-start:  ## Local Stack: Start Services
 	@echo "Start local Docker stack"
 	VOLTO_VERSION=$(VOLTO_VERSION) KC_VERSION=$(KC_VERSION) docker compose -f $(STACK_FILE) up -d --build
-	@echo "Now visit: http://kitconcept-site.localhost"
+	@echo "Now visit: http://kitconcept-website.localhost"
 
 .PHONY: start-stack
 stack-create-site:  ## Local Stack: Create a new site
@@ -177,12 +177,12 @@ acceptance-test: ## Start Acceptance tests in interactive mode
 .PHONY: acceptance-frontend-image-build
 acceptance-frontend-image-build: ## Build Acceptance frontend server image
 	@echo "Build acceptance frontend"
-	@docker build frontend -t kitconcept/kitconcept-site-frontend:acceptance -f frontend/Dockerfile --build-arg VOLTO_VERSION=$(VOLTO_VERSION)
+	@docker build frontend -t kitconcept/kitconcept-website-frontend:acceptance -f frontend/Dockerfile --build-arg VOLTO_VERSION=$(VOLTO_VERSION)
 
 .PHONY: acceptance-backend-image-build
 acceptance-backend-image-build: ## Build Acceptance backend server image
 	@echo "Build acceptance backend"
-	@docker build backend -t kitconcept/kitconcept-site-backend:acceptance -f backend/Dockerfile.acceptance --build-arg KC_VERSION=$(KC_VERSION)
+	@docker build backend -t kitconcept/kitconcept-website-backend:acceptance -f backend/Dockerfile.acceptance --build-arg KC_VERSION=$(KC_VERSION)
 
 .PHONY: acceptance-images-build
 acceptance-images-build: ## Build Acceptance frontend/backend images
@@ -192,12 +192,12 @@ acceptance-images-build: ## Build Acceptance frontend/backend images
 .PHONY: acceptance-frontend-container-start
 acceptance-frontend-container-start: ## Start Acceptance frontend container
 	@echo "Start acceptance frontend"
-	@docker run --rm -p 3000:3000 --name kitconcept-site-frontend-acceptance --link kitconcept-site-backend-acceptance:backend -e RAZZLE_API_PATH=http://localhost:55001/plone -e RAZZLE_INTERNAL_API_PATH=http://backend:55001/plone -d kitconcept/kitconcept-site-frontend:acceptance
+	@docker run --rm -p 3000:3000 --name kitconcept-website-frontend-acceptance --link kitconcept-website-backend-acceptance:backend -e RAZZLE_API_PATH=http://localhost:55001/plone -e RAZZLE_INTERNAL_API_PATH=http://backend:55001/plone -d kitconcept/kitconcept-website-frontend:acceptance
 
 .PHONY: acceptance-backend-container-start
 acceptance-backend-container-start: ## Start Acceptance backend container
 	@echo "Start acceptance backend"
-	@docker run --rm -p 55001:55001 --name kitconcept-site-backend-acceptance -d kitconcept/kitconcept-site-backend:acceptance
+	@docker run --rm -p 55001:55001 --name kitconcept-website-backend-acceptance -d kitconcept/kitconcept-website-backend:acceptance
 
 .PHONY: acceptance-containers-start
 acceptance-containers-start: ## Start Acceptance containers
@@ -207,8 +207,8 @@ acceptance-containers-start: ## Start Acceptance containers
 .PHONY: acceptance-containers-stop
 acceptance-containers-stop: ## Stop Acceptance containers
 	@echo "Stop acceptance containers"
-	@docker stop kitconcept-site-frontend-acceptance
-	@docker stop kitconcept-site-backend-acceptance
+	@docker stop kitconcept-website-frontend-acceptance
+	@docker stop kitconcept-website-backend-acceptance
 
 .PHONY: ci-acceptance-test
 ci-acceptance-test: ## Run Acceptance tests in ci mode

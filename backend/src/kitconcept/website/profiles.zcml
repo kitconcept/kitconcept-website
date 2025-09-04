@@ -1,0 +1,18 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+    i18n_domain="kitconcept.website"
+    >
+
+  <genericsetup:registerProfile
+      name="default"
+      title="kitconcept.website"
+      description="Configure a new site based on kitconcept.website"
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      directory="profiles/default"
+      post_handler=".setuphandlers.post_install"
+      />
+
+  <include package=".upgrades" />
+
+</configure>
