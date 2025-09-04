@@ -1,5 +1,5 @@
 # syntax=docker/dockerfile:1.9
-ARG KC_VERSION
+ARG KC_VERSION=latest
 FROM ghcr.io/kitconcept/core-builder:${KC_VERSION:-latest} AS builder
 
 # Move skeleton folder
@@ -46,11 +46,11 @@ EOT
 FROM ghcr.io/kitconcept/core-prod:${KC_VERSION:-latest}
 
 LABEL maintainer="kitconcept GmbH <info@kitconcept.com>" \
-      org.label-schema.name="ghcr.io/kitconcept/kitconcept-site-backend" \
+      org.label-schema.name="ghcr.io/kitconcept/kitconcept-website-backend" \
       org.label-schema.description="A CMS solution for public websites. Created by kitconcept." \
       org.label-schema.vendor="kitconcept GmbH"
 
-ENV ALLOWED_DISTRIBUTIONS=kitconcept-site
+ENV ALLOWED_DISTRIBUTIONS=kitconcept-website
 
 # Copy the pre-built `/app` directory to the runtime container
 # and change the ownership to user app and group app in one step.

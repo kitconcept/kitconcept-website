@@ -18,8 +18,8 @@ make create_site
 
 ## Contribute
 
-- [Issue Tracker](https://github.com/kitconcept/kitconcept-site/issues)
-- [Source Code](https://github.com/kitconcept/kitconcept-site/)
+- [Issue Tracker](https://github.com/kitconcept/kitconcept-website/issues)
+- [Source Code](https://github.com/kitconcept/kitconcept-website/)
 
 ## License
 

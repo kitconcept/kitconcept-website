@@ -1,17 +1,17 @@
 # syntax=docker/dockerfile:1
-ARG IMAGE_TAG
+ARG IMAGE_TAG=latest
 ARG SEED=1000
-FROM ghcr.io/kitconcept/kitconcept-site-backend:${IMAGE_TAG:-latest}
+FROM ghcr.io/kitconcept/kitconcept-website-backend:${IMAGE_TAG:-latest}
 
 LABEL maintainer="kitconcept GmbH <info@kitconcept.com>" \
-      org.label-schema.name="ghcr.io/kitconcept/kitconcept-site-beispiele" \
+      org.label-schema.name="ghcr.io/kitconcept/kitconcept-website-beispiele" \
       org.label-schema.description="A CMS solution for public websites. Created by kitconcept." \
       org.label-schema.vendor="kitconcept GmbH"
 
 # Disable MO Compilation
 ENV zope_i18n_compile_mo_files=
 # Show only our distributions
-ENV ALLOWED_DISTRIBUTIONS=kitconcept-site
+ENV ALLOWED_DISTRIBUTIONS=kitconcept-website
 
 # Increase Upload limit to 6MB
 ENV ZOPE_FORM_MEMORY_LIMIT=6MB

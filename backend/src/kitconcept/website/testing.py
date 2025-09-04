@@ -26,7 +26,7 @@ DEFAULT_ANSWERS = {
 
 class BaseFixture(kitconceptDistributionFixture):
     PACKAGE_NAME = "kitconcept.website"
-    sites = (("kitconcept-site", DEFAULT_ANSWERS),)
+    sites = (("kitconcept-website", DEFAULT_ANSWERS),)
     internal_packages: tuple[str] = (
         "plone.restapi",
         "plone.volto",

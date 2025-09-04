@@ -17,7 +17,7 @@ YELLOW=`tput setaf 3`
 
 PACKAGE_NAME=kitconcept.website
 
-IMAGE_NAME_PREFIX=ghcr.io/kitconcept/kitconcept-site
+IMAGE_NAME_PREFIX=ghcr.io/kitconcept/kitconcept-website
 IMAGE_TAG=latest
 
 # Python checks
@@ -39,7 +39,7 @@ BIN_FOLDER=$(VENV_FOLDER)/bin
 SEED=$(shell date +'%Y%m%d-%H%M%S')
 
 # Environment variables to be exported
-export ALLOWED_DISTRIBUTIONS := kitconcept-site
+export ALLOWED_DISTRIBUTIONS := kitconcept-website
 export PYTHONWARNINGS := ignore
 export DOCKER_BUILDKIT := 1
 

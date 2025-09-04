@@ -1,7 +1,7 @@
 # kitconcept Site 🚀
 
 [![Built with Cookieplone](https://img.shields.io/badge/built%20with-Cookieplone-0083be.svg?logo=cookiecutter)](https://github.com/plone/cookiecutter-plone/)
-[![Tests](https://github.com/kitconcept/kitconcept-site/actions/workflows/main.yml/badge.svg)](https://github.com/kitconcept/kitconcept-site/actions/workflows/main.yml)
+[![Tests](https://github.com/kitconcept/kitconcept-website/actions/workflows/main.yml/badge.svg)](https://github.com/kitconcept/kitconcept-website/actions/workflows/main.yml)
 
 A CMS solution for public websites. Created by kitconcept.
 
@@ -21,7 +21,7 @@ Ensure you have the following installed:
 1. Clone the repository:
 
 ```shell
-git clone git@github.com:kitconcept/kitconcept-site.git
+git clone git@github.com:kitconcept/kitconcept-website.git
 cd kitconcept.website
 ```
 

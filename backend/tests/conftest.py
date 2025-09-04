@@ -19,7 +19,7 @@ globals().update(
 @pytest.fixture(scope="session")
 def distribution_name() -> str:
     """Distribution name."""
-    return "kitconcept-site"
+    return "kitconcept-website"
 
 
 @pytest.fixture(scope="class")

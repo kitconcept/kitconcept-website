@@ -1,5 +1,5 @@
 {
-  "name": "@kitconcept/volto-site",
+  "name": "@kitconcept/website",
   "version": "1.0.0-beta.3",
   "description": "A CMS solution for public websites. Created by kitconcept.",
   "main": "src/index.ts",
@@ -11,10 +11,10 @@
     "react"
   ],
   "author": "kitconcept GmbH",
-  "homepage": "https://github.com/kitconcept/kitconcept-site#readme",
+  "homepage": "https://github.com/kitconcept/kitconcept-website#readme",
   "repository": {
     "type": "git",
-    "url": "git@github.com:kitconcept/kitconcept-site.git"
+    "url": "git@github.com:kitconcept/kitconcept-website.git"
   },
   "publishConfig": {
     "access": "public"

@@ -12,9 +12,9 @@ importers:
 
   .:
     dependencies:
-      '@kitconcept/volto-site':
+      '@kitconcept/website':
         specifier: workspace:*
-        version: link:packages/volto-site
+        version: link:packages/website
       '@plone/registry':
         specifier: workspace:*
         version: link:core/packages/registry
@@ -1548,7 +1548,7 @@ importers:
         specifier: ^17.1.1
         version: 17.7.0(typescript@5.7.3)
 
-  packages/volto-site:
+  packages/website:
     dependencies:
       '@kitconcept/core':
         specifier: 1.0.0-alpha.22

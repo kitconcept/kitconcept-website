@@ -7,7 +7,7 @@ on:
 
 env:
   NODE_VERSION: 22.x
-  ADDON_NAME: volto-site
+  ADDON_NAME: website
   BASE_BRANCH: main
 
 jobs:
