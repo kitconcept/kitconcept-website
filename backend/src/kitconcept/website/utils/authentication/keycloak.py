@@ -1,6 +1,6 @@
 from copy import deepcopy
-from kitconcept.site import _types as t
-from kitconcept.site import logger
+from kitconcept.website import _types as t
+from kitconcept.website import logger
 from plone import api
 
 
@@ -37,7 +37,7 @@ def _setup_keycloak_groups(payload_groups: dict):
 
 
 def setup_keycloak_auth(raw_answers: t.AnswersKeycloak):
-    from kitconcept.site.utils.authentication.oidc import _setup_oidc
+    from kitconcept.website.utils.authentication.oidc import _setup_oidc
 
     # Setup keycloak_groups
     payload_groups = _answers_to_keycloak_groups(raw_answers)

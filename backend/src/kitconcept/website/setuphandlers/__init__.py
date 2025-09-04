@@ -1,4 +1,4 @@
-from kitconcept.site.upgrades import remove_preview_image_behavior
+from kitconcept.website.upgrades import remove_preview_image_behavior
 from Products.CMFPlone.interfaces import INonInstallable
 from zope.interface import implementer
 

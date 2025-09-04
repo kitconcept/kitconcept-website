@@ -7,7 +7,7 @@ import logging
 
 __version__ = "1.0.0b3"
 
-PACKAGE_NAME = "kitconcept.site"
+PACKAGE_NAME = "kitconcept.website"
 
 _ = MessageFactory(PACKAGE_NAME)
 

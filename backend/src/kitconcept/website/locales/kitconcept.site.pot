@@ -1,3 +1,6 @@
+#--- PLEASE EDIT THE LINES BELOW CORRECTLY ---
+#SOME DESCRIPTIVE TITLE.
+#FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
@@ -12,20 +15,20 @@ msgstr ""
 "Language-Code: en\n"
 "Language-Name: English\n"
 "Preferred-Encodings: utf-8 latin1\n"
-"Domain: kitconcept.site\n"
+"Domain: kitconcept.website\n"
 
-#: kitconcept/site/distributions.zcml:16
+#: kitconcept/website/distributions.zcml:16
 msgid "A CMS solution for public websites. Created by kitconcept."
 msgstr ""
 
-#: kitconcept/site/profiles.zcml:14
+#: kitconcept/website/profiles.zcml:14
 msgid "Policy package to install our site"
 msgstr ""
 
-#: kitconcept/site/distributions.zcml:16
+#: kitconcept/website/distributions.zcml:16
 msgid "kitconcept Site"
 msgstr ""
 
-#: kitconcept/site/profiles.zcml:14
-msgid "kitconcept.site: Install"
+#: kitconcept/website/profiles.zcml:14
+msgid "kitconcept.website: Install"
 msgstr ""

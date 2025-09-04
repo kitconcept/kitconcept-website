@@ -1,5 +1,5 @@
-from kitconcept.site import logger
-from kitconcept.site.utils.authentication import setup_authentication
+from kitconcept.website import logger
+from kitconcept.website.utils.authentication import setup_authentication
 from plone import api
 from plone.distribution.core import Distribution
 from plone.distribution.handler import default_handler

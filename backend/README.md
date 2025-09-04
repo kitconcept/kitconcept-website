@@ -1,14 +1,14 @@
-# kitconcept.site
+# kitconcept.website
 
 A CMS solution for public websites. Created by kitconcept.
 
 
 ## Installation
 
-Install kitconcept.site with `pip`:
+Install kitconcept.website with `pip`:
 
 ```shell
-pip install kitconcept.site
+pip install kitconcept.website
 ```
 And to create the Plone site:
 

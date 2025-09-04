@@ -4,7 +4,7 @@ import installSlots from './config/slots';
 
 declare module '@plone/types' {
   export interface GetSiteResponse {
-    'kitconcept.site.custom_css': string;
+    'kitconcept.website.custom_css': string;
   }
 }
 

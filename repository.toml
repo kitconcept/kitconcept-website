@@ -1,5 +1,5 @@
 [repository]
-name = "kitconcept.site"
+name = "kitconcept.website"
 changelog = "CHANGELOG.md"
 version = "version.txt"
 compose = "docker-compose.yml"
@@ -9,7 +9,7 @@ section = "Project"
 settings = "towncrier.toml"
 
 [backend.package]
-name = "kitconcept.site"
+name = "kitconcept.website"
 path = "backend"
 changelog = "backend/CHANGELOG.md"
 towncrier_settings = "backend/pyproject.toml"

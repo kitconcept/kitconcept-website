@@ -25,13 +25,13 @@ DEFAULT_ANSWERS = {
 
 
 class BaseFixture(kitconceptDistributionFixture):
-    PACKAGE_NAME = "kitconcept.site"
+    PACKAGE_NAME = "kitconcept.website"
     sites = (("kitconcept-site", DEFAULT_ANSWERS),)
     internal_packages: tuple[str] = (
         "plone.restapi",
         "plone.volto",
         "kitconcept.core",
-        "kitconcept.site",
+        "kitconcept.website",
     )
 
     def setUpDefaultContent(self, app):
@@ -81,11 +81,11 @@ FIXTURE = Layer()
 
 INTEGRATION_TESTING = IntegrationTesting(
     bases=(FIXTURE,),
-    name="kitconcept.siteLayer:IntegrationTesting",
+    name="kitconcept.websiteLayer:IntegrationTesting",
 )
 
 
 FUNCTIONAL_TESTING = FunctionalTesting(
     bases=(FIXTURE, WSGI_SERVER_FIXTURE),
-    name="kitconcept.siteLayer:FunctionalTesting",
+    name="kitconcept.websiteLayer:FunctionalTesting",
 )

@@ -4,7 +4,7 @@
     "plonetheme.barceloneta:default",
     "plone.restapi:default",
     "plone.volto:default",
-    "kitconcept.site:default"
+    "kitconcept.website:default"
   ],
   "content": []
 }

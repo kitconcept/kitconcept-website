@@ -1,6 +1,6 @@
 from copy import deepcopy
-from kitconcept.site import _types as t
-from kitconcept.site import logger
+from kitconcept.website import _types as t
+from kitconcept.website import logger
 from plone import api
 
 import json
@@ -31,7 +31,7 @@ TEMPLATES = {
         "consumer_key": "##consumer_key##",
         "consumer_secret": "##consumer_secret##",
         "scope": [""],
-        "access_headers": {"User-Agent": "Plone (kitconcept.site)"},
+        "access_headers": {"User-Agent": "Plone (kitconcept.website)"},
     },
     "authomatic-google": {
         "id": 1,
@@ -53,7 +53,7 @@ TEMPLATES = {
         "consumer_key": "##consumer_key##",
         "consumer_secret": "##consumer_secret##",
         "scope": [""],
-        "access_headers": {"User-Agent": "Plone (kitconcept.site)"},
+        "access_headers": {"User-Agent": "Plone (kitconcept.website)"},
     },
 }
 

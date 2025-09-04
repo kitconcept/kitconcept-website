@@ -22,7 +22,7 @@ Ensure you have the following installed:
 
 ```shell
 git clone git@github.com:kitconcept/kitconcept-site.git
-cd kitconcept.site
+cd kitconcept.website
 ```
 
 2. Install both Backend and Frontend:
@@ -94,7 +94,7 @@ Deploy a local `Docker Compose` environment that includes:
 
 - Docker images for Backend and Frontend 🖼️
 - A stack with a Traefik router and a Postgres database 🗃️
-- Accessible at [http://kitconcept.site.localhost](http://kitconcept.site.localhost) 🌐
+- Accessible at [http://kitconcept.website.localhost](http://kitconcept.website.localhost) 🌐
 
 Execute the following:
 
@@ -109,7 +109,7 @@ And... you're all set! Your Plone site is up and running locally! 🚀
 
 This monorepo consists of three distinct sections: `backend`, `frontend`, and `devops`.
 
-- **backend**: Houses the API and Plone installation, utilizing pip instead of buildout, and includes a policy package named kitconcept.site.
+- **backend**: Houses the API and Plone installation, utilizing pip instead of buildout, and includes a policy package named kitconcept.website.
 - **frontend**: Contains the React (Volto) package.
 - **devops**: Encompasses Docker Stack, Ansible playbooks, and Cache settings.
 

@@ -1,5 +1,5 @@
-from kitconcept.site import _types as t
-from kitconcept.site import logger
+from kitconcept.website import _types as t
+from kitconcept.website import logger
 from plone import api
 from Products.GenericSetup.tool import SetupTool
 

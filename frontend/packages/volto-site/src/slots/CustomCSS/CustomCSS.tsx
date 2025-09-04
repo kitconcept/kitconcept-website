@@ -10,7 +10,7 @@ const CustomCSS = () => {
   const site = useSelector<FormState, GetSiteResponse>(
     (state) => state.site.data,
   );
-  const customCSS = site['kitconcept.site.custom_css'];
+  const customCSS = site['kitconcept.website.custom_css'];
 
   return customCSS ? (
     <Helmet>
