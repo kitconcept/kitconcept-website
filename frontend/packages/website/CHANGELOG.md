@@ -8,6 +8,13 @@
 
 <!-- towncrier release notes start -->
 
+## 2.0.0-alpha.0 (2025-11-05)
+
+### Breaking
+
+- Modernized setup, use VLT 8.
+  Removed local CSS TTW override, since now it lives in core. @sneridagh [#2](https://github.com/kitconcept/kitconcept-website/issue/2)
+
 ## 1.0.0-alpha.1 (2025-09-04)
 
 ### Feature
