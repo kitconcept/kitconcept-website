@@ -23,8 +23,8 @@ jobs:
     with:
       base-tag: ${{ github.ref_name }}
       image-name-prefix: ${{ needs.config.outputs.image-name-prefix }}
-      image-name-suffix: ${{ needs.config.outputs.image-name-suffix }}
-      working-directory: ${{ needs.config.outputs.working-directory }}
+      image-name-suffix: "backend"
+      working-directory: "./backend"
       build-args: |
           KC_VERSION=${{ inputs.kc-version }}
       push: ${{ github.event_name != 'pull_request' }}
@@ -45,8 +45,8 @@ jobs:
       base-tag: ${{ github.ref_name }}
       dockerfile: Dockerfile.beispiele
       image-name-prefix: ${{ needs.config.outputs.image-name-prefix }}
-      image-name-suffix: ${{ needs.config.outputs.image-name-suffix }}
-      working-directory: ${{ needs.config.outputs.working-directory }}
+      image-name-suffix: "beispiele"
+      working-directory: "./backend"
       build-args: |
         SEED="${{ github.run_id }}${{ github.sha }}"
         IMAGE_TAG=${{ github.ref_name }}
@@ -66,7 +66,7 @@ jobs:
     with:
       base-tag: ${{ github.ref_name }}
       image-name-prefix: ${{ needs.config.outputs.image-name-prefix }}
-      image-name-suffix: ${{ needs.config.outputs.image-name-suffix }}
+      image-name-suffix: "frontend"
       working-directory: './frontend'
       build-args: |
         VOLTO_VERSION=${{ needs.config.outputs.volto-version }}
