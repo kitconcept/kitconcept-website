@@ -1,9 +1,5 @@
 {
   "base": [
-    "plone.app.contenttypes:default",
-    "plonetheme.barceloneta:default",
-    "plone.restapi:default",
-    "plone.volto:default",
     "kitconcept.website:default"
   ],
   "content": []
