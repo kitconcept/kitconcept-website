@@ -15,6 +15,7 @@ class TestContentTypeFTI:
         "attr,expected",
         [
             ("title", "Person"),
+            ("klass", "collective.person.content.person.Person"),
             ("global_allow", True),
         ],
     )
@@ -25,15 +26,21 @@ class TestContentTypeFTI:
         assert isinstance(fti, DexterityFTI)
         assert getattr(fti, attr) == expected
 
-    @pytest.mark.parametrize(
-        "name,expected",
-        [
-            ("volto.preview_image_link", False),
-            ("kitconcept.core.person_image", True),
-        ],
-    )
-    def test_behavior(self, name: str, expected: bool):
-        """Test behavior is present or not."""
-        fti = self.fti
-        behaviors = fti.behaviors
-        assert (name in behaviors) is expected
+    def test_behaviors(self):
+        """Test behaviors are present and in correct order."""
+        assert self.fti.behaviors == (
+            "kitconcept.core.person_image",
+            "volto.kicker",
+            "collective.person.person",
+            "kitconcept.core.biography",
+            "collective.contact_behaviors.contact_info",
+            "kitconcept.core.additional_contact_info",
+            "plone.namefromtitle",
+            "plone.shortname",
+            "volto.navtitle",
+            "plone.excludefromnavigation",
+            "plone.relateditems",
+            "plone.versioning",
+            "plone.locking",
+            "plone.translatable",
+        )
