@@ -1462,8 +1462,8 @@ importers:
         specifier: ^5.0.0-alpha.0
         version: 5.0.0-alpha.0(classnames@2.5.1)(react-dom@18.2.0(react@18.2.0))(react-intl@3.12.1(@types/react@18.3.26)(react@18.2.0))(react@18.2.0)
       '@kitconcept/volto-carousel-block':
-        specifier: ^2.0.0-alpha.3
-        version: 2.0.0-alpha.3(classnames@2.5.1)(embla-carousel@8.6.0)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
+        specifier: ^3.0.0-alpha.0
+        version: 3.0.0-alpha.0(classnames@2.5.1)(embla-carousel@8.6.0)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
       '@kitconcept/volto-dsgvo-banner':
         specifier: ^3.0.1
         version: 3.0.1(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
@@ -1476,9 +1476,12 @@ importers:
       '@kitconcept/volto-introduction-block':
         specifier: ^1.1.0
         version: 1.1.0(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
+      '@kitconcept/volto-logos-block':
+        specifier: ^4.0.0-alpha.0
+        version: 4.0.0-alpha.0(classnames@2.5.1)(embla-carousel@8.6.0)(lodash@4.17.21)(react-dom@18.2.0(react@18.2.0))(react-intl@3.12.1(@types/react@18.3.26)(react@18.2.0))(react-redux@8.1.2(@types/react-dom@18.3.7(@types/react@18.3.26))(@types/react@18.3.26)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(redux@4.2.1))(react-router-dom@5.2.0(react@18.2.0))(react@18.2.0)
       '@kitconcept/volto-separator-block':
-        specifier: ^4.2.1
-        version: 4.2.1(react-dom@18.2.0(react@18.2.0))(react-intl@3.12.1(@types/react@18.3.26)(react@18.2.0))(react@18.2.0)(storybook@8.6.14(prettier@3.2.5))
+        specifier: ^5.0.0-alpha.0
+        version: 5.0.0-alpha.0(react-dom@18.2.0(react@18.2.0))(react-intl@3.12.1(@types/react@18.3.26)(react@18.2.0))(react@18.2.0)
       '@kitconcept/volto-slider-block':
         specifier: ^7.0.0-alpha.0
         version: 7.0.0-alpha.0(classnames@2.5.1)(embla-carousel@8.6.0)(lodash@4.17.21)(react-dom@18.2.0(react@18.2.0))(react-intl@3.12.1(@types/react@18.3.26)(react@18.2.0))(react-redux@8.1.2(@types/react-dom@18.3.7(@types/react@18.3.26))(@types/react@18.3.26)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(redux@4.2.1))(react-toastify@5.5.0(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(react@18.2.0)(uuid@11.1.0)
@@ -3158,8 +3161,8 @@ packages:
       react-dom: 18.2.0
       react-intl: ^3.12.1
 
-  '@kitconcept/volto-carousel-block@2.0.0-alpha.3':
-    resolution: {integrity: sha512-z6D4yK5R3CJDn3NQ0qPD/tciFTyr8CtL+ls0qWR7Kfl2iaSaftiQLF4+OVbUQXcaVCf1lowyeg/2A7aPO5cg/g==}
+  '@kitconcept/volto-carousel-block@3.0.0-alpha.0':
+    resolution: {integrity: sha512-02ExlQfZKiZIOHs77S576PY2TDyL3DCQMZ572VS0yH30A2h/dmMaVDS9O4VTn7bBpjy+jsiJWFmQUBhD0e5ysA==}
     peerDependencies:
       react: 18.2.0
       react-dom: 18.2.0
@@ -3199,8 +3202,16 @@ packages:
       react-redux: ^8.1.2
       react-router-dom: ^5.2.0
 
-  '@kitconcept/volto-separator-block@4.2.1':
-    resolution: {integrity: sha512-FId9W5nL2JFblfD2bMbqSPZ+aSBzDUsjVHkH25TRxI0JAYc5kw2j5iAeH4Q29+WfwkDBJmBC72urCRV+m9KqYw==}
+  '@kitconcept/volto-logos-block@4.0.0-alpha.0':
+    resolution: {integrity: sha512-rIozZOWhf8UMWwI8qRyaDxlwCYS4J2xHQAHLy2dpkhh0ZboQ1bqu3DwrrsRIMAJaDwuFGKrCZyF/mD/5uQq+Hw==}
+    peerDependencies:
+      classnames: 2.5.1
+      react: 18.2.0
+      react-dom: 18.2.0
+      react-intl: ^3.12.1
+
+  '@kitconcept/volto-separator-block@5.0.0-alpha.0':
+    resolution: {integrity: sha512-56Mtw7kAMCR3C9jqEccBfxLoSo8vMgao9fpvvWI7OVF4kK2yE+cd9A5iobzJd5NMTgf/7RX6y0sGRvUyipOs/A==}
     peerDependencies:
       react: 18.2.0
       react-dom: 18.2.0
@@ -16353,7 +16364,7 @@ snapshots:
       react-dom: 18.2.0(react@18.2.0)
       react-intl: 3.12.1(@types/react@18.3.26)(react@18.2.0)
 
-  '@kitconcept/volto-carousel-block@2.0.0-alpha.3(classnames@2.5.1)(embla-carousel@8.6.0)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)':
+  '@kitconcept/volto-carousel-block@3.0.0-alpha.0(classnames@2.5.1)(embla-carousel@8.6.0)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)':
     dependencies:
       '@kitconcept/volto-bm3-compat': 1.0.0-alpha.1(classnames@2.5.1)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
       embla-carousel-autoplay: 8.5.2(embla-carousel@8.6.0)
@@ -16409,14 +16420,25 @@ snapshots:
     transitivePeerDependencies:
       - embla-carousel
 
-  '@kitconcept/volto-separator-block@4.2.1(react-dom@18.2.0(react@18.2.0))(react-intl@3.12.1(@types/react@18.3.26)(react@18.2.0))(react@18.2.0)(storybook@8.6.14(prettier@3.2.5))':
+  '@kitconcept/volto-logos-block@4.0.0-alpha.0(classnames@2.5.1)(embla-carousel@8.6.0)(lodash@4.17.21)(react-dom@18.2.0(react@18.2.0))(react-intl@3.12.1(@types/react@18.3.26)(react@18.2.0))(react-redux@8.1.2(@types/react-dom@18.3.7(@types/react@18.3.26))(@types/react@18.3.26)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(redux@4.2.1))(react-router-dom@5.2.0(react@18.2.0))(react@18.2.0)':
     dependencies:
-      '@plone/components': 3.0.2(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(storybook@8.6.14(prettier@3.2.5))
+      '@kitconcept/volto-light-theme': 8.0.0-alpha.3(classnames@2.5.1)(embla-carousel@8.6.0)(lodash@4.17.21)(react-dom@18.2.0(react@18.2.0))(react-intl@3.12.1(@types/react@18.3.26)(react@18.2.0))(react-redux@8.1.2(@types/react-dom@18.3.7(@types/react@18.3.26))(@types/react@18.3.26)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(redux@4.2.1))(react-router-dom@5.2.0(react@18.2.0))(react@18.2.0)
+      classnames: 2.5.1
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
       react-intl: 3.12.1(@types/react@18.3.26)(react@18.2.0)
     transitivePeerDependencies:
-      - storybook
+      - embla-carousel
+      - lodash
+      - react-redux
+      - react-router-dom
+
+  '@kitconcept/volto-separator-block@5.0.0-alpha.0(react-dom@18.2.0(react@18.2.0))(react-intl@3.12.1(@types/react@18.3.26)(react@18.2.0))(react@18.2.0)':
+    dependencies:
+      classnames: 2.5.1
+      react: 18.2.0
+      react-dom: 18.2.0(react@18.2.0)
+      react-intl: 3.12.1(@types/react@18.3.26)(react@18.2.0)
 
   '@kitconcept/volto-slider-block@7.0.0-alpha.0(classnames@2.5.1)(embla-carousel@8.6.0)(lodash@4.17.21)(react-dom@18.2.0(react@18.2.0))(react-intl@3.12.1(@types/react@18.3.26)(react@18.2.0))(react-redux@8.1.2(@types/react-dom@18.3.7(@types/react@18.3.26))(@types/react@18.3.26)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(redux@4.2.1))(react-toastify@5.5.0(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(react@18.2.0)(uuid@11.1.0)':
     dependencies:
