@@ -1489,8 +1489,8 @@ importers:
         specifier: ^7.0.0-alpha.0
         version: 7.0.0-alpha.0(classnames@2.5.1)(embla-carousel@8.6.0)(lodash@4.17.21)(react-dom@18.2.0(react@18.2.0))(react-intl@3.12.1(@types/react@18.3.26)(react@18.2.0))(react-redux@8.1.2(@types/react-dom@18.3.7(@types/react@18.3.26))(@types/react@18.3.26)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(redux@4.2.1))(react-toastify@5.5.0(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(react@18.2.0)(uuid@11.1.0)
       '@plonegovbr/volto-social-media':
-        specifier: ^2.0.0-alpha.10
-        version: 2.0.0-alpha.10(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(storybook@8.6.14(prettier@3.2.5))
+        specifier: ^3.0.0-alpha.0
+        version: 3.0.0-alpha.0(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
       react:
         specifier: 18.2.0
         version: 18.2.0
@@ -3668,15 +3668,6 @@ packages:
       react-intl: '*'
       semantic-ui-react: '*'
 
-  '@plone/components@3.0.2':
-    resolution: {integrity: sha512-BLxq4HMcmGux+CD6nOyl0YOqpTiB4yz/h4y/dcGSH3EwhxB3vaEq/Vcoss4qlzHJFfguemNPehJPGP8tq/Z6ww==}
-    peerDependencies:
-      react: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
-      react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
-    peerDependenciesMeta:
-      react-dom:
-        optional: true
-
   '@plone/components@4.0.0-alpha.1':
     resolution: {integrity: sha512-VZiE/kj6A7PVXcJwMCralMOC2VnsjIjX+T6LTQXWz9+1M9DrFuse5sNMw7ryZqFWRvY+E06BPhHgeNuKOKM2Hw==}
     peerDependencies:
@@ -3690,8 +3681,8 @@ packages:
     resolution: {integrity: sha512-ehklcOoczX1Ji06qA5Y6MZgz87YgR2GeW5zSaY4CzSG3YG7fF6pTnFa7MVVHAOcY8isSN2s97T6jB6PD75pQng==}
     hasBin: true
 
-  '@plonegovbr/volto-social-media@2.0.0-alpha.10':
-    resolution: {integrity: sha512-pg/yq+ifOah5TIwHeSwOi19njzTipqfOl0tVMOiO2nNcoDwFu1RE9/KyaRMAnIUMMjMpeu6Y8E4pkVJRSYKasg==}
+  '@plonegovbr/volto-social-media@3.0.0-alpha.0':
+    resolution: {integrity: sha512-n8QTrerWjYcUAwG5yT2YOZuEplWTceoGpvEvqP4fw0PjxVvjnAjvA3YSor+vzDRQl0Ag+7fElLLFA6QIyPlvLw==}
     peerDependencies:
       react: 18.2.0
       react-dom: 18.2.0
@@ -16958,19 +16949,6 @@ snapshots:
       react-intl: 3.12.1(@types/react@18.3.26)(react@18.2.0)
       semantic-ui-react: 2.1.5(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
 
-  '@plone/components@3.0.2(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(storybook@8.6.14(prettier@3.2.5))':
-    dependencies:
-      '@react-aria/utils': 3.31.0(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
-      '@react-spectrum/utils': 3.12.9(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
-      '@storybook/test': 8.6.14(storybook@8.6.14(prettier@3.2.5))
-      clsx: 2.1.1
-      react: 18.2.0
-      react-aria-components: 1.13.0(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
-    optionalDependencies:
-      react-dom: 18.2.0(react@18.2.0)
-    transitivePeerDependencies:
-      - storybook
-
   '@plone/components@4.0.0-alpha.1(react-dom@18.2.0(react@18.2.0))(react@18.2.0)':
     dependencies:
       '@internationalized/date': 3.10.0
@@ -17009,13 +16987,11 @@ snapshots:
       - debug
       - supports-color
 
-  '@plonegovbr/volto-social-media@2.0.0-alpha.10(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(storybook@8.6.14(prettier@3.2.5))':
+  '@plonegovbr/volto-social-media@3.0.0-alpha.0(react-dom@18.2.0(react@18.2.0))(react@18.2.0)':
     dependencies:
-      '@plone/components': 3.0.2(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(storybook@8.6.14(prettier@3.2.5))
+      '@plone/components': 4.0.0-alpha.1(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
-    transitivePeerDependencies:
-      - storybook
 
   '@pmmmwh/react-refresh-webpack-plugin@0.5.17(react-refresh@0.14.2)(sockjs-client@1.4.0)(type-fest@4.41.0)(webpack-dev-server@4.11.1(debug@4.3.4)(webpack@5.90.1))(webpack-hot-middleware@2.26.1)(webpack@5.90.1)':
     dependencies:
