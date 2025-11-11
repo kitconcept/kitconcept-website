@@ -1,11 +1,6 @@
 # syntax=docker/dockerfile:1.9
-ARG KC_VERSION=latest
-FROM ghcr.io/kitconcept/core-builder:${KC_VERSION:-latest} AS builder
-
-# Move skeleton folder
-RUN <<EOT
-    mv /app /app_base
-EOT
+ARG PYTHON_VERSION=3.12
+FROM plone/server-builder:uv-${PYTHON_VERSION} AS builder
 
 # Install dependencies
 RUN --mount=type=cache,target=/root/.cache \
@@ -32,7 +27,7 @@ RUN --mount=type=cache,target=/root/.cache \
 
 # Move skeleton files to /app
 RUN <<EOT
-    mv /app_base/* /app
+    mv /app_skeleton/* /app
     rm -Rf /app_base
     mv scripts/create_site.py /app/scripts/create_site.py
     mv scripts/default.json /app/scripts/default.json
@@ -43,7 +38,7 @@ RUN <<EOT
     /app/bin/python /compile_mo.py
 EOT
 
-FROM ghcr.io/kitconcept/core-prod:${KC_VERSION:-latest}
+FROM plone/server-prod-config:uv-${PYTHON_VERSION}
 
 LABEL maintainer="kitconcept GmbH <info@kitconcept.com>" \
       org.label-schema.name="ghcr.io/kitconcept/kitconcept-website-backend" \

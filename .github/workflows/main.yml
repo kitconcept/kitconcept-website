@@ -44,3 +44,14 @@ jobs:
     permissions:
       contents: read
       packages: write
+
+  deploy:
+    uses: ./.github/workflows/deploy.yml
+    needs:
+        - config
+        - frontend
+        - backend
+    if: ${{ always() && needs.config.outputs.acceptance == 'true' && github.ref == 'refs/heads/main' && github.event_name != 'pull_request' && !contains(needs.*.result, 'failure') }}
+    permissions:
+      contents: read
+      packages: write
