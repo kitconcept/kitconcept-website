@@ -13,7 +13,9 @@ RUN --mount=type=cache,id=pnpm,target=/app/.pnpm-store,uid=1000 <<EOT
     rm package.json.temp
     make install
     pnpm build
-    pnpm install --prod
+    # This is necessary because the build is trying to recreate the node_modules folder
+    # by telling it to CI=1 it will just recreate them
+    CI=1 pnpm install --prod
 EOT
 
 FROM plone/frontend-prod-config:${VOLTO_VERSION}
