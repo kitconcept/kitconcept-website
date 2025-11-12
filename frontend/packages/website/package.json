@@ -62,6 +62,7 @@
   "dependencies": {
     "@eeacms/volto-accordion-block": "^10.4.6",
     "@kitconcept/core": "workspace:*",
+    "@kitconcept/volto-light-theme": "workspace:*",
     "@kitconcept/volto-banner-block": "workspace:*",
     "@kitconcept/volto-bm3-compat": "workspace:*",
     "@kitconcept/volto-button-block": "workspace:*",
@@ -73,7 +74,6 @@
     "@kitconcept/volto-logos-block": "workspace:*",
     "@kitconcept/volto-separator-block": "workspace:*",
     "@kitconcept/volto-slider-block": "workspace:*",
-    "@plonegovbr/volto-social-media": "^3.0.0-alpha.0",
-    "@kitconcept/volto-light-theme": "workspace:*"
+    "@plonegovbr/volto-social-media": "^3.0.0-alpha.0"
   }
 }
