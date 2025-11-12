@@ -125,6 +125,7 @@ jobs:
               - '.github/workflows/backend*'
               - '.github/workflows/frontend*'
               - '.github/workflows/config*'
+              - '.github/workflows/main*'
               - 'backend/**'
               - 'frontend/**'
             backend:
