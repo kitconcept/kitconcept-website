@@ -82,7 +82,7 @@ jobs:
       base-tag: ${{ inputs.base-tag }}
       dockerfile: Dockerfile.beispiele
       image-name-prefix: ${{ inputs.image-name-prefix }}
-      image-name-suffix: ${{ inputs.image-name-suffix }}
+      image-name-suffix: beispiele
       working-directory: ${{ inputs.working-directory }}
       build-args: |
         SEED="${{ github.run_id }}${{ github.sha }}"
