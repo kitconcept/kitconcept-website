@@ -15,11 +15,6 @@ GREEN=`tput setaf 2`
 RESET=`tput sgr0`
 YELLOW=`tput setaf 3`
 
-PACKAGE_NAME=kitconcept.website
-
-IMAGE_NAME_PREFIX=ghcr.io/kitconcept/kitconcept-website
-IMAGE_TAG=latest
-
 # Python checks
 UV?=uv
 
@@ -28,20 +23,28 @@ ifeq (, $(shell which $(UV) ))
   $(error "UV=$(UV) not found in $(PATH)")
 endif
 
+REPOSITORY_SETTINGS := $(shell uvx repoplone settings dump)
+IMAGE_NAME_PREFIX := $(shell echo '$(REPOSITORY_SETTINGS)' | jq -r '.container_images_prefix')
+
+IMAGE_TAG=latest
+IMAGE_NAME=$(IMAGE_NAME_PREFIX)-backend:$(IMAGE_TAG)
 PLONE_SITE_ID=Plone
 BACKEND_FOLDER=$(shell dirname $(realpath $(firstword $(MAKEFILE_LIST))))
-KC_VERSION=$(shell cat $(BACKEND_FOLDER)/version.txt)
-EXAMPLE_CONTENT_FOLDER=${BACKEND_FOLDER}/src/kitconcept/website/setuphandlers/examplecontent
+KC_VERSION := $(shell echo '$(REPOSITORY_SETTINGS)' | jq -r '.backend.base_package_version')
+EXAMPLE_CONTENT_FOLDER := $(shell echo '$(REPOSITORY_SETTINGS)' | jq -r '.backend.code_path')/setuphandlers/examplecontent
+PACKAGE_NAME := $(shell echo '$(REPOSITORY_SETTINGS)' | jq -r '.backend.name')
 
 VENV_FOLDER=$(BACKEND_FOLDER)/.venv
+export VIRTUAL_ENV=$(VENV_FOLDER)
 BIN_FOLDER=$(VENV_FOLDER)/bin
-
-SEED=$(shell date +'%Y%m%d-%H%M%S')
 
 # Environment variables to be exported
 export ALLOWED_DISTRIBUTIONS := kitconcept-website
 export PYTHONWARNINGS := ignore
 export DOCKER_BUILDKIT := 1
+
+SEED=$(shell date +'%Y%m%d-%H%M%S')
+
 
 all: build
 
@@ -50,6 +53,12 @@ all: build
 .PHONY: help
 help: ## This help message
 	@grep -E '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) | sort | awk 'BEGIN {FS = ":.*?## "}; {printf "\033[36m%-30s\033[0m %s\n", $$1, $$2}'
+
+.PHONY: debug-settings
+debug-settings:  ## Debug settings
+	@echo "KC_VERSION: $(KC_VERSION)"
+	@echo "PACKAGE_NAME: $(PACKAGE_NAME)"
+	@echo "EXAMPLE_CONTENT_FOLDER: $(EXAMPLE_CONTENT_FOLDER)"
 
 instance/etc/zope.ini instance/etc/zope.conf: ## Create instance configuration
 	@echo "$(GREEN)==> Create instance configuration$(RESET)"

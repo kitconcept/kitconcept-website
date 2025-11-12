@@ -26,7 +26,7 @@ jobs:
       image-name-suffix: "backend"
       working-directory: "./backend"
       build-args: |
-          KC_VERSION=${{ inputs.kc-version }}
+          KC_VERSION=${{ needs.config.outputs.kc-version }}
       push: ${{ github.event_name != 'pull_request' }}
     secrets:
       username: ${{ github.actor }}
@@ -86,7 +86,7 @@ jobs:
         tag: ${{ github.ref_name }}
         environment: ${{ needs.config.outputs.environment }}
         stack-name: ${{ needs.config.outputs.stack-name }}
-        stack-file: ${{ needs.config.outputs.stack-file }}
+        stack-file: "devops/stacks/live.yml"
         registry: "ghcr.io"
         username: ${{ github.actor }}
     secrets:
@@ -98,10 +98,12 @@ jobs:
         env-file: |
             IMAGE_NAME_PREFIX=${{ needs.config.outputs.image-name-prefix }}
             IMAGE_TAG=${{ github.ref_name }}
-            STACK_NAME=${{ needs.config.outputs.stack-name }}
-            STACK_PREFIX=${{ needs.config.outputs.stack-prefix }}
-            HOSTNAME=${{ needs.config.outputs.hostname }}
-            CERTRESOLVER=${{ needs.config.outputs.certresolver }}
+            STACK_NAME=${{ vars.STACK_NAME }}
+            STACK_PREFIX=${{ vars.STACK_PREFIX }}
+            HOSTNAME=${{ vars.HOSTNAME }}
+            CERTRESOLVER=${{ vars.CERTRESOLVER }}
+            BASIC_AUTH_USER=${{ vars.BASIC_AUTH_USER }}
+            BASIC_AUTH_PASSWORD=${{ vars.BASIC_AUTH_PASSWORD }}
     permissions:
         contents: read
         packages: write

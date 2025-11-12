@@ -1,0 +1,41 @@
+name: "Add-on Version Consistency"
+
+on:
+  workflow_call:
+    inputs:
+      node-version:
+        required: true
+        type: string
+      volto-version:
+        required: true
+        type: string
+      working-directory:
+        required: false
+        type: string
+        default: ./frontend
+
+
+env:
+  NODE_VERSION: 24.x
+
+jobs:
+  check-addon-versions:
+    name: "Verify recommended add-on versions"
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: "Checkout repository"
+        uses: actions/checkout@v5
+      - name: Setup uv
+        uses: plone/meta/.github/actions/setup_uv@2.x
+        with:
+          working-directory: ${{ inputs.working-directory }}
+
+      - name: Setup codebase
+        uses: plone/meta/.github/actions/setup_frontend@2.x
+        with:
+          node-version: ${{ inputs.node-version }}
+          working-directory: ${{ inputs.working-directory }}
+
+      - name: "Compare VLT recommendedAddons.json with frontend/mrs.developer.json"
+        run: node check-recommended-addons.js

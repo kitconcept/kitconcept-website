@@ -11,12 +11,15 @@ MAKEFLAGS+=--no-builtin-rules
 CURRENT_DIR:=$(shell dirname $(realpath $(lastword $(MAKEFILE_LIST))))
 GIT_FOLDER=$(CURRENT_DIR)/.git
 
-PROJECT_NAME=kitconcept-website
-STACK_FILE=docker-compose-dev.yml
-STACK_HOSTNAME=kitconcept-website.localhost
+REPOSITORY_SETTINGS := $(shell uvx repoplone settings dump)
 
-VOLTO_VERSION = $(shell cat frontend/mrs.developer.json | python -c "import sys, json; print(json.load(sys.stdin)['core']['tag'])")
-KC_VERSION=$(shell cat backend/version.txt)
+PROJECT_NAME := $(shell echo '$(REPOSITORY_SETTINGS)' | jq -r '.name')
+
+VOLTO_VERSION := $(shell echo '$(REPOSITORY_SETTINGS)' | jq -r '.frontend.volto_version')
+KC_VERSION := $(shell echo '$(REPOSITORY_SETTINGS)' | jq -r '.backend.base_package_version')
+
+STACK_FILE := docker-compose-dev.yml
+DOCKER_COMPOSE := VOLTO_VERSION=$(VOLTO_VERSION) KC_VERSION=$(KC_VERSION) docker compose
 
 # We like colors
 # From: https://coderwall.com/p/izxssa/colored-makefile-for-golang-projects
@@ -27,6 +30,13 @@ YELLOW=`tput setaf 3`
 
 .PHONY: all
 all: install
+
+.PHONY: debug-settings
+debug-settings:  ## Debug settings
+	@echo "Debug settings"
+	@echo "PROJECT_NAME: $(PROJECT_NAME)"
+	@echo "VOLTO_VERSION: $(VOLTO_VERSION)"
+	@echo "KC_VERSION: $(KC_VERSION)"
 
 # Add the following 'help' target to your Makefile
 # And add help text after each target name starting with '\#\#'
@@ -132,28 +142,28 @@ build-images:  ## Build docker images
 .PHONY: stack-start
 stack-start:  ## Local Stack: Start Services
 	@echo "Start local Docker stack"
-	VOLTO_VERSION=$(VOLTO_VERSION) KC_VERSION=$(KC_VERSION) docker compose -f $(STACK_FILE) up -d --build
+	$(DOCKER_COMPOSE) -f $(STACK_FILE) up -d --build
 	@echo "Now visit: http://kitconcept-website.localhost"
 
 .PHONY: start-stack
 stack-create-site:  ## Local Stack: Create a new site
 	@echo "Create a new site in the local Docker stack"
-	@docker compose -f $(STACK_FILE) exec backend ./docker-entrypoint.sh create-site
+	$(DOCKER_COMPOSE) -f $(STACK_FILE) exec backend ./docker-entrypoint.sh create-site
 
 .PHONY: start-status
 stack-status:  ## Local Stack: Check Status
 	@echo "Check the status of the local Docker stack"
-	@docker compose -f $(STACK_FILE) ps
+	$(DOCKER_COMPOSE) -f $(STACK_FILE) ps
 
 .PHONY: stack-stop
 stack-stop:  ##  Local Stack: Stop Services
 	@echo "Stop local Docker stack"
-	@docker compose -f $(STACK_FILE) stop
+	$(DOCKER_COMPOSE) -f $(STACK_FILE) stop
 
 .PHONY: stack-rm
 stack-rm:  ## Local Stack: Remove Services and Volumes
 	@echo "Remove local Docker stack"
-	@docker compose -f $(STACK_FILE) down
+	$(DOCKER_COMPOSE) -f $(STACK_FILE) down
 	@echo "Remove local volume data"
 	@docker volume rm $(PROJECT_NAME)_vol-site-data
 

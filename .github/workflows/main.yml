@@ -44,3 +44,27 @@ jobs:
     permissions:
       contents: read
       packages: write
+
+  frontend-addon-versions:
+    uses: ./.github/workflows/frontend-addon-versions.yml
+    needs:
+        - config
+    with:
+        node-version: ${{ needs.config.outputs.node-version }}
+        volto-version: ${{ needs.config.outputs.volto-version }}
+    if: ${{ needs.config.outputs.frontend == 'true' }}
+    permissions:
+      contents: read
+      packages: write
+
+  deploy:
+    uses: ./.github/workflows/deploy.yml
+    needs:
+        - config
+        - frontend
+        - frontend-addon-versions
+        - backend
+    if: ${{ always() && needs.config.outputs.acceptance == 'true' && github.ref == 'refs/heads/main' && github.event_name != 'pull_request' && !contains(needs.*.result, 'failure') }}
+    permissions:
+      contents: read
+      packages: write

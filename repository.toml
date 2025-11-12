@@ -2,6 +2,7 @@
 name = "kitconcept-website"
 changelog = "CHANGELOG.md"
 version = "version.txt"
+container_images_prefix = "ghcr.io/kitconcept/kitconcept-website"
 compose = ["docker-compose.yml"]
 
 [repository.towncrier]
@@ -11,6 +12,7 @@ settings = "towncrier.toml"
 [backend.package]
 name = "kitconcept.website"
 path = "backend"
+code_path = "src/kitconcept/website"
 changelog = "backend/CHANGELOG.md"
 towncrier_settings = "backend/pyproject.toml"
 base_package = "kitconcept.core"
@@ -19,6 +21,7 @@ publish = true
 [frontend.package]
 name = "@kitconcept/website"
 path = "frontend/packages/website"
+code_path = "src"
 changelog = "frontend/packages/website/CHANGELOG.md"
 towncrier_settings = "frontend/packages/website/towncrier.toml"
 base_package = "@kitconcept/core"
