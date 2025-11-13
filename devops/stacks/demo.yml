@@ -37,7 +37,7 @@ services:
         - traefik.http.routers.rt-${STACK_PREFIX}-front.tls=true
         - traefik.http.routers.rt-${STACK_PREFIX}-front.tls.certresolver=${CERTRESOLVER}
         - traefik.http.routers.rt-${STACK_PREFIX}-front.service=svc-${STACK_PREFIX}-front
-        - traefik.http.routers.rt-${STACK_PREFIX}-front.middlewares=gzip,mw-${STACK_PREFIX}-front-auth
+        - traefik.http.routers.rt-${STACK_PREFIX}-front.middlewares=gzip
 
   backend:
     image: ${IMAGE_NAME_PREFIX}-beispiele:${IMAGE_TAG:-latest}
