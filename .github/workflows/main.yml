@@ -58,7 +58,7 @@ jobs:
       packages: write
 
   deploy-dev:
-    name: "Deploy: plone-site.kitconcept.dev"
+    name: "Deploy: plone-website.kitconcept.dev"
     needs:
         - config
         - frontend
@@ -68,8 +68,8 @@ jobs:
     uses: kitconcept/meta/.github/workflows/deploy.yml@main
     with:
         tag: ${{ github.ref_name }}
-        environment: "plone-site.kitconcept.dev"
-        stack-name: "plone-site-kitconcept-dev"
+        environment: "plone-website.kitconcept.dev"
+        stack-name: "plone-website-kitconcept-dev"
         stack-file: "devops/stacks/demo.yml"
         registry: "ghcr.io"
         username: ${{ github.actor }}
@@ -93,7 +93,7 @@ jobs:
         packages: write
 
   deploy-io:
-    name: "Deploy: plone-site.kitconcept.io"
+    name: "Deploy: plone-website.kitconcept.io"
     needs:
         - config
         - frontend
@@ -103,8 +103,8 @@ jobs:
     uses: kitconcept/meta/.github/workflows/deploy.yml@main
     with:
         tag: ${{ github.ref_name }}
-        environment: "plone-site.kitconcept.io"
-        stack-name: "plone-site-kitconcept-io"
+        environment: "plone-website.kitconcept.io"
+        stack-name: "plone-website-kitconcept-io"
         stack-file: "devops/stacks/persistent.yml"
         registry: "ghcr.io"
         username: ${{ github.actor }}

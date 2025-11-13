@@ -14,7 +14,7 @@ on:
       stack-name:
         required: false
         type: string
-        default: "plone-site-kitconcept-com"
+        default: "plone-website-kitconcept-com"
       stack-prefix:
         required: false
         type: string
@@ -22,7 +22,7 @@ on:
       environment:
         required: false
         type: string
-        default: "plone-site.kitconcept.com"
+        default: "plone-website.kitconcept.com"
       certresolver:
         required: false
         type: string
