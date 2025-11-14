@@ -35,7 +35,7 @@ help: ## Show this help
 # Dev Helpers
 .PHONY: clean
 clean: ## Clean up environment
-	rm -Rf core node_modules packages/volto-light-theme packages/website/node_modules
+	rm -Rf core node_modules packages/volto-light-theme packages/kitconcept-website/node_modules
 
 .PHONY: install
 install: ## Installs the add-on in a development environment

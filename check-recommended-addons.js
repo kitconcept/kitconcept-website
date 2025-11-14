@@ -25,7 +25,9 @@ const recommendedAddons = readJSON(
   "frontend/packages/volto-light-theme/recommendedAddons.json"
 );
 const mrsDeveloper = readJSON("frontend/mrs.developer.json");
-const intranetPackage = readJSON("frontend/packages/website/package.json");
+const intranetPackage = readJSON(
+  "frontend/packages/kitconcept-website/package.json"
+);
 
 const normalizeVersion = (version) =>
   typeof version === "string" ? version.replace(/^[\\^~]/, "") : version;
@@ -93,14 +95,14 @@ Object.entries(recommendedAddons).forEach(
 
     if (!dependencyVersion) {
       issues.push(
-        `${packageName} is listed in recommendedAddons.json but missing from frontend/packages/website/package.json dependencies.`
+        `${packageName} is listed in recommendedAddons.json but missing from frontend/packages/kitconcept-website/package.json dependencies.`
       );
       return;
     }
 
     if (dependencyVersion !== "workspace:*") {
       issues.push(
-        `${packageName} is pinned to a specific version in frontend/packages/website/package.json dependencies; expected 'workspace:*'.`
+        `${packageName} is pinned to a specific version in frontend/packages/kitconcept-website/package.json dependencies; expected 'workspace:*'.`
       );
     }
   }
@@ -113,7 +115,7 @@ Object.keys(recommendedAddons).forEach((packageName) => {
 
   if (!intranetAddons.includes(packageName)) {
     issues.push(
-      `${packageName} is listed in recommendedAddons.json but missing from frontend/packages/website/package.json addons.`
+      `${packageName} is listed in recommendedAddons.json but missing from frontend/packages/kitconcept-website/package.json addons.`
     );
   }
 });

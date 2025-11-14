@@ -2,7 +2,7 @@
 ARG VOLTO_VERSION=latest
 FROM plone/frontend-builder:${VOLTO_VERSION} AS builder
 
-COPY --chown=node packages/website /app/packages/website
+COPY --chown=node packages/kitconcept-website/ /app/packages/kitconcept-website/
 COPY --chown=node volto.config.js /app/
 COPY --chown=node pnpm-workspace.yaml /app/
 COPY --chown=node package.json /app/package.json

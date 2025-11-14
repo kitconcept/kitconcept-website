@@ -49,7 +49,7 @@ module.exports = {
           ['@plone/volto', `${coreLocation}/packages/volto/src`],
           ['@plone/volto-slate', `${coreLocation}/packages/volto-slate/src`],
           ['@plone/registry', `${coreLocation}/packages/registry/src`],
-          ['@kitconcept/website', './packages/website/src'],
+          ['@kitconcept/website', './packages/kitconcept-website/src'],
           [
             '@kitconcept/volto-light-theme',
             './packages/volto-light-theme/packages/volto-light-theme/src',
