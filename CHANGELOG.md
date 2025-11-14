@@ -1,6 +1,30 @@
 # Changelog
 
 <!-- towncrier release notes start -->
+## 2.0.0a3 (2025-11-14)
+
+### Backend
+
+No significant changes.
+
+
+
+
+### Frontend
+
+#### Internal
+
+- Added `@plone/volto-form-block` to the party. @sneridagh 
+
+
+
+### Project
+
+No significant changes.
+
+
+
+
 ## 2.0.0a2 (2025-11-14)
 
 ### Backend

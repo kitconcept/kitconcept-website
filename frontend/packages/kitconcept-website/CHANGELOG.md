@@ -8,6 +8,12 @@
 
 <!-- towncrier release notes start -->
 
+## 2.0.0-alpha.3 (2025-11-14)
+
+### Internal
+
+- Added `@plone/volto-form-block` to the party. @sneridagh 
+
 ## 2.0.0-alpha.2 (2025-11-14)
 
 ## 2.0.0-alpha.1 (2025-11-14)
