@@ -1,6 +1,27 @@
 # Changelog
 
 <!-- towncrier release notes start -->
+## 2.0.0a2 (2025-11-14)
+
+### Backend
+
+No significant changes.
+
+
+
+
+### Frontend
+
+No significant changes.
+
+
+### Project
+
+No significant changes.
+
+
+
+
 ## 2.0.0a1 (2025-11-14)
 
 ### Backend
