@@ -56,6 +56,7 @@
     "@kitconcept/volto-separator-block",
     "@kitconcept/volto-slider-block",
     "@plonegovbr/volto-social-media",
+    "@plone/volto-form-block",
     "@kitconcept/volto-light-theme",
     "@kitconcept/core"
   ],
@@ -74,6 +75,7 @@
     "@kitconcept/volto-logos-block": "workspace:*",
     "@kitconcept/volto-separator-block": "workspace:*",
     "@kitconcept/volto-slider-block": "workspace:*",
-    "@plonegovbr/volto-social-media": "^3.0.0-alpha.0"
+    "@plonegovbr/volto-social-media": "^3.0.0-alpha.0",
+    "@plone/volto-form-block": "^1.0.0-alpha.0"
   }
 }

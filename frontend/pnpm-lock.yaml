@@ -786,8 +786,8 @@ importers:
         specifier: 3.3.2
         version: 3.3.2
       http-proxy-middleware:
-        specifier: 2.0.1
-        version: 2.0.1(debug@4.3.4)
+        specifier: 2.0.9
+        version: 2.0.9(@types/express@4.17.25)(debug@4.3.4)
       image-extensions:
         specifier: 1.1.0
         version: 1.1.0
@@ -1556,6 +1556,9 @@ importers:
       '@kitconcept/volto-slider-block':
         specifier: workspace:*
         version: link:../volto-slider-block/packages/volto-slider-block
+      '@plone/volto-form-block':
+        specifier: ^1.0.0-alpha.0
+        version: 1.0.0-alpha.0(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
       '@plonegovbr/volto-social-media':
         specifier: ^3.0.0-alpha.0
         version: 3.0.0-alpha.0(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
@@ -1771,34 +1774,6 @@ importers:
       react-ga4:
         specifier: ^2.1.0
         version: 2.1.0
-    devDependencies:
-      '@plone/scripts':
-        specifier: ^3.6.1
-        version: 3.10.3
-      release-it:
-        specifier: ^17.1.1
-        version: 17.1.1(typescript@5.9.3)
-
-  packages/volto-form-block/frontend/packages/volto-form-block:
-    dependencies:
-      '@hcaptcha/react-hcaptcha':
-        specifier: ^0.3.6
-        version: 0.3.10(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
-      file-saver:
-        specifier: ^2.0.5
-        version: 2.0.5
-      react:
-        specifier: 18.2.0
-        version: 18.2.0
-      react-dom:
-        specifier: 18.2.0
-        version: 18.2.0(react@18.2.0)
-      react-google-recaptcha-v3:
-        specifier: ^1.8.0
-        version: 1.11.0(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
-      volto-subblocks:
-        specifier: ^2.1.0
-        version: 2.1.0(@plone/volto@core+packages+volto)(react@18.2.0)
     devDependencies:
       '@plone/scripts':
         specifier: ^3.6.1
@@ -4150,6 +4125,12 @@ packages:
   '@plone/scripts@3.10.3':
     resolution: {integrity: sha512-ehklcOoczX1Ji06qA5Y6MZgz87YgR2GeW5zSaY4CzSG3YG7fF6pTnFa7MVVHAOcY8isSN2s97T6jB6PD75pQng==}
     hasBin: true
+
+  '@plone/volto-form-block@1.0.0-alpha.0':
+    resolution: {integrity: sha512-kIH2oxfbYpTwf3aErCjYh+a2lMnVrXPdQk8tzr7+L3YeHEDZd/7vycLL+GdY/2ikF3whUDt7LjxgltXHGFlj/g==}
+    peerDependencies:
+      react: ^18.2.0
+      react-dom: ^18.2.0
 
   '@plonegovbr/volto-social-media@3.0.0-alpha.0':
     resolution: {integrity: sha512-n8QTrerWjYcUAwG5yT2YOZuEplWTceoGpvEvqP4fw0PjxVvjnAjvA3YSor+vzDRQl0Ag+7fElLLFA6QIyPlvLw==}
@@ -9205,10 +9186,6 @@ packages:
   http-proxy-agent@7.0.2:
     resolution: {integrity: sha512-T1gkAiYYDWYx3V5Bmyu7HcfcvL7mUrTWiM6yOfa3PIphViJ/gFPbvidQ+veqSOHci/PxBcDabeUNCzpOODJZig==}
     engines: {node: '>= 14'}
-
-  http-proxy-middleware@2.0.1:
-    resolution: {integrity: sha512-cfaXRVoZxSed/BmkA7SwBVNI9Kj7HFltaE5rqYOub5kWzWZ+gofV2koVN1j2rMW7pEfSSlCHGJ31xmuyFyfLOg==}
-    engines: {node: '>=12.0.0'}
 
   http-proxy-middleware@2.0.9:
     resolution: {integrity: sha512-c1IyJYLYppU574+YI7R4QyX2ystMtVXZwIdzazUIPIJsHuWNd+mho2j+bKoHftndicGj9yh+xjd+l0yj7VeT1Q==}
@@ -14529,11 +14506,6 @@ packages:
       jsdom:
         optional: true
 
-  volto-subblocks@2.1.0:
-    resolution: {integrity: sha512-AlhMb+PacQRGCIY/xc7p1zr3RhN64An/+ckVQ2YOytIVOtoChMUwxxSIj5Fkz7uScgIlzL/n976QqJlIf4k0rg==}
-    peerDependencies:
-      '@plone/volto': '>=16.0.0-alpha.38'
-
   w3c-hr-time@1.0.2:
     resolution: {integrity: sha512-z8P5DvDNjKDoFIHK7q8r8lackT6l+jo/Ye3HOle7l9nICP9lf1Ci25fy9vHd0JOWewkIFzXIEig3TdKT7JQ5fQ==}
     deprecated: Use your platform's native performance.now() and performance.timeOrigin.
@@ -17369,6 +17341,14 @@ snapshots:
     transitivePeerDependencies:
       - debug
       - supports-color
+
+  '@plone/volto-form-block@1.0.0-alpha.0(react-dom@18.2.0(react@18.2.0))(react@18.2.0)':
+    dependencies:
+      '@hcaptcha/react-hcaptcha': 0.3.10(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
+      file-saver: 2.0.5
+      react: 18.2.0
+      react-dom: 18.2.0(react@18.2.0)
+      react-google-recaptcha-v3: 1.11.0(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
 
   '@plonegovbr/volto-social-media@3.0.0-alpha.0(react-dom@18.2.0(react@18.2.0))(react@18.2.0)':
     dependencies:
@@ -23984,16 +23964,6 @@ snapshots:
       debug: 4.3.4(supports-color@8.1.1)
     transitivePeerDependencies:
       - supports-color
-
-  http-proxy-middleware@2.0.1(debug@4.3.4):
-    dependencies:
-      '@types/http-proxy': 1.17.17
-      http-proxy: 1.18.1(debug@4.3.4)
-      is-glob: 4.0.3
-      is-plain-obj: 3.0.0
-      micromatch: 4.0.8
-    transitivePeerDependencies:
-      - debug
 
   http-proxy-middleware@2.0.9(@types/express@4.17.25)(debug@4.3.4):
     dependencies:
@@ -30901,14 +30871,6 @@ snapshots:
       - terser
       - tsx
       - yaml
-
-  volto-subblocks@2.1.0(@plone/volto@core+packages+volto)(react@18.2.0):
-    dependencies:
-      '@plone/volto': link:core/packages/volto
-      react-dnd: 5.0.0(react@18.2.0)
-      react-dnd-html5-backend: 5.0.1
-    transitivePeerDependencies:
-      - react
 
   w3c-hr-time@1.0.2:
     dependencies:
