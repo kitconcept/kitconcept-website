@@ -2,6 +2,19 @@
 
 <!-- towncrier release notes start -->
 
+## 2.0.0a1 (2025-11-14)
+
+
+### Feature
+
+- Upgrade kitconcept.core to version 2.0.0a1. @ericof 
+
+
+### Internal
+
+- Update to core 2a2. @sneridagh 
+- Use `plone/server-builder` and `plone/server-prod-config` as base images. @ericof 
+
 ## 2.0.0a0 (2025-11-05)
 
 

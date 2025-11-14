@@ -8,6 +8,19 @@
 
 <!-- towncrier release notes start -->
 
+## 2.0.0-alpha.1 (2025-11-14)
+
+### Feature
+
+- Upgrade @kitconcept/core to version 2.0.0-alpha.1. @ericof 
+- Upgrade @plone/volto to version 19.0.0-alpha.12. @ericof 
+
+### Internal
+
+- Added missing volto-logos-block. @sneridagh 
+- Update to core 2a2. @sneridagh 
+- Upgrade @plonegovbr/volto-social-media to version 3.0.0-alpha.0. @ericof 
+
 ## 2.0.0-alpha.0 (2025-11-05)
 
 ### Breaking
