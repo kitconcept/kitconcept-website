@@ -13,4 +13,4 @@ yarn.lock
 /public
 
 packages/*
-!packages/website
+!packages/kitconcept-website/

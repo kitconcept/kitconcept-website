@@ -7,6 +7,7 @@ on:
       - "frontend/**"
       - ".github/workflows/*.yml"
       - "devops/**"
+      - "repository.toml"
   workflow_dispatch:
 
 jobs:

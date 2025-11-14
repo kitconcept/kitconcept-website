@@ -27,7 +27,7 @@ importers:
     dependencies:
       '@kitconcept/website':
         specifier: workspace:*
-        version: link:packages/website
+        version: link:packages/kitconcept-website
       '@plone/registry':
         specifier: workspace:*
         version: link:core/packages/registry
@@ -1472,10 +1472,10 @@ importers:
         specifier: 3.0.0-alpha.6
         version: 3.0.0-alpha.6(@plone/components@4.0.0-alpha.3(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(@plone/registry@core+packages+registry)(react-dom@18.2.0(react@18.2.0))(react-intl@3.12.1(@types/react@18.3.26)(react@18.2.0))(react@18.2.0)(semantic-ui-react@2.1.5(react-dom@18.2.0(react@18.2.0))(react@18.2.0))
       react:
-        specifier: 18.2.0
+        specifier: ^18.2.0
         version: 18.2.0
       react-dom:
-        specifier: 18.2.0
+        specifier: ^18.2.0
         version: 18.2.0(react@18.2.0)
       react-intl:
         specifier: ^3.12.1
@@ -1494,7 +1494,7 @@ importers:
         specifier: ^4.14.201
         version: 4.17.20
       '@types/react':
-        specifier: ^18.3.12
+        specifier: ^18.3.1
         version: 18.3.26
       '@types/react-dom':
         specifier: ^18.3.1
@@ -1503,7 +1503,92 @@ importers:
         specifier: 4.17.21
         version: 4.17.21
       release-it:
-        specifier: ^19.0.4
+        specifier: ^19.0.5
+        version: 19.0.5(@types/node@24.10.0)(magicast@0.3.5)
+      typescript:
+        specifier: ^5.7.3
+        version: 5.9.3
+      vitest:
+        specifier: ^3.1.2
+        version: 3.2.4(@types/debug@4.1.12)(@types/node@24.10.0)(jiti@2.6.1)(jsdom@22.1.0)(less@3.11.1)(lightningcss@1.30.2)(sass@1.93.3)(terser@5.44.0)(yaml@2.8.1)
+
+  packages/kitconcept-website:
+    dependencies:
+      '@eeacms/volto-accordion-block':
+        specifier: ^10.4.6
+        version: 10.4.6
+      '@kitconcept/core':
+        specifier: workspace:*
+        version: link:../kitconcept-core/frontend/packages/kitconcept-core
+      '@kitconcept/volto-banner-block':
+        specifier: workspace:*
+        version: link:../volto-banner-block/packages/volto-banner-block
+      '@kitconcept/volto-bm3-compat':
+        specifier: workspace:*
+        version: link:../volto-bm3-compat/packages/volto-bm3-compat
+      '@kitconcept/volto-button-block':
+        specifier: workspace:*
+        version: link:../volto-button-block/packages/volto-button-block
+      '@kitconcept/volto-carousel-block':
+        specifier: workspace:*
+        version: link:../volto-carousel-block/packages/volto-carousel-block
+      '@kitconcept/volto-dsgvo-banner':
+        specifier: workspace:*
+        version: link:../volto-dsgvo-banner/packages/volto-dsgvo-banner
+      '@kitconcept/volto-heading-block':
+        specifier: workspace:*
+        version: link:../volto-heading-block/packages/volto-heading-block
+      '@kitconcept/volto-highlight-block':
+        specifier: workspace:*
+        version: link:../volto-highlight-block/packages/volto-highlight-block
+      '@kitconcept/volto-introduction-block':
+        specifier: workspace:*
+        version: link:../volto-introduction-block/packages/volto-introduction-block
+      '@kitconcept/volto-light-theme':
+        specifier: workspace:*
+        version: link:../volto-light-theme/frontend/packages/volto-light-theme
+      '@kitconcept/volto-logos-block':
+        specifier: workspace:*
+        version: link:../volto-logos-block/packages/volto-logos-block
+      '@kitconcept/volto-separator-block':
+        specifier: workspace:*
+        version: link:../volto-separator-block/packages/volto-separator-block
+      '@kitconcept/volto-slider-block':
+        specifier: workspace:*
+        version: link:../volto-slider-block/packages/volto-slider-block
+      '@plonegovbr/volto-social-media':
+        specifier: ^3.0.0-alpha.0
+        version: 3.0.0-alpha.0(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
+      react:
+        specifier: ^18.2.0
+        version: 18.2.0
+      react-dom:
+        specifier: ^18.2.0
+        version: 18.2.0(react@18.2.0)
+      react-intl:
+        specifier: ^3.12.1
+        version: 3.12.1(@types/react@18.3.26)(react@18.2.0)
+      react-redux:
+        specifier: ^8.1.2
+        version: 8.1.2(@types/react-dom@18.3.7(@types/react@18.3.26))(@types/react@18.3.26)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(redux@4.2.1)
+    devDependencies:
+      '@plone/scripts':
+        specifier: workspace:*
+        version: link:../../core/packages/scripts
+      '@plone/types':
+        specifier: workspace:*
+        version: link:../../core/packages/types
+      '@types/node':
+        specifier: ^24
+        version: 24.10.0
+      '@types/react':
+        specifier: ^18.3.12
+        version: 18.3.26
+      '@types/react-dom':
+        specifier: ^18.3.1
+        version: 18.3.7(@types/react@18.3.26)
+      release-it:
+        specifier: ^19.0.5
         version: 19.0.5(@types/node@24.10.0)(magicast@0.3.5)
       typescript:
         specifier: ^5.7.3
@@ -1784,6 +1869,9 @@ importers:
       '@dnd-kit/utilities':
         specifier: 3.2.2
         version: 3.2.2(react@18.2.0)
+      '@kitconcept/volto-bm3-compat':
+        specifier: workspace:*
+        version: link:../../../../volto-bm3-compat/packages/volto-bm3-compat
       '@plone/components':
         specifier: workspace:^
         version: link:../../../../../core/packages/components
@@ -2052,91 +2140,6 @@ importers:
       uuid:
         specifier: ^13.0.0
         version: 13.0.0
-      vitest:
-        specifier: ^3.1.2
-        version: 3.2.4(@types/debug@4.1.12)(@types/node@24.10.0)(jiti@2.6.1)(jsdom@22.1.0)(less@3.11.1)(lightningcss@1.30.2)(sass@1.93.3)(terser@5.44.0)(yaml@2.8.1)
-
-  packages/website:
-    dependencies:
-      '@eeacms/volto-accordion-block':
-        specifier: ^10.4.6
-        version: 10.4.6
-      '@kitconcept/core':
-        specifier: workspace:*
-        version: link:../kitconcept-core/frontend/packages/kitconcept-core
-      '@kitconcept/volto-banner-block':
-        specifier: workspace:*
-        version: link:../volto-banner-block/packages/volto-banner-block
-      '@kitconcept/volto-bm3-compat':
-        specifier: workspace:*
-        version: link:../volto-bm3-compat/packages/volto-bm3-compat
-      '@kitconcept/volto-button-block':
-        specifier: workspace:*
-        version: link:../volto-button-block/packages/volto-button-block
-      '@kitconcept/volto-carousel-block':
-        specifier: workspace:*
-        version: link:../volto-carousel-block/packages/volto-carousel-block
-      '@kitconcept/volto-dsgvo-banner':
-        specifier: workspace:*
-        version: link:../volto-dsgvo-banner/packages/volto-dsgvo-banner
-      '@kitconcept/volto-heading-block':
-        specifier: workspace:*
-        version: link:../volto-heading-block/packages/volto-heading-block
-      '@kitconcept/volto-highlight-block':
-        specifier: workspace:*
-        version: link:../volto-highlight-block/packages/volto-highlight-block
-      '@kitconcept/volto-introduction-block':
-        specifier: workspace:*
-        version: link:../volto-introduction-block/packages/volto-introduction-block
-      '@kitconcept/volto-light-theme':
-        specifier: workspace:*
-        version: link:../volto-light-theme/frontend/packages/volto-light-theme
-      '@kitconcept/volto-logos-block':
-        specifier: workspace:*
-        version: link:../volto-logos-block/packages/volto-logos-block
-      '@kitconcept/volto-separator-block':
-        specifier: workspace:*
-        version: link:../volto-separator-block/packages/volto-separator-block
-      '@kitconcept/volto-slider-block':
-        specifier: workspace:*
-        version: link:../volto-slider-block/packages/volto-slider-block
-      '@plonegovbr/volto-social-media':
-        specifier: ^3.0.0-alpha.0
-        version: 3.0.0-alpha.0(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
-      react:
-        specifier: 18.2.0
-        version: 18.2.0
-      react-dom:
-        specifier: 18.2.0
-        version: 18.2.0(react@18.2.0)
-      react-intl:
-        specifier: ^3.12.1
-        version: 3.12.1(@types/react@18.3.26)(react@18.2.0)
-      react-redux:
-        specifier: ^8.1.2
-        version: 8.1.2(@types/react-dom@18.3.7(@types/react@18.3.26))(@types/react@18.3.26)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(redux@4.2.1)
-    devDependencies:
-      '@plone/scripts':
-        specifier: workspace:*
-        version: link:../../core/packages/scripts
-      '@plone/types':
-        specifier: workspace:*
-        version: link:../../core/packages/types
-      '@types/node':
-        specifier: ^24
-        version: 24.10.0
-      '@types/react':
-        specifier: ^18.3.12
-        version: 18.3.26
-      '@types/react-dom':
-        specifier: ^18.3.1
-        version: 18.3.7(@types/react@18.3.26)
-      release-it:
-        specifier: ^19.0.5
-        version: 19.0.5(@types/node@24.10.0)(magicast@0.3.5)
-      typescript:
-        specifier: ^5.7.3
-        version: 5.9.3
       vitest:
         specifier: ^3.1.2
         version: 3.2.4(@types/debug@4.1.12)(@types/node@24.10.0)(jiti@2.6.1)(jsdom@22.1.0)(less@3.11.1)(lightningcss@1.30.2)(sass@1.93.3)(terser@5.44.0)(yaml@2.8.1)
