@@ -20,7 +20,7 @@ publish = true
 
 [frontend.package]
 name = "@kitconcept/website"
-path = "frontend/packages/website"
+path = "frontend/packages/kitconcept-website"
 code_path = "src"
 changelog = "frontend/packages/kitconcept-website/CHANGELOG.md"
 towncrier_settings = "frontend/packages/kitconcept-website/towncrier.toml"
