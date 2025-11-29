@@ -2,6 +2,13 @@
 
 <!-- towncrier release notes start -->
 
+## 2.0.0a4 (2025-11-29)
+
+
+### Internal
+
+- Update to core 2a3. @sneridagh 
+
 ## 2.0.0a3 (2025-11-14)
 
 No significant changes.
