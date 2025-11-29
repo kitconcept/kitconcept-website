@@ -91,8 +91,8 @@ constraints = [
     { name = "jsonschema", specifier = "==4.24.0" },
     { name = "jsonschema-specifications", specifier = "==2025.9.1" },
     { name = "keyring", specifier = "==25.6.0" },
-    { name = "kitconcept-core", specifier = "==2.0.0a2" },
-    { name = "kitconcept-voltolighttheme", specifier = ">=8.0.0a6" },
+    { name = "kitconcept-core", specifier = "==2.0.0a3" },
+    { name = "kitconcept-voltolighttheme", specifier = ">=8.0.0a7" },
     { name = "legacy-cgi", specifier = "==2.6.2" },
     { name = "lockfile", specifier = "==0.12.2" },
     { name = "lxml", specifier = "==5.4.0" },
@@ -1262,7 +1262,7 @@ wheels = [
 
 [[package]]
 name = "kitconcept-core"
-version = "2.0.0a2"
+version = "2.0.0a3"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "collective-honeypot" },
@@ -1273,14 +1273,14 @@ dependencies = [
     { name = "plone-distribution" },
     { name = "products-cmfplone" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/6b/7b/5cb093a1813efd564f239c5b4938d587714e30b2b97cf38a30411a4b36a2/kitconcept_core-2.0.0a2.tar.gz", hash = "sha256:36174f4377e24a867846e8eecc396cef715f315eb5d0073e7dc4b28401e3fddc", size = 326335, upload-time = "2025-11-13T11:40:35.678Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/2d/b4/c7d156f2affafa2b755cc18aa79deb8e5ed22a650bf9c5e86e50c153377e/kitconcept_core-2.0.0a3.tar.gz", hash = "sha256:862edc61ac8c5d8e1c99a522ef57d1f1a7e2f7abb917390d8c31498c111133a5", size = 325693, upload-time = "2025-11-27T11:59:13.799Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/c4/49/e0502296b3f7bffd5e7e8189e00fb9f7b29a4b050e7c0b44f2742a08b437/kitconcept_core-2.0.0a2-py3-none-any.whl", hash = "sha256:8ea8b943cad05a74d48a2d4365b522661923960b33e6be08157969c1897c480d", size = 240916, upload-time = "2025-11-13T11:40:34.252Z" },
+    { url = "https://files.pythonhosted.org/packages/ba/88/20c6696875b90851c9e490addc02d6bab5a41674547ed78efa29e78c0c9c/kitconcept_core-2.0.0a3-py3-none-any.whl", hash = "sha256:573c24845421c61b05f331145f6e8afc53ee67c71445d7a29306aa80ef7d4729", size = 238830, upload-time = "2025-11-27T11:59:11.903Z" },
 ]
 
 [[package]]
 name = "kitconcept-voltolighttheme"
-version = "8.0.0a6"
+version = "8.0.0a7"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "plone-api" },
@@ -1289,9 +1289,9 @@ dependencies = [
     { name = "plonegovbr-socialmedia" },
     { name = "products-cmfplone" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/2e/80/6bd89f0defd56d8d464700178c7f871df8f6c8e1f056dad726f3a149a59e/kitconcept_voltolighttheme-8.0.0a6.tar.gz", hash = "sha256:6378cec80ebaf5ab91a0681286580520a3ed4cfc098eb906352f5192508ad489", size = 1364913, upload-time = "2025-11-13T10:42:19.493Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/50/06/353d390776d6e9e09ddbc246c534528ff4fe2b99fd7eb631bb9626b62a38/kitconcept_voltolighttheme-8.0.0a7.tar.gz", hash = "sha256:104ed65102599df00ac848171a50080f00f5e17251f739fcebc18539bef91269", size = 1364904, upload-time = "2025-11-24T09:38:21.341Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/3b/ea/6fc116d164039de7234e84ddb296d0baf694cc584c8278c1f2900a048835/kitconcept_voltolighttheme-8.0.0a6-py3-none-any.whl", hash = "sha256:b58d934c1e7a0ba21a04eead6db6e5a0c3d069f2c892a457746304c9903029e5", size = 1431621, upload-time = "2025-11-13T10:42:17.471Z" },
+    { url = "https://files.pythonhosted.org/packages/02/20/a63eceb0d9f0b7baae8bb5942928ab660a3e3d10f877f526cbbfa4ad0ff9/kitconcept_voltolighttheme-8.0.0a7-py3-none-any.whl", hash = "sha256:b023b38e70d0c0ff5f439c4ce0d623a11440e9e5b483dbd18d32e98491017c35", size = 1431616, upload-time = "2025-11-24T09:38:19.449Z" },
 ]
 
 [[package]]
@@ -1333,7 +1333,7 @@ test = [
 
 [package.metadata]
 requires-dist = [
-    { name = "kitconcept-core", specifier = "==2.0.0a2" },
+    { name = "kitconcept-core", specifier = "==2.0.0a3" },
     { name = "pas-plugins-authomatic", specifier = "==2.0.0" },
     { name = "pas-plugins-keycloakgroups", specifier = "==1.0.0b1" },
     { name = "pas-plugins-oidc", specifier = "==2.0.0" },
