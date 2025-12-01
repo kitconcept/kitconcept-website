@@ -1,6 +1,32 @@
 # Changelog
 
 <!-- towncrier release notes start -->
+## 2.0.0a5 (2025-12-01)
+
+### Backend
+
+
+#### Internal
+
+- Several fixes. Update core 2a4. @sneridagh 
+
+
+
+### Frontend
+
+#### Internal
+
+- Several fixes. Update core 2a4. @sneridagh 
+
+
+
+### Project
+
+No significant changes.
+
+
+
+
 ## 2.0.0a4 (2025-11-29)
 
 ### Backend
