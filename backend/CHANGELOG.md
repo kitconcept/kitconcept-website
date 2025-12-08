@@ -2,6 +2,14 @@
 
 <!-- towncrier release notes start -->
 
+## 2.0.0a6 (2025-12-08)
+
+
+### Feature
+
+- Update to core 2a5:
+  https://github.com/kitconcept/kitconcept-core/releases/tag/2.0.0a5 @sneridagh 
+
 ## 2.0.0a5 (2025-12-01)
 
 

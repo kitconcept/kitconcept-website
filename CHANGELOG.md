@@ -1,6 +1,34 @@
 # Changelog
 
 <!-- towncrier release notes start -->
+## 2.0.0a6 (2025-12-08)
+
+### Backend
+
+
+#### Feature
+
+- Update to core 2a5:
+  https://github.com/kitconcept/kitconcept-core/releases/tag/2.0.0a5 @sneridagh 
+
+
+
+### Frontend
+
+#### Feature
+
+- Update to core 2a5:
+  https://github.com/kitconcept/kitconcept-core/releases/tag/2.0.0a5 @sneridagh 
+
+
+
+### Project
+
+No significant changes.
+
+
+
+
 ## 2.0.0a5 (2025-12-01)
 
 ### Backend
