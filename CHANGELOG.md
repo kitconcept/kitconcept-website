@@ -1,6 +1,36 @@
 # Changelog
 
 <!-- towncrier release notes start -->
+## 2.0.0a7 (2026-01-22)
+
+### Backend
+
+
+#### Internal
+
+- Update to core 2a8.
+  See https://github.com/kitconcept/kitconcept-core/releases/tag/2.0.0a8 @sneridagh [#core2a8](https://github.com/kitconcept/kitconcept-website/issue/core2a8)
+
+
+
+### Frontend
+
+#### Internal
+
+- Update to core 2a8.
+  See https://github.com/kitconcept/kitconcept-core/releases/tag/2.0.0a8 @sneridagh [#core2a8](https://github.com/kitconcept/kitconcept-website/issue/core2a8)
+
+
+
+### Project
+
+
+#### Internal
+
+- Move CI versions check to (already existing) unit test. @sneridagh 
+
+
+
 ## 2.0.0a6 (2025-12-08)
 
 ### Backend
