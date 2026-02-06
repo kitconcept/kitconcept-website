@@ -1,6 +1,32 @@
 # Changelog
 
 <!-- towncrier release notes start -->
+## 2.0.0a8 (2026-02-06)
+
+### Backend
+
+
+#### Bugfix
+
+- Volto 19a23, core 2a9, VLT8a15 @sneridagh 
+
+
+
+### Frontend
+
+#### Bugfix
+
+- Volto 19a23, core 2a9, VLT8a15 @sneridagh 
+
+
+
+### Project
+
+No significant changes.
+
+
+
+
 ## 2.0.0a7 (2026-01-22)
 
 ### Backend

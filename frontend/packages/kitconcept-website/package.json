@@ -1,6 +1,6 @@
 {
   "name": "@kitconcept/website",
-  "version": "2.0.0-alpha.7",
+  "version": "2.0.0-alpha.8",
   "description": "A CMS solution for public websites. Created by kitconcept.",
   "main": "src/index.ts",
   "license": "MIT",

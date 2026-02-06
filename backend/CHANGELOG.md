@@ -2,6 +2,13 @@
 
 <!-- towncrier release notes start -->
 
+## 2.0.0a8 (2026-02-06)
+
+
+### Bugfix
+
+- Volto 19a23, core 2a9, VLT8a15 @sneridagh 
+
 ## 2.0.0a7 (2026-01-22)
 
 
