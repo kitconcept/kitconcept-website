@@ -45,6 +45,8 @@ export DOCKER_BUILDKIT := 1
 
 SEED=$(shell date +'%Y%m%d-%H%M%S')
 
+export ENABLE_PRINTING_MAILHOST ?= True
+
 
 all: build
 

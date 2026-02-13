@@ -3,5 +3,6 @@
   <version>20250528001</version>
   <dependencies>
     <!-- <dependency>kitconcept.solr:default</dependency> -->
+    <dependency>profile-kitconcept.contactblock:default</dependency>
   </dependencies>
 </metadata>
