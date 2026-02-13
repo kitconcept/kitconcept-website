@@ -34,6 +34,7 @@ dependencies = [
     "pas.plugins.authomatic==2.0.0",
     "pas.plugins.keycloakgroups==1.0.0b1",
     "pas.plugins.oidc==2.0.0",
+    "kitconcept.contactblock==1.0.0a4",
 ]
 
 [dependency-groups]

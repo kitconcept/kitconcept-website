@@ -56,7 +56,8 @@
       "@kitconcept/volto-introduction-block": "workspace:*",
       "@kitconcept/volto-logos-block": "workspace:*",
       "@kitconcept/volto-separator-block": "workspace:*",
-      "@kitconcept/volto-slider-block": "workspace:*"
+      "@kitconcept/volto-slider-block": "workspace:*",
+      "@kitconcept/volto-contact-block": "workspace:*"
     },
     "ignoredBuiltDependencies": [
       "@parcel/watcher",
