@@ -2,6 +2,14 @@
 
 <!-- towncrier release notes start -->
 
+## 2.0.0a10 (2026-02-16)
+
+
+### Bugfix
+
+- Update to core 2a10.
+  See https://github.com/kitconcept/kitconcept-core/releases/tag/2.0.0a10 @sneridagh 
+
 ## 2.0.0a9 (2026-02-09)
 
 No significant changes.

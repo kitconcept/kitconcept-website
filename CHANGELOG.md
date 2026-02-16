@@ -1,6 +1,34 @@
 # Changelog
 
 <!-- towncrier release notes start -->
+## 2.0.0a10 (2026-02-16)
+
+### Backend
+
+
+#### Bugfix
+
+- Update to core 2a10.
+  See https://github.com/kitconcept/kitconcept-core/releases/tag/2.0.0a10 @sneridagh 
+
+
+
+### Frontend
+
+#### Bugfix
+
+- Update to core 2a10.
+  See https://github.com/kitconcept/kitconcept-core/releases/tag/2.0.0a10 @sneridagh 
+
+
+
+### Project
+
+No significant changes.
+
+
+
+
 ## 2.0.0a9 (2026-02-09)
 
 ### Backend
