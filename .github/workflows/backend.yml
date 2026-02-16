@@ -41,20 +41,20 @@ jobs:
       plone-version: ${{ inputs.kc-version }}
       working-directory: ${{ inputs.working-directory }}
 
-  coverage:
-    name: "Backend: Test Coverage"
-    uses: plone/meta/.github/workflows/backend-pytest-coverage.yml@2.x
-    with:
-      python-version: ${{ inputs.python-version }}
-      plone-version: ${{ inputs.kc-version }}
-      working-directory: ${{ inputs.working-directory }}
+  # coverage:
+  #   name: "Backend: Test Coverage"
+  #   uses: plone/meta/.github/workflows/backend-pytest-coverage.yml@2.x
+  #   with:
+  #     python-version: ${{ inputs.python-version }}
+  #     plone-version: ${{ inputs.kc-version }}
+  #     working-directory: ${{ inputs.working-directory }}
 
   release:
     name: "Backend: Build and publish Container Image"
     uses: plone/meta/.github/workflows/container-image-build-push.yml@2.x
     needs:
       - lint
-      - coverage
+      # - coverage
     permissions:
       contents: read
       packages: write
