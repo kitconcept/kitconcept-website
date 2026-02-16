@@ -4,7 +4,7 @@
     "package": "@plone/volto",
     "url": "git@github.com:plone/volto.git",
     "https": "https://github.com/plone/volto.git",
-    "tag": "19.0.0-alpha.23",
+    "tag": "19.0.0-alpha.25",
     "filterBlobs": true
   },
   "volto-light-theme": {
@@ -13,7 +13,7 @@
     "package": "@kitconcept/volto-light-theme",
     "url": "git@github.com:kitconcept/volto-light-theme.git",
     "https": "https://github.com/kitconcept/volto-light-theme.git",
-    "tag": "8.0.0a15",
+    "tag": "8.0.0a16",
     "filterBlobs": true
   },
   "kitconcept-core": {
@@ -22,7 +22,7 @@
     "package": "@kitconcept/core",
     "url": "git@github.com:kitconcept/kitconcept-core.git",
     "https": "https://github.com/kitconcept/kitconcept-core.git",
-    "tag": "2.0.0a9"
+    "tag": "2.0.0a10"
   },
   "volto-banner-block": {
     "develop": true,
@@ -30,7 +30,7 @@
     "package": "@kitconcept/volto-banner-block",
     "url": "git@github.com:kitconcept/volto-banner-block.git",
     "https": "https://github.com/kitconcept/volto-banner-block.git",
-    "tag": "1.1.0"
+    "tag": "1.2.0"
   },
   "volto-bm3-compat": {
     "develop": true,
