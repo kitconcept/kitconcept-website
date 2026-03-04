@@ -1,6 +1,6 @@
 {
   "name": "@kitconcept/website",
-  "version": "2.0.0-alpha.9",
+  "version": "2.0.0-alpha.11",
   "description": "A CMS solution for public websites. Created by kitconcept.",
   "main": "src/index.ts",
   "license": "MIT",
@@ -82,5 +82,5 @@
     "@plone/volto-form-block": "^1.0.0-alpha.0",
     "@kitconcept/volto-contact-block": "workspace:*"
   },
-  "volto_version": "19.0.0-alpha.23"
+  "volto_version": "19.0.0-alpha.27"
 }

@@ -1,0 +1,301 @@
+diff --git a/frontend/.pnpmfile.cjs b/frontend/.pnpmfile.cjs
+new file mode 100644
+index 00000000..9ee327f4
+--- /dev/null
++++ b/frontend/.pnpmfile.cjs
+@@ -0,0 +1,58 @@
++const fs = require('fs');
++const path = require('path');
++
++const configPath = path.join(__dirname, 'volto.config.js');
++
++const catalogPath = path.resolve(__dirname, 'core/catalog.json');
++let catalog = {};
++if (fs.existsSync(catalogPath)) {
++  const catalogData = fs.readFileSync(catalogPath, 'utf-8');
++  catalog = JSON.parse(catalogData);
++} else {
++  console.error('Catalog file does not exist at:', catalogPath);
++}
++
++function getEnforcedDependencies() {
++  try {
++    // eslint-disable-next-line import/no-dynamic-require
++    const config = require(configPath);
++    if (config?.distribution?.dependencies)
++      return config.distribution.dependencies;
++  } catch (error) {
++    return {};
++  }
++  return {};
++}
++
++const enforced = getEnforcedDependencies();
++const enforcedKeys = Object.keys(enforced || {});
++
++function applyOverrides(section) {
++  if (!section || enforcedKeys.length === 0) return;
++  for (const name of enforcedKeys) {
++    if (section[name]) {
++      section[name] = enforced[name];
++    }
++  }
++}
++
++module.exports = {
++  hooks: {
++    // Ensure that the distribution dependencies from volto.config.js are always used,
++    //  overriding any other versions specified in package.json files.
++    readPackage(pkg) {
++      applyOverrides(pkg.dependencies);
++      applyOverrides(pkg.devDependencies);
++      applyOverrides(pkg.optionalDependencies);
++      applyOverrides(pkg.peerDependencies);
++      return pkg;
++    },
++    // Ensure that the default catalog is set in the configuration, if not already specified.
++    updateConfig(config) {
++      if (config.catalogs) {
++        config.catalogs.default ??= catalog;
++      }
++      return config;
++    },
++  },
++};
+diff --git a/frontend/Dockerfile b/frontend/Dockerfile
+index efe7a181..d6efefc9 100644
+--- a/frontend/Dockerfile
++++ b/frontend/Dockerfile
+@@ -8,6 +8,7 @@ COPY --chown=node package.json /app/package.json
+ COPY --chown=node mrs.developer.json /app/
+ COPY --chown=node pnpm-workspace.yaml /app/
+ COPY --chown=node pnpm-lock.yaml /app/
++COPY --chown=node .pnpmfile.cjs /app/
+
+ RUN --mount=type=cache,id=pnpm,target=/app/.pnpm-store,uid=1000 <<EOT
+     set -e
+diff --git a/frontend/Makefile b/frontend/Makefile
+index c791cd9d..2f279d40 100644
+--- a/frontend/Makefile
++++ b/frontend/Makefile
+@@ -46,8 +46,10 @@ clean: ## Clean environment
+
+ .PHONY: install
+ install: ## Installs the add-on in a development environment
++	node scripts/update-distribution-config.js
+ 	pnpm dlx mrs-developer missdev --no-config --fetch-https
+ 	pnpm i
++	pnpm exec prettier --write volto.config.js
+ 	make build-deps
+
+ .PHONY: start
+diff --git a/frontend/packages/gmbh-website/src/internalChecks.test.ts b/frontend/packages/gmbh-website/src/internalChecks.test.ts
+new file mode 100644
+index 00000000..5788e6c0
+--- /dev/null
++++ b/frontend/packages/gmbh-website/src/internalChecks.test.ts
+@@ -0,0 +1,19 @@
++import fs from 'node:fs';
++import path from 'node:path';
++import { pathToFileURL } from 'node:url';
++import { describe, expect, it } from 'vitest';
++
++const frontendRoot = path.resolve(__dirname, '..', '..', '..');
++const mrsDeveloperPath = path.join(frontendRoot, 'mrs.developer.json');
++const voltoConfigPath = path.join(frontendRoot, 'volto.config.js');
++
++describe('internal configuration checks', () => {
++  it('keeps distribution.volto_version aligned with mrs.developer core.tag', async () => {
++    const mrsDeveloper = JSON.parse(fs.readFileSync(mrsDeveloperPath, 'utf8'));
++    const moduleUrl = pathToFileURL(voltoConfigPath).href;
++    const loaded = await import(moduleUrl);
++    const config = loaded.default ?? loaded;
++
++    expect(config?.distribution?.volto_version).toBe(mrsDeveloper?.core?.tag);
++  });
++});
+
+diff --git a/frontend/scripts/update-distribution-config.js b/frontend/scripts/update-distribution-config.js
+new file mode 100644
+index 00000000..45e20806
+--- /dev/null
++++ b/frontend/scripts/update-distribution-config.js
+@@ -0,0 +1,178 @@
++const fs = require('fs');
++const path = require('path');
++const { execSync } = require('child_process');
++
++const repoRoot = path.resolve(__dirname, '..', '..');
++const frontendRoot = path.join(repoRoot, 'frontend');
++const repositoryTomlPath = path.join(repoRoot, 'repository.toml');
++const voltoConfigPath = path.join(frontendRoot, 'volto.config.js');
++const mrsDeveloperPath = path.join(frontendRoot, 'mrs.developer.json');
++
++function readRepositorySettings() {
++  const toml = fs.readFileSync(repositoryTomlPath, 'utf8');
++  let section = '';
++  const settings = {};
++
++  toml.split(/\r?\n/).forEach((rawLine) => {
++    const line = rawLine.trim();
++    if (!line || line.startsWith('#')) return;
++    const sectionMatch = line.match(/^\[(.+)\]$/);
++    if (sectionMatch) {
++      section = sectionMatch[1];
++      return;
++    }
++    if (section !== 'frontend.package') return;
++    const kvMatch = line.match(/^([a-zA-Z0-9_]+)\s*=\s*"([^"]*)"$/);
++    if (!kvMatch) return;
++    const [, key, value] = kvMatch;
++    settings[key] = value;
++  });
++
++  if (!settings.base_package || !settings.path) {
++    throw new Error(
++      'Missing frontend.package.base_package or frontend.package.path in repository.toml',
++    );
++  }
++
++  return settings;
++}
++
++function readDistributionVersion(packageJsonPath, distributionName) {
++  const pkg = JSON.parse(fs.readFileSync(packageJsonPath, 'utf8'));
++  const sections = [
++    'dependencies',
++    'devDependencies',
++    'peerDependencies',
++    'optionalDependencies',
++  ];
++  for (const section of sections) {
++    const value = pkg[section]?.[distributionName];
++    if (value) return value;
++  }
++  return null;
++}
++
++function readInstalledDistributionPackage(distributionName) {
++  let packageJsonPath = '';
++  try {
++    packageJsonPath = require.resolve(
++      path.join(distributionName, 'package.json'),
++      { paths: [frontendRoot] },
++    );
++  } catch (error) {
++    throw new Error(
++      `Unable to resolve ${distributionName} package.json from ${frontendRoot}. Run pnpm install first.`,
++    );
++  }
++
++  return JSON.parse(fs.readFileSync(packageJsonPath, 'utf8'));
++}
++
++function fetchDistributionVoltoVersion(distributionName, distributionVersion) {
++  const cmd = `pnpm view ${distributionName}@${distributionVersion} volto_version --json`;
++  const stdout = execSync(cmd, { cwd: frontendRoot, stdio: 'pipe' }).toString();
++  if (!stdout.trim()) return null;
++  try {
++    return JSON.parse(stdout);
++  } catch (error) {
++    return stdout.trim().replace(/^"|"$/g, '');
++  }
++}
++
++function fetchDistributionDependencies(distributionName, distributionVersion) {
++  const cmd = `pnpm view ${distributionName}@${distributionVersion} dependencies --json`;
++  const stdout = execSync(cmd, { cwd: frontendRoot, stdio: 'pipe' }).toString();
++  const deps = stdout.trim() ? JSON.parse(stdout) : {};
++  return deps || {};
++}
++
++function readExistingVoltoConfig() {
++  if (!fs.existsSync(voltoConfigPath)) {
++    return {};
++  }
++  // eslint-disable-next-line import/no-dynamic-require
++  return require(voltoConfigPath);
++}
++
++function writeVoltoConfig({ addons = [], theme = '', distribution = null }) {
++  const content = [
++    `const addons = ${JSON.stringify(addons, null, 2)};`,
++    `const theme = ${JSON.stringify(theme, null, 2)};`,
++    `const distribution = ${JSON.stringify(distribution, null, 2)};`,
++    '',
++    'module.exports = {',
++    '  addons,',
++    '  theme,',
++    '  distribution,',
++    '};',
++    '',
++  ].join('\n');
++
++  fs.writeFileSync(voltoConfigPath, content, 'utf8');
++}
++
++function updateMrsDeveloper(voltoVersion) {
++  if (!fs.existsSync(mrsDeveloperPath)) {
++    throw new Error(`Missing ${mrsDeveloperPath}`);
++  }
++  const data = JSON.parse(fs.readFileSync(mrsDeveloperPath, 'utf8'));
++  if (!data.core) {
++    data.core = {};
++  }
++  data.core.tag = voltoVersion || '';
++  fs.writeFileSync(mrsDeveloperPath, `${JSON.stringify(data, null, 2)}\n`, 'utf8');
++}
++
++async function main() {
++  const settings = readRepositorySettings();
++  const distributionName = settings.base_package;
++  const addonPath = path.join(repoRoot, settings.path, 'package.json');
++
++  const distributionVersion = readDistributionVersion(
++    addonPath,
++    distributionName,
++  );
++  if (!distributionVersion) {
++    throw new Error(
++      `Distribution ${distributionName} not found in ${addonPath}`,
++    );
++  }
++
++  const dependencies = fetchDistributionDependencies(
++    distributionName,
++    distributionVersion,
++  );
++  let voltoVersion = fetchDistributionVoltoVersion(
++    distributionName,
++    distributionVersion,
++  );
++  if (!voltoVersion) {
++    const distributionPkg = readInstalledDistributionPackage(distributionName);
++    voltoVersion = distributionPkg.volto_version || null;
++  }
++
++  const existing = readExistingVoltoConfig();
++  const addons = existing.addons || [];
++  const theme = existing.theme || '';
++  const distribution = {
++    name: distributionName,
++    version: distributionVersion,
++    volto_version: voltoVersion,
++    dependencies,
++  };
++
++  writeVoltoConfig({
++    addons,
++    theme,
++    distribution,
++  });
++
++  updateMrsDeveloper(voltoVersion);
++
++  // eslint-disable-next-line no-console
++  console.log(
++    `Updated volto.config.js with ${distributionName}@${distributionVersion} dependencies.`,
++  );
++}
++
++main();

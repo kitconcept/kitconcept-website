@@ -2,6 +2,27 @@
 
 <!-- towncrier release notes start -->
 
+## 2.0.0a11 (2026-03-04)
+
+
+### Feature
+
+- Update to VLT 8a17.
+  See https://github.com/kitconcept/volto-light-theme/releases/tag/8.0.0a17 @sneridagh [#vlt8a17](https://github.com/kitconcept/kitconcept-website/issue/vlt8a17)
+
+
+### Internal
+
+- Added command for upgrading dependencies. @davisagli @sneridagh 
+
+## 2.0.0a10 (2026-02-16)
+
+
+### Bugfix
+
+- Update to core 2a10.
+  See https://github.com/kitconcept/kitconcept-core/releases/tag/2.0.0a10 @sneridagh 
+
 ## 2.0.0a9 (2026-02-09)
 
 No significant changes.
