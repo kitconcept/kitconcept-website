@@ -1,1 +1,1 @@
-Add volto-contact-block. @iFlameing
+Add kitconcept.contactblock. @iFlameing

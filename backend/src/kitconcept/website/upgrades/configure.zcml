@@ -3,4 +3,6 @@
     xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
     >
 
+    <include package=".v20260304001" />
+
 </configure>
