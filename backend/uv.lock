@@ -1361,6 +1361,7 @@ test = [
     { name = "mypy" },
     { name = "plone-app-testing" },
     { name = "plone-restapi", extra = ["test"] },
+    { name = "products-printingmailhost" },
     { name = "pytest" },
     { name = "pytest-cov" },
     { name = "pytest-docker" },
@@ -1397,6 +1398,7 @@ test = [
     { name = "mypy", specifier = ">=1.15.0" },
     { name = "plone-app-testing" },
     { name = "plone-restapi", extras = ["test"] },
+    { name = "products-printingmailhost" },
     { name = "pytest" },
     { name = "pytest-cov" },
     { name = "pytest-docker", specifier = ">=3.2.0" },
@@ -4349,6 +4351,19 @@ dependencies = [
 sdist = { url = "https://files.pythonhosted.org/packages/b9/f3/93425ee95be5121203f842363e4f2a8a184016351334e0a5b5f8e5efc8fb/products_portaltransforms-4.1.1.tar.gz", hash = "sha256:b710a5739d837f2e9e106ad9e81c392a34584c7cd63c75bdc631e47147bb56ca", size = 204458, upload-time = "2024-11-30T03:25:03.616Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/32/7b/f97555f832f8045ce87bdf2097fc7116a73b9bbe32b9ec4aa90689667f8d/Products.PortalTransforms-4.1.1-py3-none-any.whl", hash = "sha256:84f329d76d56827058882ec27749363c0eace938b71b91ff4641385b7cf1a45e", size = 220516, upload-time = "2024-11-30T03:24:57.33Z" },
+]
+
+[[package]]
+name = "products-printingmailhost"
+version = "1.1.8"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "setuptools" },
+    { name = "six" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/e9/2c/1af35dce2f16dac8ce6b5eca0bd57be028a9cabe79f98f8f50b0ae6e5d75/products_printingmailhost-1.1.8.tar.gz", hash = "sha256:69afc8750fbda68fd389a0667b7f26707675c87834610eb93988ba71a6a40fcd", size = 12358, upload-time = "2025-06-18T22:46:53.129Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/04/96/1209cbf6372147e888b28bf1713551aae18143d84619dab06837bf477a9e/products_printingmailhost-1.1.8-py3-none-any.whl", hash = "sha256:5707b4553c7b9ae618070235ea09e48ee0741c3d8df2d7bbfbbe360905c77f54", size = 7473, upload-time = "2025-06-18T22:46:51.903Z" },
 ]
 
 [[package]]
