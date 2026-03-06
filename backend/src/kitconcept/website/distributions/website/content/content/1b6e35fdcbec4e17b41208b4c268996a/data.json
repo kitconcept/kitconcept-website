@@ -1,0 +1,75 @@
+{
+  "@id": "/person",
+  "@type": "Document",
+  "UID": "1b6e35fdcbec4e17b41208b4c268996a",
+  "allow_discussion": null,
+  "blocks": {
+    "1c677eea-c8fe-4f99-a6ae-ea38a4d355c3": {
+      "@type": "title"
+    },
+    "241ce093-19ba-4194-9f83-48eb896fde9a": {
+      "@type": "listing",
+      "headlineTag": "h2",
+      "styles": {},
+      "theme": "default",
+      "variation": "default"
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "1c677eea-c8fe-4f99-a6ae-ea38a4d355c3",
+      "241ce093-19ba-4194-9f83-48eb896fde9a"
+    ]
+  },
+  "changeNote": "",
+  "contributors": [],
+  "created": "2026-03-05T12:38:40+00:00",
+  "creators": [
+    "admin"
+  ],
+  "description": "",
+  "effective": "2026-03-05T13:14:00+00:00",
+  "exclude_from_nav": true,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "head_title": null,
+  "id": "person",
+  "is_folderish": true,
+  "language": "##DEFAULT##",
+  "layout": "document_view",
+  "lock": {
+    "locked": false,
+    "stealable": true
+  },
+  "modified": "2026-03-05T13:16:49+00:00",
+  "nav_title": null,
+  "preview_caption_link": null,
+  "review_state": "published",
+  "rights": "",
+  "subjects": [],
+  "title": "Person",
+  "type_title": "Page",
+  "version": "current",
+  "versioning_enabled": true,
+  "workflow_history": {
+    "simple_publication_workflow": [
+      {
+        "action": null,
+        "actor": "admin",
+        "comments": "",
+        "review_state": "private",
+        "time": "2026-03-05T12:38:40+00:00"
+      },
+      {
+        "action": "publish",
+        "actor": "admin",
+        "comments": "",
+        "review_state": "published",
+        "time": "2026-03-05T13:14:42+00:00"
+      }
+    ]
+  },
+  "working_copy": null,
+  "working_copy_of": null
+}

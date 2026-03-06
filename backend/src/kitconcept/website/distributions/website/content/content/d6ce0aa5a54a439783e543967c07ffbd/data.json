@@ -1,0 +1,114 @@
+{
+  "@id": "/features/block/contact-block",
+  "@type": "Document",
+  "UID": "d6ce0aa5a54a439783e543967c07ffbd",
+  "allow_discussion": null,
+  "blocks": {
+    "535741d5-f3a8-43c5-ae64-c88755000fb0": {
+      "@type": "contactList",
+      "headline": "Contact List",
+      "hrefList": [
+        {
+          "@id": "77f0845e-e9f3-4236-9a94-164cb5f3cc1a",
+          "href": [
+            {
+              "@id": "../../../resolveuid/c71a61066533455db656f0ac93044401",
+              "contact_building": "B33",
+              "contact_email": "miriam.engelhardt@example.com",
+              "contact_phone": "+49 151 23456789",
+              "contact_room": "R921",
+              "contact_website": "https://plone.org",
+              "description": "",
+              "first_name": "Miriam",
+              "has_email": true,
+              "last_name": "Engelhardt",
+              "office_phone": "+49 30 1234567",
+              "title": "Miriam Engelhardt"
+            }
+          ]
+        },
+        {
+          "@id": "497bc1f1-5772-4b60-9a9f-5d0f8bda9bdf",
+          "href": [
+            {
+              "@id": "../../../resolveuid/27ae32819bc64e4fa280efc1a1d5514d",
+              "contact_building": "B32",
+              "contact_email": "patrick.maier@example.com",
+              "contact_phone": "0221 3902 323",
+              "contact_room": "R975",
+              "contact_website": null,
+              "description": "",
+              "first_name": "Patrick",
+              "has_email": true,
+              "last_name": "Maier",
+              "office_phone": "+49 123 756 843",
+              "title": "Patrick Maier"
+            }
+          ]
+        }
+      ],
+      "styles": {},
+      "theme": "default"
+    },
+    "9ebff431-09c1-4b3f-a37d-e5c0a7721890": {
+      "@type": "title"
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "9ebff431-09c1-4b3f-a37d-e5c0a7721890",
+      "535741d5-f3a8-43c5-ae64-c88755000fb0"
+    ]
+  },
+  "changeNote": "",
+  "contributors": [],
+  "created": "2026-03-05T13:00:28+00:00",
+  "creators": [
+    "admin"
+  ],
+  "description": "",
+  "effective": "2026-03-05T13:14:00+00:00",
+  "exclude_from_nav": false,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "head_title": null,
+  "id": "contact-block",
+  "is_folderish": true,
+  "language": "##DEFAULT##",
+  "layout": "document_view",
+  "lock": {
+    "locked": false,
+    "stealable": true
+  },
+  "modified": "2026-03-06T14:38:20+00:00",
+  "nav_title": null,
+  "preview_caption_link": null,
+  "review_state": "published",
+  "rights": "",
+  "subjects": [],
+  "title": "Contact",
+  "type_title": "Page",
+  "version": "current",
+  "versioning_enabled": true,
+  "workflow_history": {
+    "simple_publication_workflow": [
+      {
+        "action": null,
+        "actor": "admin",
+        "comments": "",
+        "review_state": "private",
+        "time": "2026-03-05T13:00:28+00:00"
+      },
+      {
+        "action": "publish",
+        "actor": "admin",
+        "comments": "",
+        "review_state": "published",
+        "time": "2026-03-05T13:14:22+00:00"
+      }
+    ]
+  },
+  "working_copy": null,
+  "working_copy_of": null
+}

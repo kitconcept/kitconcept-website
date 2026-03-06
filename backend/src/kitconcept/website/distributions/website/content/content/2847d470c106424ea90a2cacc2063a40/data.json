@@ -1,0 +1,75 @@
+{
+  "@id": "/features/block",
+  "@type": "Document",
+  "UID": "2847d470c106424ea90a2cacc2063a40",
+  "allow_discussion": null,
+  "blocks": {
+    "5ab05ffd-6d93-407f-b092-4905908aa954": {
+      "@type": "title"
+    },
+    "af5833d7-7ba6-4090-8aad-f8c05d68699c": {
+      "@type": "listing",
+      "headlineTag": "h2",
+      "styles": {},
+      "theme": "default",
+      "variation": "default"
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "5ab05ffd-6d93-407f-b092-4905908aa954",
+      "af5833d7-7ba6-4090-8aad-f8c05d68699c"
+    ]
+  },
+  "changeNote": "",
+  "contributors": [],
+  "created": "2026-03-05T12:57:42+00:00",
+  "creators": [
+    "admin"
+  ],
+  "description": "",
+  "effective": "2026-03-05T13:14:00+00:00",
+  "exclude_from_nav": false,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "head_title": null,
+  "id": "block",
+  "is_folderish": true,
+  "language": "##DEFAULT##",
+  "layout": "document_view",
+  "lock": {
+    "locked": false,
+    "stealable": true
+  },
+  "modified": "2026-03-06T14:37:47+00:00",
+  "nav_title": null,
+  "preview_caption_link": null,
+  "review_state": "published",
+  "rights": "",
+  "subjects": [],
+  "title": "Blocks",
+  "type_title": "Page",
+  "version": "current",
+  "versioning_enabled": true,
+  "workflow_history": {
+    "simple_publication_workflow": [
+      {
+        "action": null,
+        "actor": "admin",
+        "comments": "",
+        "review_state": "private",
+        "time": "2026-03-05T12:57:42+00:00"
+      },
+      {
+        "action": "publish",
+        "actor": "admin",
+        "comments": "",
+        "review_state": "published",
+        "time": "2026-03-05T13:14:31+00:00"
+      }
+    ]
+  },
+  "working_copy": null,
+  "working_copy_of": null
+}
