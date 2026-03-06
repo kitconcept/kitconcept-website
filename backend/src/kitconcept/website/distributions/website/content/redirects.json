@@ -1,2 +1,4 @@
 {
+  "/Plone/features/blocks-1": "/Plone/features/block",
+  "/Plone/features/blocks-1/contact-block": "/Plone/features/block/contact-block"
 }

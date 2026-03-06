@@ -1,47 +1,40 @@
 {
-  "@id": "/about",
+  "@id": "/features/block",
   "@type": "Document",
-  "UID": "1e7262f173a54700a5ca2578506b1bc1",
-  "allow_discussion": false,
+  "UID": "2847d470c106424ea90a2cacc2063a40",
+  "allow_discussion": null,
   "blocks": {
-    "9bdc943a-3a45-4cf5-854b-8f5238cb714a": {
-      "@type": "slate"
-    },
-    "bafa192c-a61e-499b-9e22-f1799d22aaad": {
+    "5ab05ffd-6d93-407f-b092-4905908aa954": {
       "@type": "title"
     },
-    "c30a11c1-a250-47b2-bab3-63380c662442": {
-      "@type": "image",
-      "align": "full",
-      "credit": {},
-      "description": "",
-      "image_field": "image",
-      "size": "l",
-      "title": "codioful-formerly-gradienta-lweK7Wme_jo-unsplash.jpg",
-      "url": "../resolveuid/75f2d0b5a1f04f7a922c47be34f9f532"
+    "af5833d7-7ba6-4090-8aad-f8c05d68699c": {
+      "@type": "listing",
+      "headlineTag": "h2",
+      "styles": {},
+      "theme": "default",
+      "variation": "default"
     }
   },
   "blocks_layout": {
     "items": [
-      "bafa192c-a61e-499b-9e22-f1799d22aaad",
-      "c30a11c1-a250-47b2-bab3-63380c662442",
-      "9bdc943a-3a45-4cf5-854b-8f5238cb714a"
+      "5ab05ffd-6d93-407f-b092-4905908aa954",
+      "af5833d7-7ba6-4090-8aad-f8c05d68699c"
     ]
   },
   "changeNote": "",
   "contributors": [],
-  "created": "2024-05-16T20:19:27+00:00",
+  "created": "2026-03-05T12:57:42+00:00",
   "creators": [
     "admin"
   ],
   "description": "",
-  "effective": null,
+  "effective": "2026-03-05T13:14:00+00:00",
   "exclude_from_nav": false,
   "expires": null,
   "exportimport.constrains": {},
   "exportimport.conversation": [],
   "head_title": null,
-  "id": "about",
+  "id": "block",
   "is_folderish": true,
   "language": "##DEFAULT##",
   "layout": "document_view",
@@ -49,13 +42,13 @@
     "locked": false,
     "stealable": true
   },
-  "modified": "2024-06-24T17:09:41+00:00",
+  "modified": "2026-03-06T14:37:47+00:00",
   "nav_title": null,
   "preview_caption_link": null,
   "review_state": "published",
   "rights": "",
   "subjects": [],
-  "title": "About",
+  "title": "Blocks",
   "type_title": "Page",
   "version": "current",
   "versioning_enabled": true,
@@ -65,8 +58,15 @@
         "action": null,
         "actor": "admin",
         "comments": "",
+        "review_state": "private",
+        "time": "2026-03-05T12:57:42+00:00"
+      },
+      {
+        "action": "publish",
+        "actor": "admin",
+        "comments": "",
         "review_state": "published",
-        "time": "2024-05-16T20:19:27+00:00"
+        "time": "2026-03-05T13:14:31+00:00"
       }
     ]
   },
