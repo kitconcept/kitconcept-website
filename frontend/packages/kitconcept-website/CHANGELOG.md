@@ -8,6 +8,12 @@
 
 <!-- towncrier release notes start -->
 
+## 2.0.0-alpha.12 (2026-03-09)
+
+### Feature
+
+- Added add-on @plone-collective/volto-image-editor. @sneridagh 
+
 ## 2.0.0-alpha.11 (2026-03-04)
 
 ### Feature

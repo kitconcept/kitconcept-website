@@ -1,6 +1,6 @@
 {
   "name": "@kitconcept/website",
-  "version": "2.0.0-alpha.11",
+  "version": "2.0.0-alpha.12",
   "description": "A CMS solution for public websites. Created by kitconcept.",
   "main": "src/index.ts",
   "license": "MIT",
@@ -48,6 +48,7 @@
     "@kitconcept/volto-bm3-compat",
     "@kitconcept/volto-button-block",
     "@kitconcept/volto-calendar-block",
+    "@kitconcept/volto-contact-block",
     "@kitconcept/volto-carousel-block",
     "@kitconcept/volto-dsgvo-banner",
     "@kitconcept/volto-heading-block",
@@ -58,9 +59,9 @@
     "@kitconcept/volto-slider-block",
     "@plonegovbr/volto-social-media",
     "@plone/volto-form-block",
+    "@plone-collective/volto-image-editor",
     "@kitconcept/volto-light-theme",
     "@kitconcept/core",
-    "@kitconcept/volto-contact-block"
   ],
   "dependencies": {
     "@eeacms/volto-accordion-block": "^10.4.6",
@@ -70,6 +71,7 @@
     "@kitconcept/volto-bm3-compat": "workspace:*",
     "@kitconcept/volto-button-block": "workspace:*",
     "@kitconcept/volto-calendar-block": "workspace:*",
+    "@kitconcept/volto-contact-block": "workspace:*",
     "@kitconcept/volto-carousel-block": "workspace:*",
     "@kitconcept/volto-dsgvo-banner": "workspace:*",
     "@kitconcept/volto-heading-block": "workspace:*",
@@ -80,7 +82,7 @@
     "@kitconcept/volto-slider-block": "workspace:*",
     "@plonegovbr/volto-social-media": "^3.0.0-alpha.0",
     "@plone/volto-form-block": "^1.0.0-alpha.0",
-    "@kitconcept/volto-contact-block": "workspace:*"
+    "@plone-collective/volto-image-editor": "1.0.1"
   },
   "volto_version": "19.0.0-alpha.27"
 }
