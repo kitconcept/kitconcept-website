@@ -61,7 +61,7 @@
     "@plone/volto-form-block",
     "@plone-collective/volto-image-editor",
     "@kitconcept/volto-light-theme",
-    "@kitconcept/core",
+    "@kitconcept/core"
   ],
   "dependencies": {
     "@eeacms/volto-accordion-block": "^10.4.6",
