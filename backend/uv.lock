@@ -1279,6 +1279,22 @@ wheels = [
 ]
 
 [[package]]
+name = "kitconcept-contactblock"
+version = "1.0.0a5"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "collective-person" },
+    { name = "plone-api" },
+    { name = "plone-restapi" },
+    { name = "plone-volto" },
+    { name = "products-cmfplone" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/55/6c/8dc0eb6af1e18f84ab41da89972b9851dcd496e8b4c3afb11a3a09904f03/kitconcept_contactblock-1.0.0a5.tar.gz", hash = "sha256:46328e05dee08bfbd1a8b603afa441a884fc5765e13bd6b4ae374dcf5d541dac", size = 78234, upload-time = "2026-02-16T09:56:53.272Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/9f/0d/c022ae66ac4d2dd9f28d5da97236932b52c786a1ae8f0e7f1d5649903af9/kitconcept_contactblock-1.0.0a5-py3-none-any.whl", hash = "sha256:1fb4d2c9d29dc6680f51f2fbc5863c9f7210ba52bb940b9a10b509cd1eddafa6", size = 84589, upload-time = "2026-02-16T09:56:52.297Z" },
+]
+
+[[package]]
 name = "kitconcept-core"
 version = "2.0.0a12"
 source = { registry = "https://pypi.org/simple" }
@@ -1317,6 +1333,7 @@ wheels = [
 name = "kitconcept-website"
 source = { editable = "." }
 dependencies = [
+    { name = "kitconcept-contactblock" },
     { name = "kitconcept-core" },
     { name = "pas-plugins-authomatic" },
     { name = "pas-plugins-keycloakgroups" },
@@ -1344,6 +1361,7 @@ test = [
     { name = "mypy" },
     { name = "plone-app-testing" },
     { name = "plone-restapi", extra = ["test"] },
+    { name = "products-printingmailhost" },
     { name = "pytest" },
     { name = "pytest-cov" },
     { name = "pytest-docker" },
@@ -1352,6 +1370,7 @@ test = [
 
 [package.metadata]
 requires-dist = [
+    { name = "kitconcept-contactblock", specifier = "==1.0.0a5" },
     { name = "kitconcept-core", specifier = "==2.0.0a12" },
     { name = "pas-plugins-authomatic", specifier = "==2.0.0" },
     { name = "pas-plugins-keycloakgroups", specifier = "==1.0.0b1" },
@@ -1379,6 +1398,7 @@ test = [
     { name = "mypy", specifier = ">=1.15.0" },
     { name = "plone-app-testing" },
     { name = "plone-restapi", extras = ["test"] },
+    { name = "products-printingmailhost" },
     { name = "pytest" },
     { name = "pytest-cov" },
     { name = "pytest-docker", specifier = ">=3.2.0" },
@@ -4331,6 +4351,19 @@ dependencies = [
 sdist = { url = "https://files.pythonhosted.org/packages/b9/f3/93425ee95be5121203f842363e4f2a8a184016351334e0a5b5f8e5efc8fb/products_portaltransforms-4.1.1.tar.gz", hash = "sha256:b710a5739d837f2e9e106ad9e81c392a34584c7cd63c75bdc631e47147bb56ca", size = 204458, upload-time = "2024-11-30T03:25:03.616Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/32/7b/f97555f832f8045ce87bdf2097fc7116a73b9bbe32b9ec4aa90689667f8d/Products.PortalTransforms-4.1.1-py3-none-any.whl", hash = "sha256:84f329d76d56827058882ec27749363c0eace938b71b91ff4641385b7cf1a45e", size = 220516, upload-time = "2024-11-30T03:24:57.33Z" },
+]
+
+[[package]]
+name = "products-printingmailhost"
+version = "1.1.8"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "setuptools" },
+    { name = "six" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/e9/2c/1af35dce2f16dac8ce6b5eca0bd57be028a9cabe79f98f8f50b0ae6e5d75/products_printingmailhost-1.1.8.tar.gz", hash = "sha256:69afc8750fbda68fd389a0667b7f26707675c87834610eb93988ba71a6a40fcd", size = 12358, upload-time = "2025-06-18T22:46:53.129Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/04/96/1209cbf6372147e888b28bf1713551aae18143d84619dab06837bf477a9e/products_printingmailhost-1.1.8-py3-none-any.whl", hash = "sha256:5707b4553c7b9ae618070235ea09e48ee0741c3d8df2d7bbfbbe360905c77f54", size = 7473, upload-time = "2025-06-18T22:46:51.903Z" },
 ]
 
 [[package]]

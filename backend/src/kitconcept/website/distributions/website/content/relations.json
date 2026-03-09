@@ -40,6 +40,16 @@
     "to_uuid": "e6a2ed459bd84ff1b1b75818c0b373b1"
   },
   {
+    "from_attribute": "isReferencing",
+    "from_uuid": "d6ce0aa5a54a439783e543967c07ffbd",
+    "to_uuid": "27ae32819bc64e4fa280efc1a1d5514d"
+  },
+  {
+    "from_attribute": "isReferencing",
+    "from_uuid": "d6ce0aa5a54a439783e543967c07ffbd",
+    "to_uuid": "c71a61066533455db656f0ac93044401"
+  },
+  {
     "from_attribute": "preview_image_link",
     "from_uuid": "f10b7bca6e014ff7a56598f1cfcc4d2b",
     "to_uuid": "70e63351448f45968af7bca53f418e6b"

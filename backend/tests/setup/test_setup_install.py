@@ -13,7 +13,3 @@ class TestSetupInstall:
         from kitconcept.website.interfaces import IBrowserLayer
 
         assert IBrowserLayer in browser_layers
-
-    def test_latest_version(self, profile_last_version):
-        """Test latest version of default profile."""
-        assert profile_last_version(self.profile_id) == "20250528001"

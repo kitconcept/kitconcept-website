@@ -52,7 +52,7 @@ module.exports = {
           ['@kitconcept/website', './packages/kitconcept-website/src'],
           [
             '@kitconcept/volto-light-theme',
-            './packages/volto-light-theme/packages/volto-light-theme/src',
+            './packages/volto-light-theme/frontend/packages/volto-light-theme/src',
           ],
           ...addonAliases,
         ],

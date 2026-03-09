@@ -2,9 +2,9 @@
   "@id": "/Plone",
   "@type": "Plone Site",
   "UID": "plone_site_root",
+  "accent_color": null,
+  "accent_foreground_color": null,
   "allow_discussion": null,
-  "has_site_header": true,
-  "site_flag": "Site",
   "blocks": {
     "4979b879-0499-494e-9ca9-967aae7af1f4": {
       "@type": "gridBlock",
@@ -197,6 +197,7 @@
       "styles": {}
     }
   },
+  "blocks_config_mutator": {},
   "blocks_layout": {
     "items": [
       "e5fb316f-f3af-4df1-b3d8-fb46ac07cc11",
@@ -206,28 +207,52 @@
       "72d64f8a-cca6-444d-a497-482daba7e970"
     ]
   },
-  "contributors": [],
-  "creators": ["admin"],
+  "complementary_logo": null,
   "description": "A Plone Site distribution provided by kitconcept GmbH",
-  "effective": null,
-  "exclude_from_nav": false,
-  "expires": null,
+  "enable_mobile_sticky_menu": false,
   "exportimport.constrains": {},
   "exportimport.conversation": [],
-  "exportimport.versions": {},
+  "facebook_app_id": "",
+  "facebook_username": "",
+  "footer_address": null,
+  "footer_colophon_text": null,
+  "footer_column_left": [],
+  "footer_column_left_header": null,
+  "footer_column_middle": [],
+  "footer_column_middle_header": null,
+  "footer_column_right": [],
+  "footer_column_right_header": null,
+  "footer_links": [],
+  "footer_logo": null,
+  "footer_logos": [],
+  "footer_logos_container_width": "default",
+  "footer_logos_size": "s",
+  "has_fat_menu": true,
+  "has_intranet_header": false,
+  "header_actions": [],
+  "header_foreground": null,
   "id": "Plone",
+  "intranet_flag": null,
   "is_folderish": true,
-  "items_total": 0,
+  "items_total": 4,
   "language": "##DEFAULT##",
+  "layout": "document_view",
   "lock": {
     "locked": false,
     "stealable": true
   },
-  "parent": {},
-  "review_state": "published",
-  "rights": "",
-  "subjects": [],
-  "table_of_contents": null,
+  "logo": null,
+  "post_footer_logo": null,
+  "post_footer_logo_link": null,
+  "preview_caption_link": null,
+  "review_state": null,
+  "secondary_color": null,
+  "secondary_foreground_color": null,
+  "share_social_data": true,
+  "social_links": [],
+  "sticky_menu": [],
+  "sticky_menu_color": null,
+  "sticky_menu_foreground_color": null,
   "title": "Plone Site by kitconcept",
   "type_title": "Plone Site",
   "workflow_history": {
@@ -247,5 +272,8 @@
         "time": "2024-05-17T09:39:07+00:00"
       }
     ]
-  }
+  },
+  "working_copy": null,
+  "working_copy_of": null,
+  "x_username": ""
 }
