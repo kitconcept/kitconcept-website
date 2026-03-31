@@ -1,6 +1,34 @@
 # Changelog
 
 <!-- towncrier release notes start -->
+## 2.0.0a13 (2026-03-31)
+
+### Backend
+
+
+#### Feature
+
+- Add kitconcept.contactblock. @iFlameing 
+- See https://github.com/kitconcept/kitconcept-core/releases/tag/2.0.0a14 @sneridagh 
+
+
+
+### Frontend
+
+#### Feature
+
+- Add ContactList block. @iFlameing 
+- See https://github.com/kitconcept/kitconcept-core/releases/tag/2.0.0a14 @sneridagh 
+
+
+
+### Project
+
+No significant changes.
+
+
+
+
 ## 2.0.0a12 (2026-03-09)
 
 ### Backend

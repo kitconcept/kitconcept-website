@@ -8,6 +8,13 @@
 
 <!-- towncrier release notes start -->
 
+## 2.0.0-alpha.13 (2026-03-31)
+
+### Feature
+
+- Add ContactList block. @iFlameing 
+- See https://github.com/kitconcept/kitconcept-core/releases/tag/2.0.0a14 @sneridagh 
+
 ## 2.0.0-alpha.12 (2026-03-09)
 
 ### Feature
