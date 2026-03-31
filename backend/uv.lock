@@ -91,7 +91,8 @@ constraints = [
     { name = "jsonschema", specifier = "==4.24.1" },
     { name = "jsonschema-specifications", specifier = "==2025.9.1" },
     { name = "keyring", specifier = "==25.6.0" },
-    { name = "kitconcept-core", specifier = "==2.0.0a12" },
+    { name = "kitconcept-contactblock", specifier = "==1.0.0a5" },
+    { name = "kitconcept-core", specifier = "==2.0.0a14" },
     { name = "kitconcept-voltolighttheme", specifier = ">=8.0.0a9" },
     { name = "legacy-cgi", specifier = "==2.6.2" },
     { name = "lockfile", specifier = "==0.12.2" },
@@ -1296,7 +1297,7 @@ wheels = [
 
 [[package]]
 name = "kitconcept-core"
-version = "2.0.0a12"
+version = "2.0.0a14"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "collective-honeypot" },
@@ -1308,9 +1309,9 @@ dependencies = [
     { name = "plone-exportimport" },
     { name = "products-cmfplone" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/00/9d/7a7ae0ec8f65009d1381def3454e0c92b4dc5af03091e4207ab439272467/kitconcept_core-2.0.0a12.tar.gz", hash = "sha256:40095e8c317455fdaa79200785075a36c984feb239a44946c8a6644a63ef3540", size = 332972, upload-time = "2026-02-27T18:18:21.095Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/a7/68/03495d5acd72700aa710819ee7f086620e028d383d8116fbda1a9b22a8b4/kitconcept_core-2.0.0a14.tar.gz", hash = "sha256:6cab584d1eaedf3d357921554690cc3758754fa3a00882d36d8ef29afc7c4138", size = 333080, upload-time = "2026-03-31T09:15:46.309Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/09/4b/396e62755c229be9d3096950d9fab843adbdb3ae96c6791d5daf9b6eb199/kitconcept_core-2.0.0a12-py3-none-any.whl", hash = "sha256:9d7a6063c6d85f0bb6436b68cdda6e17295016c2a7fcba34eedfe43f255cf325", size = 245343, upload-time = "2026-02-27T18:18:18.651Z" },
+    { url = "https://files.pythonhosted.org/packages/c4/27/34574f1518a17185de97f24ddb10e0ef55460104f69ceff9b61182884a3a/kitconcept_core-2.0.0a14-py3-none-any.whl", hash = "sha256:4e8ee25bd030a6036c6061a57995d4b7f10ba72755d529aa18d50a1238938c73", size = 245345, upload-time = "2026-03-31T09:15:44.732Z" },
 ]
 
 [[package]]
@@ -1371,7 +1372,7 @@ test = [
 [package.metadata]
 requires-dist = [
     { name = "kitconcept-contactblock", specifier = "==1.0.0a5" },
-    { name = "kitconcept-core", specifier = "==2.0.0a12" },
+    { name = "kitconcept-core", specifier = "==2.0.0a14" },
     { name = "pas-plugins-authomatic", specifier = "==2.0.0" },
     { name = "pas-plugins-keycloakgroups", specifier = "==1.0.0b1" },
     { name = "pas-plugins-oidc", specifier = "==2.0.0" },
