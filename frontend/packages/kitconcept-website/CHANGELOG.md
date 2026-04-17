@@ -8,6 +8,12 @@
 
 <!-- towncrier release notes start -->
 
+## 2.0.0-alpha.14 (2026-04-17)
+
+### Bugfix
+
+- Update VLT 8a19 and Volto 19a29. @sneridagh 
+
 ## 2.0.0-alpha.13 (2026-03-31)
 
 ### Feature

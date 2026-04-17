@@ -1,6 +1,32 @@
 # Changelog
 
 <!-- towncrier release notes start -->
+## 2.0.0a14 (2026-04-17)
+
+### Backend
+
+
+#### Bugfix
+
+- Update VLT 8a19. @sneridagh 
+
+
+
+### Frontend
+
+#### Bugfix
+
+- Update VLT 8a19 and Volto 19a29. @sneridagh 
+
+
+
+### Project
+
+No significant changes.
+
+
+
+
 ## 2.0.0a13 (2026-03-31)
 
 ### Backend

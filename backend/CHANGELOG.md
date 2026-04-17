@@ -2,6 +2,13 @@
 
 <!-- towncrier release notes start -->
 
+## 2.0.0a14 (2026-04-17)
+
+
+### Bugfix
+
+- Update VLT 8a19. @sneridagh 
+
 ## 2.0.0a13 (2026-03-31)
 
 
