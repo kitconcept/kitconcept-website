@@ -1,6 +1,32 @@
 # Changelog
 
 <!-- towncrier release notes start -->
+## 2.0.0a15 (2026-04-21)
+
+### Backend
+
+
+#### Internal
+
+- Update to kitconcept.voltolighttheme 8.0.0a20 (no changes). @davisagli 
+
+
+
+### Frontend
+
+#### Bugfix
+
+- Update to volto-light-theme 8.0.0a20 (footer improvements). @davisagli 
+
+
+
+### Project
+
+No significant changes.
+
+
+
+
 ## 2.0.0a14 (2026-04-17)
 
 ### Backend

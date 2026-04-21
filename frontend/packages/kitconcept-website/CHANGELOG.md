@@ -8,6 +8,12 @@
 
 <!-- towncrier release notes start -->
 
+## 2.0.0-alpha.15 (2026-04-21)
+
+### Bugfix
+
+- Update to volto-light-theme 8.0.0a20 (footer improvements). @davisagli 
+
 ## 2.0.0-alpha.14 (2026-04-17)
 
 ### Bugfix
