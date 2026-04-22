@@ -1,6 +1,32 @@
 # Changelog
 
 <!-- towncrier release notes start -->
+## 2.0.0a17 (2026-04-22)
+
+### Backend
+
+
+#### Internal
+
+- Rerelease of 2a16. @sneridagh 
+
+
+
+### Frontend
+
+#### Internal
+
+- Rerelease of 2a16. @sneridagh 
+
+
+
+### Project
+
+No significant changes.
+
+
+
+
 ## 2.0.0a16 (2026-04-21)
 
 ### Backend
