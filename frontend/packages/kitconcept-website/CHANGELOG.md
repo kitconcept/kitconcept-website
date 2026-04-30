@@ -8,6 +8,13 @@
 
 <!-- towncrier release notes start -->
 
+## 2.0.0-alpha.20 (2026-04-30)
+
+### Bugfix
+
+- Update to Volto 19a32.
+  https://github.com/plone/volto/releases/tag/19.0.0-alpha.32 @sneridagh 
+
 ## 2.0.0-alpha.19 (2026-04-30)
 
 ### Bugfix

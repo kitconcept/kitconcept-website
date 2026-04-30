@@ -1,6 +1,31 @@
 # Changelog
 
 <!-- towncrier release notes start -->
+## 2.0.0a20 (2026-04-30)
+
+### Backend
+
+No significant changes.
+
+
+
+
+### Frontend
+
+#### Bugfix
+
+- Update to Volto 19a32.
+  https://github.com/plone/volto/releases/tag/19.0.0-alpha.32 @sneridagh 
+
+
+
+### Project
+
+No significant changes.
+
+
+
+
 ## 2.0.0a19 (2026-04-30)
 
 ### Backend
