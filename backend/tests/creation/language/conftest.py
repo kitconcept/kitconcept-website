@@ -7,21 +7,6 @@ from zope.component.hooks import setSite
 import pytest
 
 
-@pytest.fixture()
-def app(functional):
-    return functional["app"]
-
-
-@pytest.fixture()
-def http_request(functional):
-    return functional["request"]
-
-
-@pytest.fixture()
-def answers(prepare_answers) -> dict:
-    return prepare_answers()
-
-
 @pytest.fixture
 def create_site(app, distribution_name):
     def func(answers: dict) -> PloneSite:
@@ -31,3 +16,15 @@ def create_site(app, distribution_name):
         return site
 
     return func
+
+
+@pytest.fixture()
+def language() -> str:
+    return "en"
+
+
+@pytest.fixture()
+def answers(prepare_answers, language) -> dict:
+    answers = dict(prepare_answers().items())
+    answers["default_language"] = language
+    return answers

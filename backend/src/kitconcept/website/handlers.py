@@ -27,14 +27,17 @@ def post_handler(
     # Update security
     wf_tool: WorkflowTool = api.portal.get_tool("portal_workflow")
     wf_tool.updateRoleMappings()
-    raw_logo = answers.get("site_logo")
-    if raw_logo:
+
+    if raw_logo := answers.get("site_logo"):
         logo = convert_data_uri_to_b64(raw_logo)
         logger.info(f"{site.id}: Set logo")
         api.portal.set_registry_record("plone.site_logo", logo)
     # This should be fixed on plone.distribution
     site.title = answers.get("title", site.title)
     site.description = answers.get("description", site.description)
+    # Set the language
+    if language := answers.get("default_language"):
+        api.portal.set_registry_record("plone.default_language", language)
     # Configure authentication
     auth_answers = answers.get("authentication")
     if auth_answers:

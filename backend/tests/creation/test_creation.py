@@ -1,23 +1,7 @@
 from plone import api
 from plone.app.testing.interfaces import SITE_OWNER_NAME
-from plone.distribution.api import site as site_api
-from Products.CMFPlone.Portal import PloneSite
-from zope.component.hooks import setSite
 
 import pytest
-
-
-@pytest.fixture()
-def answers():
-    return {
-        "site_id": "site",
-        "title": "Site",
-        "description": "Site created with A CMS solution for public websites. Created by kitconcept.",  # noQA: E501
-        "default_language": "en",
-        "portal_timezone": "Europe/Berlin",
-        "setup_content": True,
-        "authentication": {"provider": "internal"},
-    }
 
 
 @pytest.fixture()
@@ -25,17 +9,6 @@ def roles_permission():
     def func(context, permission: str) -> list[str]:
         report = context.rolesOfPermission(permission)
         return [role["name"] for role in report if role["selected"]]
-
-    return func
-
-
-@pytest.fixture
-def create_site(app, distribution_name):
-    def func(answers: dict) -> PloneSite:
-        with api.env.adopt_user(SITE_OWNER_NAME):
-            site = site_api.create(app, distribution_name, answers)
-            setSite(site)
-        return site
 
     return func
 
