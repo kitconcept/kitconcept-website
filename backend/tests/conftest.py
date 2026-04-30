@@ -62,3 +62,19 @@ def traverse():
         return value
 
     return func
+
+
+@pytest.fixture(scope="session")
+def prepare_answers():
+    def func() -> dict:
+        return {
+            "site_id": "site",
+            "title": "Site",
+            "description": "Site created with A CMS solution for public websites. Created by kitconcept.",  # noQA: E501
+            "default_language": "en",
+            "portal_timezone": "Europe/Berlin",
+            "setup_content": True,
+            "authentication": {"provider": "internal"},
+        }
+
+    return func
