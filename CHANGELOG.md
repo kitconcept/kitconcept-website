@@ -1,6 +1,38 @@
 # Changelog
 
 <!-- towncrier release notes start -->
+## 2.0.0a21 (2026-05-04)
+
+### Backend
+
+
+#### Bugfix
+
+- Honor the configured language during site creation. @ericof [#41](https://github.com/kitconcept/kitconcept-website/issue/41)
+
+
+#### Internal
+
+- Added `plone-stubs` to development dependencies for improved type checking. @ericof 
+
+
+
+### Frontend
+
+#### Bugfix
+
+- Upgrade to Volto 19a33.
+  Language fix. @sneridagh 
+
+
+
+### Project
+
+No significant changes.
+
+
+
+
 ## 2.0.0a20 (2026-04-30)
 
 ### Backend

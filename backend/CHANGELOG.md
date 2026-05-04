@@ -2,6 +2,18 @@
 
 <!-- towncrier release notes start -->
 
+## 2.0.0a21 (2026-05-04)
+
+
+### Bugfix
+
+- Honor the configured language during site creation. @ericof [#41](https://github.com/kitconcept/kitconcept-website/issue/41)
+
+
+### Internal
+
+- Added `plone-stubs` to development dependencies for improved type checking. @ericof 
+
 ## 2.0.0a20 (2026-04-30)
 
 No significant changes.

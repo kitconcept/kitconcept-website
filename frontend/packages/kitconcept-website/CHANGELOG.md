@@ -8,6 +8,13 @@
 
 <!-- towncrier release notes start -->
 
+## 2.0.0-alpha.21 (2026-05-04)
+
+### Bugfix
+
+- Upgrade to Volto 19a33.
+  Language fix. @sneridagh 
+
 ## 2.0.0-alpha.20 (2026-04-30)
 
 ### Bugfix
