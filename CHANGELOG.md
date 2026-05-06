@@ -1,6 +1,32 @@
 # Changelog
 
 <!-- towncrier release notes start -->
+## 2.0.0a23 (2026-05-06)
+
+### Backend
+
+
+#### Bugfix
+
+- Update to kitconcept-core 2.0.0a18 (includes fixes in plone.app.querystring). @davisagli 
+
+
+
+### Frontend
+
+#### Internal
+
+- Update to @kitconcept/core 2.0.0a18 (no significant frontend changes). @davisagli 
+
+
+
+### Project
+
+No significant changes.
+
+
+
+
 ## 2.0.0a22 (2026-05-06)
 
 ### Backend

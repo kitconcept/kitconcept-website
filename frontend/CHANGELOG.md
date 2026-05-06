@@ -8,6 +8,12 @@
 
 <!-- towncrier release notes start -->
 
+## 2.0.0-alpha.23 (2026-05-06)
+
+### Internal
+
+- Update to @kitconcept/core 2.0.0a18 (no significant frontend changes). @davisagli 
+
 ## 2.0.0-alpha.22 (2026-05-06)
 
 ### Bugfix
