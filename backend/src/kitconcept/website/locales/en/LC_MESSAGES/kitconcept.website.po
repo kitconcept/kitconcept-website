@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2026-05-11 20:53+0000\n"
+"POT-Creation-Date: 2026-05-11 21:02+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,6 +14,14 @@ msgstr ""
 "Preferred-Encodings: utf-8 latin1\n"
 "Domain: kitconcept.website\n"
 
+#: kitconcept/website/distributions.zcml:17
+msgid "A CMS solution for public websites. Created by kitconcept."
+msgstr ""
+
+#: kitconcept/website/profiles.zcml:14
+msgid "Configure a new site based on kitconcept.website"
+msgstr ""
+
 #. Default: "List of 3rd-party sites to be shown in privacy preferences."
 #: kitconcept/website/controlpanels/dsgvo.py:41
 msgid "help_dsgvo_modules"
@@ -22,6 +30,14 @@ msgstr ""
 #. Default: "If true, the cookie consent banner will be shown immediately. If false, users will be prompted to accept cookies only in the context of blocks where they are needed."
 #: kitconcept/website/controlpanels/dsgvo.py:31
 msgid "help_dsgvo_show_banner"
+msgstr ""
+
+#: kitconcept/website/distributions.zcml:17
+msgid "kitconcept Website"
+msgstr ""
+
+#: kitconcept/website/profiles.zcml:14
+msgid "kitconcept.website"
 msgstr ""
 
 #. Default: "Show privacy settings for"
