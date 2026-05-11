@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-05-28 08:40+0000\n"
+"POT-Creation-Date: 2026-05-11 20:53+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,20 +15,24 @@ msgstr ""
 "Language-Code: en\n"
 "Language-Name: English\n"
 "Preferred-Encodings: utf-8 latin1\n"
-"Domain: kitconcept.website\n"
+"Domain: kitconcept.site\n"
 
-#: kitconcept/website/distributions.zcml:16
-msgid "A CMS solution for public websites. Created by kitconcept."
+#. Default: "List of 3rd-party sites to be shown in privacy preferences."
+#: kitconcept/website/controlpanels/dsgvo.py:41
+msgid "help_dsgvo_modules"
 msgstr ""
 
-#: kitconcept/website/profiles.zcml:14
-msgid "Policy package to install our site"
+#. Default: "If true, the cookie consent banner will be shown immediately. If false, users will be prompted to accept cookies only in the context of blocks where they are needed."
+#: kitconcept/website/controlpanels/dsgvo.py:31
+msgid "help_dsgvo_show_banner"
 msgstr ""
 
-#: kitconcept/website/distributions.zcml:16
-msgid "kitconcept Site"
+#. Default: "Show privacy settings for"
+#: kitconcept/website/controlpanels/dsgvo.py:40
+msgid "label_dsgvo_modules"
 msgstr ""
 
-#: kitconcept/website/profiles.zcml:14
-msgid "kitconcept.website: Install"
+#. Default: "Show GDPR banner on first visit"
+#: kitconcept/website/controlpanels/dsgvo.py:30
+msgid "label_dsgvo_show_banner"
 msgstr ""

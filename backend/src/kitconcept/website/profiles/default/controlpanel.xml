@@ -4,4 +4,16 @@
         name="portal_controlpanel"
         i18n:domain="plone"
 >
+  <configlet action_id="dsgvo-settings"
+             appId="kitconcept.website"
+             category="plone-general"
+             condition_expr=""
+             icon_expr="string:news"
+             title="GDPR Settings"
+             url_expr="string:${portal_url}/dsgvo-settings"
+             visible="True"
+             i18n:attributes="title"
+  >
+    <permission>Manage portal</permission>
+  </configlet>
 </object>
