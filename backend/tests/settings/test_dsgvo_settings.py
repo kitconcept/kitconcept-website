@@ -1,5 +1,4 @@
 class TestDSGVOSettings:
-
     def test_dsgvo_controlpanel(self, manager_request):
         resp = manager_request.get("/@controlpanels/dsgvo-settings")
         assert resp.status_code == 200
@@ -14,5 +13,8 @@ class TestDSGVOSettings:
         assert "kitconcept.website.dsgvo" in data
         assert data["kitconcept.website.dsgvo"]["show_banner"] is True
         assert data["kitconcept.website.dsgvo"]["modules"] == [
-            'tracking', 'youtube', 'facebook', 'google'
+            "tracking",
+            "youtube",
+            "facebook",
+            "google",
         ]
