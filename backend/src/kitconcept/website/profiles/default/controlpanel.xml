@@ -2,7 +2,7 @@
 <object xmlns:i18n="http://xml.zope.org/namespaces/i18n"
         meta_type="Plone Control Panel Tool"
         name="portal_controlpanel"
-        i18n:domain="plone"
+        i18n:domain="kitconcept.website"
 >
   <configlet action_id="dsgvo-settings"
              appId="kitconcept.website"
