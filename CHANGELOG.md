@@ -1,6 +1,32 @@
 # Changelog
 
 <!-- towncrier release notes start -->
+## 2.0.0a24 (2026-05-15)
+
+### Backend
+
+
+#### Bugfix
+
+- Update to core 2a18 and VLT 2a28. @sneridagh 
+
+
+
+### Frontend
+
+#### Bugfix
+
+- Update to core 2a18 and VLT 2a28. @sneridagh 
+
+
+
+### Project
+
+No significant changes.
+
+
+
+
 ## 2.0.0a23 (2026-05-06)
 
 ### Backend
