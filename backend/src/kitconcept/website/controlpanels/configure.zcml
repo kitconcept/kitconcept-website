@@ -1,3 +1,12 @@
 <configure xmlns="http://namespaces.zope.org/zope">
 
+  <adapter
+      factory=".dsgvo.DSGVOControlpanel"
+      name="dsgvo-settings"
+      />
+  <adapter
+      factory=".dsgvo.DSGVOSiteEndpointExpander"
+      name="kitconcept.website.dsgvo"
+      />
+
 </configure>
