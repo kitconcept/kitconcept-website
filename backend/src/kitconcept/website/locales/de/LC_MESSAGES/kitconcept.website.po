@@ -24,7 +24,7 @@ msgstr ""
 
 #: kitconcept/website/profiles/default/controlpanel.xml
 msgid "GDPR Settings"
-msgstr "GDPR-Einstellungen"
+msgstr "DSGVO-Einstellungen"
 
 #. Default: "List of 3rd-party sites to be shown in privacy preferences."
 #: kitconcept/website/controlpanels/dsgvo.py:42
@@ -52,4 +52,4 @@ msgstr "Datenschutzeinstellungen anzeigen für"
 #. Default: "Show GDPR banner on first visit"
 #: kitconcept/website/controlpanels/dsgvo.py:30
 msgid "label_dsgvo_show_banner"
-msgstr "GDPR-Banner beim ersten Besuch anzeigen"
+msgstr "DSGVO-Banner beim ersten Besuch anzeigen"
