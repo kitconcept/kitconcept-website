@@ -115,7 +115,7 @@ start_string = "<!-- towncrier release notes start -->\n"
 title_format = "## {version} ({project_date})"
 template = "news/.changelog_template.jinja"
 underlines = ["", "", ""]
-issue_format = "[#{issue}](https://github.com/kitconcept/kitconcept-website/issue/{issue})"
+issue_format = "[#{issue}](https://gitlab.kitconcept.io/kitconcept/distribution-kitconcept-website/-/work_items/{issue})"
 
 [[tool.towncrier.type]]
 directory = "breaking"
