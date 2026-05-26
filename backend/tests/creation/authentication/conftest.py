@@ -22,7 +22,7 @@ def create_site(app, distribution_name):
     return func
 
 
-@pytest.fixture
+@pytest.fixture(scope="session")
 def authomatic_config():
     def func() -> dict:
         return json.loads(api.portal.get_registry_record(KEY))

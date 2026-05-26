@@ -12,16 +12,16 @@ class TestSiteCreation:
     @pytest.mark.parametrize(
         "key,expected",
         [
-            ["plone.available_languages", ["en"]],
-            ["plone.default_language", "en"],
+            ["plone.available_languages", ["de", "en"]],
+            ["plone.default_language", "de"],
         ],
     )
     def test_registry_entries(self, key, expected):
         assert api.portal.get_registry_record(key) == expected
 
-    def test_plone_app_multilingual_not_installed(self):
+    def test_plone_app_multilingual_installed(self):
         st: SetupTool = api.portal.get_tool("portal_setup")
         installation_date = st.getProfileImportDate(
             "profile-plone.app.multilingual:default"
         )
-        assert installation_date is None
+        assert installation_date is not None
