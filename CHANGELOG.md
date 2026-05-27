@@ -1,6 +1,36 @@
 # Changelog
 
 <!-- towncrier release notes start -->
+## 2.0.0a25 (2026-05-26)
+
+### Backend
+
+
+#### Feature
+
+- Added multilingual support to the distribution: a new `available_languages` answer drives `plone.available_languages` and `plone.default_language`, and `plone.app.multilingual` is installed automatically when more than one language is selected. @ericof [#52](https://gitlab.kitconcept.io/kitconcept/distribution-kitconcept-website/-/work_items/52)
+
+
+#### Internal
+
+- Pointed towncrier `issue_format` at the GitLab project where issues are now tracked. @ericof 
+- Promoted creation test fixtures to class/session scope so site setup is shared across assertions. @ericof 
+- Refactored registry writes during site creation into a new `kitconcept.website.utils.creation` module. @ericof 
+
+
+
+### Frontend
+
+No significant changes.
+
+
+### Project
+
+No significant changes.
+
+
+
+
 ## 2.0.0a24 (2026-05-15)
 
 ### Backend
