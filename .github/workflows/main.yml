@@ -38,7 +38,7 @@ jobs:
             build-args: |
               IMAGE_TAG=${{ needs.config.outputs.base-tag }}
               SEED=${{ github.run_id }}
-              KC_VERSION=6
+              PYTHON_VERSION=${{ needs.config.outputs.python-version }}
           - suffix: "frontend"
             dockerfile: "Dockerfile"
             working-directory: "frontend"

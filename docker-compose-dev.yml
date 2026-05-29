@@ -23,7 +23,7 @@ x-backend: &backend
   build:
     context: ./backend
     args:
-      - KC_VERSION=${KC_VERSION:-latest}
+      - PYTHON_VERSION=${PYTHON_VERSION:-3.12}
   platform: linux/amd64
 
 x-backend-acceptance: &backend-acceptance
@@ -33,7 +33,7 @@ x-backend-acceptance: &backend-acceptance
     context: ./backend
     dockerfile: Dockerfile.acceptance
     args:
-      - KC_VERSION=${PLONE_VERSION:-6}
+      - PYTHON_VERSION=${PYTHON_VERSION:-3.12}
   pull_policy: build
 
 x-solr: &solr
