@@ -1,17 +1,8 @@
-name: Frontend Workflow
+name: Frontend Code Quality Workflow
 
 on:
   workflow_call:
     inputs:
-      base-tag:
-        required: true
-        type: string
-      image-name-prefix:
-        required: true
-        type: string
-      image-name-suffix:
-        required: true
-        type: string
       node-version:
         required: true
         type: string
@@ -45,25 +36,3 @@ jobs:
     with:
       node-version: ${{ inputs.node-version }}
       working-directory: ${{ inputs.working-directory }}
-
-  release:
-    name: "Frontend: Build and publish Container Image"
-    uses: plone/meta/.github/workflows/container-image-build-push.yml@2.x
-    needs:
-      - code-analysis
-      - i18n
-      - unit
-    permissions:
-      contents: read
-      packages: write
-    with:
-      base-tag: ${{ inputs.base-tag }}
-      image-name-prefix: ${{ inputs.image-name-prefix }}
-      image-name-suffix: ${{ inputs.image-name-suffix }}
-      working-directory: ${{ inputs.working-directory }}
-      build-args: |
-        VOLTO_VERSION=${{ inputs.volto-version }}
-      push: ${{ github.event_name != 'pull_request' }}
-    secrets:
-      username: ${{ github.actor }}
-      password: ${{ secrets.GITHUB_TOKEN }}
