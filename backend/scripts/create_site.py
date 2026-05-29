@@ -18,6 +18,7 @@ ANSWERS = {
     "site_id": os.getenv("SITE_ID"),
     "title": os.getenv("SITE_TITLE"),
     "description": os.getenv("SITE_DESCRIPTION"),
+    "available_languages": _string_as_list(os.getenv("SITE_AVAILABLE_LANGUAGES", "en")),
     "default_language": os.getenv("SITE_DEFAULT_LANGUAGE"),
     "portal_timezone": os.getenv("SITE_PORTAL_TIMEZONE"),
     "setup_content": os.getenv("SITE_SETUP_CONTENT", "true"),

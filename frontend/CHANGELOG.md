@@ -8,6 +8,14 @@
 
 <!-- towncrier release notes start -->
 
+## 2.0.0-alpha.25 (2026-05-26)
+
+## 2.0.0-alpha.24 (2026-05-15)
+
+### Bugfix
+
+- Update to core 2a18 and VLT 2a28. @sneridagh 
+
 ## 2.0.0-alpha.23 (2026-05-06)
 
 ### Internal
