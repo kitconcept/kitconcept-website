@@ -124,10 +124,13 @@ jobs:
             acceptance:
               - '.github/workflows/backend*'
               - '.github/workflows/frontend*'
+              - '.github/workflows/acceptance*'
+              - '.github/workflows/image-build*'
               - '.github/workflows/config*'
               - '.github/workflows/main*'
               - 'backend/**'
               - 'frontend/**'
+              - 'docker-compose*.yml'
             backend:
               - 'backend/**'
               - '.github/workflows/backend*'

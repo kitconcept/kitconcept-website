@@ -1,10 +1,58 @@
 ---
 name: kitconcept-website
 
+x-frontend: &frontend
+  image: ghcr.io/kitconcept/kitconcept-website-frontend:latest
+  pull_policy: build
+  build:
+    context: ./frontend
+    args:
+      - VOLTO_VERSION=${VOLTO_VERSION:-latest}
+  platform: linux/amd64
+  environment:
+    RAZZLE_INTERNAL_API_PATH: http://backend:8080/Plone
+
+x-frontend-tests: &frontend-tests
+  <<: *frontend
+  ports:
+    - 3000:3000
+
+x-backend: &backend
+  image: ghcr.io/kitconcept/kitconcept-website-backend:latest
+  pull_policy: build
+  build:
+    context: ./backend
+    args:
+      - KC_VERSION=${KC_VERSION:-latest}
+  platform: linux/amd64
+
+x-backend-acceptance: &backend-acceptance
+  <<: *backend
+  image: ghcr.io/kitconcept/kitconcept-website-acceptance:latest
+  build:
+    context: ./backend
+    dockerfile: Dockerfile.acceptance
+    args:
+      - KC_VERSION=${PLONE_VERSION:-6}
+  pull_policy: build
+
+x-solr: &solr
+  image: ghcr.io/kitconcept/solr:latest
+  platform: linux/amd64
+  ports:
+    - 8983:8983
+  volumes:
+    - vol-solr-data:/var/solr/data
+  command:
+    - solr-precreate
+    - plone
+    - /plone-config
+
 services:
 
   traefik:
     image: traefik:v2.11
+    profiles: ["dev"]
 
     ports:
       - 80:80
@@ -34,12 +82,8 @@ services:
       - --api
 
   frontend:
-    build:
-      context: ./frontend
-      args:
-        - VOLTO_VERSION=${VOLTO_VERSION}
-    environment:
-      RAZZLE_INTERNAL_API_PATH: http://backend:8080/Plone
+    <<: *frontend
+    profiles: ["dev"]
     depends_on:
       - backend
     labels:
@@ -55,10 +99,8 @@ services:
       - traefik.http.routers.rt-frontend.middlewares=gzip
 
   backend:
-    build:
-      context: ./backend
-      args:
-        - KC_VERSION=${KC_VERSION}
+    <<: *backend
+    profiles: ["dev"]
     environment:
       RELSTORAGE_DSN: "dbname='${DB_NAME:-plone}' user='${DB_NAME:-plone}' host='${DB_HOST:-db}' password='${DB_PASSWORD:-OwAaOExRfIvY}' port='${DB_PORT:-5432}'"
     depends_on:
@@ -103,6 +145,7 @@ services:
 
   db:
     image: postgres:14
+    profiles: ["dev"]
     environment:
       POSTGRES_USER: plone
       POSTGRES_PASSWORD: OwAaOExRfIvY
@@ -111,15 +154,38 @@ services:
       - vol-site-data:/var/lib/postgresql/data
 
   solr:
-    image: ghcr.io/kitconcept/solr:latest
+    <<: *solr
+    profiles: ["dev"]
+
+  frontend-acceptance:
+    <<: *frontend-tests
+    profiles: ["acceptance"]
+    environment:
+      RAZZLE_INTERNAL_API_PATH: http://backend-acceptance:55001/plone
+    depends_on:
+      - backend-acceptance
+
+  backend-acceptance:
+    <<: *backend-acceptance
+    profiles: ["acceptance"]
     ports:
-      - 8983:8983
-    volumes:
-      - vol-solr-data:/var/solr/data
-    command:
-      - solr-precreate
-      - plone
-      - /plone-config
+      - 55001:55001
+
+  frontend-a11y:
+    <<: *frontend-tests
+    profiles: ["a11y"]
+    environment:
+      RAZZLE_INTERNAL_API_PATH: http://backend-a11y:8080/plone
+    depends_on:
+      - backend-a11y
+
+  backend-a11y:
+    <<: *backend
+    profiles: ["a11y"]
+    environment:
+      SITE: plone
+    ports:
+      - 8080:8080
 
 volumes:
   vol-site-data: {}
