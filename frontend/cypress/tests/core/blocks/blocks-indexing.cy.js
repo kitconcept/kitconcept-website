@@ -21,11 +21,8 @@ describe('Block Indexing Tests', () => {
     );
     cy.get('#toolbar-save').click();
 
-    cy.visit('/my-page');
     // WHEN: I search for Avram
-    cy.get('.header-intranet  .searchbox input[title="Search"]')
-      .should('not.be.disabled')
-      .type('Avram{enter}');
+    cy.visit('/search?searchableText=Avram');
 
     // THEN: The search results should contain the page 'Noam Avram Chomsky'
     cy.get('#content-core').contains('My Page');

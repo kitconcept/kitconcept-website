@@ -96,8 +96,6 @@ jobs:
             spec-pattern: 'core/content/*.cy.{js,jsx,ts,tsx}'
           - name: "Main Tests"
             spec-pattern: 'main/**/*.cy.{js,jsx,ts,tsx}'
-          - name: "Navigation Tests"
-            spec-pattern: 'nav.cy.{js,jsx,ts,tsx}'
     needs:
       - config
       - image-build

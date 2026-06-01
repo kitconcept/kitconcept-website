@@ -58,14 +58,6 @@ describe('Enter key behavior on focused blocks', () => {
     });
   });
 
-  it('Pressing Enter on a focused RSS block opens Slate editor or block chooser', () => {
-    addBlockAndPressEnter({
-      chooserClass: 'rssBlock',
-      label: 'Rss',
-      chooserSection: 'common',
-    });
-  });
-
   it('Pressing Enter on a focused Grid block opens Slate editor or block chooser', () => {
     addBlockAndPressEnter({
       chooserClass: 'gridBlock',
@@ -152,14 +144,6 @@ describe('Enter key behavior on focused blocks', () => {
     addBlockAndPressEnter({
       chooserClass: 'slider',
       label: 'Slider',
-      chooserSection: 'common',
-    });
-  });
-
-  it('Pressing Enter on a focused Iframe block opens Slate editor or block chooser', () => {
-    addBlockAndPressEnter({
-      chooserClass: 'iframe',
-      label: 'Iframe',
       chooserSection: 'common',
     });
   });

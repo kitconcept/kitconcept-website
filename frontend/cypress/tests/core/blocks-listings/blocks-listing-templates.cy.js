@@ -208,7 +208,7 @@ describe('Folder Contents Tests', () => {
     cy.wait('@content');
     cy.get('#toolbar-save').click();
     cy.wait('@content');
-    cy.get('.card-inner .date-inset')
+    cy.get('.card-inner .headline .day')
       .should('be.visible')
       .and('contain', eventStart.getDate())
       .and('contain', eventEnd.getDate());

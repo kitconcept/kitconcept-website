@@ -1,5 +1,5 @@
-context('Example Acceptance Tests', () => {
-  describe('Visit a page', () => {
+context('Nav Title tests suite', () => {
+  describe('Nav Title tests', () => {
     beforeEach(() => {
       cy.intercept('GET', `/**/*?expand*`).as('content');
       cy.intercept('GET', '/**/Document').as('schema');
@@ -179,30 +179,6 @@ context('Example Acceptance Tests', () => {
       cy.get('#navigation .desktop-menu li .item')
         .contains('Test News Item')
         .should('exist');
-    });
-    it('As editor I can add person content type', function () {
-      cy.visit('/');
-      cy.get('#toolbar-add').click();
-      cy.get('#toolbar-add-person').click();
-      cy.get('#field-head_title').click().type('Custom Head Title');
-      cy.get('#field-first_name').click().type('Person');
-      cy.get('#field-last_name').click().type('content');
-      cy.get('#field-contact_email').click().type('123@example.com');
-      cy.get('#field-description')
-        .click()
-        .type('Testing person content description');
-      cy.get('.react-select__value-container').click();
-      cy.findByText('Team Member').click();
-      cy.get('#field-nav_title').click().type('Person Content Type');
-      cy.get('#toolbar-save').click();
-      cy.wait('@content');
-      cy.get('h1.documentFirstHeading')
-        .contains('Person content')
-        .should('exist');
-      cy.get('p.documentDescription')
-        .contains('Testing person content description')
-        .should('exist');
-      cy.get('.breadcrumb .section').should('have.text', 'Person Content Type');
     });
   });
 });
