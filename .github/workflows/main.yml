@@ -39,12 +39,6 @@ jobs:
               IMAGE_TAG=${{ needs.config.outputs.base-tag }}
               SEED=${{ github.run_id }}
               PYTHON_VERSION=${{ needs.config.outputs.python-version }}
-          - suffix: "beispiele"
-            dockerfile: "Dockerfile.beispiele"
-            working-directory: "backend"
-            build-args: |
-              IMAGE_TAG=${{ needs.config.outputs.base-tag }}
-              SEED="${{ github.run_id }}${{ github.sha }}"
           - suffix: "frontend"
             dockerfile: "Dockerfile"
             working-directory: "frontend"
@@ -135,15 +129,49 @@ jobs:
       spec-pattern: ${{ matrix.spec-pattern }}
       test-profile: a11y
 
+  backend-release:
+    uses: ./.github/workflows/backend-release.yml
+    needs:
+        - config
+        - acceptance
+        - a11y
+        - backend
+    with:
+      base-tag: ${{ needs.config.outputs.base-tag }}
+      image-name-prefix: ${{ needs.config.outputs.image-name-prefix }}
+      image-name-suffix: "backend"
+      python-version: ${{ needs.config.outputs.python-version }}
+      kc-version: ${{ needs.config.outputs.kc-version }}
+    if: ${{ needs.config.outputs.deploy == 'true' && (always() && !contains(needs.*.result, 'failure')) }}
+    permissions:
+      contents: read
+      packages: write
+
+  frontend-release:
+    uses: ./.github/workflows/frontend-release.yml
+    needs:
+        - config
+        - acceptance
+        - a11y
+        - frontend
+    with:
+      base-tag: ${{ needs.config.outputs.base-tag }}
+      image-name-prefix: ${{ needs.config.outputs.image-name-prefix }}
+      image-name-suffix: "frontend"
+      node-version: ${{ needs.config.outputs.node-version }}
+      volto-version: ${{ needs.config.outputs.volto-version }}
+    if: ${{ needs.config.outputs.deploy == 'true' && (always() && !contains(needs.*.result, 'failure')) }}
+    permissions:
+      contents: read
+      packages: write
+
   deploy-dev:
     name: "Deploy: plone-website.kitconcept.dev"
     needs:
         - config
-        - frontend
-        - backend
-        - acceptance
-        - a11y
-    if: ${{ always() && needs.config.outputs.acceptance == 'true' && github.ref == 'refs/heads/main' && github.event_name != 'pull_request' && !contains(needs.*.result, 'failure') }}
+        - backend-release
+        - frontend-release
+    if: ${{ always() && github.ref == 'refs/heads/main' && github.event_name != 'pull_request' && !contains(needs.*.result, 'failure') }}
     uses: kitconcept/meta/.github/workflows/deploy.yml@main
     with:
         tag: ${{ needs.config.outputs.base-tag }}
@@ -175,11 +203,9 @@ jobs:
     name: "Deploy: plone-website.kitconcept.io"
     needs:
         - config
-        - frontend
-        - backend
-        - acceptance
-        - a11y
-    if: ${{ always() && needs.config.outputs.acceptance == 'true' && github.ref == 'refs/heads/main' && github.event_name != 'pull_request' && !contains(needs.*.result, 'failure') }}
+        - backend-release
+        - frontend-release
+    if: ${{ always() && github.ref == 'refs/heads/main' && github.event_name != 'pull_request' && !contains(needs.*.result, 'failure') }}
     uses: kitconcept/meta/.github/workflows/deploy.yml@main
     with:
         tag: ${{ needs.config.outputs.base-tag }}
