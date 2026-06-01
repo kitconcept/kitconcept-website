@@ -43,6 +43,9 @@ on:
       frontend:
         description: "Flag reporting if we should run the frontend jobs"
         value: ${{ jobs.config.outputs.frontend }}
+      deploy:
+        description: "Flag reporting if we should deploy"
+        value: ${{ jobs.config.outputs.deploy }}
       varnish:
         description: "Flag reporting if we should run the varnish jobs"
         value: ${{ jobs.config.outputs.varnish }}
@@ -89,6 +92,7 @@ jobs:
       devops: ${{ steps.filter.outputs.devops }}
       docs: ${{ steps.filter.outputs.docs }}
       frontend: ${{ steps.filter.outputs.frontend }}
+      deploy: ${{ steps.filter.outputs.deploy }}
       varnish: ${{ steps.filter.outputs.varnish }}
       base-tag: ${{ steps.vars.outputs.base-tag }}
       kc-version: ${{ steps.vars.outputs.kc-version }}
@@ -124,10 +128,13 @@ jobs:
             acceptance:
               - '.github/workflows/backend*'
               - '.github/workflows/frontend*'
+              - '.github/workflows/acceptance*'
+              - '.github/workflows/image-build*'
               - '.github/workflows/config*'
               - '.github/workflows/main*'
               - 'backend/**'
               - 'frontend/**'
+              - 'docker-compose*.yml'
             backend:
               - 'backend/**'
               - '.github/workflows/backend*'
@@ -144,6 +151,15 @@ jobs:
               - 'frontend/**'
               - '.github/workflows/frontend*'
               - '.github/workflows/config*'
+            deploy:
+              - 'backend/**'
+              - 'frontend/**'
+              - '.github/workflows/backend*'
+              - '.github/workflows/frontend*'
+              - '.github/workflows/config*'
+              - '.github/workflows/main*'
+              - 'devops/**'
+              - 'docker-compose*.yml'
             varnish:
               - 'devops/varnish/**'
               - '.github/workflows/varnish*'
@@ -164,4 +180,5 @@ jobs:
           echo "| devops | ${{ steps.filter.outputs.devops }} |" >> $GITHUB_STEP_SUMMARY
           echo "| docs | ${{ steps.filter.outputs.docs }} |" >> $GITHUB_STEP_SUMMARY
           echo "| frontend | ${{ steps.filter.outputs.frontend }} |" >> $GITHUB_STEP_SUMMARY
+          echo "| deploy | ${{ steps.filter.outputs.deploy }} |" >> $GITHUB_STEP_SUMMARY
           echo "| varnish | ${{ steps.filter.outputs.varnish }} |" >> $GITHUB_STEP_SUMMARY
