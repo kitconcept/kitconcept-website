@@ -105,27 +105,29 @@ jobs:
       name: ${{ matrix.name }}
       spec-pattern: ${{ matrix.spec-pattern }}
 
-  a11y:
-    name: "A11y: ${{ matrix.name }}"
-    uses: ./.github/workflows/acceptance.yml
-    if: ${{ needs.config.outputs.acceptance == 'true' }}
-    strategy:
-      fail-fast: false
-      matrix:
-        include:
-          - name: "Tests"
-            api-url: 'localhost:8080/plone'
-            spec-pattern: 'a11y/**/*.cy.{js,jsx,ts,tsx}'
-    needs:
-      - config
-      - image-build
-    with:
-      base-tag: ${{ needs.config.outputs.base-tag }}
-      node-version: ${{ needs.config.outputs.node-version }}
-      name: ${{ matrix.name }}
-      api-url: ${{ matrix.api-url }}
-      spec-pattern: ${{ matrix.spec-pattern }}
-      test-profile: a11y
+  # @sneridagh 2026-06-01: Temporarily disable a11y tests until we have in place proper
+  # example/demo content in place.
+  # a11y:
+  #   name: "A11y: ${{ matrix.name }}"
+  #   uses: ./.github/workflows/acceptance.yml
+  #   if: ${{ needs.config.outputs.acceptance == 'true' }}
+  #   strategy:
+  #     fail-fast: false
+  #     matrix:
+  #       include:
+  #         - name: "Tests"
+  #           api-url: 'localhost:8080/plone'
+  #           spec-pattern: 'a11y/**/*.cy.{js,jsx,ts,tsx}'
+  #   needs:
+  #     - config
+  #     - image-build
+  #   with:
+  #     base-tag: ${{ needs.config.outputs.base-tag }}
+  #     node-version: ${{ needs.config.outputs.node-version }}
+  #     name: ${{ matrix.name }}
+  #     api-url: ${{ matrix.api-url }}
+  #     spec-pattern: ${{ matrix.spec-pattern }}
+  #     test-profile: a11y
 
   backend-release:
     uses: ./.github/workflows/backend-release.yml
