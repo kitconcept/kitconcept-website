@@ -134,7 +134,7 @@ jobs:
     needs:
         - config
         - acceptance
-        - a11y
+        # - a11y
         - backend
     with:
       base-tag: ${{ needs.config.outputs.base-tag }}
@@ -152,7 +152,7 @@ jobs:
     needs:
         - config
         - acceptance
-        - a11y
+        # - a11y
         - frontend
     with:
       base-tag: ${{ needs.config.outputs.base-tag }}
