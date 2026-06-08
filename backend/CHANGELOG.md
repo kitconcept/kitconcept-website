@@ -2,6 +2,13 @@
 
 <!-- towncrier release notes start -->
 
+## 2.0.0a26 (2026-06-08)
+
+
+### Internal
+
+- Added acceptance tests infrastructure. @sneridagh [#30](https://gitlab.kitconcept.io/kitconcept/distribution-kitconcept-website/-/work_items/30)
+
 ## 2.0.0a25 (2026-05-26)
 
 

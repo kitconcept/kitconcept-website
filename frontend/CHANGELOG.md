@@ -8,6 +8,17 @@
 
 <!-- towncrier release notes start -->
 
+## 2.0.0-alpha.26 (2026-06-08)
+
+### Bugfix
+
+- Fixed accordion does not work with the "Order" tab. Use `@eea/volto-accordion-block` 12.0.0. @Tishasoumya-02 
+- Upgrade Volto 19.1.0 @sneridagh 
+
+### Internal
+
+- Added acceptance tests infrastructure. @sneridagh [#30](https://github.com/kitconcept/kitconcept-website/issue/30)
+
 ## 2.0.0-alpha.25 (2026-05-26)
 
 ## 2.0.0-alpha.24 (2026-05-15)
