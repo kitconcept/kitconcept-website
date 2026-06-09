@@ -1765,6 +1765,9 @@ importers:
       release-it:
         specifier: ^17.1.1
         version: 17.1.1(typescript@5.9.3)
+      vitest:
+        specifier: ^3.1.2
+        version: 3.2.4(@types/debug@4.1.12)(@types/node@24.10.0)(@vitest/ui@3.2.4)(jiti@2.6.1)(jsdom@28.1.0)(less@3.13.1)(lightningcss@1.30.2)(sass@1.93.3)(terser@5.44.0)(yaml@2.8.1)
 
   packages/volto-heading-block/packages/volto-heading-block:
     dependencies:
@@ -1787,19 +1790,40 @@ importers:
 
   packages/volto-highlight-block/packages/volto-highlight-block:
     dependencies:
+      classnames:
+        specifier: 2.5.1
+        version: 2.5.1
       react:
         specifier: ^18.2.0
         version: 18.2.0
       react-dom:
         specifier: ^18.2.0
         version: 18.2.0(react@18.2.0)
+      react-intl:
+        specifier: ^3.12.1
+        version: 3.12.1(@types/react@18.3.26)(react@18.2.0)
     devDependencies:
       '@plone/scripts':
-        specifier: ^3.6.1
+        specifier: ^3.10.3
         version: 3.10.3
+      '@plone/types':
+        specifier: workspace:*
+        version: link:../../../../core/packages/types
+      '@types/node':
+        specifier: ^24
+        version: 24.10.0
+      '@types/react':
+        specifier: ^18
+        version: 18.3.26
+      '@types/react-dom':
+        specifier: ^18
+        version: 18.3.7(@types/react@18.3.26)
       release-it:
         specifier: ^19.0.5
         version: 19.0.5(@types/node@24.10.0)(magicast@0.3.5)
+      typescript:
+        specifier: ^5.7.3
+        version: 5.9.3
       vitest:
         specifier: ^3.2.4
         version: 3.2.4(@types/debug@4.1.12)(@types/node@24.10.0)(@vitest/ui@3.2.4)(jiti@2.6.1)(jsdom@28.1.0)(less@3.13.1)(lightningcss@1.30.2)(sass@1.93.3)(terser@5.44.0)(yaml@2.8.1)
@@ -1881,8 +1905,8 @@ importers:
         version: 11.1.0
     devDependencies:
       '@playwright/test':
-        specifier: ^1.55.0
-        version: 1.58.1
+        specifier: ^1.60.0
+        version: 1.60.0
       '@plone/scripts':
         specifier: ^3.6.2
         version: 3.10.3
@@ -1917,8 +1941,8 @@ importers:
         specifier: ^18.3.1
         version: 18.3.7(@types/react@18.3.26)
       playwright:
-        specifier: ^1.55.0
-        version: 1.58.1
+        specifier: ^1.60.0
+        version: 1.60.0
       react-intl-redux:
         specifier: 2.3.0
         version: 2.3.0(@babel/runtime@7.28.4)(prop-types@15.8.1)(react-intl@3.12.1(@types/react@18.3.26)(react@18.2.0))(react-redux@8.1.2(@types/react-dom@18.3.7(@types/react@18.3.26))(@types/react@18.3.26)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(redux@4.2.1))(react@18.2.0)
@@ -4184,8 +4208,8 @@ packages:
     resolution: {integrity: sha512-QNqXyfVS2wm9hweSYD2O7F0G06uurj9kZ96TRQE5Y9hU7+tgdZwIkbAKc5Ocy1HxEY2kuDQa6cQ1WRs/O5LFKA==}
     engines: {node: ^12.20.0 || ^14.18.0 || >=16.0.0}
 
-  '@playwright/test@1.58.1':
-    resolution: {integrity: sha512-6LdVIUERWxQMmUSSQi0I53GgCBYgM2RpGngCPY7hSeju+VrKjq3lvs7HpJoPbDiY5QM5EYRtRX5fvrinnMAz3w==}
+  '@playwright/test@1.60.0':
+    resolution: {integrity: sha512-O71yZIbAh/PxDMNGns37GHBIfrVkEVyn+AXyIa5dOTfb4/xNvRWV+Vv/NMbNCtODB/pO7vLlF2OTmMVLhmr7Ag==}
     engines: {node: '>=18'}
     hasBin: true
 
@@ -10292,13 +10316,13 @@ packages:
     resolution: {integrity: sha512-emEcLuomt2j03vxD54giVB4SxTjnsqkU692xZOZXHDVoYyypEm+b3jpiTcc+Cf+myooc+/Ly0z01jqeNHVgJGw==}
     engines: {node: '>=16.0.0'}
 
-  playwright-core@1.58.1:
-    resolution: {integrity: sha512-bcWzOaTxcW+VOOGBCQgnaKToLJ65d6AqfLVKEWvexyS3AS6rbXl+xdpYRMGSRBClPvyj44njOWoxjNdL/H9UNg==}
+  playwright-core@1.60.0:
+    resolution: {integrity: sha512-9bW6zvX/m0lEbgTKJ6YppOKx8H3VOPBMOCFh2irXFOT4BbHgrx5hPjwJYLT40Lu+4qtD36qKc/Hn56StUW57IA==}
     engines: {node: '>=18'}
     hasBin: true
 
-  playwright@1.58.1:
-    resolution: {integrity: sha512-+2uTZHxSCcxjvGc5C891LrS1/NlxglGxzrC4seZiVjcYVQfUa87wBL6rTDqzGjuoWNjnBzRqKmF6zRYGMvQUaQ==}
+  playwright@1.60.0:
+    resolution: {integrity: sha512-hheHdokM8cdqCb0lcE3s+zT4t4W+vvjpGxsZlDnikarzx8tSzMebh3UiFtgqwFwnTnjYQcsyMF8ei2mCO/tpeA==}
     engines: {node: '>=18'}
     hasBin: true
 
@@ -15500,9 +15524,9 @@ snapshots:
 
   '@pkgr/core@0.2.9': {}
 
-  '@playwright/test@1.58.1':
+  '@playwright/test@1.60.0':
     dependencies:
-      playwright: 1.58.1
+      playwright: 1.60.0
 
   '@plone-collective/volto-image-editor@1.0.1(@plone/registry@core+packages+registry)(@plone/types@core+packages+types)(advanced-cropper@0.17.1)(classnames@2.5.1)(react-aria-components@1.17.0(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(react-dom@18.2.0(react@18.2.0))(react@18.2.0)':
     dependencies:
@@ -22788,11 +22812,11 @@ snapshots:
       pvutils: 1.1.5
       tslib: 2.8.1
 
-  playwright-core@1.58.1: {}
+  playwright-core@1.60.0: {}
 
-  playwright@1.58.1:
+  playwright@1.60.0:
     dependencies:
-      playwright-core: 1.58.1
+      playwright-core: 1.60.0
     optionalDependencies:
       fsevents: 2.3.2
 
