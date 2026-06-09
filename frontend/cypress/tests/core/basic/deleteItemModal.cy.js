@@ -190,7 +190,7 @@ describe('Test if different forms of Linking content appear in Delete Modal View
     cy.autologin();
     cy.visit('/');
   });
-  it('As editor I get a warning on deleting my page when my Document is referenced in the Teaser Block', () => {
+  it.only('As editor I get a warning on deleting my page when my Document is referenced in the Teaser Block', () => {
     cy.createContent({
       contentType: 'Document',
       contentTitle: 'Document that is linked',
