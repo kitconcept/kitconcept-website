@@ -1765,6 +1765,9 @@ importers:
       release-it:
         specifier: ^17.1.1
         version: 17.1.1(typescript@5.9.3)
+      vitest:
+        specifier: ^3.1.2
+        version: 3.2.4(@types/debug@4.1.12)(@types/node@24.10.0)(@vitest/ui@3.2.4)(jiti@2.6.1)(jsdom@28.1.0)(less@3.13.1)(lightningcss@1.30.2)(sass@1.93.3)(terser@5.44.0)(yaml@2.8.1)
 
   packages/volto-heading-block/packages/volto-heading-block:
     dependencies:
