@@ -1,6 +1,95 @@
 # Changelog
 
 <!-- towncrier release notes start -->
+## 2.0.0a26 (2026-06-08)
+
+### Backend
+
+
+#### Internal
+
+- Added acceptance tests infrastructure. @sneridagh [#30](https://gitlab.kitconcept.io/kitconcept/distribution-kitconcept-website/-/work_items/30)
+
+
+
+### Frontend
+
+#### Bugfix
+
+- Fixed accordion does not work with the "Order" tab. Use `@eea/volto-accordion-block` 12.0.0. @Tishasoumya-02 
+- Upgrade Volto 19.1.0 @sneridagh 
+
+#### Internal
+
+- Added acceptance tests infrastructure. @sneridagh [#30](https://github.com/kitconcept/kitconcept-website/issue/30)
+
+
+
+### Project
+
+
+#### Internal
+
+- Added acceptance tests infrastructure. @sneridagh [#30](https://github.com/kitconcept/kitconcept-website/pull/30)
+
+
+
+## 2.0.0a25 (2026-05-26)
+
+### Backend
+
+
+#### Feature
+
+- Added multilingual support to the distribution: a new `available_languages` answer drives `plone.available_languages` and `plone.default_language`, and `plone.app.multilingual` is installed automatically when more than one language is selected. @ericof [#52](https://gitlab.kitconcept.io/kitconcept/distribution-kitconcept-website/-/work_items/52)
+
+
+#### Internal
+
+- Pointed towncrier `issue_format` at the GitLab project where issues are now tracked. @ericof 
+- Promoted creation test fixtures to class/session scope so site setup is shared across assertions. @ericof 
+- Refactored registry writes during site creation into a new `kitconcept.website.utils.creation` module. @ericof 
+
+
+
+### Frontend
+
+No significant changes.
+
+
+### Project
+
+No significant changes.
+
+
+
+
+## 2.0.0a24 (2026-05-15)
+
+### Backend
+
+
+#### Bugfix
+
+- Update to core 2a18 and VLT 2a28. @sneridagh 
+
+
+
+### Frontend
+
+#### Bugfix
+
+- Update to core 2a18 and VLT 2a28. @sneridagh 
+
+
+
+### Project
+
+No significant changes.
+
+
+
+
 ## 2.0.0a23 (2026-05-06)
 
 ### Backend

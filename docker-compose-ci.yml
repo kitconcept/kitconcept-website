@@ -1,0 +1,22 @@
+---
+name: kitconcept-website-ci
+
+# This file is used with docker-compose-dev.yml in CI. It replaces build-time
+# images with the images built once at the start of the workflow.
+
+services:
+  frontend-acceptance:
+    image: ghcr.io/kitconcept/kitconcept-website-frontend:${BASE_TAG:-latest}
+    pull_policy: always
+
+  backend-acceptance:
+    image: ghcr.io/kitconcept/kitconcept-website-acceptance:${BASE_TAG:-latest}
+    pull_policy: always
+
+  frontend-a11y:
+    image: ghcr.io/kitconcept/kitconcept-website-frontend:${BASE_TAG:-latest}
+    pull_policy: always
+
+  backend-a11y:
+    image: ghcr.io/kitconcept/kitconcept-website-backend:${BASE_TAG:-latest}
+    pull_policy: always
