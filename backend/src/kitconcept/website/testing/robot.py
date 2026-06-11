@@ -7,9 +7,9 @@ from plone.app.robotframework.mailhost import MockMailHost
 from plone.app.robotframework.quickinstaller import QuickInstaller
 from plone.app.robotframework.remote import RemoteLibraryLayer
 from plone.app.robotframework.server import Zope2ServerRemote
+from plone.app.robotframework.testing import WSGI_SERVER_SINGLE_THREADED_FIXTURE
 from plone.app.robotframework.testing import MockMailHostLayer as BaseMailLayer
 from plone.app.robotframework.testing import PloneRobotFixture
-from plone.app.robotframework.testing import WSGI_SERVER_SINGLE_THREADED_FIXTURE
 from plone.app.robotframework.users import Users
 from plone.app.testing import FunctionalTesting
 

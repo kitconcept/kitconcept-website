@@ -7,7 +7,7 @@
       profile="kitconcept.website:default"
       source="20260304001"
       destination="20260611001"
-    >
+      >
     <genericsetup:upgradeDepends
         title="Install plone.app.iterate"
         import_profile="plone.app.iterate:default"
