@@ -1,8 +1,12 @@
+import json
+
 from kitconcept.website import _
 from kitconcept.website.interfaces import IBrowserLayer
+from plone.autoform import directives
 from plone.registry.interfaces import IRegistry
 from plone.restapi.controlpanels import RegistryConfigletPanel
 from plone.restapi.interfaces import ISiteEndpointExpander
+from plone.schema import JSONField
 from zope import schema
 from zope.component import adapter
 from zope.component import getUtility
@@ -13,14 +17,22 @@ from zope.schema.vocabulary import SimpleVocabulary
 
 # These are the modules supported in
 # https://github.com/kitconcept/volto-dsgvo-banner/blob/main/packages/volto-dsgvo-banner/src/components/Block/View.jsx
-DSGVO_MODULES = SimpleVocabulary.fromValues([
-    "tracking",
-    "youtube",
-    "facebook",
-    "google",
-    "vimeo",
-    "twitter",
-])
+DSGVO_MODULES = SimpleVocabulary.fromValues(
+    [
+        "tracking",
+        "youtube",
+        "facebook",
+        "google",
+        "vimeo",
+        "twitter",
+    ]
+)
+
+DSGVO_TRACKERS = SimpleVocabulary.fromValues(["google", "matomo"])
+
+TRACKER_OPTIONS_SCHEMA = json.dumps({
+    "type": "object",
+})
 
 
 class IDSGVOSettings(Interface):
@@ -48,6 +60,55 @@ class IDSGVOSettings(Interface):
         ),
         default=["tracking", "youtube", "facebook", "google"],
         required=True,
+    )
+
+    tracker = schema.Choice(
+        title=_("label_dsgvo_tracker", default="Tracker"),
+        description=_(
+            "help_dsgvo_tracker",
+            default="Analytics tracker to use. Choose 'google' for Google Analytics "
+            "or 'matomo' for Matomo.",
+        ),
+        vocabulary=DSGVO_TRACKERS,
+        required=False,
+        default=None,
+    )
+
+    directives.widget(
+        "tracker_options",
+        frontendOptions={
+            "widget": "modalJSONEditor",
+        },
+    )
+    tracker_options = JSONField(
+        title=_("label_dsgvo_tracker_options", default="Tracker options"),
+        description=_(
+            "help_dsgvo_tracker_options",
+            default="JSON object with tracker configuration. "
+            "For Google Analytics: {\"id\": \"G-XXXXXXX\", \"gaOptions\": {\"anonymizeIp\": true}}. "
+            "For Matomo: {\"id\": 1, \"urlBase\": \"https://matomo.example.com/\"}.",
+        ),
+        schema=TRACKER_OPTIONS_SCHEMA,
+        required=False,
+        default=None,
+        missing_value=None,
+        widget="",
+    )
+
+    directives.widget(
+        "privacy_url",
+        frontendOptions={
+            "widget": "url",
+        },
+    )
+    privacy_url = schema.TextLine(
+        title=_("label_dsgvo_privacy_url", default="Privacy policy URL"),
+        description=_(
+            "help_dsgvo_privacy_url",
+            default="Path or URL to the privacy policy page, e.g. /en/privacy.",
+        ),
+        required=False,
+        default=None,
     )
 
 
@@ -79,6 +140,9 @@ class DSGVOSiteEndpointExpander:
             data["kitconcept.website.dsgvo"] = {
                 "show_banner": settings.show_banner,
                 "modules": settings.modules,
+                "tracker": settings.tracker,
+                "tracker_options": settings.tracker_options,
+                "privacy_url": settings.privacy_url,
             }
         except AttributeError:
             # Probably the upgrade step wasn't run yet, so the records don't exist.

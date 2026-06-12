@@ -5,6 +5,9 @@ class TestDSGVOSettings:
         properties = resp.json()["schema"]["properties"]
         assert "show_banner" in properties
         assert "modules" in properties
+        assert "tracker" in properties
+        assert "tracker_options" in properties
+        assert "privacy_url" in properties
 
     def test_dsgvo_settings_in_site_endpoint(self, anon_request):
         resp = anon_request.get("/@site")
@@ -18,3 +21,6 @@ class TestDSGVOSettings:
             "facebook",
             "google",
         ]
+        assert data["kitconcept.website.dsgvo"]["tracker"] is None
+        assert data["kitconcept.website.dsgvo"]["tracker_options"] is None
+        assert data["kitconcept.website.dsgvo"]["privacy_url"] is None
