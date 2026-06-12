@@ -1,5 +1,3 @@
-import json
-
 from kitconcept.website import _
 from kitconcept.website.interfaces import IBrowserLayer
 from plone.autoform import directives
@@ -14,19 +12,19 @@ from zope.interface import Interface
 from zope.interface import implementer
 from zope.schema.vocabulary import SimpleVocabulary
 
+import json
+
 
 # These are the modules supported in
 # https://github.com/kitconcept/volto-dsgvo-banner/blob/main/packages/volto-dsgvo-banner/src/components/Block/View.jsx
-DSGVO_MODULES = SimpleVocabulary.fromValues(
-    [
-        "tracking",
-        "youtube",
-        "facebook",
-        "google",
-        "vimeo",
-        "twitter",
-    ]
-)
+DSGVO_MODULES = SimpleVocabulary.fromValues([
+    "tracking",
+    "youtube",
+    "facebook",
+    "google",
+    "vimeo",
+    "twitter",
+])
 
 DSGVO_TRACKERS = SimpleVocabulary.fromValues(["google", "matomo"])
 
@@ -85,8 +83,8 @@ class IDSGVOSettings(Interface):
         description=_(
             "help_dsgvo_tracker_options",
             default="JSON object with tracker configuration. "
-            "For Google Analytics: {\"id\": \"G-XXXXXXX\", \"gaOptions\": {\"anonymizeIp\": true}}. "
-            "For Matomo: {\"id\": 1, \"urlBase\": \"https://matomo.example.com/\"}.",
+            'For Google Analytics: {"id": "G-XXXXXXX", "gaOptions": {"anonymizeIp": true}}. '
+            'For Matomo: {"id": 1, "urlBase": "https://matomo.example.com/"}.',
         ),
         schema=TRACKER_OPTIONS_SCHEMA,
         required=False,
