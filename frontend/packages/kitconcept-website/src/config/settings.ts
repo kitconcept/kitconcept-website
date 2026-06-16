@@ -11,6 +11,8 @@ export default function install(config: ConfigType) {
   };
   delete dsgvoSettings.showBanner;
   delete dsgvoSettings.modules;
+  delete dsgvoSettings.tracker;
+  delete dsgvoSettings.privacy_url;
   config.settings.controlPanelsIcons['dsgvo-settings'] = newsSVG;
 
   // Volto Light Theme Configuration
