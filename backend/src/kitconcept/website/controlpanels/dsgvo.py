@@ -32,6 +32,10 @@ TRACKER_OPTIONS_SCHEMA = json.dumps({
     "type": "object",
 })
 
+PRIVACY_URL_SCHEMA = json.dumps({
+    "type": "object",
+})
+
 
 class IDSGVOSettings(Interface):
     """Settings for @kitconcept/volto-dsgvo-banner"""
@@ -96,17 +100,21 @@ class IDSGVOSettings(Interface):
     directives.widget(
         "privacy_url",
         frontendOptions={
-            "widget": "url",
+            "widget": "modalJSONEditor",
         },
     )
-    privacy_url = schema.TextLine(
+    privacy_url = JSONField(
         title=_("label_dsgvo_privacy_url", default="Privacy policy URL"),
         description=_(
             "help_dsgvo_privacy_url",
-            default="Path or URL to the privacy policy page, e.g. /en/privacy.",
+            default="JSON object mapping language codes to privacy policy paths or URLs. "
+            'Example: {"en": "/en/privacy", "de": "/de/datenschutz"}.',
         ),
+        schema=PRIVACY_URL_SCHEMA,
         required=False,
         default=None,
+        missing_value=None,
+        widget="",
     )
 
 

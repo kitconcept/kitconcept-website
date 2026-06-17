@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2026-05-13 10:56+0000\n"
+"POT-Creation-Date: 2026-06-17 12:10+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -27,14 +27,31 @@ msgid "GDPR Settings"
 msgstr "DSGVO-Einstellungen"
 
 #. Default: "List of 3rd-party sites to be shown in privacy preferences."
-#: kitconcept/website/controlpanels/dsgvo.py:42
+#: kitconcept/website/controlpanels/dsgvo.py:56
 msgid "help_dsgvo_modules"
 msgstr "Liste der Drittanbieter-Dienste, die in den Datenschutzeinstellungen angezeigt werden."
 
+#. Default: "JSON object mapping language codes to privacy policy paths or URLs. Example: {\"en\": \"/en/privacy\", \"de\": \"/de/datenschutz\"}."
+#: kitconcept/website/controlpanels/dsgvo.py:108
+#, fuzzy
+msgid "help_dsgvo_privacy_url"
+msgstr "JSON-Objekt, das Sprachcodes auf Pfade oder URLs zur Datenschutzrichtlinie abbildet. Beispiel: {\"en\": \"/en/privacy\", \"de\": \"/de/datenschutz\"}."
+
 #. Default: "If true, the cookie consent banner will be shown immediately. If false, users will be prompted to accept cookies only in the context of blocks where they are needed."
-#: kitconcept/website/controlpanels/dsgvo.py:31
+#: kitconcept/website/controlpanels/dsgvo.py:45
 msgid "help_dsgvo_show_banner"
 msgstr "Wenn aktiviert, wird das Cookie-Zustimmungsbanner sofort angezeigt. Wenn deaktiviert, werden Benutzer nur im Kontext von Blöcken, in denen Cookies benötigt werden, zur Zustimmung aufgefordert."
+
+#. Default: "Analytics tracker to use. Choose 'google' for Google Analytics or 'matomo' for Matomo."
+#: kitconcept/website/controlpanels/dsgvo.py:69
+msgid "help_dsgvo_tracker"
+msgstr "Zu verwendender Analytics-Tracker. Wählen Sie 'google' für Google Analytics oder 'matomo' für Matomo."
+
+#. Default: "JSON object with tracker configuration. For Google Analytics: {\"id\": \"G-XXXXXXX\", \"gaOptions\": {\"anonymizeIp\": true}}. For Matomo: {\"id\": 1, \"urlBase\": \"https://matomo.example.com/\"}."
+#: kitconcept/website/controlpanels/dsgvo.py:87
+#, fuzzy
+msgid "help_dsgvo_tracker_options"
+msgstr "JSON-Objekt mit Tracker-Konfiguration. Für Google Analytics: {\"id\": \"G-XXXXXXX\", \"gaOptions\": {\"anonymizeIp\": true}}. Für Matomo: {\"id\": 1, \"urlBase\": \"https://matomo.example.com/\"}."
 
 #: kitconcept/website/distributions.zcml:17
 msgid "kitconcept Website"
@@ -45,11 +62,26 @@ msgid "kitconcept.website"
 msgstr ""
 
 #. Default: "Show privacy settings for"
-#: kitconcept/website/controlpanels/dsgvo.py:41
+#: kitconcept/website/controlpanels/dsgvo.py:55
 msgid "label_dsgvo_modules"
 msgstr "Datenschutzeinstellungen anzeigen für"
 
+#. Default: "Privacy policy URL"
+#: kitconcept/website/controlpanels/dsgvo.py:107
+msgid "label_dsgvo_privacy_url"
+msgstr "Datenschutzrichtlinien-URL"
+
 #. Default: "Show GDPR banner on first visit"
-#: kitconcept/website/controlpanels/dsgvo.py:30
+#: kitconcept/website/controlpanels/dsgvo.py:44
 msgid "label_dsgvo_show_banner"
 msgstr "DSGVO-Banner beim ersten Besuch anzeigen"
+
+#. Default: "Tracker"
+#: kitconcept/website/controlpanels/dsgvo.py:68
+msgid "label_dsgvo_tracker"
+msgstr "Tracker"
+
+#. Default: "Tracker options"
+#: kitconcept/website/controlpanels/dsgvo.py:86
+msgid "label_dsgvo_tracker_options"
+msgstr "Tracker-Optionen"

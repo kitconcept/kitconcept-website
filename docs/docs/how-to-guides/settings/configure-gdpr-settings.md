@@ -23,7 +23,7 @@ This guide shows you how to configure the cookie consent banner, the third-party
 1. Go to **Site Setup**.
 2. Under the general settings, open **GDPR Settings**.
 
-![The GDPR Settings control panel, showing the banner toggle, privacy modules, tracker, tracker options, and privacy policy URL fields](/_static/images/gdpr-settings-overview.png)
+![The GDPR Settings control panel showing the Show GDPR banner on first visit toggle, Show privacy settings for field, Tracker dropdown, Tracker options JSON editor button, and Privacy policy URL JSON editor button](/_static/images/gdpr-settings-overview.png)
 
 ### 2. Show or hide the banner on first visit
 
@@ -51,15 +51,15 @@ In the **Tracker** field, select which analytics service the site should use:
 
 Leave it empty if you don't want to enable any analytics tracker.
 
-![The Tracker field's dropdown open, showing the google and matomo options](/_static/images/gdpr-settings-tracker-dropdown.png)
+![The Tracker dropdown open, showing the google, matomo, and No value options](/_static/images/gdpr-settings-tracker-dropdown.png)
 
 ### 5. Configure the tracker options
 
 Click **Open configuration** next to **Tracker options** to open the JSON editor:
 
-![The Tracker options JSON editor modal](/_static/images/gdpr-settings-tracker-options-modal.png)
+![The Tracker options JSON editor modal showing a null value](/_static/images/gdpr-settings-tracker-options-modal.png)
 
-The modal opens empty. Enter the configuration for the tracker you selected in step 4:
+The modal opens with `null`. Replace it with the configuration for the tracker you selected in step 4:
 
 - For Google Analytics:
 
@@ -83,9 +83,20 @@ Click **Close** to save the JSON and return to the control panel.
 
 ### 6. Set the privacy policy URL
 
-In **Privacy policy URL**, enter the path or URL of your privacy policy page, for example `/en/privacy`. The cookie consent banner links to this page.
+Click **Open configuration** next to **Privacy policy URL** to open the JSON editor. Enter a JSON object that maps each language code to the path or URL of the privacy policy page for that language. The cookie consent banner automatically picks the URL that matches the visitor's current language.
 
-![The GDPR Settings control panel with a privacy policy URL set](/_static/images/gdpr-settings-privacy-url-set.png)
+For a site with English and German:
+
+```json
+{
+  "en": "/en/privacy",
+  "de": "/de/datenschutz"
+}
+```
+
+![The Privacy policy URL JSON editor modal showing a null value](/_static/images/gdpr-settings-privacy-url-set.png)
+
+The modal opens with `null`. Replace it with your JSON object, then click **Close** to save and return to the control panel.
 
 ### 7. Save
 
@@ -95,7 +106,7 @@ Click **Save** in the left toolbar.
 
 1. Visit the site as an anonymous user. If you enabled the banner on first visit, it should appear immediately.
 2. Open the privacy preferences and confirm that only the modules you selected in step 3 are listed.
-3. Click the privacy policy link in the banner and confirm it leads to the page you set in step 6.
+3. Click the privacy policy link in the banner and confirm it leads to the correct language-specific page you configured in step 6.
 4. Accept tracking and confirm that the analytics requests for the tracker you configured (Google Analytics or Matomo) are sent.
 
 ## Notes
