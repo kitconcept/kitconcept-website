@@ -182,6 +182,8 @@ lint.select = [
 lint.ignore = [
     # DoNotAssignLambda
     "E731",
+    # https://docs.astral.sh/ruff/rules/suppressible-exception/
+    "SIM105",
 ]
 
 [tool.ruff.lint.isort]
