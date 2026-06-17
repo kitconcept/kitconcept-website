@@ -1,6 +1,49 @@
 # Changelog
 
 <!-- towncrier release notes start -->
+## 2.0.0a27 (2026-06-12)
+
+### Backend
+
+
+#### Feature
+
+- Automatically activate working copy support (plone.app.iterate). @jnptk 
+
+
+#### Bugfix
+
+- See https://github.com/plone/volto/releases/tag/19.1.4
+  See https://github.com/kitconcept/volto-light-theme/releases/tag/8.0.0a29 @sneridagh 
+- Update to VLT and Volto 19.1.2. @sneridagh
+
+  See https://github.com/plone/volto/releases/tag/19.1.2
+  See https://github.com/kitconcept/volto-light-theme/releases/tag/8.0.0a29 
+
+
+
+### Frontend
+
+#### Bugfix
+
+- Removes the "View" select from the "More" menu in the Toolbar.
+  Upgrade to Volto 19.1.4.
+  See https://github.com/plone/volto/releases/tag/19.1.4
+  See https://github.com/kitconcept/volto-light-theme/releases/tag/8.0.0a30 @sneridagh 
+- Update to VLT and Volto 19.1.2. @sneridagh
+
+  See https://github.com/plone/volto/releases/tag/19.1.2
+  See https://github.com/kitconcept/volto-light-theme/releases/tag/8.0.0a29 
+
+
+
+### Project
+
+No significant changes.
+
+
+
+
 ## 2.0.0a26 (2026-06-08)
 
 ### Backend

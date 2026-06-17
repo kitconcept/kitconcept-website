@@ -5,8 +5,8 @@
 
   <genericsetup:upgradeSteps
       profile="kitconcept.website:default"
-      source="20260304001"
-      destination="20260511001"
+      source="20260611001"
+      destination="20260617001"
       >
     <genericsetup:upgradeDepends
         title="Install DSGVO settings control panel"

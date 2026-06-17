@@ -2,6 +2,23 @@
 
 <!-- towncrier release notes start -->
 
+## 2.0.0a27 (2026-06-12)
+
+
+### Feature
+
+- Automatically activate working copy support (plone.app.iterate). @jnptk 
+
+
+### Bugfix
+
+- See https://github.com/plone/volto/releases/tag/19.1.4
+  See https://github.com/kitconcept/volto-light-theme/releases/tag/8.0.0a29 @sneridagh 
+- Update to VLT and Volto 19.1.2. @sneridagh
+
+  See https://github.com/plone/volto/releases/tag/19.1.2
+  See https://github.com/kitconcept/volto-light-theme/releases/tag/8.0.0a29 
+
 ## 2.0.0a26 (2026-06-08)
 
 
