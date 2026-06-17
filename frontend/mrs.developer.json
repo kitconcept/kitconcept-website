@@ -4,7 +4,7 @@
     "package": "@plone/volto",
     "url": "git@github.com:plone/volto.git",
     "https": "https://github.com/plone/volto.git",
-    "tag": "19.0.0-alpha.33",
+    "tag": "19.1.4",
     "filterBlobs": true
   },
   "volto-light-theme": {
@@ -13,7 +13,7 @@
     "package": "@kitconcept/volto-light-theme",
     "url": "git@github.com:kitconcept/volto-light-theme.git",
     "https": "https://github.com/kitconcept/volto-light-theme.git",
-    "tag": "8.0.0a25",
+    "tag": "8.0.0a30",
     "filterBlobs": true
   },
   "kitconcept-core": {
@@ -22,7 +22,7 @@
     "package": "@kitconcept/core",
     "url": "git@github.com:kitconcept/kitconcept-core.git",
     "https": "https://github.com/kitconcept/kitconcept-core.git",
-    "tag": "2.0.0a18"
+    "tag": "2.0.0a19"
   },
   "volto-banner-block": {
     "develop": true,
@@ -70,7 +70,7 @@
     "package": "@kitconcept/volto-dsgvo-banner",
     "url": "git@github.com:kitconcept/volto-dsgvo-banner.git",
     "https": "https://github.com/kitconcept/volto-dsgvo-banner.git",
-    "tag": "3.0.1"
+    "tag": "4.0.0-alpha.1"
   },
   "volto-heading-block": {
     "develop": true,
@@ -86,7 +86,7 @@
     "package": "@kitconcept/volto-highlight-block",
     "url": "git@github.com:kitconcept/volto-highlight-block.git",
     "https": "https://github.com/kitconcept/volto-highlight-block.git",
-    "tag": "4.5.1"
+    "tag": "5.0.0-alpha.0"
   },
   "volto-introduction-block": {
     "develop": true,

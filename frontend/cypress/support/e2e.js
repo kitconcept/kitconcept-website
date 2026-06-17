@@ -6,10 +6,20 @@ import { setup, teardown } from '@plone/volto/cypress/support/reset-fixture';
 
 beforeEach(function () {
   cy.log('Setting up API fixture');
-  setup();
+  cy.setCookie('confirm_google', '1');
+  cy.setCookie('confirm_cookies', '1');
+  cy.setCookie('confirm_tracking', '1');
+  cy.setCookie('confirm_facebook', '1');
+  cy.setCookie('confirm_vimeo', '1');
+  cy.setCookie('confirm_youtube', '1');
+  if (!Cypress.env('a11y')) {
+    setup();
+  }
 });
 
 afterEach(function () {
   cy.log('Tearing down API fixture');
-  teardown();
+  if (!Cypress.env('a11y')) {
+    teardown();
+  }
 });

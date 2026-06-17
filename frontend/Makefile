@@ -27,6 +27,9 @@ ADDON_NAME='@kitconcept/website'
 IMAGE_NAME=ghcr.io/kitconcept/kitconcept-website-frontend
 IMAGE_TAG=latest
 VOLTO_VERSION = $(shell cat ./mrs.developer.json | python -c "import sys, json; print(json.load(sys.stdin)['core']['tag'])")
+CYPRESS_SPEC_PATTERN ?= $(CURRENT_DIR)/cypress/tests/**/*.cy.{js,jsx,ts,tsx}
+CYPRESS_EXCLUDE_SPEC_PATTERN ?= $(CURRENT_DIR)/cypress/tests/a11y/**/*.cy.{js,jsx,ts,tsx}
+CYPRESS_A11Y_SPEC_PATTERN ?= $(CURRENT_DIR)/cypress/tests/a11y/**/*.cy.{js,jsx,ts,tsx}
 
 .PHONY: help
 help: ## Show this help
@@ -123,11 +126,11 @@ storybook-build: ## Build Storybook
 ## Acceptance
 .PHONY: acceptance-frontend-dev-start
 acceptance-frontend-dev-start: ## Start acceptance frontend in development mode
-	RAZZLE_API_PATH=http://127.0.0.1:55001/plone pnpm start
+	RAZZLE_INTERNAL_API_PATH=http://127.0.0.1:55001/plone NODE_OPTIONS=--dns-result-order=ipv4first pnpm start
 
 .PHONY: acceptance-frontend-prod-start
 acceptance-frontend-prod-start: ## Start acceptance frontend in production mode
-	RAZZLE_API_PATH=http://127.0.0.1:55001/plone pnpm build && pnpm start:prod
+	RAZZLE_INTERNAL_API_PATH=http://127.0.0.1:55001/plone pnpm build && pnpm start:prod
 
 .PHONY: acceptance-backend-start
 acceptance-backend-start: ## Start backend acceptance server
@@ -139,11 +142,19 @@ ci-acceptance-backend-start: ## Start backend acceptance server in headless mode
 
 .PHONY: acceptance-test
 acceptance-test: ## Start Cypress in interactive mode
-	pnpm --filter @plone/volto exec cypress open --config-file $(CURRENT_DIR)/cypress.config.js --config specPattern=$(CURRENT_DIR)'/cypress/tests/**/*.{js,jsx,ts,tsx}'
+	pnpm --filter @plone/volto exec cypress open --config-file $(CURRENT_DIR)/cypress.config.js --config specPattern='$(CYPRESS_SPEC_PATTERN)',excludeSpecPattern='$(CYPRESS_EXCLUDE_SPEC_PATTERN)'
 
 .PHONY: ci-acceptance-test
 ci-acceptance-test: ## Run cypress tests in headless mode for CI
-	pnpm --filter @plone/volto exec cypress run --config-file $(CURRENT_DIR)/cypress.config.js --config specPattern=$(CURRENT_DIR)'/cypress/tests/**/*.{js,jsx,ts,tsx}'
+	pnpm --filter @plone/volto exec cypress run --config-file $(CURRENT_DIR)/cypress.config.js --config specPattern='$(CYPRESS_SPEC_PATTERN)',excludeSpecPattern='$(CYPRESS_EXCLUDE_SPEC_PATTERN)'
+
+.PHONY: acceptance-a11y-test
+acceptance-a11y-test: ## Start a11y Cypress in interactive mode
+	CYPRESS_a11y=1 CYPRESS_API_PATH=http://localhost:8080/plone pnpm --filter @plone/volto exec cypress open --config-file $(CURRENT_DIR)/cypress.config.js --config specPattern='$(CYPRESS_A11Y_SPEC_PATTERN)'
+
+.PHONY: ci-acceptance-a11y-test
+ci-acceptance-a11y-test: ## Run a11y cypress tests in headless mode for CI
+	CYPRESS_a11y=1 CYPRESS_API_PATH=http://localhost:8080/plone pnpm --filter @plone/volto exec cypress run --config-file $(CURRENT_DIR)/cypress.config.js --config specPattern='$(CYPRESS_A11Y_SPEC_PATTERN)'
 
 .PHONY: build-image
 build-image:  ## Build Docker Image

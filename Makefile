@@ -19,7 +19,19 @@ VOLTO_VERSION := $(shell echo '$(REPOSITORY_SETTINGS)' | jq -r '.frontend.volto_
 KC_VERSION := $(shell echo '$(REPOSITORY_SETTINGS)' | jq -r '.backend.base_package_version')
 
 STACK_FILE := docker-compose-dev.yml
+STACK_FILE_DEV := docker-compose-dev.yml
+STACK_FILE_CI := docker-compose-ci.yml
+
+# Docker Compose Helpers
+STACK_PROFILE := $(if $(filter undefined,$(origin COMPOSE_PROFILES)),dev,$(COMPOSE_PROFILES))
 DOCKER_COMPOSE := VOLTO_VERSION=$(VOLTO_VERSION) KC_VERSION=$(KC_VERSION) docker compose
+COMPOSE_DEV := $(DOCKER_COMPOSE) -f $(STACK_FILE_DEV) --profile dev
+COMPOSE_ACCEPTANCE := $(DOCKER_COMPOSE) -f $(STACK_FILE_DEV) --profile acceptance
+COMPOSE_A11Y := $(DOCKER_COMPOSE) -f $(STACK_FILE_DEV) --profile a11y
+COMPOSE_CI := $(DOCKER_COMPOSE) -f $(STACK_FILE_DEV) -f $(STACK_FILE_CI) --profile $(STACK_PROFILE)
+
+# CI Test Command
+CI_TEST_COMMAND := $(if $(filter a11y,$(STACK_PROFILE)),ci-acceptance-a11y-test,ci-acceptance-test)
 
 # We like colors
 # From: https://coderwall.com/p/izxssa/colored-makefile-for-golang-projects
@@ -150,28 +162,28 @@ build-images:  ## Build docker images
 .PHONY: stack-start
 stack-start:  ## Local Stack: Start Services
 	@echo "Start local Docker stack"
-	$(DOCKER_COMPOSE) -f $(STACK_FILE) up -d --build
+	$(COMPOSE_DEV) up -d --build
 	@echo "Now visit: http://kitconcept-website.localhost"
 
 .PHONY: start-stack
 stack-create-site:  ## Local Stack: Create a new site
 	@echo "Create a new site in the local Docker stack"
-	$(DOCKER_COMPOSE) -f $(STACK_FILE) exec backend ./docker-entrypoint.sh create-site
+	$(COMPOSE_DEV) exec backend ./docker-entrypoint.sh create-site
 
 .PHONY: start-status
 stack-status:  ## Local Stack: Check Status
 	@echo "Check the status of the local Docker stack"
-	$(DOCKER_COMPOSE) -f $(STACK_FILE) ps
+	$(COMPOSE_DEV) ps
 
 .PHONY: stack-stop
 stack-stop:  ##  Local Stack: Stop Services
 	@echo "Stop local Docker stack"
-	$(DOCKER_COMPOSE) -f $(STACK_FILE) stop
+	$(COMPOSE_DEV) stop
 
 .PHONY: stack-rm
 stack-rm:  ## Local Stack: Remove Services and Volumes
 	@echo "Remove local Docker stack"
-	$(DOCKER_COMPOSE) -f $(STACK_FILE) down
+	$(COMPOSE_DEV) down
 	@echo "Remove local volume data"
 	@docker volume rm $(PROJECT_NAME)_vol-site-data
 
@@ -191,46 +203,78 @@ acceptance-test: ## Start Acceptance tests in interactive mode
 	@echo "Build acceptance backend"
 	$(MAKE) -C "./frontend/" acceptance-test
 
-# Build Docker images
-.PHONY: acceptance-frontend-image-build
-acceptance-frontend-image-build: ## Build Acceptance frontend server image
-	@echo "Build acceptance frontend"
-	@docker build frontend -t kitconcept/kitconcept-website-frontend:acceptance -f frontend/Dockerfile --build-arg VOLTO_VERSION=$(VOLTO_VERSION)
-
-.PHONY: acceptance-backend-image-build
-acceptance-backend-image-build: ## Build Acceptance backend server image
-	@echo "Build acceptance backend"
-	@docker build backend -t kitconcept/kitconcept-website-backend:acceptance -f backend/Dockerfile.acceptance --build-arg KC_VERSION=$(KC_VERSION)
-
 .PHONY: acceptance-images-build
 acceptance-images-build: ## Build Acceptance frontend/backend images
-	$(MAKE) acceptance-backend-image-build
-	$(MAKE) acceptance-frontend-image-build
+	@echo "Build acceptance images"
+	$(COMPOSE_ACCEPTANCE) build
 
 .PHONY: acceptance-frontend-container-start
 acceptance-frontend-container-start: ## Start Acceptance frontend container
 	@echo "Start acceptance frontend"
-	@docker run --rm -p 3000:3000 --name kitconcept-website-frontend-acceptance --link kitconcept-website-backend-acceptance:backend -e RAZZLE_API_PATH=http://localhost:55001/plone -e RAZZLE_INTERNAL_API_PATH=http://backend:55001/plone -d kitconcept/kitconcept-website-frontend:acceptance
+	$(COMPOSE_ACCEPTANCE) up -d frontend-acceptance
 
 .PHONY: acceptance-backend-container-start
 acceptance-backend-container-start: ## Start Acceptance backend container
 	@echo "Start acceptance backend"
-	@docker run --rm -p 55001:55001 --name kitconcept-website-backend-acceptance -d kitconcept/kitconcept-website-backend:acceptance
+	$(COMPOSE_ACCEPTANCE) up -d backend-acceptance
 
 .PHONY: acceptance-containers-start
 acceptance-containers-start: ## Start Acceptance containers
-	$(MAKE) acceptance-backend-container-start
-	$(MAKE) acceptance-frontend-container-start
+	@echo "Start acceptance containers"
+	$(COMPOSE_ACCEPTANCE) up -d
 
 .PHONY: acceptance-containers-stop
 acceptance-containers-stop: ## Stop Acceptance containers
 	@echo "Stop acceptance containers"
-	@docker stop kitconcept-website-frontend-acceptance
-	@docker stop kitconcept-website-backend-acceptance
+	$(COMPOSE_ACCEPTANCE) down
+
+.PHONY: acceptance-a11y-containers-start
+acceptance-a11y-containers-start: ## Start A11y containers
+	@echo "Start acceptance a11y containers"
+	$(COMPOSE_A11Y) up -d
+
+.PHONY: acceptance-a11y-containers-stop
+acceptance-a11y-containers-stop: ## Stop A11y containers
+	@echo "Stop acceptance a11y containers"
+	$(COMPOSE_A11Y) down
+
+.PHONY: ci-images-load
+ci-images-load: ## Load container images in CI
+	@echo "Load container images"
+	$(COMPOSE_CI) pull
+
+.PHONY: ci-containers-start
+ci-containers-start: ## Start Acceptance containers
+	@echo "Start containers"
+	$(COMPOSE_CI) up
 
 .PHONY: ci-acceptance-test
 ci-acceptance-test: ## Run Acceptance tests in ci mode
-	$(MAKE) acceptance-containers-start
-	pnpm dlx wait-on --httpTimeout 20000 http-get://localhost:55001/plone http://localhost:3000
 	$(MAKE) -C "./frontend/" ci-acceptance-test
+
+.PHONY: ci-acceptance-a11y-test
+ci-acceptance-a11y-test: ## Run a11y cypress tests in headless mode for CI
+	$(MAKE) -C "./frontend/" ci-acceptance-a11y-test
+
+.PHONY: ci-test
+ci-test: ## Run Acceptance tests in ci mode
+	@echo "Run tests"
+	$(MAKE) $(CI_TEST_COMMAND)
+
+.PHONY: ci-acceptance-test-complete
+ci-acceptance-test-complete: ## Simulate CI acceptance test run
+	@echo "Simulate CI acceptance test run"
+	$(MAKE) acceptance-containers-start
+	@echo "- Waiting for backend and frontend to be ready"
+	pnpx wait-on --httpTimeout 20000 http-get://localhost:55001/plone http://localhost:3000
+	-$(MAKE) -C "./frontend/" ci-acceptance-test || true
 	$(MAKE) acceptance-containers-stop
+
+.PHONY: ci-a11y-test-complete
+ci-a11y-test-complete: ## Simulate CI a11y test run
+	@echo "Simulate CI a11y test run"
+	$(MAKE) acceptance-a11y-containers-start
+	@echo "- Waiting for backend and frontend to be ready"
+	pnpx wait-on --httpTimeout 20000 http-get://localhost:8080/plone http://localhost:3000
+	-$(MAKE) -C "./frontend/" ci-acceptance-a11y-test || true
+	$(MAKE) acceptance-a11y-containers-stop

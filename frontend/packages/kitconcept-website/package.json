@@ -1,6 +1,6 @@
 {
   "name": "@kitconcept/website",
-  "version": "2.0.0-alpha.23",
+  "version": "2.0.0-alpha.27",
   "description": "A CMS solution for public websites. Created by kitconcept.",
   "main": "src/index.ts",
   "license": "MIT",
@@ -64,7 +64,7 @@
     "@kitconcept/core"
   ],
   "dependencies": {
-    "@eeacms/volto-accordion-block": "^10.4.6",
+    "@eeacms/volto-accordion-block": "^12.0.0",
     "@kitconcept/core": "workspace:*",
     "@kitconcept/volto-light-theme": "workspace:*",
     "@kitconcept/volto-banner-block": "workspace:*",
@@ -84,5 +84,5 @@
     "@plone/volto-form-block": "^1.0.0-alpha.0",
     "@plone-collective/volto-image-editor": "1.0.1"
   },
-  "volto_version": "19.0.0-alpha.33"
+  "volto_version": "19.1.4"
 }

@@ -17,6 +17,7 @@ DEFAULT_ANSWERS = {
     "site_id": "plone",
     "title": "Site",
     "description": "Site created with A CMS solution for public websites. Created by kitconcept.",  # noQA: E501
+    "available_languages": ["en"],
     "default_language": "en",
     "portal_timezone": "Europe/Berlin",
     "setup_content": True,
@@ -78,6 +79,7 @@ class Layer(PloneSandboxLayer):
 
 
 FIXTURE = Layer()
+
 
 INTEGRATION_TESTING = IntegrationTesting(
     bases=(FIXTURE,),

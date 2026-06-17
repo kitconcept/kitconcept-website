@@ -4,5 +4,6 @@
     >
 
   <include package=".v20260304001" />
+  <include package=".v20260611001" />
 
 </configure>
