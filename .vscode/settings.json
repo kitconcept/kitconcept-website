@@ -1,7 +1,5 @@
 {
   "eslint.workingDirectories": ["./frontend"],
-  "flake8.cwd": "${workspaceFolder}/backend",
-  "flake8.args": ["--config=pyproject.toml"],
   "ruff.organizeImports": true,
   "python.terminal.activateEnvironment": true,
   "python.testing.pytestArgs": [
@@ -31,5 +29,9 @@
     "titleBar.inactiveBackground": "#1f293799",
     "titleBar.inactiveForeground": "#e7e7e799"
   },
-  "peacock.color": "#1f2937"
+"python-envs.workspaceSearchPaths": [
+    "backend/.venv",
+    ".venv",
+    "*/.venv"
+ ]
 }
