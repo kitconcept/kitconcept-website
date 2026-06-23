@@ -3,8 +3,8 @@ import pytest
 
 class TestSiteCreation:
     @pytest.fixture(autouse=True)
-    def _setup(self, create_site, answers):
-        self.portal = create_site(answers)
+    def _setup(self, portal):
+        self.portal = portal
 
     @pytest.mark.parametrize(
         "profile_id",
@@ -29,7 +29,7 @@ class TestSiteCreation:
             ["github/consumer_key", "gh-32510011"],
             ["github/consumer_secret", "12345678"],
             ["github/scope", ["read:user", "user:email"]],
-            ["github/access_headers/User-Agent", "Plone (kitconcept.website)"],
+            ["github/access_headers/User-Agent", "Plone (kitconcept.core)"],
         ],
     )
     def test_authomatic_settings(self, traverse, authomatic_config, path, expected):

@@ -10,9 +10,9 @@
       title="kitconcept Website"
       description="A CMS solution for public websites. Created by kitconcept."
       directory="distributions/website"
-      handler=".handlers.handler"
-      post_handler=".handlers.post_handler"
-      pre_handler=".handlers.pre_handler"
+      handler="kitconcept.core.utils.distributions.handler"
+      post_handler="kitconcept.core.utils.distributions.post_handler"
+      pre_handler="kitconcept.core.utils.distributions.pre_handler"
       profile_id="kitconcept.core:base"
       />
 

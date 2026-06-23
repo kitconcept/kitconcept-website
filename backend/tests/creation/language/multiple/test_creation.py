@@ -21,7 +21,7 @@ class TestSiteCreation:
 
     def test_plone_app_multilingual_installed(self):
         st: SetupTool = api.portal.get_tool("portal_setup")
-        installation_date = st.getProfileImportDate(
+        installed_version = st.getLastVersionForProfile(
             "profile-plone.app.multilingual:default"
         )
-        assert installation_date is not None
+        assert installed_version != "unknown"

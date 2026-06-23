@@ -1,21 +1,43 @@
+from Acquisition import aq_parent
+from collections.abc import Generator
 from plone.dexterity.fti import DexterityFTI
+from Products.CMFPlone.Portal import PloneSite
 
 import pytest
 
 
-@pytest.mark.skip(reason="Only available if plone.app.multilingual is installed")
+@pytest.fixture(scope="session")
+def answers() -> dict:
+    return {
+        "site_id": "plone2",
+        "title": "Test Site",
+        "description": "Testing site.",
+        "available_languages": ["de", "en"],
+        "default_language": "de",
+        "portal_timezone": "UTC",
+        "setup_content": False,
+    }
+
+
+@pytest.fixture(scope="class")
+def portal(portal_class, create_site, answers) -> Generator[PloneSite, None, None]:
+    app = aq_parent(portal_class)
+    site = create_site(app=app, answers=answers)
+    yield site
+
+
 class TestContentTypeFTI:
     portal_type: str = "LRF"
 
     @pytest.fixture(autouse=True)
-    def _setup(self, portal, get_fti):
+    def _setup(self, portal, get_fti) -> None:
         self.portal = portal
         self.fti: DexterityFTI = get_fti(self.portal_type)
 
     @pytest.mark.parametrize(
         "attr,expected",
         [
-            ("title", "LRF"),
+            ("title", "Language Root Folder"),
             ("global_allow", False),
         ],
     )
