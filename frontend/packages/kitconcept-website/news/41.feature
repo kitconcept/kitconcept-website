@@ -1,1 +1,0 @@
-Add Person content type styled @iRohitSingh

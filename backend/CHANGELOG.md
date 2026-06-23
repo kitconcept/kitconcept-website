@@ -2,6 +2,19 @@
 
 <!-- towncrier release notes start -->
 
+## 2.0.0b1 (2026-06-23)
+
+
+### Feature
+
+- Upgrade kitconcept.core to version 2.0.0b1. @ericof [#66](https://gitlab.kitconcept.io/kitconcept/distribution-kitconcept-website/-/work_items/66)
+
+
+### Internal
+
+- Delegate distribution handlers and site creation to kitconcept.core, and read site-creation answers from environment variables. @ericof 
+- Remove dependencies pas.plugins.authomatic, pas.plugins.keycloakgroups. and pas.plugins.oidc, that are now provided by kitconcept.core @ericof 
+
 ## 2.0.0a27 (2026-06-12)
 
 

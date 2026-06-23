@@ -1,1 +1,0 @@
-Delegate distribution handlers and site creation to kitconcept.core, and read site-creation answers from environment variables. @ericof

@@ -1,6 +1,41 @@
 # Changelog
 
 <!-- towncrier release notes start -->
+## 2.0.0b1 (2026-06-23)
+
+### Backend
+
+
+#### Feature
+
+- Upgrade kitconcept.core to version 2.0.0b1. @ericof [#66](https://gitlab.kitconcept.io/kitconcept/distribution-kitconcept-website/-/work_items/66)
+
+
+#### Internal
+
+- Delegate distribution handlers and site creation to kitconcept.core, and read site-creation answers from environment variables. @ericof 
+- Remove dependencies pas.plugins.authomatic, pas.plugins.keycloakgroups. and pas.plugins.oidc, that are now provided by kitconcept.core @ericof 
+
+
+
+### Frontend
+
+#### Feature
+
+- Add Person content type styled @iRohitSingh [#41](https://github.com/kitconcept/kitconcept-website/issue/41)
+- Upgrade kitconcept-core to version 2.0.0-beta.1. @ericof [#66](https://github.com/kitconcept/kitconcept-website/issue/66)
+
+
+
+### Project
+
+
+#### Internal
+
+- Updated .vscode settings to handle the new `python-envs` extension. @ericof 
+
+
+
 ## 2.0.0a27 (2026-06-12)
 
 ### Backend

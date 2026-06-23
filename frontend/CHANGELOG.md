@@ -8,6 +8,13 @@
 
 <!-- towncrier release notes start -->
 
+## 2.0.0-beta.1 (2026-06-23)
+
+### Feature
+
+- Add Person content type styled @iRohitSingh [#41](https://github.com/kitconcept/kitconcept-website/issue/41)
+- Upgrade kitconcept-core to version 2.0.0-beta.1. @ericof [#66](https://github.com/kitconcept/kitconcept-website/issue/66)
+
 ## 2.0.0-alpha.27 (2026-06-12)
 
 ### Bugfix
