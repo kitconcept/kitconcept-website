@@ -3790,7 +3790,7 @@ wheels = [
 
 [[package]]
 name = "plone-volto"
-version = "5.2.0"
+version = "6.0.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "collective-monkeypatcher" },
@@ -3800,11 +3800,10 @@ dependencies = [
     { name = "plone-distribution" },
     { name = "plone-restapi" },
     { name = "products-cmfplone" },
-    { name = "setuptools" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/4f/54/3cdc2571bbabb3d7daf019df71e7c009df476300eee348d00a9b0c216b87/plone_volto-5.2.0.tar.gz", hash = "sha256:cca55193b80b9e39182b3860bb0b4a0974ca2039611fd286f4cfff90173adc5e", size = 261569, upload-time = "2025-06-17T02:39:38.43Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/d1/ab/8df4f7150a12a2acaf6241857da4c1ade52bf998545b6278c51c4744154f/plone_volto-6.0.0.tar.gz", hash = "sha256:2a8a54a76a50be5066d16a060be4e531fab2c3933cca39e044c257238ccb9136", size = 271867, upload-time = "2026-05-18T09:10:19.812Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/47/fd/2d86baf3a1f5e9d0cd1c97cb9e842b7ea98f2d1c243167791c6da24fa4ee/plone_volto-5.2.0-py3-none-any.whl", hash = "sha256:ca481022c5bcb08291026f60d415cc0970658c9adf84b044bb94eda017045bb9", size = 273023, upload-time = "2025-06-17T02:39:36.957Z" },
+    { url = "https://files.pythonhosted.org/packages/68/98/f333ff9b9ca1242efda401a8f3b1eb1be6a59597efabd1bba3ee9c57dfa1/plone_volto-6.0.0-py3-none-any.whl", hash = "sha256:c13b877000e1cf7f48c550414d85f514646fdbb4c58e6be2365ef0114049452d", size = 282348, upload-time = "2026-05-18T09:10:16.267Z" },
 ]
 
 [[package]]
