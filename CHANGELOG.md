@@ -1,6 +1,32 @@
 # Changelog
 
 <!-- towncrier release notes start -->
+## 2.0.0b2 (2026-06-25)
+
+### Backend
+
+
+#### Bugfix
+
+- Upgrade plone.volto in lock to 6.0.0 @sneridagh @jnptk [#43](https://gitlab.kitconcept.io/kitconcept/distribution-kitconcept-website/-/work_items/43)
+
+
+
+### Frontend
+
+#### Internal
+
+- Fix tests for Plone 6.2.0 @sneridagh [#43](https://github.com/kitconcept/kitconcept-website/issue/43)
+
+
+
+### Project
+
+No significant changes.
+
+
+
+
 ## 2.0.0b1 (2026-06-23)
 
 ### Backend

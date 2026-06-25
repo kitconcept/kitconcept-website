@@ -8,6 +8,12 @@
 
 <!-- towncrier release notes start -->
 
+## 2.0.0-beta.2 (2026-06-25)
+
+### Internal
+
+- Fix tests for Plone 6.2.0 @sneridagh [#43](https://github.com/kitconcept/kitconcept-website/issue/43)
+
 ## 2.0.0-beta.1 (2026-06-23)
 
 ### Feature
