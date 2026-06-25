@@ -2,7 +2,9 @@
   "eslint.workingDirectories": ["./frontend"],
   "ruff.organizeImports": true,
   "python.terminal.activateEnvironment": true,
-  "python.testing.pytestArgs": ["backend/tests"],
+  "python.testing.pytestArgs": [
+    "backend/tests"
+  ],
   "python.testing.unittestEnabled": false,
   "python.testing.pytestEnabled": true,
   "[markdown]": {
@@ -27,5 +29,9 @@
     "titleBar.inactiveBackground": "#1f293799",
     "titleBar.inactiveForeground": "#e7e7e799"
   },
-  "python-envs.workspaceSearchPaths": ["backend/.venv", ".venv", "*/.venv"]
+"python-envs.workspaceSearchPaths": [
+    "backend/.venv",
+    ".venv",
+    "*/.venv"
+ ]
 }
