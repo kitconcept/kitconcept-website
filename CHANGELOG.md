@@ -1,6 +1,29 @@
 # Changelog
 
 <!-- towncrier release notes start -->
+## 2.0.0b3 (2026-06-30)
+
+### Backend
+
+
+#### Internal
+
+- Fixed missing deps in `pyproject.toml`. @sneridagh 
+
+
+
+### Frontend
+
+No significant changes.
+
+
+### Project
+
+No significant changes.
+
+
+
+
 ## 2.0.0b2 (2026-06-25)
 
 ### Backend

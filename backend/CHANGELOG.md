@@ -2,6 +2,13 @@
 
 <!-- towncrier release notes start -->
 
+## 2.0.0b3 (2026-06-30)
+
+
+### Internal
+
+- Fixed missing deps in `pyproject.toml`. @sneridagh 
+
 ## 2.0.0b2 (2026-06-25)
 
 
