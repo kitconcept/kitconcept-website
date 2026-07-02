@@ -2,6 +2,18 @@
 
 <!-- towncrier release notes start -->
 
+## 2.0.0b4 (2026-07-02)
+
+
+### Feature
+
+- Upgraded kitconcept.core to version 2.0.0b2. @ericof [#70](https://gitlab.kitconcept.io/kitconcept/distribution-kitconcept-website/-/work_items/70)
+
+
+### Internal
+
+- Refactored the create_site script to use helper functions from kitconcept.core. @ericof [#70](https://gitlab.kitconcept.io/kitconcept/distribution-kitconcept-website/-/work_items/70)
+
 ## 2.0.0b3 (2026-06-30)
 
 

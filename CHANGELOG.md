@@ -1,6 +1,39 @@
 # Changelog
 
 <!-- towncrier release notes start -->
+## 2.0.0b4 (2026-07-02)
+
+### Backend
+
+
+#### Feature
+
+- Upgraded kitconcept.core to version 2.0.0b2. @ericof [#70](https://gitlab.kitconcept.io/kitconcept/distribution-kitconcept-website/-/work_items/70)
+
+
+#### Internal
+
+- Refactored the create_site script to use helper functions from kitconcept.core. @ericof [#70](https://gitlab.kitconcept.io/kitconcept/distribution-kitconcept-website/-/work_items/70)
+
+
+
+### Frontend
+
+#### Feature
+
+- Upgraded @kitconcept/core to version 2.0.0-beta.2. @ericof [#70](https://github.com/kitconcept/kitconcept-website/issue/70)
+
+
+
+### Project
+
+
+#### Internal
+
+- Updated Python version to 3.14. @ericof [#70](https://github.com/kitconcept/kitconcept-website/pull/70)
+
+
+
 ## 2.0.0b3 (2026-06-30)
 
 ### Backend

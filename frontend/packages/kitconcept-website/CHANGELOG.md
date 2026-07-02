@@ -8,6 +8,12 @@
 
 <!-- towncrier release notes start -->
 
+## 2.0.0-beta.4 (2026-07-02)
+
+### Feature
+
+- Upgraded @kitconcept/core to version 2.0.0-beta.2. @ericof [#70](https://github.com/kitconcept/kitconcept-website/issue/70)
+
 ## 2.0.0-beta.3 (2026-06-30)
 
 ## 2.0.0-beta.2 (2026-06-25)
