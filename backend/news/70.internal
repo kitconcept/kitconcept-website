@@ -1,0 +1,1 @@
+Refactored the create_site script to use helper functions from kitconcept.core. @ericof

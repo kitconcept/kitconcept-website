@@ -10,7 +10,7 @@ on:
       python-version:
         required: false
         type: string
-        default: "3.12"
+        default: "3.14"
       stack-name:
         required: false
         type: string

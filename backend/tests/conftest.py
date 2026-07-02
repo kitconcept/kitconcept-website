@@ -6,7 +6,6 @@ from plone.app.testing.interfaces import SITE_OWNER_NAME
 from Products.CMFPlone.Portal import PloneSite
 from pytest_plone import fixtures_factory
 from typing import Any
-from zope.component.hooks import site
 
 import pytest
 
@@ -24,17 +23,6 @@ globals().update(
 def distribution_name() -> str:
     """Distribution name."""
     return "kitconcept-website"
-
-
-@pytest.fixture(scope="class")
-def portal_class(integration_class):
-    if hasattr(integration_class, "testSetUp"):
-        integration_class.testSetUp()
-    portal = integration_class["portal"]
-    with site(portal):
-        yield portal
-    if hasattr(integration_class, "testTearDown"):
-        integration_class.testTearDown()
 
 
 @pytest.fixture
