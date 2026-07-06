@@ -1,6 +1,41 @@
 # Changelog
 
 <!-- towncrier release notes start -->
+## 2.0.0b5 (2026-07-06)
+
+### Backend
+
+
+#### Feature
+
+- Upgrade kitconcept.core to version 2.0.0b3 @ericof [#72](https://gitlab.kitconcept.io/kitconcept/distribution-kitconcept-website/-/work_items/72)
+
+
+#### Internal
+
+- Update utils/scripts.py and scripts/create_site.py to accept additional_profiles to be used @ericof [#72](https://gitlab.kitconcept.io/kitconcept/distribution-kitconcept-website/-/work_items/72)
+
+
+
+### Frontend
+
+#### Feature
+
+- Upgrade to @kitconcept/core 2.0.0-beta.3 @ericof [#72](https://github.com/kitconcept/kitconcept-website/issue/72)
+
+#### Internal
+
+- Volto 19.1.5. @sneridagh 
+
+
+
+### Project
+
+No significant changes.
+
+
+
+
 ## 2.0.0b4 (2026-07-02)
 
 ### Backend

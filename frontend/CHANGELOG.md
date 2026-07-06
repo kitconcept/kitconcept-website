@@ -8,6 +8,16 @@
 
 <!-- towncrier release notes start -->
 
+## 2.0.0-beta.5 (2026-07-06)
+
+### Feature
+
+- Upgrade to @kitconcept/core 2.0.0-beta.3 @ericof [#72](https://github.com/kitconcept/kitconcept-website/issue/72)
+
+### Internal
+
+- Volto 19.1.5. @sneridagh 
+
 ## 2.0.0-beta.4 (2026-07-02)
 
 ### Feature

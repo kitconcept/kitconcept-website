@@ -2,6 +2,18 @@
 
 <!-- towncrier release notes start -->
 
+## 2.0.0b5 (2026-07-06)
+
+
+### Feature
+
+- Upgrade kitconcept.core to version 2.0.0b3 @ericof [#72](https://gitlab.kitconcept.io/kitconcept/distribution-kitconcept-website/-/work_items/72)
+
+
+### Internal
+
+- Update utils/scripts.py and scripts/create_site.py to accept additional_profiles to be used @ericof [#72](https://gitlab.kitconcept.io/kitconcept/distribution-kitconcept-website/-/work_items/72)
+
 ## 2.0.0b4 (2026-07-02)
 
 
