@@ -1,5 +1,5 @@
 # syntax=docker/dockerfile:1.9
-ARG PYTHON_VERSION=3.12
+ARG PYTHON_VERSION=3.14
 FROM plone/server-builder:uv-${PYTHON_VERSION} AS builder
 
 # Install dependencies
