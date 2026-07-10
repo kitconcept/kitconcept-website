@@ -2,6 +2,18 @@
 
 <!-- towncrier release notes start -->
 
+## 2.0.0b6 (2026-07-10)
+
+
+### Bugfix
+
+- Fix python version conflict in docker builds. [@jnptk] 
+
+
+### Internal
+
+- Upgrade kitconcept.core to version 2.0.0b4 and plone.formblock to 1.0.0a3 @ericof [#73](https://gitlab.kitconcept.io/kitconcept/distribution-kitconcept-website/-/work_items/73)
+
 ## 2.0.0b5 (2026-07-06)
 
 

@@ -8,6 +8,16 @@
 
 <!-- towncrier release notes start -->
 
+## 2.0.0-beta.6 (2026-07-10)
+
+### Feature
+
+- Upgrade @plone/volto-form-block to version 1.0.0-alpha.3 @ericof [#73](https://github.com/kitconcept/kitconcept-website/issue/73)
+
+### Internal
+
+- Upgrade to @kitconcept/core 2.0.0-beta.4 @ericof [#73](https://github.com/kitconcept/kitconcept-website/issue/73)
+
 ## 2.0.0-beta.5 (2026-07-06)
 
 ### Feature
