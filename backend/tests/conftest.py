@@ -1,9 +1,5 @@
-from kitconcept.core.factory import add_site
 from kitconcept.website.testing import FUNCTIONAL_TESTING
 from kitconcept.website.testing import INTEGRATION_TESTING
-from plone import api
-from plone.app.testing.interfaces import SITE_OWNER_NAME
-from Products.CMFPlone.Portal import PloneSite
 from pytest_plone import fixtures_factory
 from typing import Any
 
@@ -76,13 +72,3 @@ def prepare_answers():
 @pytest.fixture(scope="session")
 def answers(prepare_answers) -> dict:
     return prepare_answers()
-
-
-@pytest.fixture(scope="session")
-def create_site(distribution_name):
-    def func(app, answers: dict) -> PloneSite:
-        with api.env.adopt_user(SITE_OWNER_NAME):
-            site = add_site(app, distribution=distribution_name, **answers)
-        return site
-
-    return func
