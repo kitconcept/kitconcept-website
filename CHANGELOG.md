@@ -1,6 +1,29 @@
 # Changelog
 
 <!-- towncrier release notes start -->
+## 2.0.0b7 (2026-07-14)
+
+### Backend
+
+
+#### Internal
+
+- Upgrade `pytest-plone` to version 1.1.0 and adopt its new `create_site` / `app_class` fixtures in the test suite. @ericof [#74](https://gitlab.kitconcept.io/kitconcept/distribution-kitconcept-website/-/work_items/74)
+
+
+
+### Frontend
+
+No significant changes.
+
+
+### Project
+
+No significant changes.
+
+
+
+
 ## 2.0.0b6 (2026-07-10)
 
 ### Backend
