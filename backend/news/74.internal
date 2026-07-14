@@ -1,0 +1,1 @@
+Upgrade `pytest-plone` to version 1.1.0 and adopt its new `create_site` / `app_class` fixtures in the test suite. @ericof
