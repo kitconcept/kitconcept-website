@@ -1,33 +1,10 @@
-from plone import api
-from plone.app.testing.interfaces import SITE_OWNER_NAME
-from plone.distribution.api import site as site_api
+from collections.abc import Generator
 from Products.CMFPlone.Portal import PloneSite
-from zope.component.hooks import setSite
 
 import pytest
 
 
-@pytest.fixture()
-def app(functional):
-    return functional["app"]
-
-
-@pytest.fixture()
-def http_request(functional):
-    return functional["request"]
-
-
-@pytest.fixture()
-def answers(prepare_answers) -> dict:
-    return prepare_answers()
-
-
-@pytest.fixture
-def create_site(app, distribution_name):
-    def func(answers: dict) -> PloneSite:
-        with api.env.adopt_user(SITE_OWNER_NAME):
-            site = site_api.create(app, distribution_name, answers)
-            setSite(site)
-        return site
-
-    return func
+@pytest.fixture(scope="class")
+def portal(app_class, create_site, answers) -> Generator[PloneSite, None, None]:
+    site = create_site(app=app_class, answers=answers)
+    yield site

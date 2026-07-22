@@ -2,7 +2,6 @@ from kitconcept.website.testing import FUNCTIONAL_TESTING
 from kitconcept.website.testing import INTEGRATION_TESTING
 from pytest_plone import fixtures_factory
 from typing import Any
-from zope.component.hooks import site
 
 import pytest
 
@@ -20,17 +19,6 @@ globals().update(
 def distribution_name() -> str:
     """Distribution name."""
     return "kitconcept-website"
-
-
-@pytest.fixture(scope="class")
-def portal_class(integration_class):
-    if hasattr(integration_class, "testSetUp"):
-        integration_class.testSetUp()
-    portal = integration_class["portal"]
-    with site(portal):
-        yield portal
-    if hasattr(integration_class, "testTearDown"):
-        integration_class.testTearDown()
 
 
 @pytest.fixture
@@ -79,3 +67,8 @@ def prepare_answers():
         }
 
     return func
+
+
+@pytest.fixture(scope="session")
+def answers(prepare_answers) -> dict:
+    return prepare_answers()

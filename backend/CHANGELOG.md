@@ -2,6 +2,76 @@
 
 <!-- towncrier release notes start -->
 
+## 2.0.0b7 (2026-07-14)
+
+
+### Internal
+
+- Upgrade `pytest-plone` to version 1.1.0 and adopt its new `create_site` / `app_class` fixtures in the test suite. @ericof [#74](https://gitlab.kitconcept.io/kitconcept/distribution-kitconcept-website/-/work_items/74)
+
+## 2.0.0b6 (2026-07-10)
+
+
+### Bugfix
+
+- Fix python version conflict in docker builds. [@jnptk] 
+
+
+### Internal
+
+- Upgrade kitconcept.core to version 2.0.0b4 and plone.formblock to 1.0.0a3 @ericof [#73](https://gitlab.kitconcept.io/kitconcept/distribution-kitconcept-website/-/work_items/73)
+
+## 2.0.0b5 (2026-07-06)
+
+
+### Feature
+
+- Upgrade kitconcept.core to version 2.0.0b3 @ericof [#72](https://gitlab.kitconcept.io/kitconcept/distribution-kitconcept-website/-/work_items/72)
+
+
+### Internal
+
+- Update utils/scripts.py and scripts/create_site.py to accept additional_profiles to be used @ericof [#72](https://gitlab.kitconcept.io/kitconcept/distribution-kitconcept-website/-/work_items/72)
+
+## 2.0.0b4 (2026-07-02)
+
+
+### Feature
+
+- Upgraded kitconcept.core to version 2.0.0b2. @ericof [#70](https://gitlab.kitconcept.io/kitconcept/distribution-kitconcept-website/-/work_items/70)
+
+
+### Internal
+
+- Refactored the create_site script to use helper functions from kitconcept.core. @ericof [#70](https://gitlab.kitconcept.io/kitconcept/distribution-kitconcept-website/-/work_items/70)
+
+## 2.0.0b3 (2026-06-30)
+
+
+### Internal
+
+- Fixed missing deps in `pyproject.toml`. @sneridagh 
+
+## 2.0.0b2 (2026-06-25)
+
+
+### Bugfix
+
+- Upgrade plone.volto in lock to 6.0.0 @sneridagh @jnptk [#43](https://gitlab.kitconcept.io/kitconcept/distribution-kitconcept-website/-/work_items/43)
+
+## 2.0.0b1 (2026-06-23)
+
+
+### Feature
+
+- Upgrade kitconcept.core to version 2.0.0b1. @ericof [#66](https://gitlab.kitconcept.io/kitconcept/distribution-kitconcept-website/-/work_items/66)
+
+
+### Internal
+
+- Delegate distribution handlers and site creation to kitconcept.core, and read site-creation answers from environment variables. @ericof 
+- Remove dependencies pas.plugins.authomatic, pas.plugins.keycloakgroups. and pas.plugins.oidc, that are now provided by kitconcept.core @ericof 
+
 ## 2.0.0a27 (2026-06-12)
 
 

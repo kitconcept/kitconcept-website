@@ -1,7 +1,7 @@
 import pytest
 
 
-@pytest.fixture()
+@pytest.fixture(scope="class")
 def answers():
     return {
         "site_id": "site",

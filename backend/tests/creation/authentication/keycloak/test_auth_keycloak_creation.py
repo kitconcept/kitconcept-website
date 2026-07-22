@@ -5,8 +5,8 @@ import pytest
 
 class TestSiteCreation:
     @pytest.fixture(autouse=True)
-    def _setup(self, create_site, answers):
-        self.portal = create_site(answers)
+    def _setup(self, portal):
+        self.portal = portal
 
     @pytest.mark.parametrize(
         "profile_id",

@@ -1,6 +1,216 @@
 # Changelog
 
 <!-- towncrier release notes start -->
+## 2.0.0b7 (2026-07-14)
+
+### Backend
+
+
+#### Internal
+
+- Upgrade `pytest-plone` to version 1.1.0 and adopt its new `create_site` / `app_class` fixtures in the test suite. @ericof [#74](https://gitlab.kitconcept.io/kitconcept/distribution-kitconcept-website/-/work_items/74)
+
+
+
+### Frontend
+
+No significant changes.
+
+
+### Project
+
+No significant changes.
+
+
+
+
+## 2.0.0b6 (2026-07-10)
+
+### Backend
+
+
+#### Bugfix
+
+- Fix python version conflict in docker builds. [@jnptk] 
+
+
+#### Internal
+
+- Upgrade kitconcept.core to version 2.0.0b4 and plone.formblock to 1.0.0a3 @ericof [#73](https://gitlab.kitconcept.io/kitconcept/distribution-kitconcept-website/-/work_items/73)
+
+
+
+### Frontend
+
+#### Feature
+
+- Upgrade @plone/volto-form-block to version 1.0.0-alpha.3 @ericof [#73](https://github.com/kitconcept/kitconcept-website/issue/73)
+
+#### Internal
+
+- Upgrade to @kitconcept/core 2.0.0-beta.4 @ericof [#73](https://github.com/kitconcept/kitconcept-website/issue/73)
+
+
+
+### Project
+
+No significant changes.
+
+
+
+
+## 2.0.0b5 (2026-07-06)
+
+### Backend
+
+
+#### Feature
+
+- Upgrade kitconcept.core to version 2.0.0b3 @ericof [#72](https://gitlab.kitconcept.io/kitconcept/distribution-kitconcept-website/-/work_items/72)
+
+
+#### Internal
+
+- Update utils/scripts.py and scripts/create_site.py to accept additional_profiles to be used @ericof [#72](https://gitlab.kitconcept.io/kitconcept/distribution-kitconcept-website/-/work_items/72)
+
+
+
+### Frontend
+
+#### Feature
+
+- Upgrade to @kitconcept/core 2.0.0-beta.3 @ericof [#72](https://github.com/kitconcept/kitconcept-website/issue/72)
+
+#### Internal
+
+- Volto 19.1.5. @sneridagh 
+
+
+
+### Project
+
+No significant changes.
+
+
+
+
+## 2.0.0b4 (2026-07-02)
+
+### Backend
+
+
+#### Feature
+
+- Upgraded kitconcept.core to version 2.0.0b2. @ericof [#70](https://gitlab.kitconcept.io/kitconcept/distribution-kitconcept-website/-/work_items/70)
+
+
+#### Internal
+
+- Refactored the create_site script to use helper functions from kitconcept.core. @ericof [#70](https://gitlab.kitconcept.io/kitconcept/distribution-kitconcept-website/-/work_items/70)
+
+
+
+### Frontend
+
+#### Feature
+
+- Upgraded @kitconcept/core to version 2.0.0-beta.2. @ericof [#70](https://github.com/kitconcept/kitconcept-website/issue/70)
+
+
+
+### Project
+
+
+#### Internal
+
+- Updated Python version to 3.14. @ericof [#70](https://github.com/kitconcept/kitconcept-website/pull/70)
+
+
+
+## 2.0.0b3 (2026-06-30)
+
+### Backend
+
+
+#### Internal
+
+- Fixed missing deps in `pyproject.toml`. @sneridagh 
+
+
+
+### Frontend
+
+No significant changes.
+
+
+### Project
+
+No significant changes.
+
+
+
+
+## 2.0.0b2 (2026-06-25)
+
+### Backend
+
+
+#### Bugfix
+
+- Upgrade plone.volto in lock to 6.0.0 @sneridagh @jnptk [#43](https://gitlab.kitconcept.io/kitconcept/distribution-kitconcept-website/-/work_items/43)
+
+
+
+### Frontend
+
+#### Internal
+
+- Fix tests for Plone 6.2.0 @sneridagh [#43](https://github.com/kitconcept/kitconcept-website/issue/43)
+
+
+
+### Project
+
+No significant changes.
+
+
+
+
+## 2.0.0b1 (2026-06-23)
+
+### Backend
+
+
+#### Feature
+
+- Upgrade kitconcept.core to version 2.0.0b1. @ericof [#66](https://gitlab.kitconcept.io/kitconcept/distribution-kitconcept-website/-/work_items/66)
+
+
+#### Internal
+
+- Delegate distribution handlers and site creation to kitconcept.core, and read site-creation answers from environment variables. @ericof 
+- Remove dependencies pas.plugins.authomatic, pas.plugins.keycloakgroups. and pas.plugins.oidc, that are now provided by kitconcept.core @ericof 
+
+
+
+### Frontend
+
+#### Feature
+
+- Add Person content type styled @iRohitSingh [#41](https://github.com/kitconcept/kitconcept-website/issue/41)
+- Upgrade kitconcept-core to version 2.0.0-beta.1. @ericof [#66](https://github.com/kitconcept/kitconcept-website/issue/66)
+
+
+
+### Project
+
+
+#### Internal
+
+- Updated .vscode settings to handle the new `python-envs` extension. @ericof 
+
+
+
 ## 2.0.0a27 (2026-06-12)
 
 ### Backend

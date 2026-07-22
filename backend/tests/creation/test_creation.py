@@ -5,6 +5,16 @@ import pytest
 
 
 @pytest.fixture()
+def app(functional):
+    return functional["app"]
+
+
+@pytest.fixture()
+def http_request(functional):
+    return functional["request"]
+
+
+@pytest.fixture()
 def roles_permission():
     def func(context, permission: str) -> list[str]:
         report = context.rolesOfPermission(permission)
@@ -15,8 +25,8 @@ def roles_permission():
 
 class TestSiteCreation:
     @pytest.fixture(autouse=True)
-    def _create_site(self, create_site, answers):
-        self.site = create_site(answers)
+    def _setup(self, app, create_site, answers):
+        self.site = create_site(app, answers)
 
     @pytest.mark.parametrize(
         "attr,expected",

@@ -8,6 +8,49 @@
 
 <!-- towncrier release notes start -->
 
+## 2.0.0-beta.7 (2026-07-14)
+
+## 2.0.0-beta.6 (2026-07-10)
+
+### Feature
+
+- Upgrade @plone/volto-form-block to version 1.0.0-alpha.3 @ericof [#73](https://github.com/kitconcept/kitconcept-website/issue/73)
+
+### Internal
+
+- Upgrade to @kitconcept/core 2.0.0-beta.4 @ericof [#73](https://github.com/kitconcept/kitconcept-website/issue/73)
+
+## 2.0.0-beta.5 (2026-07-06)
+
+### Feature
+
+- Upgrade to @kitconcept/core 2.0.0-beta.3 @ericof [#72](https://github.com/kitconcept/kitconcept-website/issue/72)
+
+### Internal
+
+- Volto 19.1.5. @sneridagh 
+
+## 2.0.0-beta.4 (2026-07-02)
+
+### Feature
+
+- Upgraded @kitconcept/core to version 2.0.0-beta.2. @ericof [#70](https://github.com/kitconcept/kitconcept-website/issue/70)
+
+## 2.0.0-beta.3 (2026-06-30)
+
+## 2.0.0-beta.2 (2026-06-25)
+
+### Internal
+
+- Fix tests for Plone 6.2.0 @sneridagh [#43](https://github.com/kitconcept/kitconcept-website/issue/43)
+
+## 2.0.0-beta.1 (2026-06-23)
+
+### Feature
+
+- Add Person content type styled @iRohitSingh [#41](https://github.com/kitconcept/kitconcept-website/issue/41)
+- Upgrade kitconcept-core to version 2.0.0-beta.1. @ericof [#66](https://github.com/kitconcept/kitconcept-website/issue/66)
+
 ## 2.0.0-alpha.27 (2026-06-12)
 
 ### Bugfix
