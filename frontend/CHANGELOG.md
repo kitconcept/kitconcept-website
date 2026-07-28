@@ -8,6 +8,17 @@
 
 <!-- towncrier release notes start -->
 
+## 2.0.0-beta.8 (2026-07-28)
+
+### Feature
+
+- Add control panel for GDPR / DSGVO settings. @davisagli 
+- Add tracker, tracker options and privacy URL fields to the DSGVO control panel. @iFlameing 
+
+### Internal
+
+- Upgrade to @kitconcept/core 2.0.0-beta.7 @ericof [#81](https://gitlab.kitconcept.io/kitconcept/distribution-kitconcept-website/-/work_items/81)
+
 ## 2.0.0-beta.7 (2026-07-14)
 
 ## 2.0.0-beta.6 (2026-07-10)

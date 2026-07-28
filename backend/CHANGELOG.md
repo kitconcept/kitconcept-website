@@ -2,6 +2,24 @@
 
 <!-- towncrier release notes start -->
 
+## 2.0.0b8 (2026-07-28)
+
+
+### Feature
+
+- Add control panel for GDPR / DSGVO settings. @davisagli 
+- Add tracker, tracker options and privacy URL fields to the DSGVO control panel. @iFlameing 
+
+
+### Internal
+
+- Upgrade kitconcept.core to version 2.0.0b7 @ericof [#81](https://gitlab.kitconcept.io/kitconcept/distribution-kitconcept-website/-/work_items/81)
+
+
+### Test
+
+- Parametrize content type `test_behaviors` with `enumerate`, so a wrong or misordered behavior is reported by index instead of a whole-tuple diff. @ericof 
+
 ## 2.0.0b7 (2026-07-14)
 
 

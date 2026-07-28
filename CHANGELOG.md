@@ -1,6 +1,51 @@
 # Changelog
 
 <!-- towncrier release notes start -->
+## 2.0.0b8 (2026-07-28)
+
+### Backend
+
+
+#### Feature
+
+- Add control panel for GDPR / DSGVO settings. @davisagli 
+- Add tracker, tracker options and privacy URL fields to the DSGVO control panel. @iFlameing 
+
+
+#### Internal
+
+- Upgrade kitconcept.core to version 2.0.0b7 @ericof [#81](https://gitlab.kitconcept.io/kitconcept/distribution-kitconcept-website/-/work_items/81)
+
+
+#### Test
+
+- Parametrize content type `test_behaviors` with `enumerate`, so a wrong or misordered behavior is reported by index instead of a whole-tuple diff. @ericof 
+
+
+
+### Frontend
+
+#### Feature
+
+- Add control panel for GDPR / DSGVO settings. @davisagli 
+- Add tracker, tracker options and privacy URL fields to the DSGVO control panel. @iFlameing 
+
+#### Internal
+
+- Upgrade to @kitconcept/core 2.0.0-beta.7 @ericof [#81](https://gitlab.kitconcept.io/kitconcept/distribution-kitconcept-website/-/work_items/81)
+
+
+
+### Project
+
+
+#### Internal
+
+- Add docs for GDPR controlpanel. @iFlameing 
+- Point towncrier `issue_format` at the GitLab issue tracker, where this project's issues are tracked. @ericof 
+
+
+
 ## 2.0.0b7 (2026-07-14)
 
 ### Backend

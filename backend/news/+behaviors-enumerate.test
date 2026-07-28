@@ -1,1 +1,0 @@
-Parametrize content type `test_behaviors` with `enumerate`, so a wrong or misordered behavior is reported by index instead of a whole-tuple diff. @ericof
