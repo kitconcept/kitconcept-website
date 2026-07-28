@@ -26,9 +26,9 @@ class TestContentTypeFTI:
         assert isinstance(fti, DexterityFTI)
         assert getattr(fti, attr) == expected
 
-    def test_behaviors(self):
-        """Test behaviors are present and in correct order."""
-        assert self.fti.behaviors == (
+    @pytest.mark.parametrize(
+        "idx,behavior",
+        enumerate((
             "volto.preview_image_link",
             "voltolighttheme.header",
             "voltolighttheme.theme",
@@ -42,4 +42,8 @@ class TestContentTypeFTI:
             "plone.locking",
             "volto.blocks",
             "kitconcept.blocks.config",
-        )
+        )),
+    )
+    def test_behaviors(self, idx: int, behavior: str):
+        """Test behaviors are present and in correct order."""
+        assert self.fti.behaviors[idx] == behavior

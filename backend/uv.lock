@@ -94,7 +94,7 @@ constraints = [
     { name = "jsonschema", specifier = "==4.26.0" },
     { name = "jsonschema-specifications", specifier = "==2025.9.1" },
     { name = "keyring", specifier = "==25.7.0" },
-    { name = "kitconcept-core", specifier = "==2.0.0b4" },
+    { name = "kitconcept-core", specifier = "==2.0.0b7" },
     { name = "kitconcept-voltolighttheme", specifier = ">=8.0.0a30" },
     { name = "legacy-cgi", specifier = "==2.6.4" },
     { name = "lockfile", specifier = "==0.12.2" },
@@ -1418,7 +1418,7 @@ wheels = [
 
 [[package]]
 name = "kitconcept-core"
-version = "2.0.0b4"
+version = "2.0.0b7"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "collective-honeypot" },
@@ -1434,9 +1434,9 @@ dependencies = [
     { name = "plone-volto" },
     { name = "products-cmfplone" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/83/be/79bcb271ed2f7ee5376e083fe866039ffdb2b7543cef05f97da6874afd19/kitconcept_core-2.0.0b4.tar.gz", hash = "sha256:1f224106e10f1be3e7d192bed8116de5b12ba96dd79b1a19111a9852b1b79a85", size = 374270, upload-time = "2026-07-07T19:07:05.762Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/9b/e3/84248b9f3600ac32bd96bbf0001bda275332e113b1bf36e74645b2cfb2be/kitconcept_core-2.0.0b7.tar.gz", hash = "sha256:e7ebdd425a40ebb798a38250802d44a885b0edc15e533c8f8a8d236ab8de377f", size = 375822, upload-time = "2026-07-28T09:34:21.809Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/fb/df/018ee871bc052ec5b619f268a3433db07b60060929c4375ed76569c1cfe8/kitconcept_core-2.0.0b4-py3-none-any.whl", hash = "sha256:7ff109cb00b47ec54bc7fa0514c1a7ede5b3bf93b35288c06d5c8746bbf97718", size = 260942, upload-time = "2026-07-07T19:07:04.368Z" },
+    { url = "https://files.pythonhosted.org/packages/bc/dd/abaf22330d41417feea7fc8f364897ad47828f9f39130fe47ccbc585bf25/kitconcept_core-2.0.0b7-py3-none-any.whl", hash = "sha256:5186b2b676f33845ecd882902a5a1e1e7e369b196acf4abd2aa9cecc6ea20603", size = 263760, upload-time = "2026-07-28T09:34:20.078Z" },
 ]
 
 [[package]]
@@ -1495,7 +1495,7 @@ test = [
 [package.metadata]
 requires-dist = [
     { name = "kitconcept-contactblock", specifier = "==1.0.0a5" },
-    { name = "kitconcept-core", specifier = "==2.0.0b4" },
+    { name = "kitconcept-core", specifier = "==2.0.0b7" },
     { name = "plone-api" },
     { name = "plone-distribution" },
     { name = "plone-restapi" },
