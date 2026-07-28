@@ -26,9 +26,9 @@ class TestContentTypeFTI:
         assert isinstance(fti, DexterityFTI)
         assert getattr(fti, attr) == expected
 
-    def test_behaviors(self):
-        """Test behaviors are present and in correct order."""
-        assert self.fti.behaviors == (
+    @pytest.mark.parametrize(
+        "idx,behavior",
+        enumerate((
             "plone.eventbasic",
             "plone.eventrecurrence",
             "plone.eventlocation",
@@ -52,4 +52,8 @@ class TestContentTypeFTI:
             "plone.versioning",
             "plone.locking",
             "plone.translatable",
-        )
+        )),
+    )
+    def test_behaviors(self, idx: int, behavior: str):
+        """Test behaviors are present and in correct order."""
+        assert self.fti.behaviors[idx] == behavior
