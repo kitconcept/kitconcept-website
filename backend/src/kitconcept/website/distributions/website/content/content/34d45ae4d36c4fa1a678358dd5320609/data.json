@@ -1,0 +1,81 @@
+{
+  "@id": "/person/dr-nadine-paulsen",
+  "@type": "Person",
+  "UID": "34d45ae4d36c4fa1a678358dd5320609",
+  "academic_title": "Dr.",
+  "address": null,
+  "allow_discussion": null,
+  "changeNote": "",
+  "contact_building": "B32",
+  "contact_email": "nadine.paulsen@example.com",
+  "contact_phone": "0221 3902 323",
+  "contact_room": "R974",
+  "contact_website": "https://plone.org",
+  "created": "2025-06-12T11:20:40+00:00",
+  "department": null,
+  "description": "",
+  "exclude_from_nav": false,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "fax": null,
+  "first_name": "Nadine",
+  "head_title": null,
+  "id": "dr-nadine-paulsen",
+  "image": {
+    "blob_path": "34d45ae4d36c4fa1a678358dd5320609/image/Nadine-Paulsen.jpeg",
+    "content-type": "image/jpeg",
+    "filename": "Nadine-Paulsen.jpeg",
+    "height": 400,
+    "size": 27324,
+    "width": 600
+  },
+  "is_folderish": true,
+  "job_title": "Wissenschaftlerin – Energiesysteme der Zukunft",
+  "language": "##DEFAULT##",
+  "last_name": "Paulsen",
+  "layout": "view",
+  "location_reference": null,
+  "lock": {
+    "locked": false,
+    "stealable": true
+  },
+  "modified": "2026-01-19T14:50:58+00:00",
+  "nav_title": null,
+  "office_phone": null,
+  "organisational_unit_reference": null,
+  "responsibilities": [],
+  "review_state": "published",
+  "roles": [
+    "member"
+  ],
+  "text": {
+    "content-type": "text/html",
+    "data": "<p>Dr. Nadine Paulsen ist Wissenschaftlerin im Bereich Energiesysteme der Zukunft und arbeitet in der Abteilung Nachhaltigkeit und Innovation. Ihre Forschung konzentriert sich auf Wasserstofftechnologien, zukünftige Energieszenarien und innovative Speicherlösungen. Sie entwickelt Energiemodelle, koordiniert interdisziplinäre Studien und berät Projektpartner zu technologischen und systemischen Fragestellungen. Mit ihrer Expertise in der Energiesystemanalyse, dem Einsatz von Simulationstools wie EnergyPLAN und Modelica sowie der Technologiebewertung leistet sie einen wichtigen Beitrag zur Gestaltung nachhaltiger Energiestrategien.</p>",
+    "encoding": "utf8"
+  },
+  "title": "Dr. Nadine Paulsen",
+  "type_title": "Person",
+  "username": null,
+  "version": "current",
+  "versioning_enabled": true,
+  "workflow_history": {
+    "simple_publication_workflow": [
+      {
+        "action": null,
+        "actor": "admin",
+        "comments": "",
+        "review_state": "private",
+        "time": "2025-06-12T11:20:40+00:00"
+      },
+      {
+        "action": "publish",
+        "actor": "admin",
+        "comments": "",
+        "review_state": "published",
+        "time": "2025-06-13T09:29:27+00:00"
+      }
+    ]
+  },
+  "working_copy": null,
+  "working_copy_of": null
+}
