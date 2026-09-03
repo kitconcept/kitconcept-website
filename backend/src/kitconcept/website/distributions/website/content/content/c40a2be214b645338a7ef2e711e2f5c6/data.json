@@ -1,0 +1,98 @@
+{
+  "@id": "/features/vertical-spacing",
+  "@type": "Document",
+  "UID": "c40a2be214b645338a7ef2e711e2f5c6",
+  "allow_discussion": false,
+  "authors": null,
+  "blocks": {
+    "981e5308-f092-4bab-96aa-b162be613ebd": {
+      "@type": "slate",
+      "plaintext": "",
+      "value": [
+        {
+          "children": [
+            {
+              "text": ""
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "9cbef37f-c4c2-4fa8-b27e-2376c8261d5a": {
+      "@type": "title"
+    },
+    "f03d33a6-c4fe-4f6f-b0f5-ca2a483214ae": {
+      "@type": "listing",
+      "block": "f03d33a6-c4fe-4f6f-b0f5-ca2a483214ae",
+      "query": [],
+      "variation": "default"
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "9cbef37f-c4c2-4fa8-b27e-2376c8261d5a",
+      "f03d33a6-c4fe-4f6f-b0f5-ca2a483214ae",
+      "981e5308-f092-4bab-96aa-b162be613ebd"
+    ]
+  },
+  "changeNote": "",
+  "contributors": [],
+  "created": "2023-07-06T21:35:22+00:00",
+  "creators": [
+    "admin"
+  ],
+  "description": "",
+  "effective": "2023-07-06T18:35:00+00:00",
+  "enable_likes": false,
+  "exclude_from_nav": false,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "feedback_person": null,
+  "head_title": null,
+  "id": "vertical-spacing",
+  "is_folderish": true,
+  "language": "##DEFAULT##",
+  "layout": "document_view",
+  "location_reference": null,
+  "lock": {
+    "locked": false,
+    "stealable": true
+  },
+  "modified": "2025-09-08T07:41:09+00:00",
+  "nav_title": null,
+  "organisational_unit_reference": null,
+  "preview_caption_link": null,
+  "responsible_person": null,
+  "review_state": "private",
+  "rights": "",
+  "searchwords": [],
+  "showinsearch": true,
+  "subjects": [],
+  "title": "Vertical Spacing",
+  "type_title": "Page",
+  "version": "current",
+  "versioning_enabled": true,
+  "votes": null,
+  "workflow_history": {
+    "simple_publication_workflow": [
+      {
+        "action": "publish",
+        "actor": "admin",
+        "comments": "",
+        "review_state": "published",
+        "time": "2025-07-09T10:52:58+00:00"
+      },
+      {
+        "action": "retract",
+        "actor": "admin",
+        "comments": "",
+        "review_state": "private",
+        "time": "2025-08-01T14:11:16+00:00"
+      }
+    ]
+  },
+  "working_copy": null,
+  "working_copy_of": null
+}
