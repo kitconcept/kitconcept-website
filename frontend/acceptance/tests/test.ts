@@ -2,9 +2,44 @@ import { expect, test as base } from '@playwright/test';
 
 import { setup, teardown } from './reset-fixture';
 
-type TestFixtures = { resetBackend: void };
+const COOKIE_CONSENT_NAMES = [
+  'confirm_google',
+  'confirm_cookies',
+  'confirm_tracking',
+  'confirm_facebook',
+  'confirm_vimeo',
+  'confirm_youtube',
+];
 
-export const test = base.extend<TestFixtures>({
+type TestOptions = {
+  cookieConsent: boolean;
+};
+
+type TestFixtures = {
+  applyCookieConsent: void;
+  resetBackend: void;
+};
+
+export const test = base.extend<TestOptions & TestFixtures>({
+  cookieConsent: [true, { option: true }],
+  applyCookieConsent: [
+    async ({ baseURL, context, cookieConsent }, use) => {
+      if (cookieConsent) {
+        if (!baseURL) {
+          throw new Error('Playwright baseURL is required for cookie consent');
+        }
+        await context.addCookies(
+          COOKIE_CONSENT_NAMES.map((name) => ({
+            name,
+            value: '1',
+            url: baseURL,
+          })),
+        );
+      }
+      await use();
+    },
+    { auto: true },
+  ],
   resetBackend: [
     async ({ page, request }, use) => {
       await teardown(request);

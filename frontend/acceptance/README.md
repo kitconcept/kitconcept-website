@@ -27,3 +27,11 @@ Install Chromium for Playwright once before running locally:
 ```bash
 make -C frontend install-playwright
 ```
+
+Cookie consent is accepted by default before each test, matching the Cypress
+setup. Tests that exercise the cookie consent dialog can opt out for a test or
+`describe` block:
+
+```ts
+test.use({ cookieConsent: false });
+```
