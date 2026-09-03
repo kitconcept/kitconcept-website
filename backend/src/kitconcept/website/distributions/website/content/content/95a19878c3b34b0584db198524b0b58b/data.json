@@ -1,0 +1,81 @@
+{
+  "@id": "/person/max-berger-m-a",
+  "@type": "Person",
+  "UID": "95a19878c3b34b0584db198524b0b58b",
+  "academic_title": null,
+  "address": null,
+  "allow_discussion": null,
+  "changeNote": "",
+  "contact_building": "B32",
+  "contact_email": "max.berger@example.com",
+  "contact_phone": "0221 3902 323",
+  "contact_room": "R982",
+  "contact_website": "https://plone.org",
+  "created": "2025-06-12T11:36:31+00:00",
+  "department": null,
+  "description": "",
+  "exclude_from_nav": false,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "fax": null,
+  "first_name": "Max",
+  "head_title": null,
+  "id": "max-berger-m-a",
+  "image": {
+    "blob_path": "95a19878c3b34b0584db198524b0b58b/image/max-berger.jpeg",
+    "content-type": "image/jpeg",
+    "filename": "max-berger.jpeg",
+    "height": 800,
+    "size": 91248,
+    "width": 1200
+  },
+  "is_folderish": true,
+  "job_title": "Kommunikationsmanager – Interne Kommunikation",
+  "language": "##DEFAULT##",
+  "last_name": "Berger, M.A.",
+  "layout": "view",
+  "location_reference": null,
+  "lock": {
+    "locked": false,
+    "stealable": true
+  },
+  "modified": "2025-09-26T19:36:34+00:00",
+  "nav_title": null,
+  "office_phone": null,
+  "organisational_unit_reference": null,
+  "responsibilities": [],
+  "review_state": "published",
+  "roles": [
+    "member"
+  ],
+  "text": {
+    "content-type": "text/html",
+    "data": "<p>Max Berger, M.A. ist Kommunikationsmanager für interne Kommunikation in der Abteilung Kommunikation & Öffentlichkeitsarbeit. Er betreut redaktionell das Intranet, entwickelt zielgerichtete Kommunikationskampagnen und erstellt visuelle Inhalte wie Infografiken und Videos. Seine Schwerpunkte liegen in der Mitarbeiterkommunikation und der Gestaltung verständlicher interner Botschaften. Mit seiner Erfahrung im Umgang mit Content-Management-Systemen, Grafiksoftware wie Adobe Creative Cloud und Canva sowie seiner Kompetenz in der Change-Kommunikation unterstützt er wirkungsvoll die interne Vernetzung und Informationskultur.</p>",
+    "encoding": "utf8"
+  },
+  "title": "Max Berger, M.A.",
+  "type_title": "Person",
+  "username": null,
+  "version": "current",
+  "versioning_enabled": true,
+  "workflow_history": {
+    "simple_publication_workflow": [
+      {
+        "action": null,
+        "actor": "admin",
+        "comments": "",
+        "review_state": "private",
+        "time": "2025-06-12T11:36:31+00:00"
+      },
+      {
+        "action": "publish",
+        "actor": "admin",
+        "comments": "",
+        "review_state": "published",
+        "time": "2025-06-13T09:29:28+00:00"
+      }
+    ]
+  },
+  "working_copy": null,
+  "working_copy_of": null
+}

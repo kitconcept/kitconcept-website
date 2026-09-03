@@ -6,7 +6,7 @@
      https://6.docs.plone.org/volto/developer-guidelines/contributing.html#create-a-pull-request
 -->
 
-<!-- towncrier release notes start -->
+<!-- towncrier release notes start --> 
 
 ## 2.0.0-beta.8 (2026-07-28)
 
