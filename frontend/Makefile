@@ -144,6 +144,19 @@ ci-acceptance-backend-start: ## Start backend acceptance server in headless mode
 acceptance-test: ## Start Cypress in interactive mode
 	pnpm --filter @plone/volto exec cypress open --config-file $(CURRENT_DIR)/cypress.config.js --config specPattern='$(CYPRESS_SPEC_PATTERN)',excludeSpecPattern='$(CYPRESS_EXCLUDE_SPEC_PATTERN)'
 
+## Playwright acceptance tests
+.PHONY: install-playwright
+install-playwright: ## Install the Playwright browsers used by the acceptance tests
+	pnpm exec playwright install --with-deps chromium
+
+.PHONY: acceptance-playwright-test
+acceptance-playwright-test: ## Start Playwright acceptance tests in interactive (UI) mode
+	pnpm exec playwright test --ui
+
+.PHONY: ci-acceptance-playwright-test
+ci-acceptance-playwright-test: ## Run Playwright acceptance tests in headless mode for CI
+	pnpm exec playwright test --reporter=list,html
+
 .PHONY: ci-acceptance-test
 ci-acceptance-test: ## Run cypress tests in headless mode for CI
 	pnpm --filter @plone/volto exec cypress run --config-file $(CURRENT_DIR)/cypress.config.js --config specPattern='$(CYPRESS_SPEC_PATTERN)',excludeSpecPattern='$(CYPRESS_EXCLUDE_SPEC_PATTERN)'
