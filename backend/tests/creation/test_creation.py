@@ -51,7 +51,6 @@ class TestSiteCreation:
         "path,title,portal_type,review_state",
         [
             ("/about", "About", "Document", "published"),
-            ("/features/block/banner-block", "Banner", "Document", "published"),
             ("/qa", "QA", "Document", "published"),
         ],
     )
@@ -61,6 +60,11 @@ class TestSiteCreation:
         assert content.title == title
         assert content.portal_type == portal_type
         assert api.content.get_state(content) == review_state
+
+    def test_feature_block_examples_not_created(self):
+        with api.env.adopt_user(SITE_OWNER_NAME):
+            content = api.content.get(path="/features/block")
+        assert content is None
 
     def test_qa_image_fixture_created(self):
         with api.env.adopt_user(SITE_OWNER_NAME):
