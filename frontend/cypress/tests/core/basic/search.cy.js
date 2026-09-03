@@ -1,126 +1,97 @@
-describe('Search', () => {
+const createDocument = ({ id, title }) => {
+  cy.createContent({
+    contentType: 'Document',
+    contentId: id,
+    contentTitle: title,
+  });
+};
+
+const visitSearchResults = (searchableText) => {
+  cy.visit(`/search?SearchableText=${encodeURIComponent(searchableText)}`);
+  cy.get('#search-results .summary.url').should('have.length.at.least', 2);
+};
+
+const sortSearchResults = (index, order = 'ascending') => {
+  cy.get(`button[name="${index}"]`).click();
+  cy.wait('@search').then(({ request, response }) => {
+    expect(response.statusCode).to.equal(200);
+
+    const searchRequest = new URL(request.url);
+    expect(searchRequest.searchParams.get('sort_on')).to.equal(index);
+    expect(searchRequest.searchParams.get('sort_order')).to.equal(order);
+  });
+};
+
+const expectFirstResults = (expectedTitles) => {
+  cy.get('.summary.url').should(($results) => {
+    const actualTitles = [...$results]
+      .slice(0, expectedTitles.length)
+      .map((result) => result.textContent.trim());
+
+    expect(actualTitles).to.deep.equal(expectedTitles);
+  });
+};
+
+describe('Search result ordering', () => {
   beforeEach(() => {
-    cy.intercept('GET', `/**/*?expand*`).as('content');
+    cy.intercept('GET', '/**/@search*').as('search');
     cy.autologin();
-    cy.visit('/');
-    cy.wait('@content');
-  });
-  it('As anonymous user I can see the search results ordered by search rank,', () => {
-    // Given document Colorless and Color and feeding some text into it.
-    cy.createContent({
-      contentType: 'Document',
-      contentId: 'colorless',
-      contentTitle: 'Colorless',
-    });
-    cy.createContent({
-      contentType: 'Document',
-      contentId: 'color',
-      contentTitle: 'Color',
-    });
-    cy.navigate('/colorless/edit');
-    cy.url().should('eq', Cypress.config().baseUrl + '/colorless/edit');
-    cy.getSlateEditorAndType('This is the text.');
-    cy.get('#toolbar-save').click();
-    cy.url().should('eq', Cypress.config().baseUrl + '/colorless');
-    cy.navigate('/color/edit');
-    cy.url().should('eq', Cypress.config().baseUrl + '/color/edit');
-    cy.getSlateEditorAndType('This is the text.');
-    cy.get('#toolbar-save').click();
-    cy.url().should('eq', Cypress.config().baseUrl + '/color');
-    cy.visit('/');
-    cy.url().should('eq', Cypress.config().baseUrl + '/');
-    cy.visit('/search?SearchableText=color');
-
-    // then we are searching for SearchableText=color
-    cy.url().should(
-      'eq',
-      Cypress.config().baseUrl + '/search?SearchableText=color',
-    );
-
-    // we should get the first link Color
-    cy.get('.summary.url:first').should('have.text', 'Color');
   });
 
-  it('As anonymous user I can see the search results ordered alphabetically', () => {
-    //Given document A Colorless and B Color and feeding some text into it.
-    cy.createContent({
-      contentType: 'Document',
-      contentId: 'acolorless',
-      contentTitle: 'A Colorless',
+  it('ranks an exact title match before a partial title match', () => {
+    createDocument({ id: 'orchid', title: 'Orchid' });
+    createDocument({
+      id: 'orchid-growing-handbook',
+      title: 'Orchid Growing Handbook',
     });
-    cy.createContent({
-      contentType: 'Document',
-      contentId: 'bcolor',
-      contentTitle: 'B Color',
-    });
-    cy.navigate('/acolorless/edit');
-    cy.url().should('eq', Cypress.config().baseUrl + '/acolorless/edit');
-    cy.getSlateEditorAndType('This is the text.');
-    cy.get('#toolbar-save').click();
-    cy.url().should('eq', Cypress.config().baseUrl + '/acolorless');
-    cy.navigate('/bcolor/edit');
-    cy.url().should('eq', Cypress.config().baseUrl + '/bcolor/edit');
-    cy.getSlateEditorAndType('This is the text.');
-    cy.get('#toolbar-save').click();
-    cy.url().should('eq', Cypress.config().baseUrl + '/bcolor');
-    cy.visit('/');
-    cy.url().should('eq', Cypress.config().baseUrl + '/');
-    // then we are searhing for SearchableText=color and sorting it Alphabetically
-    cy.visit('/search?SearchableText=color');
-    cy.url().should(
-      'eq',
-      Cypress.config().baseUrl + '/search?SearchableText=color',
-    );
 
-    // we should get first link `A Colorless`
-    cy.get('button[name="sortable_title"]').click();
-    cy.get('.summary.url:first').should('have.text', 'A Colorless');
+    visitSearchResults('Orchid');
+
+    expectFirstResults(['Orchid', 'Orchid Growing Handbook']);
   });
 
-  it('As anonymous user I can see the search results ordered date(newest first)', () => {
-    // Given document Colorless and Color and feeding some text into it.
-    cy.createContent({
-      contentType: 'Document',
-      contentId: 'colorless',
-      contentTitle: 'Colorless',
+  it('orders results alphabetically by title', () => {
+    createDocument({
+      id: 'zebra-field-guide',
+      title: 'Zebra Field Guide',
     });
-    cy.createContent({
-      contentType: 'Document',
-      contentId: 'color',
-      contentTitle: 'Color',
+    createDocument({
+      id: 'albatross-field-guide',
+      title: 'Albatross Field Guide',
+    });
+
+    visitSearchResults('Field Guide');
+    sortSearchResults('sortable_title');
+
+    expectFirstResults(['Albatross Field Guide', 'Zebra Field Guide']);
+  });
+
+  it('orders results by effective date with the newest first', () => {
+    createDocument({
+      id: 'older-astronomy-bulletin',
+      title: 'Older Astronomy Bulletin',
+    });
+    createDocument({
+      id: 'newer-astronomy-bulletin',
+      title: 'Newer Astronomy Bulletin',
     });
     cy.setWorkflow({
-      path: 'colorless',
-      effective: '2020-08-15T15:58:24+00:00',
-      expires: '2030-05-14T15:58:24+00:00',
-    });
-    cy.setWorkflow({
-      path: 'color',
+      path: 'older-astronomy-bulletin',
       effective: '2020-08-13T15:58:24+00:00',
-      expires: '2030-05-14T15:58:24+00:00',
+      expires: '2035-05-14T15:58:24+00:00',
     });
-    cy.navigate('/colorless/edit');
-    cy.url().should('eq', Cypress.config().baseUrl + '/colorless/edit');
-    cy.getSlateEditorAndType('This is the text.');
-    cy.get('#toolbar-save').click();
-    cy.url().should('eq', Cypress.config().baseUrl + '/colorless');
-    cy.navigate('/color/edit');
-    cy.url().should('eq', Cypress.config().baseUrl + '/color/edit');
-    cy.getSlateEditorAndType('This is the text.');
-    cy.get('#toolbar-save').click();
-    cy.url().should('eq', Cypress.config().baseUrl + '/color');
-    cy.visit('/');
-    cy.url().should('eq', Cypress.config().baseUrl + '/');
+    cy.setWorkflow({
+      path: 'newer-astronomy-bulletin',
+      effective: '2024-08-15T15:58:24+00:00',
+      expires: '2035-05-14T15:58:24+00:00',
+    });
 
-    // then we are searching for SearchableText=color and sorting it with effective date
-    cy.visit('/search?SearchableText=color');
-    cy.url().should(
-      'eq',
-      Cypress.config().baseUrl + '/search?SearchableText=color',
-    );
+    visitSearchResults('Astronomy Bulletin');
+    sortSearchResults('effective', 'reverse');
 
-    // then the first link must be Colorless
-    cy.get('button[name="effective"]').click();
-    cy.get('.summary.url:first').should('have.text', 'Color');
+    expectFirstResults([
+      'Newer Astronomy Bulletin',
+      'Older Astronomy Bulletin',
+    ]);
   });
 });
