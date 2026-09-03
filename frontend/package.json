@@ -30,7 +30,9 @@
     "release-major-alpha": "pnpm --filter website release-major-alpha",
     "release-alpha": "pnpm --filter website release-alpha",
     "storybook": "VOLTOCONFIG=$(pwd)/volto.config.js pnpm --filter @plone/volto storybook dev -p 6006 -c $(pwd)/.storybook",
-    "build-storybook": "VOLTOCONFIG=$(pwd)/volto.config.js pnpm --filter @plone/volto build-storybook -c $(pwd)/.storybook"
+    "build-storybook": "VOLTOCONFIG=$(pwd)/volto.config.js pnpm --filter @plone/volto build-storybook -c $(pwd)/.storybook",
+    "test:acceptance": "playwright test",
+    "test:acceptance:ui": "playwright test --ui"
   },
   "dependencies": {
     "@plone/volto": "workspace:*",
