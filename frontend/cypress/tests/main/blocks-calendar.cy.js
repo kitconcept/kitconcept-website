@@ -252,7 +252,7 @@ describe('Event Calendar Block Tests', () => {
     cy.wait('@schema');
     cy.get('.block-editor-eventCalendar').click();
     cy.get('#field-limit-3-query').clear().type('0');
-    cy.get('#field-b_size-4-query').type('2');
+    cy.get('#field-b_size-5-query').type('2');
     cy.get('#toolbar-save').click();
     cy.wait('@save');
     cy.wait('@content');
@@ -433,9 +433,14 @@ describe('Event Calendar Block Tests', () => {
     cy.wait('@content');
     cy.url().should('eq', Cypress.config().baseUrl + '/my-page');
     cy.get('a[href="/my-second-event"]')
-      .closest('.card-inner')
+      .closest('.card')
       .find('.date-inset')
       .should('not.have.class', 'has-end-date');
+
+    cy.get('a[href="/my-first-event"]')
+      .closest('.card')
+      .find('.date-inset')
+      .should('have.class', 'has-end-date');
   });
 
   it('Add eventCalendar Block - sort by Order in folder and sort_order:descending', () => {

@@ -566,7 +566,7 @@ describe('Listing Block Tests', () => {
     );
   });
 
-  it('Listing block - Test Criteria: Path relative', () => {
+  it('Listing block - Test Criteria: Location relative', () => {
     cy.intercept('PATCH', '/**/my-page/my-folder').as('save');
     cy.intercept('GET', '/**/my-page/my-folder').as('content');
     cy.intercept('GET', '/**/@types/Document').as('schema');
@@ -600,16 +600,18 @@ describe('Listing Block Tests', () => {
     cy.navigate('/my-page/my-folder/edit');
     cy.wait('@schema');
 
-    cy.clearSlateTitle().type('Listing block - Test Criteria: Path relative');
+    cy.clearSlateTitle().type(
+      'Listing block - Test Criteria: Location relative',
+    );
 
     //add listing block
     cy.addNewBlock('listing');
 
-    //********  add relative path criteria filter
+    //********  add relative location criteria filter
     cy.get('.block-editor-listing').click();
     cy.get('.querystring-widget .fields').contains('Add criteria').click();
     cy.get('.querystring-widget .react-select__menu .react-select__option')
-      .contains('Path')
+      .contains('Location')
       .click();
 
     cy.get(
@@ -648,7 +650,7 @@ describe('Listing Block Tests', () => {
     cy.wait('@save');
     cy.wait('@content');
 
-    //test path relative criteria after save
+    //test location relative criteria after save
     // test SSR results first
     cy.isInHTML({
       parent: '#page-document .listing-item:first-of-type',
@@ -663,7 +665,7 @@ describe('Listing Block Tests', () => {
       .should('not.exist');
   });
 
-  it('Listing block - Test Criteria: Path absolute', () => {
+  it('Listing block - Test Criteria: Location absolute', () => {
     cy.intercept('PATCH', '/**/my-page/my-folder').as('save');
     cy.intercept('GET', '/**/my-page/my-folder').as('content');
     cy.intercept('GET', '/**/@types/Document').as('schema');
@@ -704,16 +706,18 @@ describe('Listing Block Tests', () => {
     cy.navigate('/my-page/my-folder/edit');
     cy.wait('@schema');
 
-    cy.clearSlateTitle().type('Listing block - Test Criteria: Path absolute');
+    cy.clearSlateTitle().type(
+      'Listing block - Test Criteria: Location absolute',
+    );
 
     //add listing block
     cy.addNewBlock('listing');
 
-    //********  add absolute path criteria filter
+    //********  add absolute location criteria filter
     cy.get('.block-editor-listing').click();
     cy.get('.querystring-widget .fields').contains('Add criteria').click();
     cy.get('.querystring-widget .react-select__menu .react-select__option')
-      .contains('Path')
+      .contains('Location')
       .click();
 
     cy.get('.querystring-widget .fields').contains('Absolute path').click();
@@ -747,7 +751,7 @@ describe('Listing Block Tests', () => {
     cy.wait('@save');
     cy.wait('@content');
 
-    //test path absolute criteria after save
+    //test location absolute criteria after save
     // test SSR results first
     cy.isInHTML({
       parent: '#page-document .listing-item:first-of-type',
@@ -762,7 +766,7 @@ describe('Listing Block Tests', () => {
       .should('not.exist');
   });
 
-  it('Listing block - Test Criteria: Path relative with some outside content', () => {
+  it('Listing block - Test Criteria: Location relative with some outside content', () => {
     cy.intercept('PATCH', '/**/my-page').as('save');
     cy.intercept('GET', '/**/my-page').as('content');
     cy.intercept('GET', '/**/@types/Document').as('schema');
@@ -805,11 +809,11 @@ describe('Listing Block Tests', () => {
     //add listing block
     cy.addNewBlock('listing');
 
-    //********  add path criteria filter
+    //********  add location criteria filter
     cy.get('.block-editor-listing').click();
     cy.get('.querystring-widget .fields').contains('Add criteria').click();
     cy.get('.querystring-widget .react-select__menu .react-select__option')
-      .contains('Path')
+      .contains('Location')
       .click();
 
     cy.get(
@@ -848,7 +852,7 @@ describe('Listing Block Tests', () => {
     cy.wait('@save');
     cy.wait('@content');
 
-    //test path relative criteria after save
+    //test location relative criteria after save
     // test SSR results first
     cy.isInHTML({
       parent: '#page-document .listing-item:first-of-type',
@@ -929,7 +933,7 @@ describe('Listing Block Tests', () => {
       .click();
 
     cy.get('#field-limit-3-querystring').click().clear().type('0');
-    cy.get('#field-b_size-4-querystring').click().type('2');
+    cy.get('#field-b_size-5-querystring').click().type('2');
     cy.get('.ui.pagination.menu a[value="2"]').first().click();
 
     cy.get('.listing-item .title').first().contains('My Folder 3');
@@ -978,7 +982,7 @@ describe('Listing Block Tests', () => {
     cy.get('#field-limit-3-querystring').click().type('2');
 
     cy.get('#field-limit-3-querystring').click().clear().type('0');
-    cy.get('#field-b_size-4-querystring').click().type('2');
+    cy.get('#field-b_size-5-querystring').click().type('2');
     cy.get('#toolbar-save').click();
     cy.wait('@save');
     cy.wait('@content');
@@ -1068,7 +1072,7 @@ describe('Listing Block Tests', () => {
       .click();
 
     cy.get('#field-limit-3-querystring').click().clear().type('0');
-    cy.get('#field-b_size-4-querystring').click().type('2');
+    cy.get('#field-b_size-5-querystring').click().type('2');
     cy.get('.ui.pagination.menu a[value="2"]').first().click();
 
     cy.get('.listing-item .title').first().contains('My Folder 3');
@@ -1130,7 +1134,7 @@ describe('Listing Block Tests', () => {
     cy.configureListingWith('Page');
 
     cy.get('#field-limit-3-querystring').click().type('0');
-    cy.get('#field-b_size-4-querystring').click().type('2');
+    cy.get('#field-b_size-5-querystring').click().type('2');
 
     cy.addNewBlock('listing');
 
@@ -1140,7 +1144,7 @@ describe('Listing Block Tests', () => {
     cy.configureListingWith('Page');
 
     cy.get('#field-limit-3-querystring').click().type('0');
-    cy.get('#field-b_size-4-querystring').click().type('1');
+    cy.get('#field-b_size-5-querystring').click().type('1');
     cy.get('#toolbar-save').click();
     cy.wait('@save');
     cy.wait('@content');
@@ -1255,4 +1259,8 @@ describe('Listing Block Tests', () => {
       '/my-page/my-news-item-test',
     );
   });
+
+  // it('Listing block - Test Criteria: Location Navigation', () => {
+  //   /*not implemented because Navigation ui is not yet developed in Listing Block sidebar*/
+  // });
 });
