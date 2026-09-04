@@ -3,7 +3,6 @@
   "@type": "Document",
   "UID": "a9ba8fa4d1074204832cceee9157c07b",
   "allow_discussion": false,
-  "authors": null,
   "blocks": {
     "00c40a89-e340-48a7-a7ad-d5d1501189c9": {
       "@type": "separator",
@@ -55,7 +54,7 @@
     "15fd3742-4411-48d5-9891-957d73142b8a": {
       "@type": "heading",
       "alignment": "left",
-      "heading": "Link Search",
+      "heading": "Link\u00a0Search",
       "styles": {},
       "theme": "default"
     },
@@ -109,7 +108,7 @@
     "2c40df52-437a-4215-ab13-80f122d5a37d": {
       "@type": "heading",
       "alignment": "left",
-      "heading": "File Search",
+      "heading": "File\u00a0Search",
       "styles": {},
       "theme": "default"
     },
@@ -187,7 +186,7 @@
     "4c29c501-581e-4dce-a16e-285d593ae736": {
       "@type": "heading",
       "alignment": "left",
-      "heading": "Event Search",
+      "heading": "Event\u00a0Search",
       "styles": {},
       "theme": "default"
     },
@@ -308,7 +307,7 @@
     "6fb1042e-f3cc-40b1-b9ed-1e018d8cd876": {
       "@type": "heading",
       "alignment": "left",
-      "heading": "News Item Search",
+      "heading": "News Item\u00a0Search",
       "styles": {},
       "tag": "h2",
       "theme": "default"
@@ -637,37 +636,29 @@
   ],
   "description": "The search block allows the content of the website to be listed. Users can use so-called facets to select certain properties of the listed content in order to filter them (e.g. filtering the news of 2022).",
   "effective": "2023-07-06T18:35:00+00:00",
-  "enable_likes": false,
   "exclude_from_nav": false,
   "expires": null,
   "exportimport.constrains": {},
   "exportimport.conversation": [],
-  "feedback_person": null,
   "head_title": null,
   "id": "search-block",
   "is_folderish": true,
   "language": "##DEFAULT##",
   "layout": "document_view",
-  "location_reference": null,
   "lock": {
     "locked": false,
     "stealable": true
   },
   "modified": "2025-12-02T08:59:43+00:00",
   "nav_title": null,
-  "organisational_unit_reference": null,
   "preview_caption_link": null,
-  "responsible_person": null,
   "review_state": "published",
   "rights": "",
-  "searchwords": [],
-  "showinsearch": false,
   "subjects": [],
   "title": "Search",
   "type_title": "Page",
   "version": "current",
   "versioning_enabled": true,
-  "votes": null,
   "workflow_history": {
     "simple_publication_workflow": [
       {

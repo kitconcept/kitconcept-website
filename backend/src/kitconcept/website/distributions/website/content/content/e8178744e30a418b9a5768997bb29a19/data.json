@@ -3,7 +3,6 @@
   "@type": "Document",
   "UID": "e8178744e30a418b9a5768997bb29a19",
   "allow_discussion": false,
-  "authors": null,
   "blocks": {
     "7f1d39a2-a57c-4b2a-93bd-4dd30ee3f6cc": {
       "@type": "title"
@@ -46,31 +45,24 @@
   ],
   "description": "This section has a sample of content types available in this site.",
   "effective": "2023-09-22T16:09:00+00:00",
-  "enable_likes": false,
   "exclude_from_nav": false,
   "expires": null,
   "exportimport.constrains": {},
   "exportimport.conversation": [],
-  "feedback_person": null,
   "head_title": null,
   "id": "content-types",
   "is_folderish": true,
   "language": "##DEFAULT##",
   "layout": "document_view",
-  "location_reference": null,
   "lock": {
     "locked": false,
     "stealable": true
   },
   "modified": "2026-06-24T14:34:21+00:00",
   "nav_title": null,
-  "organisational_unit_reference": null,
   "preview_caption_link": null,
-  "responsible_person": null,
   "review_state": "published",
   "rights": "",
-  "searchwords": [],
-  "showinsearch": true,
   "subjects": [
     "main folder"
   ],
@@ -78,7 +70,6 @@
   "type_title": "Page",
   "version": "current",
   "versioning_enabled": true,
-  "votes": null,
   "workflow_history": {
     "simple_publication_workflow": [
       {

@@ -3,7 +3,6 @@
   "@type": "Document",
   "UID": "b2cfd5b9680b4dc49ee8f2ff3462ae38",
   "allow_discussion": null,
-  "authors": null,
   "blocks": {
     "232e0c2d-6a2c-4f68-972f-dd63cb1e60d9": {
       "@type": "gridBlock",
@@ -920,37 +919,29 @@
   ],
   "description": "",
   "effective": "2025-07-09T10:52:00+00:00",
-  "enable_likes": false,
   "exclude_from_nav": false,
   "expires": null,
   "exportimport.constrains": {},
   "exportimport.conversation": [],
-  "feedback_person": null,
   "head_title": null,
   "id": "grid-teaser-file",
   "is_folderish": true,
   "language": "##DEFAULT##",
   "layout": "document_view",
-  "location_reference": null,
   "lock": {
     "locked": false,
     "stealable": true
   },
   "modified": "2025-12-02T08:59:42+00:00",
   "nav_title": null,
-  "organisational_unit_reference": null,
   "preview_caption_link": null,
-  "responsible_person": null,
   "review_state": "published",
   "rights": "",
-  "searchwords": [],
-  "showinsearch": false,
   "subjects": [],
   "title": "Grid Teaser File",
   "type_title": "Page",
   "version": "current",
   "versioning_enabled": true,
-  "votes": null,
   "workflow_history": {
     "simple_publication_workflow": [
       {

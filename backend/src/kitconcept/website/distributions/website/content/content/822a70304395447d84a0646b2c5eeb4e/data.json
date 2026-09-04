@@ -3,7 +3,6 @@
   "@type": "Document",
   "UID": "822a70304395447d84a0646b2c5eeb4e",
   "allow_discussion": false,
-  "authors": null,
   "blocks": {
     "022174c5-3f65-44b7-99de-c8037ff61598": {
       "@type": "separator",
@@ -441,37 +440,29 @@
   ],
   "description": "\nThe button block shows a button for which a link (internal or external) can be stored. The button can be displayed left, right or center and have a background color.",
   "effective": "2023-07-06T18:35:00+00:00",
-  "enable_likes": false,
   "exclude_from_nav": false,
   "expires": null,
   "exportimport.constrains": {},
   "exportimport.conversation": [],
-  "feedback_person": null,
   "head_title": null,
   "id": "button-block",
   "is_folderish": true,
   "language": "##DEFAULT##",
   "layout": "document_view",
-  "location_reference": null,
   "lock": {
     "locked": false,
     "stealable": true
   },
   "modified": "2025-12-02T08:59:42+00:00",
   "nav_title": null,
-  "organisational_unit_reference": null,
   "preview_caption_link": null,
-  "responsible_person": null,
   "review_state": "published",
   "rights": "",
-  "searchwords": [],
-  "showinsearch": false,
   "subjects": [],
   "title": "Button",
   "type_title": "Page",
   "version": "current",
   "versioning_enabled": true,
-  "votes": null,
   "workflow_history": {
     "simple_publication_workflow": [
       {

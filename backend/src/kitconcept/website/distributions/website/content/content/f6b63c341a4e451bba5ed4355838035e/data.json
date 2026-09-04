@@ -3,7 +3,6 @@
   "@type": "Document",
   "UID": "f6b63c341a4e451bba5ed4355838035e",
   "allow_discussion": false,
-  "authors": null,
   "blocks": {
     "09460f92-723d-402d-a0a5-76a15f2678ad": {
       "@type": "slate",
@@ -389,37 +388,29 @@
   ],
   "description": "The table of contents block automatically generates a table of contents with links to the corresponding positions on the page from the headings used.",
   "effective": "2023-07-06T18:35:00+00:00",
-  "enable_likes": false,
   "exclude_from_nav": false,
   "expires": null,
   "exportimport.constrains": {},
   "exportimport.conversation": [],
-  "feedback_person": null,
   "head_title": null,
   "id": "toc-block",
   "is_folderish": true,
   "language": "##DEFAULT##",
   "layout": "document_view",
-  "location_reference": null,
   "lock": {
     "locked": false,
     "stealable": true
   },
   "modified": "2025-12-02T08:59:43+00:00",
   "nav_title": null,
-  "organisational_unit_reference": null,
   "preview_caption_link": null,
-  "responsible_person": null,
   "review_state": "published",
   "rights": "",
-  "searchwords": [],
-  "showinsearch": false,
   "subjects": [],
   "title": "Table of Contents",
   "type_title": "Page",
   "version": "current",
   "versioning_enabled": true,
-  "votes": null,
   "workflow_history": {
     "simple_publication_workflow": [
       {

@@ -3,7 +3,6 @@
   "@type": "Document",
   "UID": "872e7439aa624a6f8569a49bd12be7d4",
   "allow_discussion": null,
-  "authors": null,
   "blocks": {
     "0945d851-c9b1-4e5b-b311-a700ea2adc96": {
       "@type": "separator",
@@ -228,37 +227,29 @@
   ],
   "description": "",
   "effective": "2025-12-10T12:44:00+00:00",
-  "enable_likes": false,
   "exclude_from_nav": false,
   "expires": null,
   "exportimport.constrains": {},
   "exportimport.conversation": [],
-  "feedback_person": null,
   "head_title": null,
   "id": "heading-and-introduction",
   "is_folderish": true,
   "language": "##DEFAULT##",
   "layout": "document_view",
-  "location_reference": null,
   "lock": {
     "locked": false,
     "stealable": true
   },
   "modified": "2025-12-10T12:44:18+00:00",
   "nav_title": null,
-  "organisational_unit_reference": null,
   "preview_caption_link": null,
-  "responsible_person": null,
   "review_state": "published",
   "rights": "",
-  "searchwords": [],
-  "showinsearch": false,
   "subjects": [],
   "title": "Heading and Introduction",
   "type_title": "Page",
   "version": "current",
   "versioning_enabled": true,
-  "votes": null,
   "workflow_history": {
     "simple_publication_workflow": [
       {

@@ -1,8 +1,7 @@
 {
-  "@id": "/person/dr-clara-beck",
+  "@id": "/persons/dr-clara-beck",
   "@type": "Person",
   "UID": "2e17746a030b479a918afefc50d5ff4c",
-  "academic_title": "Dr.",
   "address": null,
   "allow_discussion": null,
   "changeNote": "",
@@ -12,7 +11,6 @@
   "contact_room": "R965",
   "contact_website": "https://plone.org",
   "created": "2025-06-12T11:31:42+00:00",
-  "department": null,
   "description": "",
   "exclude_from_nav": false,
   "exportimport.constrains": {},
@@ -30,32 +28,27 @@
     "width": 2880
   },
   "is_folderish": true,
-  "job_title": "Wissenschaftliche Beraterin – Gesundheits- und Umweltschutz",
   "language": "##DEFAULT##",
   "last_name": "Beck",
   "layout": "view",
-  "location_reference": null,
   "lock": {
     "locked": false,
     "stealable": true
   },
-  "modified": "2025-09-26T19:36:34+00:00",
+  "modified": "2026-09-04T09:24:51+00:00",
   "nav_title": null,
   "office_phone": null,
-  "organisational_unit_reference": null,
-  "responsibilities": [],
   "review_state": "published",
   "roles": [
     "member"
   ],
   "text": {
     "content-type": "text/html",
-    "data": "<p>Dr. Clara Beck ist wissenschaftliche Beraterin für Gesundheits- und Umweltschutz in der Abteilung Politikberatung und Wissenschaftstransfer. Sie erstellt evidenzbasierte Gutachten, begleitet politische Entscheidungsprozesse fachlich und pflegt den Austausch mit relevanten Stakeholdern. Ihre Arbeit verbindet Risikoanalyse mit gezielter Öffentlichkeitsarbeit, um wissenschaftliche Erkenntnisse wirksam in die Praxis zu überführen. Mit ihrer Expertise in Wissenschaftskommunikation, fundierter Literaturrecherche und Metaanalysen sowie dem Verfassen prägnanter Policy Briefs trägt sie zur fundierten und transparenten politischen Beratung bei.</p>",
+    "data": "<p>Dr. Clara Beck ist wissenschaftliche Beraterin f\u00fcr Gesundheits- und Umweltschutz in der Abteilung Politikberatung und Wissenschaftstransfer. Sie erstellt evidenzbasierte Gutachten, begleitet politische Entscheidungsprozesse fachlich und pflegt den Austausch mit relevanten Stakeholdern. Ihre Arbeit verbindet Risikoanalyse mit gezielter \u00d6ffentlichkeitsarbeit, um wissenschaftliche Erkenntnisse wirksam in die Praxis zu \u00fcberf\u00fchren. Mit ihrer Expertise in Wissenschaftskommunikation, fundierter Literaturrecherche und Metaanalysen sowie dem Verfassen pr\u00e4gnanter Policy Briefs tr\u00e4gt sie zur fundierten und transparenten politischen Beratung bei.</p>",
     "encoding": "utf8"
   },
-  "title": "Dr. Clara Beck",
+  "title": "Clara Beck",
   "type_title": "Person",
-  "username": null,
   "version": "current",
   "versioning_enabled": true,
   "workflow_history": {

@@ -3,7 +3,6 @@
   "@type": "Document",
   "UID": "ab3958c51a794b11887d265f99f7f2f7",
   "allow_discussion": false,
-  "authors": null,
   "blocks": {
     "0b0891c8-812e-41ca-b572-b7851361025f": {
       "@type": "slateTable",
@@ -2569,7 +2568,7 @@
     "10566683-a8b2-4b47-b64b-b01ddf43c307": {
       "@type": "heading",
       "alignment": "left",
-      "heading": "Table on Grey Background",
+      "heading": "Table\u00a0on Grey Background",
       "styles": {},
       "tag": "h2",
       "theme": "grey"
@@ -5182,37 +5181,29 @@
   ],
   "description": "The Table block allows you to add a table to a page.",
   "effective": "2023-07-06T18:35:00+00:00",
-  "enable_likes": false,
   "exclude_from_nav": false,
   "expires": null,
   "exportimport.constrains": {},
   "exportimport.conversation": [],
-  "feedback_person": null,
   "head_title": null,
   "id": "table-block",
   "is_folderish": true,
   "language": "##DEFAULT##",
   "layout": "document_view",
-  "location_reference": null,
   "lock": {
     "locked": false,
     "stealable": true
   },
   "modified": "2025-12-02T08:59:43+00:00",
   "nav_title": null,
-  "organisational_unit_reference": null,
   "preview_caption_link": null,
-  "responsible_person": null,
   "review_state": "published",
   "rights": "",
-  "searchwords": [],
-  "showinsearch": false,
   "subjects": [],
   "title": "Table",
   "type_title": "Page",
   "version": "current",
   "versioning_enabled": true,
-  "votes": null,
   "workflow_history": {
     "simple_publication_workflow": [
       {

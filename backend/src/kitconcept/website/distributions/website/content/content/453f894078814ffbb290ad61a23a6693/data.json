@@ -11,7 +11,6 @@
   ],
   "description": "The File content type can be used to upload any file and make it available for download on the site.",
   "effective": "2025-07-09T10:52:00+00:00",
-  "enable_likes": false,
   "expires": null,
   "exportimport.constrains": {},
   "exportimport.conversation": [],
@@ -26,25 +25,20 @@
   "is_folderish": false,
   "language": "##DEFAULT##",
   "layout": "file_view",
-  "location_reference": null,
   "lock": {
     "locked": false,
     "stealable": true
   },
   "modified": "2025-08-01T09:47:46+00:00",
   "nav_title": null,
-  "organisational_unit_reference": null,
   "preview_caption_link": null,
   "review_state": null,
   "rights": "",
-  "searchwords": [],
-  "showinsearch": true,
   "subjects": [],
   "title": "File",
   "type_title": "File",
   "version": "current",
   "versioning_enabled": true,
-  "votes": null,
   "workflow_history": {
     "simple_publication_workflow": [
       {

@@ -3,7 +3,6 @@
   "@type": "Document",
   "UID": "863b5744d6ec4e4d84b18dcbcc4b4d32",
   "allow_discussion": false,
-  "authors": null,
   "blocks": {
     "34d2b947-2ab6-4d9c-b060-651b3c826b2f": {
       "@type": "slate",
@@ -356,37 +355,29 @@
   ],
   "description": "\nThe separator block allows blocks or groups of blocks to be visually separated by a horizontal line.",
   "effective": "2023-07-06T18:35:00+00:00",
-  "enable_likes": false,
   "exclude_from_nav": false,
   "expires": null,
   "exportimport.constrains": {},
   "exportimport.conversation": [],
-  "feedback_person": null,
   "head_title": null,
   "id": "separator-block",
   "is_folderish": true,
   "language": "##DEFAULT##",
   "layout": "document_view",
-  "location_reference": null,
   "lock": {
     "locked": false,
     "stealable": true
   },
   "modified": "2025-12-02T08:59:43+00:00",
   "nav_title": null,
-  "organisational_unit_reference": null,
   "preview_caption_link": null,
-  "responsible_person": null,
   "review_state": "published",
   "rights": "",
-  "searchwords": [],
-  "showinsearch": false,
   "subjects": [],
   "title": "Separator",
   "type_title": "Page",
   "version": "current",
   "versioning_enabled": true,
-  "votes": null,
   "workflow_history": {
     "simple_publication_workflow": [
       {

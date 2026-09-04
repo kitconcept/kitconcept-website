@@ -1,5 +1,5 @@
 {
-  "@id": "/person/patrick-maier-m-sc",
+  "@id": "/persons/patrick-maier-m-sc",
   "@type": "Person",
   "UID": "27ae32819bc64e4fa280efc1a1d5514d",
   "address": "Mohanstrit hillroad",
@@ -35,7 +35,7 @@
     "locked": false,
     "stealable": true
   },
-  "modified": "2026-03-05T13:16:24+00:00",
+  "modified": "2026-09-04T09:24:51+00:00",
   "nav_title": null,
   "office_phone": "+49 123 756 843",
   "review_state": "published",

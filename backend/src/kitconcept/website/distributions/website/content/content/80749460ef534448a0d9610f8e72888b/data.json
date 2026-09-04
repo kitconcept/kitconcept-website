@@ -3,7 +3,6 @@
   "@type": "Document",
   "UID": "80749460ef534448a0d9610f8e72888b",
   "allow_discussion": false,
-  "authors": null,
   "blocks": {
     "07cbecd4-a99b-4506-9b5c-4c860bccef83": {
       "@type": "heading",
@@ -115,7 +114,7 @@
     "2c65a556-7b16-4ae3-afb7-a4324a7e49c9": {
       "@type": "heading",
       "alignment": "left",
-      "heading": "Event Listing ",
+      "heading": "Event Listing\u00a0",
       "styles": {},
       "tag": "h2",
       "theme": "default"
@@ -480,7 +479,7 @@
     "ab005953-3360-4186-97ad-a4e1b4903b1c": {
       "@type": "heading",
       "alignment": "left",
-      "heading": "Person Listing",
+      "heading": "Person\u00a0Listing",
       "styles": {},
       "tag": "h2",
       "theme": "default"
@@ -645,7 +644,7 @@
     "e9c4f237-27f6-4fbf-b338-e19324456037": {
       "@type": "heading",
       "alignment": "left",
-      "heading": "File Listing ",
+      "heading": "File\u00a0Listing\u00a0",
       "styles": {},
       "tag": "h2",
       "theme": "default"
@@ -740,37 +739,29 @@
   ],
   "description": "The listing block allows the display of various listings of content. Editors can configure a number of criteria for listing content (e.g. all news from 2022 with the keyword 'research').",
   "effective": "2023-07-06T18:35:00+00:00",
-  "enable_likes": false,
   "exclude_from_nav": false,
   "expires": null,
   "exportimport.constrains": {},
   "exportimport.conversation": [],
-  "feedback_person": null,
   "head_title": null,
   "id": "listing-block",
   "is_folderish": true,
   "language": "##DEFAULT##",
   "layout": "document_view",
-  "location_reference": null,
   "lock": {
     "locked": false,
     "stealable": true
   },
   "modified": "2025-12-10T13:18:59+00:00",
   "nav_title": null,
-  "organisational_unit_reference": null,
   "preview_caption_link": null,
-  "responsible_person": null,
   "review_state": "published",
   "rights": "",
-  "searchwords": [],
-  "showinsearch": false,
   "subjects": [],
   "title": "Listing Block",
   "type_title": "Page",
   "version": "current",
   "versioning_enabled": true,
-  "votes": null,
   "workflow_history": {
     "simple_publication_workflow": [
       {

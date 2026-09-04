@@ -3,7 +3,6 @@
   "@type": "Document",
   "UID": "d38bd8d3325e4450bdf8844a7f988f79",
   "allow_discussion": false,
-  "authors": null,
   "blocks": {
     "0126e819-d955-41c5-a736-2f0b5ffda8a1": {
       "@type": "separator",
@@ -90,7 +89,7 @@
     "6000ee9e-3275-4985-ae86-8a76ebb2e207": {
       "@type": "heading",
       "alignment": "left",
-      "heading": "Heading Block on Grey Background",
+      "heading": "Heading Block\u00a0on Grey Background",
       "styles": {},
       "theme": "grey"
     },
@@ -264,37 +263,29 @@
   ],
   "description": "\nThe heading block allows you to display headings to group multiple blocks under one topic.",
   "effective": "2023-07-06T18:35:00+00:00",
-  "enable_likes": false,
   "exclude_from_nav": false,
   "expires": null,
   "exportimport.constrains": {},
   "exportimport.conversation": [],
-  "feedback_person": null,
   "head_title": null,
   "id": "heading-block",
   "is_folderish": true,
   "language": "##DEFAULT##",
   "layout": "document_view",
-  "location_reference": null,
   "lock": {
     "locked": false,
     "stealable": true
   },
   "modified": "2025-12-02T08:59:43+00:00",
   "nav_title": null,
-  "organisational_unit_reference": null,
   "preview_caption_link": null,
-  "responsible_person": null,
   "review_state": "published",
   "rights": null,
-  "searchwords": [],
-  "showinsearch": false,
   "subjects": [],
   "title": "Heading",
   "type_title": "Page",
   "version": "current",
   "versioning_enabled": true,
-  "votes": null,
   "workflow_history": {
     "simple_publication_workflow": [
       {

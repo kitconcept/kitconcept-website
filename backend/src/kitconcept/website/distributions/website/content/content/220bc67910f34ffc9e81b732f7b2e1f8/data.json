@@ -3,7 +3,6 @@
   "@type": "Document",
   "UID": "220bc67910f34ffc9e81b732f7b2e1f8",
   "allow_discussion": false,
-  "authors": null,
   "blocks": {
     "050f0513-0cd2-4566-b839-8c970692a9cb": {
       "@type": "video",
@@ -178,7 +177,7 @@
     "458084b6-72eb-493b-a2de-a03a2ab1c975": {
       "@type": "heading",
       "alignment": "left",
-      "heading": "Video-Block with Preview Image",
+      "heading": "Video-Block with\u00a0Preview Image",
       "styles": {},
       "tag": "h2",
       "theme": "default"
@@ -305,7 +304,7 @@
     "c2a2f7b4-be1f-4c4d-bd41-1995504944ee": {
       "@type": "heading",
       "alignment": "left",
-      "heading": "Video Block with Preview Image",
+      "heading": "Video Block with\u00a0Preview Image",
       "styles": {},
       "tag": "h2",
       "theme": "grey"
@@ -365,7 +364,7 @@
     },
     "e0f1ef26-c21b-4209-b783-e9d1dd064175": {
       "@type": "heading",
-      "heading": "Video on Grey Background",
+      "heading": "Video\u00a0on Grey Background",
       "theme": "grey"
     },
     "e6e1484a-c2c2-4788-a8c4-a26a979d18cd": {
@@ -446,37 +445,29 @@
   ],
   "description": "\nThe video block can contain videos from YouTube.",
   "effective": "2023-07-06T18:35:00+00:00",
-  "enable_likes": false,
   "exclude_from_nav": false,
   "expires": null,
   "exportimport.constrains": {},
   "exportimport.conversation": [],
-  "feedback_person": null,
   "head_title": null,
   "id": "video-block",
   "is_folderish": true,
   "language": "##DEFAULT##",
   "layout": "document_view",
-  "location_reference": null,
   "lock": {
     "locked": false,
     "stealable": true
   },
   "modified": "2025-12-02T08:59:43+00:00",
   "nav_title": null,
-  "organisational_unit_reference": null,
   "preview_caption_link": null,
-  "responsible_person": null,
   "review_state": "published",
   "rights": "",
-  "searchwords": [],
-  "showinsearch": false,
   "subjects": [],
   "title": "Video",
   "type_title": "Page",
   "version": "current",
   "versioning_enabled": true,
-  "votes": null,
   "workflow_history": {
     "simple_publication_workflow": [
       {

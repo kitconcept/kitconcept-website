@@ -1,8 +1,7 @@
 {
-  "@id": "/person/jonas-seidel-b-a",
+  "@id": "/persons/jonas-seidel-b-a",
   "@type": "Person",
   "UID": "4de23606a34b4db284c6125a94ca1c41",
-  "academic_title": null,
   "address": null,
   "allow_discussion": null,
   "changeNote": "",
@@ -12,7 +11,6 @@
   "contact_room": "R875",
   "contact_website": "https://plone.org",
   "created": "2025-06-12T10:48:42+00:00",
-  "department": null,
   "description": "",
   "exclude_from_nav": false,
   "exportimport.constrains": {},
@@ -30,32 +28,27 @@
     "width": 2880
   },
   "is_folderish": true,
-  "job_title": "Sachbearbeiter – Personalentwicklung",
   "language": "##DEFAULT##",
   "last_name": "Seidel, B.A.",
   "layout": "view",
-  "location_reference": null,
   "lock": {
     "locked": false,
     "stealable": true
   },
-  "modified": "2026-01-19T13:04:36+00:00",
+  "modified": "2026-09-04T09:24:51+00:00",
   "nav_title": null,
   "office_phone": null,
-  "organisational_unit_reference": null,
-  "responsibilities": [],
   "review_state": "published",
   "roles": [
     "member"
   ],
   "text": {
     "content-type": "text/html",
-    "data": "<p>Jonas Seidel, B.A. ist Sachbearbeiter in der Personalentwicklung und unterstützt die Abteilung Interne Services in den Bereichen Weiterbildung, Karriereplanung und Onboarding. Er organisiert Fortbildungsprogramme, betreut E-Learning-Plattformen und begleitet Personalgespräche. Dank seiner Kompetenzen in HR-Systemen wie SAP HCM, seiner ausgeprägten Kommunikationsfähigkeit sowie seiner Erfahrung in der Projektkoordination trägt er maßgeblich zur nachhaltigen Entwicklung der Mitarbeitenden bei.</p>",
+    "data": "<p>Jonas Seidel, B.A. ist Sachbearbeiter in der Personalentwicklung und unterst\u00fctzt die Abteilung Interne Services in den Bereichen Weiterbildung, Karriereplanung und Onboarding. Er organisiert Fortbildungsprogramme, betreut E-Learning-Plattformen und begleitet Personalgespr\u00e4che. Dank seiner Kompetenzen in HR-Systemen wie SAP HCM, seiner ausgepr\u00e4gten Kommunikationsf\u00e4higkeit sowie seiner Erfahrung in der Projektkoordination tr\u00e4gt er ma\u00dfgeblich zur nachhaltigen Entwicklung der Mitarbeitenden bei.</p>",
     "encoding": "utf8"
   },
   "title": "Jonas Seidel, B.A.",
   "type_title": "Person",
-  "username": null,
   "version": "current",
   "versioning_enabled": true,
   "workflow_history": {

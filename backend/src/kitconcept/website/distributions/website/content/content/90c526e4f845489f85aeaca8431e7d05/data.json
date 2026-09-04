@@ -3,7 +3,6 @@
   "@type": "Document",
   "UID": "90c526e4f845489f85aeaca8431e7d05",
   "allow_discussion": false,
-  "authors": null,
   "blocks": {
     "01108cdc-39a3-4164-b29c-5b9680e8a49b": {
       "@type": "gridBlock",
@@ -284,18 +283,18 @@
       "blocks": {
         "919d4ca0-7200-47d7-b5fb-b7c87bb41e0f": {
           "@type": "teaser",
-          "description": "Dr. Miriam Engelhardt ist wissenschaftliche Mitarbeiterin im Bereich Umweltanalytik mit Schwerpunkt auf atmosphärischen Spurengasen und Emissionsdaten. Sie führt Messkampagnen durch, entwickelt Klimamodelle und validiert diese mit Hilfe statistischer Methoden. Ihre Expertise in Umweltchemie und datenbasierter Klimamodellierung mit Python und R unterstützt die Forschung zu Klimawirkungen und trägt zur Veröffentlichung fundierter wissenschaftlicher Ergebnisse bei.",
+          "description": "Dr. Miriam Engelhardt ist wissenschaftliche Mitarbeiterin im Bereich Umweltanalytik mit Schwerpunkt auf atmosph\u00e4rischen Spurengasen und Emissionsdaten. Sie f\u00fchrt Messkampagnen durch, entwickelt Klimamodelle und validiert diese mit Hilfe statistischer Methoden. Ihre Expertise in Umweltchemie und datenbasierter Klimamodellierung mit Python und R unterst\u00fctzt die Forschung zu Klimawirkungen und tr\u00e4gt zur Ver\u00f6ffentlichung fundierter wissenschaftlicher Ergebnisse bei.",
           "head_title": "Person Teaser",
           "href": [
             {
               "@id": "../../../../resolveuid/c71a61066533455db656f0ac93044401",
               "@type": "Person",
-              "Description": "Dr. Miriam Engelhardt ist wissenschaftliche Mitarbeiterin im Bereich Umweltanalytik mit Schwerpunkt auf atmosphärischen Spurengasen und Emissionsdaten. Sie führt Messkampagnen durch, entwickelt Klimamodelle und validiert diese mit Hilfe statistischer Methoden. Ihre Expertise in Umweltchemie und datenbasierter Klimamodellierung mit Python und R unterstützt die Forschung zu Klimawirkungen und trägt zur Veröffentlichung fundierter wissenschaftlicher Ergebnisse bei.",
+              "Description": "Dr. Miriam Engelhardt ist wissenschaftliche Mitarbeiterin im Bereich Umweltanalytik mit Schwerpunkt auf atmosph\u00e4rischen Spurengasen und Emissionsdaten. Sie f\u00fchrt Messkampagnen durch, entwickelt Klimamodelle und validiert diese mit Hilfe statistischer Methoden. Ihre Expertise in Umweltchemie und datenbasierter Klimamodellierung mit Python und R unterst\u00fctzt die Forschung zu Klimawirkungen und tr\u00e4gt zur Ver\u00f6ffentlichung fundierter wissenschaftlicher Ergebnisse bei.",
               "Title": "Dr. Miriam Engelhardt",
               "contact_email": "miriam.engelhardt@example.com",
               "contact_phone": "0221 3902 323",
               "contact_room": "R921",
-              "description": "Dr. Miriam Engelhardt ist wissenschaftliche Mitarbeiterin im Bereich Umweltanalytik mit Schwerpunkt auf atmosphärischen Spurengasen und Emissionsdaten. Sie führt Messkampagnen durch, entwickelt Klimamodelle und validiert diese mit Hilfe statistischer Methoden. Ihre Expertise in Umweltchemie und datenbasierter Klimamodellierung mit Python und R unterstützt die Forschung zu Klimawirkungen und trägt zur Veröffentlichung fundierter wissenschaftlicher Ergebnisse bei.",
+              "description": "Dr. Miriam Engelhardt ist wissenschaftliche Mitarbeiterin im Bereich Umweltanalytik mit Schwerpunkt auf atmosph\u00e4rischen Spurengasen und Emissionsdaten. Sie f\u00fchrt Messkampagnen durch, entwickelt Klimamodelle und validiert diese mit Hilfe statistischer Methoden. Ihre Expertise in Umweltchemie und datenbasierter Klimamodellierung mit Python und R unterst\u00fctzt die Forschung zu Klimawirkungen und tr\u00e4gt zur Ver\u00f6ffentlichung fundierter wissenschaftlicher Ergebnisse bei.",
               "effective": "1969-12-30T18:30:00+00:00",
               "end": null,
               "getRemoteUrl": null,
@@ -333,18 +332,18 @@
       "blocks": {
         "6efee8be-e04d-49dc-989e-58fe80e05ee9": {
           "@type": "teaser",
-          "description": "Dr. Ayla Demir ist Projektkoordinatorin für Internationale Zusammenarbeit in der Abteilung Wissenschaftspolitische Beziehungen. Sie koordiniert internationale Partnerschaften, begleitet das Antragsmanagement für EU- und Drittmittelprojekte und organisiert Fachkonferenzen. Ihre Schwerpunkte liegen in der Entwicklung von Förderprogrammen, dem Aufbau wissenschaftlicher Netzwerke und der strategischen Projektentwicklung. Mit fundierten Kenntnissen im Drittmittelrecht (z. B. Horizon, BMBF), interkultureller Kommunikation sowie Projektmanagement-Standards wie PRINCE2 und GPM/IPMA unterstützt sie wirkungsvoll die internationale Wissenschaftskooperation.",
+          "description": "Dr. Ayla Demir ist Projektkoordinatorin f\u00fcr Internationale Zusammenarbeit in der Abteilung Wissenschaftspolitische Beziehungen. Sie koordiniert internationale Partnerschaften, begleitet das Antragsmanagement f\u00fcr EU- und Drittmittelprojekte und organisiert Fachkonferenzen. Ihre Schwerpunkte liegen in der Entwicklung von F\u00f6rderprogrammen, dem Aufbau wissenschaftlicher Netzwerke und der strategischen Projektentwicklung. Mit fundierten Kenntnissen im Drittmittelrecht (z.\u202fB. Horizon, BMBF), interkultureller Kommunikation sowie Projektmanagement-Standards wie PRINCE2 und GPM/IPMA unterst\u00fctzt sie wirkungsvoll die internationale Wissenschaftskooperation.",
           "head_title": "Person Teaser",
           "href": [
             {
               "@id": "../../../../resolveuid/1cdfd0c5a337469f8c41ade1fba5274d",
               "@type": "Person",
-              "Description": "Dr. Ayla Demir ist Projektkoordinatorin für Internationale Zusammenarbeit in der Abteilung Wissenschaftspolitische Beziehungen. Sie koordiniert internationale Partnerschaften, begleitet das Antragsmanagement für EU- und Drittmittelprojekte und organisiert Fachkonferenzen. Ihre Schwerpunkte liegen in der Entwicklung von Förderprogrammen, dem Aufbau wissenschaftlicher Netzwerke und der strategischen Projektentwicklung. Mit fundierten Kenntnissen im Drittmittelrecht (z. B. Horizon, BMBF), interkultureller Kommunikation sowie Projektmanagement-Standards wie PRINCE2 und GPM/IPMA unterstützt sie wirkungsvoll die internationale Wissenschaftskooperation.",
+              "Description": "Dr. Ayla Demir ist Projektkoordinatorin f\u00fcr Internationale Zusammenarbeit in der Abteilung Wissenschaftspolitische Beziehungen. Sie koordiniert internationale Partnerschaften, begleitet das Antragsmanagement f\u00fcr EU- und Drittmittelprojekte und organisiert Fachkonferenzen. Ihre Schwerpunkte liegen in der Entwicklung von F\u00f6rderprogrammen, dem Aufbau wissenschaftlicher Netzwerke und der strategischen Projektentwicklung. Mit fundierten Kenntnissen im Drittmittelrecht (z.\u202fB. Horizon, BMBF), interkultureller Kommunikation sowie Projektmanagement-Standards wie PRINCE2 und GPM/IPMA unterst\u00fctzt sie wirkungsvoll die internationale Wissenschaftskooperation.",
               "Title": "Dr. Ayla Demir",
               "contact_email": "ayla.demir@example.com",
               "contact_phone": "0221 3902 323",
               "contact_room": "R943",
-              "description": "Dr. Ayla Demir ist Projektkoordinatorin für Internationale Zusammenarbeit in der Abteilung Wissenschaftspolitische Beziehungen. Sie koordiniert internationale Partnerschaften, begleitet das Antragsmanagement für EU- und Drittmittelprojekte und organisiert Fachkonferenzen. Ihre Schwerpunkte liegen in der Entwicklung von Förderprogrammen, dem Aufbau wissenschaftlicher Netzwerke und der strategischen Projektentwicklung. Mit fundierten Kenntnissen im Drittmittelrecht (z. B. Horizon, BMBF), interkultureller Kommunikation sowie Projektmanagement-Standards wie PRINCE2 und GPM/IPMA unterstützt sie wirkungsvoll die internationale Wissenschaftskooperation.",
+              "description": "Dr. Ayla Demir ist Projektkoordinatorin f\u00fcr Internationale Zusammenarbeit in der Abteilung Wissenschaftspolitische Beziehungen. Sie koordiniert internationale Partnerschaften, begleitet das Antragsmanagement f\u00fcr EU- und Drittmittelprojekte und organisiert Fachkonferenzen. Ihre Schwerpunkte liegen in der Entwicklung von F\u00f6rderprogrammen, dem Aufbau wissenschaftlicher Netzwerke und der strategischen Projektentwicklung. Mit fundierten Kenntnissen im Drittmittelrecht (z.\u202fB. Horizon, BMBF), interkultureller Kommunikation sowie Projektmanagement-Standards wie PRINCE2 und GPM/IPMA unterst\u00fctzt sie wirkungsvoll die internationale Wissenschaftskooperation.",
               "effective": "1969-12-30T18:30:00+00:00",
               "end": null,
               "getRemoteUrl": null,
@@ -363,18 +362,18 @@
         },
         "7212e03a-8b96-4a34-9064-1082f640a520": {
           "@type": "teaser",
-          "description": "Dr. Clara Beck ist wissenschaftliche Beraterin für Gesundheits- und Umweltschutz in der Abteilung Politikberatung und Wissenschaftstransfer. Sie erstellt evidenzbasierte Gutachten, begleitet politische Entscheidungsprozesse fachlich und pflegt den Austausch mit relevanten Stakeholdern. Ihre Arbeit verbindet Risikoanalyse mit gezielter Öffentlichkeitsarbeit, um wissenschaftliche Erkenntnisse wirksam in die Praxis zu überführen. Mit ihrer Expertise in Wissenschaftskommunikation, fundierter Literaturrecherche und Metaanalysen sowie dem Verfassen prägnanter Policy Briefs trägt sie zur fundierten und transparenten politischen Beratung bei.",
+          "description": "Dr. Clara Beck ist wissenschaftliche Beraterin f\u00fcr Gesundheits- und Umweltschutz in der Abteilung Politikberatung und Wissenschaftstransfer. Sie erstellt evidenzbasierte Gutachten, begleitet politische Entscheidungsprozesse fachlich und pflegt den Austausch mit relevanten Stakeholdern. Ihre Arbeit verbindet Risikoanalyse mit gezielter \u00d6ffentlichkeitsarbeit, um wissenschaftliche Erkenntnisse wirksam in die Praxis zu \u00fcberf\u00fchren. Mit ihrer Expertise in Wissenschaftskommunikation, fundierter Literaturrecherche und Metaanalysen sowie dem Verfassen pr\u00e4gnanter Policy Briefs tr\u00e4gt sie zur fundierten und transparenten politischen Beratung bei.",
           "head_title": "Person Teaser",
           "href": [
             {
               "@id": "../../../../resolveuid/2e17746a030b479a918afefc50d5ff4c",
               "@type": "Person",
-              "Description": "Dr. Clara Beck ist wissenschaftliche Beraterin für Gesundheits- und Umweltschutz in der Abteilung Politikberatung und Wissenschaftstransfer. Sie erstellt evidenzbasierte Gutachten, begleitet politische Entscheidungsprozesse fachlich und pflegt den Austausch mit relevanten Stakeholdern. Ihre Arbeit verbindet Risikoanalyse mit gezielter Öffentlichkeitsarbeit, um wissenschaftliche Erkenntnisse wirksam in die Praxis zu überführen. Mit ihrer Expertise in Wissenschaftskommunikation, fundierter Literaturrecherche und Metaanalysen sowie dem Verfassen prägnanter Policy Briefs trägt sie zur fundierten und transparenten politischen Beratung bei.",
+              "Description": "Dr. Clara Beck ist wissenschaftliche Beraterin f\u00fcr Gesundheits- und Umweltschutz in der Abteilung Politikberatung und Wissenschaftstransfer. Sie erstellt evidenzbasierte Gutachten, begleitet politische Entscheidungsprozesse fachlich und pflegt den Austausch mit relevanten Stakeholdern. Ihre Arbeit verbindet Risikoanalyse mit gezielter \u00d6ffentlichkeitsarbeit, um wissenschaftliche Erkenntnisse wirksam in die Praxis zu \u00fcberf\u00fchren. Mit ihrer Expertise in Wissenschaftskommunikation, fundierter Literaturrecherche und Metaanalysen sowie dem Verfassen pr\u00e4gnanter Policy Briefs tr\u00e4gt sie zur fundierten und transparenten politischen Beratung bei.",
               "Title": "Dr. Clara Beck",
               "contact_email": "clara.beck@example.com",
               "contact_phone": "0221 3902 323",
               "contact_room": "R965",
-              "description": "Dr. Clara Beck ist wissenschaftliche Beraterin für Gesundheits- und Umweltschutz in der Abteilung Politikberatung und Wissenschaftstransfer. Sie erstellt evidenzbasierte Gutachten, begleitet politische Entscheidungsprozesse fachlich und pflegt den Austausch mit relevanten Stakeholdern. Ihre Arbeit verbindet Risikoanalyse mit gezielter Öffentlichkeitsarbeit, um wissenschaftliche Erkenntnisse wirksam in die Praxis zu überführen. Mit ihrer Expertise in Wissenschaftskommunikation, fundierter Literaturrecherche und Metaanalysen sowie dem Verfassen prägnanter Policy Briefs trägt sie zur fundierten und transparenten politischen Beratung bei.",
+              "description": "Dr. Clara Beck ist wissenschaftliche Beraterin f\u00fcr Gesundheits- und Umweltschutz in der Abteilung Politikberatung und Wissenschaftstransfer. Sie erstellt evidenzbasierte Gutachten, begleitet politische Entscheidungsprozesse fachlich und pflegt den Austausch mit relevanten Stakeholdern. Ihre Arbeit verbindet Risikoanalyse mit gezielter \u00d6ffentlichkeitsarbeit, um wissenschaftliche Erkenntnisse wirksam in die Praxis zu \u00fcberf\u00fchren. Mit ihrer Expertise in Wissenschaftskommunikation, fundierter Literaturrecherche und Metaanalysen sowie dem Verfassen pr\u00e4gnanter Policy Briefs tr\u00e4gt sie zur fundierten und transparenten politischen Beratung bei.",
               "effective": "1969-12-30T18:30:00+00:00",
               "end": null,
               "getRemoteUrl": null,
@@ -393,18 +392,18 @@
         },
         "77cf2ba1-4c64-4099-ad51-e12be22f2ce4": {
           "@type": "teaser",
-          "description": "Patrick Maier, M.Sc. ist technischer Spezialist für Luft- und Raumfahrtsysteme in der Abteilung Automatisierung und Simulation. Er entwickelt und testet autonome Systeme, simuliert komplexe Missionsabläufe und erstellt technische Dokumentationen für anspruchsvolle Anwendungen. Seine Schwerpunkte liegen in der Flugmechanik, Robotik und der Entwicklung moderner Steuerungssysteme. Mit fundierten Kenntnissen in Regelungstechnik, der Arbeit mit MATLAB/Simulink sowie dem Einsatz von Robotik-Frameworks wie ROS und PX4 trägt er zur Weiterentwicklung intelligenter und zuverlässiger Luft- und Raumfahrtlösungen bei.",
+          "description": "Patrick Maier, M.Sc. ist technischer Spezialist f\u00fcr Luft- und Raumfahrtsysteme in der Abteilung Automatisierung und Simulation. Er entwickelt und testet autonome Systeme, simuliert komplexe Missionsabl\u00e4ufe und erstellt technische Dokumentationen f\u00fcr anspruchsvolle Anwendungen. Seine Schwerpunkte liegen in der Flugmechanik, Robotik und der Entwicklung moderner Steuerungssysteme. Mit fundierten Kenntnissen in Regelungstechnik, der Arbeit mit MATLAB/Simulink sowie dem Einsatz von Robotik-Frameworks wie ROS und PX4 tr\u00e4gt er zur Weiterentwicklung intelligenter und zuverl\u00e4ssiger Luft- und Raumfahrtl\u00f6sungen bei.",
           "head_title": "Person Teaser",
           "href": [
             {
               "@id": "../../../../resolveuid/27ae32819bc64e4fa280efc1a1d5514d",
               "@type": "Person",
-              "Description": "Patrick Maier, M.Sc. ist technischer Spezialist für Luft- und Raumfahrtsysteme in der Abteilung Automatisierung und Simulation. Er entwickelt und testet autonome Systeme, simuliert komplexe Missionsabläufe und erstellt technische Dokumentationen für anspruchsvolle Anwendungen. Seine Schwerpunkte liegen in der Flugmechanik, Robotik und der Entwicklung moderner Steuerungssysteme. Mit fundierten Kenntnissen in Regelungstechnik, der Arbeit mit MATLAB/Simulink sowie dem Einsatz von Robotik-Frameworks wie ROS und PX4 trägt er zur Weiterentwicklung intelligenter und zuverlässiger Luft- und Raumfahrtlösungen bei.",
+              "Description": "Patrick Maier, M.Sc. ist technischer Spezialist f\u00fcr Luft- und Raumfahrtsysteme in der Abteilung Automatisierung und Simulation. Er entwickelt und testet autonome Systeme, simuliert komplexe Missionsabl\u00e4ufe und erstellt technische Dokumentationen f\u00fcr anspruchsvolle Anwendungen. Seine Schwerpunkte liegen in der Flugmechanik, Robotik und der Entwicklung moderner Steuerungssysteme. Mit fundierten Kenntnissen in Regelungstechnik, der Arbeit mit MATLAB/Simulink sowie dem Einsatz von Robotik-Frameworks wie ROS und PX4 tr\u00e4gt er zur Weiterentwicklung intelligenter und zuverl\u00e4ssiger Luft- und Raumfahrtl\u00f6sungen bei.",
               "Title": "Patrick Maier, M.Sc.",
               "contact_email": "patrick.maier@example.com",
               "contact_phone": "0221 3902 323",
               "contact_room": "R975",
-              "description": "Patrick Maier, M.Sc. ist technischer Spezialist für Luft- und Raumfahrtsysteme in der Abteilung Automatisierung und Simulation. Er entwickelt und testet autonome Systeme, simuliert komplexe Missionsabläufe und erstellt technische Dokumentationen für anspruchsvolle Anwendungen. Seine Schwerpunkte liegen in der Flugmechanik, Robotik und der Entwicklung moderner Steuerungssysteme. Mit fundierten Kenntnissen in Regelungstechnik, der Arbeit mit MATLAB/Simulink sowie dem Einsatz von Robotik-Frameworks wie ROS und PX4 trägt er zur Weiterentwicklung intelligenter und zuverlässiger Luft- und Raumfahrtlösungen bei.",
+              "description": "Patrick Maier, M.Sc. ist technischer Spezialist f\u00fcr Luft- und Raumfahrtsysteme in der Abteilung Automatisierung und Simulation. Er entwickelt und testet autonome Systeme, simuliert komplexe Missionsabl\u00e4ufe und erstellt technische Dokumentationen f\u00fcr anspruchsvolle Anwendungen. Seine Schwerpunkte liegen in der Flugmechanik, Robotik und der Entwicklung moderner Steuerungssysteme. Mit fundierten Kenntnissen in Regelungstechnik, der Arbeit mit MATLAB/Simulink sowie dem Einsatz von Robotik-Frameworks wie ROS und PX4 tr\u00e4gt er zur Weiterentwicklung intelligenter und zuverl\u00e4ssiger Luft- und Raumfahrtl\u00f6sungen bei.",
               "effective": "1969-12-30T18:30:00+00:00",
               "end": null,
               "getRemoteUrl": null,
@@ -423,18 +422,18 @@
         },
         "a402e834-d5d4-4323-bd90-cddb829e14a2": {
           "@type": "teaser",
-          "description": "Max Berger, M.A. ist Kommunikationsmanager für interne Kommunikation in der Abteilung Kommunikation & Öffentlichkeitsarbeit. Er betreut redaktionell das Intranet, entwickelt zielgerichtete Kommunikationskampagnen und erstellt visuelle Inhalte wie Infografiken und Videos. Seine Schwerpunkte liegen in der Mitarbeiterkommunikation und der Gestaltung verständlicher interner Botschaften. Mit seiner Erfahrung im Umgang mit Content-Management-Systemen, Grafiksoftware wie Adobe Creative Cloud und Canva sowie seiner Kompetenz in der Change-Kommunikation unterstützt er wirkungsvoll die interne Vernetzung und Informationskultur.",
+          "description": "Max Berger, M.A. ist Kommunikationsmanager f\u00fcr interne Kommunikation in der Abteilung Kommunikation & \u00d6ffentlichkeitsarbeit. Er betreut redaktionell das Intranet, entwickelt zielgerichtete Kommunikationskampagnen und erstellt visuelle Inhalte wie Infografiken und Videos. Seine Schwerpunkte liegen in der Mitarbeiterkommunikation und der Gestaltung verst\u00e4ndlicher interner Botschaften. Mit seiner Erfahrung im Umgang mit Content-Management-Systemen, Grafiksoftware wie Adobe Creative Cloud und Canva sowie seiner Kompetenz in der Change-Kommunikation unterst\u00fctzt er wirkungsvoll die interne Vernetzung und Informationskultur.",
           "head_title": "Person Teaser",
           "href": [
             {
               "@id": "../../../../resolveuid/95a19878c3b34b0584db198524b0b58b",
               "@type": "Person",
-              "Description": "Max Berger, M.A. ist Kommunikationsmanager für interne Kommunikation in der Abteilung Kommunikation & Öffentlichkeitsarbeit. Er betreut redaktionell das Intranet, entwickelt zielgerichtete Kommunikationskampagnen und erstellt visuelle Inhalte wie Infografiken und Videos. Seine Schwerpunkte liegen in der Mitarbeiterkommunikation und der Gestaltung verständlicher interner Botschaften. Mit seiner Erfahrung im Umgang mit Content-Management-Systemen, Grafiksoftware wie Adobe Creative Cloud und Canva sowie seiner Kompetenz in der Change-Kommunikation unterstützt er wirkungsvoll die interne Vernetzung und Informationskultur.",
+              "Description": "Max Berger, M.A. ist Kommunikationsmanager f\u00fcr interne Kommunikation in der Abteilung Kommunikation & \u00d6ffentlichkeitsarbeit. Er betreut redaktionell das Intranet, entwickelt zielgerichtete Kommunikationskampagnen und erstellt visuelle Inhalte wie Infografiken und Videos. Seine Schwerpunkte liegen in der Mitarbeiterkommunikation und der Gestaltung verst\u00e4ndlicher interner Botschaften. Mit seiner Erfahrung im Umgang mit Content-Management-Systemen, Grafiksoftware wie Adobe Creative Cloud und Canva sowie seiner Kompetenz in der Change-Kommunikation unterst\u00fctzt er wirkungsvoll die interne Vernetzung und Informationskultur.",
               "Title": "Max Berger, M.A.",
               "contact_email": "max.berger@example.com",
               "contact_phone": "0221 3902 323",
               "contact_room": "R982",
-              "description": "Max Berger, M.A. ist Kommunikationsmanager für interne Kommunikation in der Abteilung Kommunikation & Öffentlichkeitsarbeit. Er betreut redaktionell das Intranet, entwickelt zielgerichtete Kommunikationskampagnen und erstellt visuelle Inhalte wie Infografiken und Videos. Seine Schwerpunkte liegen in der Mitarbeiterkommunikation und der Gestaltung verständlicher interner Botschaften. Mit seiner Erfahrung im Umgang mit Content-Management-Systemen, Grafiksoftware wie Adobe Creative Cloud und Canva sowie seiner Kompetenz in der Change-Kommunikation unterstützt er wirkungsvoll die interne Vernetzung und Informationskultur.",
+              "description": "Max Berger, M.A. ist Kommunikationsmanager f\u00fcr interne Kommunikation in der Abteilung Kommunikation & \u00d6ffentlichkeitsarbeit. Er betreut redaktionell das Intranet, entwickelt zielgerichtete Kommunikationskampagnen und erstellt visuelle Inhalte wie Infografiken und Videos. Seine Schwerpunkte liegen in der Mitarbeiterkommunikation und der Gestaltung verst\u00e4ndlicher interner Botschaften. Mit seiner Erfahrung im Umgang mit Content-Management-Systemen, Grafiksoftware wie Adobe Creative Cloud und Canva sowie seiner Kompetenz in der Change-Kommunikation unterst\u00fctzt er wirkungsvoll die interne Vernetzung und Informationskultur.",
               "effective": "1969-12-30T18:30:00+00:00",
               "end": null,
               "getRemoteUrl": null,
@@ -885,18 +884,18 @@
       "blocks": {
         "648eb5df-b147-4e24-97f0-c7d2f9735ea7": {
           "@type": "teaser",
-          "description": "Lukas Brandt, M.Sc. ist IT-Systemarchitekt im Rechenzentrum und spezialisiert auf Hochleistungsrechner, Netzwerksicherheit und IT-Automatisierung. Er plant und betreut die Serverinfrastruktur, überwacht und optimiert Netzwerke und ist für die Anbindung von Forschungsdatenbanken zuständig. Seine Fachkenntnisse in der Linux-Administration, modernen Netzwerkarchitekturen sowie der Automatisierung mit Ansible und Terraform bilden die Grundlage für einen stabilen und leistungsfähigen IT-Betrieb.",
+          "description": "Lukas Brandt, M.Sc. ist IT-Systemarchitekt im Rechenzentrum und spezialisiert auf Hochleistungsrechner, Netzwerksicherheit und IT-Automatisierung. Er plant und betreut die Serverinfrastruktur, \u00fcberwacht und optimiert Netzwerke und ist f\u00fcr die Anbindung von Forschungsdatenbanken zust\u00e4ndig. Seine Fachkenntnisse in der Linux-Administration, modernen Netzwerkarchitekturen sowie der Automatisierung mit Ansible und Terraform bilden die Grundlage f\u00fcr einen stabilen und leistungsf\u00e4higen IT-Betrieb.",
           "head_title": "Person Teaser",
           "href": [
             {
               "@id": "../../../../resolveuid/29619a2394d7421980fabaa99b742eda",
               "@type": "Person",
-              "Description": "Lukas Brandt, M.Sc. ist IT-Systemarchitekt im Rechenzentrum und spezialisiert auf Hochleistungsrechner, Netzwerksicherheit und IT-Automatisierung. Er plant und betreut die Serverinfrastruktur, überwacht und optimiert Netzwerke und ist für die Anbindung von Forschungsdatenbanken zuständig. Seine Fachkenntnisse in der Linux-Administration, modernen Netzwerkarchitekturen sowie der Automatisierung mit Ansible und Terraform bilden die Grundlage für einen stabilen und leistungsfähigen IT-Betrieb.",
+              "Description": "Lukas Brandt, M.Sc. ist IT-Systemarchitekt im Rechenzentrum und spezialisiert auf Hochleistungsrechner, Netzwerksicherheit und IT-Automatisierung. Er plant und betreut die Serverinfrastruktur, \u00fcberwacht und optimiert Netzwerke und ist f\u00fcr die Anbindung von Forschungsdatenbanken zust\u00e4ndig. Seine Fachkenntnisse in der Linux-Administration, modernen Netzwerkarchitekturen sowie der Automatisierung mit Ansible und Terraform bilden die Grundlage f\u00fcr einen stabilen und leistungsf\u00e4higen IT-Betrieb.",
               "Title": "Lukas Brandt, M.Sc.",
               "contact_email": "lukas.brandt@example.com",
               "contact_phone": "0221 3902 323",
               "contact_room": "R18",
-              "description": "Lukas Brandt, M.Sc. ist IT-Systemarchitekt im Rechenzentrum und spezialisiert auf Hochleistungsrechner, Netzwerksicherheit und IT-Automatisierung. Er plant und betreut die Serverinfrastruktur, überwacht und optimiert Netzwerke und ist für die Anbindung von Forschungsdatenbanken zuständig. Seine Fachkenntnisse in der Linux-Administration, modernen Netzwerkarchitekturen sowie der Automatisierung mit Ansible und Terraform bilden die Grundlage für einen stabilen und leistungsfähigen IT-Betrieb.",
+              "description": "Lukas Brandt, M.Sc. ist IT-Systemarchitekt im Rechenzentrum und spezialisiert auf Hochleistungsrechner, Netzwerksicherheit und IT-Automatisierung. Er plant und betreut die Serverinfrastruktur, \u00fcberwacht und optimiert Netzwerke und ist f\u00fcr die Anbindung von Forschungsdatenbanken zust\u00e4ndig. Seine Fachkenntnisse in der Linux-Administration, modernen Netzwerkarchitekturen sowie der Automatisierung mit Ansible und Terraform bilden die Grundlage f\u00fcr einen stabilen und leistungsf\u00e4higen IT-Betrieb.",
               "effective": "1969-12-30T18:30:00+00:00",
               "end": null,
               "getRemoteUrl": null,
@@ -915,18 +914,18 @@
         },
         "711c4125-f5bc-4f12-b85c-b7b6277e8e22": {
           "@type": "teaser",
-          "description": "Dr. Sophie Lehner ist Referentin für Risikobewertung und Strahlenschutz in der Abteilung Gesundheit und Vorsorge. Ihr Schwerpunkt liegt auf der Analyse von Expositionsszenarien und der Entwicklung von Schutzkonzepten im Bereich ionisierender Strahlung. Sie erstellt Richtlinien und berät interne Stellen in fachlichen sowie regulatorischen Fragen. Ihre Expertise in Strahlenbiologie, Risikoanalyse und den gesetzlichen Rahmenwerken (StrlSchG, StrlSchV) macht sie zu einer wichtigen Ansprechpartnerin für Themen des Strahlenschutzes.",
+          "description": "Dr. Sophie Lehner ist Referentin f\u00fcr Risikobewertung und Strahlenschutz in der Abteilung Gesundheit und Vorsorge. Ihr Schwerpunkt liegt auf der Analyse von Expositionsszenarien und der Entwicklung von Schutzkonzepten im Bereich ionisierender Strahlung. Sie erstellt Richtlinien und ber\u00e4t interne Stellen in fachlichen sowie regulatorischen Fragen. Ihre Expertise in Strahlenbiologie, Risikoanalyse und den gesetzlichen Rahmenwerken (StrlSchG, StrlSchV) macht sie zu einer wichtigen Ansprechpartnerin f\u00fcr Themen des Strahlenschutzes.",
           "head_title": "Person Teaser",
           "href": [
             {
               "@id": "../../../../resolveuid/37d87d573b4448369afb431a0eb1f728",
               "@type": "Person",
-              "Description": "Dr. Sophie Lehner ist Referentin für Risikobewertung und Strahlenschutz in der Abteilung Gesundheit und Vorsorge. Ihr Schwerpunkt liegt auf der Analyse von Expositionsszenarien und der Entwicklung von Schutzkonzepten im Bereich ionisierender Strahlung. Sie erstellt Richtlinien und berät interne Stellen in fachlichen sowie regulatorischen Fragen. Ihre Expertise in Strahlenbiologie, Risikoanalyse und den gesetzlichen Rahmenwerken (StrlSchG, StrlSchV) macht sie zu einer wichtigen Ansprechpartnerin für Themen des Strahlenschutzes.",
+              "Description": "Dr. Sophie Lehner ist Referentin f\u00fcr Risikobewertung und Strahlenschutz in der Abteilung Gesundheit und Vorsorge. Ihr Schwerpunkt liegt auf der Analyse von Expositionsszenarien und der Entwicklung von Schutzkonzepten im Bereich ionisierender Strahlung. Sie erstellt Richtlinien und ber\u00e4t interne Stellen in fachlichen sowie regulatorischen Fragen. Ihre Expertise in Strahlenbiologie, Risikoanalyse und den gesetzlichen Rahmenwerken (StrlSchG, StrlSchV) macht sie zu einer wichtigen Ansprechpartnerin f\u00fcr Themen des Strahlenschutzes.",
               "Title": "Dr. Sophie Lehner",
               "contact_email": "sophie.lehner@example.com",
               "contact_phone": "0221 3902 323",
               "contact_room": "R985",
-              "description": "Dr. Sophie Lehner ist Referentin für Risikobewertung und Strahlenschutz in der Abteilung Gesundheit und Vorsorge. Ihr Schwerpunkt liegt auf der Analyse von Expositionsszenarien und der Entwicklung von Schutzkonzepten im Bereich ionisierender Strahlung. Sie erstellt Richtlinien und berät interne Stellen in fachlichen sowie regulatorischen Fragen. Ihre Expertise in Strahlenbiologie, Risikoanalyse und den gesetzlichen Rahmenwerken (StrlSchG, StrlSchV) macht sie zu einer wichtigen Ansprechpartnerin für Themen des Strahlenschutzes.",
+              "description": "Dr. Sophie Lehner ist Referentin f\u00fcr Risikobewertung und Strahlenschutz in der Abteilung Gesundheit und Vorsorge. Ihr Schwerpunkt liegt auf der Analyse von Expositionsszenarien und der Entwicklung von Schutzkonzepten im Bereich ionisierender Strahlung. Sie erstellt Richtlinien und ber\u00e4t interne Stellen in fachlichen sowie regulatorischen Fragen. Ihre Expertise in Strahlenbiologie, Risikoanalyse und den gesetzlichen Rahmenwerken (StrlSchG, StrlSchV) macht sie zu einer wichtigen Ansprechpartnerin f\u00fcr Themen des Strahlenschutzes.",
               "effective": "1969-12-30T18:30:00+00:00",
               "end": null,
               "getRemoteUrl": null,
@@ -1597,18 +1596,18 @@
       "blocks": {
         "39833cd2-5632-41d6-9c60-799d3f3406c4": {
           "@type": "teaser",
-          "description": "Tim Werner, LL.M. ist Prüfer im Bereich Öffentliche Finanzen und in der Abteilung Haushalts- und Strukturkontrolle tätig. Seine Schwerpunkte liegen im Haushaltsrecht, der Mittelverwendung und der Bewertung öffentlicher Projekte. Er führt Prüfungen durch, erstellt fundierte Prüfberichte und berät zu Optimierungspotenzialen im Haushaltsvollzug. Mit seiner juristischen Expertise im Verwaltungsrecht, seiner Erfahrung in der Bilanzanalyse sowie dem sicheren Umgang mit MS Excel und spezialisierter Prüfsoftware trägt er zur Transparenz und Effizienz öffentlicher Finanzen bei.",
+          "description": "Tim Werner, LL.M. ist Pr\u00fcfer im Bereich \u00d6ffentliche Finanzen und in der Abteilung Haushalts- und Strukturkontrolle t\u00e4tig. Seine Schwerpunkte liegen im Haushaltsrecht, der Mittelverwendung und der Bewertung \u00f6ffentlicher Projekte. Er f\u00fchrt Pr\u00fcfungen durch, erstellt fundierte Pr\u00fcfberichte und ber\u00e4t zu Optimierungspotenzialen im Haushaltsvollzug. Mit seiner juristischen Expertise im Verwaltungsrecht, seiner Erfahrung in der Bilanzanalyse sowie dem sicheren Umgang mit MS Excel und spezialisierter Pr\u00fcfsoftware tr\u00e4gt er zur Transparenz und Effizienz \u00f6ffentlicher Finanzen bei.",
           "head_title": "Person Teaser",
           "href": [
             {
               "@id": "../../../../resolveuid/059feee144a44bf88a3b38fbe9deca65",
               "@type": "Person",
-              "Description": "Tim Werner, LL.M. ist Prüfer im Bereich Öffentliche Finanzen und in der Abteilung Haushalts- und Strukturkontrolle tätig. Seine Schwerpunkte liegen im Haushaltsrecht, der Mittelverwendung und der Bewertung öffentlicher Projekte. Er führt Prüfungen durch, erstellt fundierte Prüfberichte und berät zu Optimierungspotenzialen im Haushaltsvollzug. Mit seiner juristischen Expertise im Verwaltungsrecht, seiner Erfahrung in der Bilanzanalyse sowie dem sicheren Umgang mit MS Excel und spezialisierter Prüfsoftware trägt er zur Transparenz und Effizienz öffentlicher Finanzen bei.",
+              "Description": "Tim Werner, LL.M. ist Pr\u00fcfer im Bereich \u00d6ffentliche Finanzen und in der Abteilung Haushalts- und Strukturkontrolle t\u00e4tig. Seine Schwerpunkte liegen im Haushaltsrecht, der Mittelverwendung und der Bewertung \u00f6ffentlicher Projekte. Er f\u00fchrt Pr\u00fcfungen durch, erstellt fundierte Pr\u00fcfberichte und ber\u00e4t zu Optimierungspotenzialen im Haushaltsvollzug. Mit seiner juristischen Expertise im Verwaltungsrecht, seiner Erfahrung in der Bilanzanalyse sowie dem sicheren Umgang mit MS Excel und spezialisierter Pr\u00fcfsoftware tr\u00e4gt er zur Transparenz und Effizienz \u00f6ffentlicher Finanzen bei.",
               "Title": "Tim Werner, LL.M.",
               "contact_email": "tim.werner@example.com",
               "contact_phone": "0221 3902 323",
               "contact_room": "R874",
-              "description": "Tim Werner, LL.M. ist Prüfer im Bereich Öffentliche Finanzen und in der Abteilung Haushalts- und Strukturkontrolle tätig. Seine Schwerpunkte liegen im Haushaltsrecht, der Mittelverwendung und der Bewertung öffentlicher Projekte. Er führt Prüfungen durch, erstellt fundierte Prüfberichte und berät zu Optimierungspotenzialen im Haushaltsvollzug. Mit seiner juristischen Expertise im Verwaltungsrecht, seiner Erfahrung in der Bilanzanalyse sowie dem sicheren Umgang mit MS Excel und spezialisierter Prüfsoftware trägt er zur Transparenz und Effizienz öffentlicher Finanzen bei.",
+              "description": "Tim Werner, LL.M. ist Pr\u00fcfer im Bereich \u00d6ffentliche Finanzen und in der Abteilung Haushalts- und Strukturkontrolle t\u00e4tig. Seine Schwerpunkte liegen im Haushaltsrecht, der Mittelverwendung und der Bewertung \u00f6ffentlicher Projekte. Er f\u00fchrt Pr\u00fcfungen durch, erstellt fundierte Pr\u00fcfberichte und ber\u00e4t zu Optimierungspotenzialen im Haushaltsvollzug. Mit seiner juristischen Expertise im Verwaltungsrecht, seiner Erfahrung in der Bilanzanalyse sowie dem sicheren Umgang mit MS Excel und spezialisierter Pr\u00fcfsoftware tr\u00e4gt er zur Transparenz und Effizienz \u00f6ffentlicher Finanzen bei.",
               "effective": "1969-12-30T18:30:00+00:00",
               "end": null,
               "getRemoteUrl": null,
@@ -1627,18 +1626,18 @@
         },
         "3f83b352-fe09-468d-999c-bdaf717ee153": {
           "@type": "teaser",
-          "description": "Dr. Nadine Paulsen ist Wissenschaftlerin im Bereich Energiesysteme der Zukunft und arbeitet in der Abteilung Nachhaltigkeit und Innovation. Ihre Forschung konzentriert sich auf Wasserstofftechnologien, zukünftige Energieszenarien und innovative Speicherlösungen. Sie entwickelt Energiemodelle, koordiniert interdisziplinäre Studien und berät Projektpartner zu technologischen und systemischen Fragestellungen. Mit ihrer Expertise in der Energiesystemanalyse, dem Einsatz von Simulationstools wie EnergyPLAN und Modelica sowie der Technologiebewertung leistet sie einen wichtigen Beitrag zur Gestaltung nachhaltiger Energiestrategien.",
+          "description": "Dr. Nadine Paulsen ist Wissenschaftlerin im Bereich Energiesysteme der Zukunft und arbeitet in der Abteilung Nachhaltigkeit und Innovation. Ihre Forschung konzentriert sich auf Wasserstofftechnologien, zuk\u00fcnftige Energieszenarien und innovative Speicherl\u00f6sungen. Sie entwickelt Energiemodelle, koordiniert interdisziplin\u00e4re Studien und ber\u00e4t Projektpartner zu technologischen und systemischen Fragestellungen. Mit ihrer Expertise in der Energiesystemanalyse, dem Einsatz von Simulationstools wie EnergyPLAN und Modelica sowie der Technologiebewertung leistet sie einen wichtigen Beitrag zur Gestaltung nachhaltiger Energiestrategien.",
           "head_title": "Person Teaser",
           "href": [
             {
               "@id": "../../../../resolveuid/34d45ae4d36c4fa1a678358dd5320609",
               "@type": "Person",
-              "Description": "Dr. Nadine Paulsen ist Wissenschaftlerin im Bereich Energiesysteme der Zukunft und arbeitet in der Abteilung Nachhaltigkeit und Innovation. Ihre Forschung konzentriert sich auf Wasserstofftechnologien, zukünftige Energieszenarien und innovative Speicherlösungen. Sie entwickelt Energiemodelle, koordiniert interdisziplinäre Studien und berät Projektpartner zu technologischen und systemischen Fragestellungen. Mit ihrer Expertise in der Energiesystemanalyse, dem Einsatz von Simulationstools wie EnergyPLAN und Modelica sowie der Technologiebewertung leistet sie einen wichtigen Beitrag zur Gestaltung nachhaltiger Energiestrategien.",
+              "Description": "Dr. Nadine Paulsen ist Wissenschaftlerin im Bereich Energiesysteme der Zukunft und arbeitet in der Abteilung Nachhaltigkeit und Innovation. Ihre Forschung konzentriert sich auf Wasserstofftechnologien, zuk\u00fcnftige Energieszenarien und innovative Speicherl\u00f6sungen. Sie entwickelt Energiemodelle, koordiniert interdisziplin\u00e4re Studien und ber\u00e4t Projektpartner zu technologischen und systemischen Fragestellungen. Mit ihrer Expertise in der Energiesystemanalyse, dem Einsatz von Simulationstools wie EnergyPLAN und Modelica sowie der Technologiebewertung leistet sie einen wichtigen Beitrag zur Gestaltung nachhaltiger Energiestrategien.",
               "Title": "Dr. Nadine Paulsen",
               "contact_email": "nadine.paulsen@example.com",
               "contact_phone": "0221 3902 323",
               "contact_room": "R974",
-              "description": "Dr. Nadine Paulsen ist Wissenschaftlerin im Bereich Energiesysteme der Zukunft und arbeitet in der Abteilung Nachhaltigkeit und Innovation. Ihre Forschung konzentriert sich auf Wasserstofftechnologien, zukünftige Energieszenarien und innovative Speicherlösungen. Sie entwickelt Energiemodelle, koordiniert interdisziplinäre Studien und berät Projektpartner zu technologischen und systemischen Fragestellungen. Mit ihrer Expertise in der Energiesystemanalyse, dem Einsatz von Simulationstools wie EnergyPLAN und Modelica sowie der Technologiebewertung leistet sie einen wichtigen Beitrag zur Gestaltung nachhaltiger Energiestrategien.",
+              "description": "Dr. Nadine Paulsen ist Wissenschaftlerin im Bereich Energiesysteme der Zukunft und arbeitet in der Abteilung Nachhaltigkeit und Innovation. Ihre Forschung konzentriert sich auf Wasserstofftechnologien, zuk\u00fcnftige Energieszenarien und innovative Speicherl\u00f6sungen. Sie entwickelt Energiemodelle, koordiniert interdisziplin\u00e4re Studien und ber\u00e4t Projektpartner zu technologischen und systemischen Fragestellungen. Mit ihrer Expertise in der Energiesystemanalyse, dem Einsatz von Simulationstools wie EnergyPLAN und Modelica sowie der Technologiebewertung leistet sie einen wichtigen Beitrag zur Gestaltung nachhaltiger Energiestrategien.",
               "effective": "1969-12-30T18:30:00+00:00",
               "end": null,
               "getRemoteUrl": null,
@@ -1657,18 +1656,18 @@
         },
         "d540d0cb-7ec0-4806-b8aa-fc488d798741": {
           "@type": "teaser",
-          "description": "Jonas Seidel, B.A. ist Sachbearbeiter in der Personalentwicklung und unterstützt die Abteilung Interne Services in den Bereichen Weiterbildung, Karriereplanung und Onboarding. Er organisiert Fortbildungsprogramme, betreut E-Learning-Plattformen und begleitet Personalgespräche. Dank seiner Kompetenzen in HR-Systemen wie SAP HCM, seiner ausgeprägten Kommunikationsfähigkeit sowie seiner Erfahrung in der Projektkoordination trägt er maßgeblich zur nachhaltigen Entwicklung der Mitarbeitenden bei.",
+          "description": "Jonas Seidel, B.A. ist Sachbearbeiter in der Personalentwicklung und unterst\u00fctzt die Abteilung Interne Services in den Bereichen Weiterbildung, Karriereplanung und Onboarding. Er organisiert Fortbildungsprogramme, betreut E-Learning-Plattformen und begleitet Personalgespr\u00e4che. Dank seiner Kompetenzen in HR-Systemen wie SAP HCM, seiner ausgepr\u00e4gten Kommunikationsf\u00e4higkeit sowie seiner Erfahrung in der Projektkoordination tr\u00e4gt er ma\u00dfgeblich zur nachhaltigen Entwicklung der Mitarbeitenden bei.",
           "head_title": "Person Teaser",
           "href": [
             {
               "@id": "../../../../resolveuid/4de23606a34b4db284c6125a94ca1c41",
               "@type": "Person",
-              "Description": "Jonas Seidel, B.A. ist Sachbearbeiter in der Personalentwicklung und unterstützt die Abteilung Interne Services in den Bereichen Weiterbildung, Karriereplanung und Onboarding. Er organisiert Fortbildungsprogramme, betreut E-Learning-Plattformen und begleitet Personalgespräche. Dank seiner Kompetenzen in HR-Systemen wie SAP HCM, seiner ausgeprägten Kommunikationsfähigkeit sowie seiner Erfahrung in der Projektkoordination trägt er maßgeblich zur nachhaltigen Entwicklung der Mitarbeitenden bei.",
+              "Description": "Jonas Seidel, B.A. ist Sachbearbeiter in der Personalentwicklung und unterst\u00fctzt die Abteilung Interne Services in den Bereichen Weiterbildung, Karriereplanung und Onboarding. Er organisiert Fortbildungsprogramme, betreut E-Learning-Plattformen und begleitet Personalgespr\u00e4che. Dank seiner Kompetenzen in HR-Systemen wie SAP HCM, seiner ausgepr\u00e4gten Kommunikationsf\u00e4higkeit sowie seiner Erfahrung in der Projektkoordination tr\u00e4gt er ma\u00dfgeblich zur nachhaltigen Entwicklung der Mitarbeitenden bei.",
               "Title": "Jonas Seidel, B.A.",
               "contact_email": "jonas.seidel@example.com",
               "contact_phone": "0221 3902 323",
               "contact_room": "R875",
-              "description": "Jonas Seidel, B.A. ist Sachbearbeiter in der Personalentwicklung und unterstützt die Abteilung Interne Services in den Bereichen Weiterbildung, Karriereplanung und Onboarding. Er organisiert Fortbildungsprogramme, betreut E-Learning-Plattformen und begleitet Personalgespräche. Dank seiner Kompetenzen in HR-Systemen wie SAP HCM, seiner ausgeprägten Kommunikationsfähigkeit sowie seiner Erfahrung in der Projektkoordination trägt er maßgeblich zur nachhaltigen Entwicklung der Mitarbeitenden bei.",
+              "description": "Jonas Seidel, B.A. ist Sachbearbeiter in der Personalentwicklung und unterst\u00fctzt die Abteilung Interne Services in den Bereichen Weiterbildung, Karriereplanung und Onboarding. Er organisiert Fortbildungsprogramme, betreut E-Learning-Plattformen und begleitet Personalgespr\u00e4che. Dank seiner Kompetenzen in HR-Systemen wie SAP HCM, seiner ausgepr\u00e4gten Kommunikationsf\u00e4higkeit sowie seiner Erfahrung in der Projektkoordination tr\u00e4gt er ma\u00dfgeblich zur nachhaltigen Entwicklung der Mitarbeitenden bei.",
               "effective": "1969-12-30T18:30:00+00:00",
               "end": null,
               "getRemoteUrl": null,
@@ -2765,7 +2764,7 @@
     "e2ce3417-c1c5-41f2-ade2-e57a65bbd91e": {
       "@type": "heading",
       "alignment": "left",
-      "heading": "Person Teaser Grid",
+      "heading": "Person\u00a0Teaser Grid",
       "styles": {},
       "theme": "default"
     },
@@ -2887,37 +2886,29 @@
   ],
   "description": "\nThe Grid block allows adding multi-column blocks. A grid block can contain between one and four columns of different blocks. Text, teasers, images and videos can be added in a grid block.",
   "effective": "2023-07-06T18:35:00+00:00",
-  "enable_likes": false,
   "exclude_from_nav": false,
   "expires": null,
   "exportimport.constrains": {},
   "exportimport.conversation": [],
-  "feedback_person": null,
   "head_title": null,
   "id": "teaser",
   "is_folderish": true,
   "language": "##DEFAULT##",
   "layout": "document_view",
-  "location_reference": null,
   "lock": {
     "locked": false,
     "stealable": true
   },
   "modified": "2025-12-02T08:59:42+00:00",
   "nav_title": null,
-  "organisational_unit_reference": null,
   "preview_caption_link": null,
-  "responsible_person": null,
   "review_state": "published",
   "rights": "",
-  "searchwords": [],
-  "showinsearch": false,
   "subjects": [],
   "title": "Grid-Teaser block",
   "type_title": "Page",
   "version": "current",
   "versioning_enabled": true,
-  "votes": null,
   "workflow_history": {
     "simple_publication_workflow": [
       {
