@@ -2,6 +2,19 @@
 
 <!-- towncrier release notes start -->
 
+## 2.0.0b9 (2026-09-04)
+
+
+### Bugfix
+
+- Synchronize the website example and QA fixtures with ``kitconcept.intranet``, including missing image and person dependencies. @sneridagh [#52](https://gitlab.kitconcept.io/kitconcept/distribution-kitconcept-website/-/work_items/52)
+- Remove the obsolete ``/features/block`` example branch while retaining the QA block fixtures. @sneridagh 
+
+
+### Internal
+
+- Adjust example content. @sneridagh 
+
 ## 2.0.0b8 (2026-07-28)
 
 

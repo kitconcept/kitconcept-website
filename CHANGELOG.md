@@ -1,6 +1,50 @@
 # Changelog
 
 <!-- towncrier release notes start -->
+## 2.0.0b9 (2026-09-04)
+
+### Backend
+
+
+#### Bugfix
+
+- Synchronize the website example and QA fixtures with ``kitconcept.intranet``, including missing image and person dependencies. @sneridagh [#52](https://gitlab.kitconcept.io/kitconcept/distribution-kitconcept-website/-/work_items/52)
+- Remove the obsolete ``/features/block`` example branch while retaining the QA block fixtures. @sneridagh 
+
+
+#### Internal
+
+- Adjust example content. @sneridagh 
+
+
+
+### Frontend
+
+#### Feature
+
+- Add a Playwright-based acceptance test setup with backend reset, cookie consent, login, content, and accessibility helpers, smoke tests, Makefile targets, and CI integration. @sneridagh 
+
+#### Internal
+
+- Upgrade @plone/volto to version 19.3.1. @ericof [#87](https://gitlab.kitconcept.io/kitconcept/distribution-kitconcept-website/-/work_items/87)
+- Upgrade @kitconcept/volto-contact-block to version 1.0.0-alpha.6. @ericof 
+- Upgrade @kitconcept/volto-iframe-block to version 2.4.1. @ericof 
+
+#### Test
+
+- Run block accessibility checks against the retained ``/qa/block`` fixtures and remove checks for fixtures that no longer exist. @sneridagh 
+
+
+
+### Project
+
+
+#### Feature
+
+- Add Playwright acceptance orchestration and CI coverage, stabilize Cypress search-ordering coverage, document repository conventions, and update GitHub Actions to their latest major versions. @sneridagh 
+
+
+
 ## 2.0.0b8 (2026-07-28)
 
 ### Backend

@@ -1,3 +1,19 @@
+## 2.0.0-beta.9 (2026-09-04)
+
+### Feature
+
+- Add a Playwright-based acceptance test setup with backend reset, cookie consent, login, content, and accessibility helpers, smoke tests, Makefile targets, and CI integration. @sneridagh 
+
+### Internal
+
+- Upgrade @plone/volto to version 19.3.1. @ericof [#87](https://gitlab.kitconcept.io/kitconcept/distribution-kitconcept-website/-/work_items/87)
+- Upgrade @kitconcept/volto-contact-block to version 1.0.0-alpha.6. @ericof 
+- Upgrade @kitconcept/volto-iframe-block to version 2.4.1. @ericof 
+
+### Test
+
+- Run block accessibility checks against the retained ``/qa/block`` fixtures and remove checks for fixtures that no longer exist. @sneridagh 
+
 # Changelog
 
 <!-- You should *NOT* be adding new change log entries to this file.
