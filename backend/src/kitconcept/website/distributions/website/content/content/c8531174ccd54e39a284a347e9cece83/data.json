@@ -3,20 +3,19 @@
   "@type": "Document",
   "UID": "c8531174ccd54e39a284a347e9cece83",
   "allow_discussion": false,
-  "authors": null,
   "blocks": {
     "1f2a58b8-c413-4728-a70a-5d812924fbea": {
       "@type": "gridBlock",
       "blocks": {
         "3131582e-133c-49f1-8f8a-84178fa65bdf": {
           "@type": "teaser",
-          "description": "Der Inhaltstyp Seite kann verwendet werden Inhalte auf einer Einzelseite der Webseite darzustellen. Seiten können mit Hilfe von Text, Bildern und Blöcken strukturiert werden.",
+          "description": "Der Inhaltstyp Seite kann verwendet werden Inhalte auf einer Einzelseite der Webseite darzustellen. Seiten k\u00f6nnen mit Hilfe von Text, Bildern und Bl\u00f6cken strukturiert werden.",
           "head_title": null,
           "href": [
             {
               "@id": "../../../../resolveuid/7ab9c48ede33415fa2a66a99549c8f70",
               "@type": "Document",
-              "Description": "Der Inhaltstyp Seite kann verwendet werden Inhalte auf einer Einzelseite der Webseite darzustellen. Seiten können mit Hilfe von Text, Bildern und Blöcken strukturiert werden.",
+              "Description": "Der Inhaltstyp Seite kann verwendet werden Inhalte auf einer Einzelseite der Webseite darzustellen. Seiten k\u00f6nnen mit Hilfe von Text, Bildern und Bl\u00f6cken strukturiert werden.",
               "Title": "Inhaltstyp: Seite (Page)",
               "getRemoteUrl": null,
               "hasPreviewImage": true,
@@ -33,13 +32,13 @@
         },
         "f3719d15-b7aa-491b-951b-afe82762bc74": {
           "@type": "teaser",
-          "description": "Der Inhaltstyp Seite kann verwendet werden Inhalte auf einer Einzelseite der Webseite darzustellen. Seiten können mit Hilfe von Text, Bildern und Blöcken strukturiert werden.",
+          "description": "Der Inhaltstyp Seite kann verwendet werden Inhalte auf einer Einzelseite der Webseite darzustellen. Seiten k\u00f6nnen mit Hilfe von Text, Bildern und Bl\u00f6cken strukturiert werden.",
           "head_title": null,
           "href": [
             {
               "@id": "../../../../resolveuid/7ab9c48ede33415fa2a66a99549c8f70",
               "@type": "Document",
-              "Description": "Der Inhaltstyp Seite kann verwendet werden Inhalte auf einer Einzelseite der Webseite darzustellen. Seiten können mit Hilfe von Text, Bildern und Blöcken strukturiert werden.",
+              "Description": "Der Inhaltstyp Seite kann verwendet werden Inhalte auf einer Einzelseite der Webseite darzustellen. Seiten k\u00f6nnen mit Hilfe von Text, Bildern und Bl\u00f6cken strukturiert werden.",
               "Title": "Inhaltstyp: Seite (Page)",
               "getRemoteUrl": null,
               "hasPreviewImage": true,
@@ -86,13 +85,13 @@
       "blocks": {
         "3131582e-133c-49f1-8f8a-84178fa65bdf": {
           "@type": "teaser",
-          "description": "Der Inhaltstyp Seite kann verwendet werden Inhalte auf einer Einzelseite der Webseite darzustellen. Seiten können mit Hilfe von Text, Bildern und Blöcken strukturiert werden.",
+          "description": "Der Inhaltstyp Seite kann verwendet werden Inhalte auf einer Einzelseite der Webseite darzustellen. Seiten k\u00f6nnen mit Hilfe von Text, Bildern und Bl\u00f6cken strukturiert werden.",
           "head_title": null,
           "href": [
             {
               "@id": "../../../../resolveuid/7ab9c48ede33415fa2a66a99549c8f70",
               "@type": "Document",
-              "Description": "Der Inhaltstyp Seite kann verwendet werden Inhalte auf einer Einzelseite der Webseite darzustellen. Seiten können mit Hilfe von Text, Bildern und Blöcken strukturiert werden.",
+              "Description": "Der Inhaltstyp Seite kann verwendet werden Inhalte auf einer Einzelseite der Webseite darzustellen. Seiten k\u00f6nnen mit Hilfe von Text, Bildern und Bl\u00f6cken strukturiert werden.",
               "Title": "Inhaltstyp: Seite (Page)",
               "getRemoteUrl": null,
               "hasPreviewImage": true,
@@ -109,13 +108,13 @@
         },
         "f3719d15-b7aa-491b-951b-afe82762bc74": {
           "@type": "teaser",
-          "description": "Der Inhaltstyp Seite kann verwendet werden Inhalte auf einer Einzelseite der Webseite darzustellen. Seiten können mit Hilfe von Text, Bildern und Blöcken strukturiert werden.",
+          "description": "Der Inhaltstyp Seite kann verwendet werden Inhalte auf einer Einzelseite der Webseite darzustellen. Seiten k\u00f6nnen mit Hilfe von Text, Bildern und Bl\u00f6cken strukturiert werden.",
           "head_title": null,
           "href": [
             {
               "@id": "../../../../resolveuid/7ab9c48ede33415fa2a66a99549c8f70",
               "@type": "Document",
-              "Description": "Der Inhaltstyp Seite kann verwendet werden Inhalte auf einer Einzelseite der Webseite darzustellen. Seiten können mit Hilfe von Text, Bildern und Blöcken strukturiert werden.",
+              "Description": "Der Inhaltstyp Seite kann verwendet werden Inhalte auf einer Einzelseite der Webseite darzustellen. Seiten k\u00f6nnen mit Hilfe von Text, Bildern und Bl\u00f6cken strukturiert werden.",
               "Title": "Inhaltstyp: Seite (Page)",
               "getRemoteUrl": null,
               "hasPreviewImage": true,
@@ -145,13 +144,13 @@
       "blocks": {
         "3131582e-133c-49f1-8f8a-84178fa65bdf": {
           "@type": "teaser",
-          "description": "Der Inhaltstyp Seite kann verwendet werden Inhalte auf einer Einzelseite der Webseite darzustellen. Seiten können mit Hilfe von Text, Bildern und Blöcken strukturiert werden.",
+          "description": "Der Inhaltstyp Seite kann verwendet werden Inhalte auf einer Einzelseite der Webseite darzustellen. Seiten k\u00f6nnen mit Hilfe von Text, Bildern und Bl\u00f6cken strukturiert werden.",
           "head_title": null,
           "href": [
             {
               "@id": "../../../../resolveuid/7ab9c48ede33415fa2a66a99549c8f70",
               "@type": "Document",
-              "Description": "Der Inhaltstyp Seite kann verwendet werden Inhalte auf einer Einzelseite der Webseite darzustellen. Seiten können mit Hilfe von Text, Bildern und Blöcken strukturiert werden.",
+              "Description": "Der Inhaltstyp Seite kann verwendet werden Inhalte auf einer Einzelseite der Webseite darzustellen. Seiten k\u00f6nnen mit Hilfe von Text, Bildern und Bl\u00f6cken strukturiert werden.",
               "Title": "Inhaltstyp: Seite (Page)",
               "getRemoteUrl": null,
               "hasPreviewImage": true,
@@ -168,13 +167,13 @@
         },
         "f3719d15-b7aa-491b-951b-afe82762bc74": {
           "@type": "teaser",
-          "description": "Der Inhaltstyp Seite kann verwendet werden Inhalte auf einer Einzelseite der Webseite darzustellen. Seiten können mit Hilfe von Text, Bildern und Blöcken strukturiert werden.",
+          "description": "Der Inhaltstyp Seite kann verwendet werden Inhalte auf einer Einzelseite der Webseite darzustellen. Seiten k\u00f6nnen mit Hilfe von Text, Bildern und Bl\u00f6cken strukturiert werden.",
           "head_title": null,
           "href": [
             {
               "@id": "../../../../resolveuid/7ab9c48ede33415fa2a66a99549c8f70",
               "@type": "Document",
-              "Description": "Der Inhaltstyp Seite kann verwendet werden Inhalte auf einer Einzelseite der Webseite darzustellen. Seiten können mit Hilfe von Text, Bildern und Blöcken strukturiert werden.",
+              "Description": "Der Inhaltstyp Seite kann verwendet werden Inhalte auf einer Einzelseite der Webseite darzustellen. Seiten k\u00f6nnen mit Hilfe von Text, Bildern und Bl\u00f6cken strukturiert werden.",
               "Title": "Inhaltstyp: Seite (Page)",
               "getRemoteUrl": null,
               "hasPreviewImage": true,
@@ -219,13 +218,13 @@
       "blocks": {
         "3131582e-133c-49f1-8f8a-84178fa65bdf": {
           "@type": "teaser",
-          "description": "Der Inhaltstyp Seite kann verwendet werden Inhalte auf einer Einzelseite der Webseite darzustellen. Seiten können mit Hilfe von Text, Bildern und Blöcken strukturiert werden.",
+          "description": "Der Inhaltstyp Seite kann verwendet werden Inhalte auf einer Einzelseite der Webseite darzustellen. Seiten k\u00f6nnen mit Hilfe von Text, Bildern und Bl\u00f6cken strukturiert werden.",
           "head_title": null,
           "href": [
             {
               "@id": "../../../../resolveuid/7ab9c48ede33415fa2a66a99549c8f70",
               "@type": "Document",
-              "Description": "Der Inhaltstyp Seite kann verwendet werden Inhalte auf einer Einzelseite der Webseite darzustellen. Seiten können mit Hilfe von Text, Bildern und Blöcken strukturiert werden.",
+              "Description": "Der Inhaltstyp Seite kann verwendet werden Inhalte auf einer Einzelseite der Webseite darzustellen. Seiten k\u00f6nnen mit Hilfe von Text, Bildern und Bl\u00f6cken strukturiert werden.",
               "Title": "Inhaltstyp: Seite (Page)",
               "getRemoteUrl": null,
               "hasPreviewImage": true,
@@ -242,13 +241,13 @@
         },
         "f3719d15-b7aa-491b-951b-afe82762bc74": {
           "@type": "teaser",
-          "description": "Der Inhaltstyp Seite kann verwendet werden Inhalte auf einer Einzelseite der Webseite darzustellen. Seiten können mit Hilfe von Text, Bildern und Blöcken strukturiert werden.",
+          "description": "Der Inhaltstyp Seite kann verwendet werden Inhalte auf einer Einzelseite der Webseite darzustellen. Seiten k\u00f6nnen mit Hilfe von Text, Bildern und Bl\u00f6cken strukturiert werden.",
           "head_title": null,
           "href": [
             {
               "@id": "../../../../resolveuid/7ab9c48ede33415fa2a66a99549c8f70",
               "@type": "Document",
-              "Description": "Der Inhaltstyp Seite kann verwendet werden Inhalte auf einer Einzelseite der Webseite darzustellen. Seiten können mit Hilfe von Text, Bildern und Blöcken strukturiert werden.",
+              "Description": "Der Inhaltstyp Seite kann verwendet werden Inhalte auf einer Einzelseite der Webseite darzustellen. Seiten k\u00f6nnen mit Hilfe von Text, Bildern und Bl\u00f6cken strukturiert werden.",
               "Title": "Inhaltstyp: Seite (Page)",
               "getRemoteUrl": null,
               "hasPreviewImage": true,
@@ -278,13 +277,13 @@
       "blocks": {
         "3131582e-133c-49f1-8f8a-84178fa65bdf": {
           "@type": "teaser",
-          "description": "Der Inhaltstyp Seite kann verwendet werden Inhalte auf einer Einzelseite der Webseite darzustellen. Seiten können mit Hilfe von Text, Bildern und Blöcken strukturiert werden.",
+          "description": "Der Inhaltstyp Seite kann verwendet werden Inhalte auf einer Einzelseite der Webseite darzustellen. Seiten k\u00f6nnen mit Hilfe von Text, Bildern und Bl\u00f6cken strukturiert werden.",
           "head_title": null,
           "href": [
             {
               "@id": "../../../../resolveuid/7ab9c48ede33415fa2a66a99549c8f70",
               "@type": "Document",
-              "Description": "Der Inhaltstyp Seite kann verwendet werden Inhalte auf einer Einzelseite der Webseite darzustellen. Seiten können mit Hilfe von Text, Bildern und Blöcken strukturiert werden.",
+              "Description": "Der Inhaltstyp Seite kann verwendet werden Inhalte auf einer Einzelseite der Webseite darzustellen. Seiten k\u00f6nnen mit Hilfe von Text, Bildern und Bl\u00f6cken strukturiert werden.",
               "Title": "Inhaltstyp: Seite (Page)",
               "getRemoteUrl": null,
               "hasPreviewImage": true,
@@ -301,13 +300,13 @@
         },
         "f3719d15-b7aa-491b-951b-afe82762bc74": {
           "@type": "teaser",
-          "description": "Der Inhaltstyp Seite kann verwendet werden Inhalte auf einer Einzelseite der Webseite darzustellen. Seiten können mit Hilfe von Text, Bildern und Blöcken strukturiert werden.",
+          "description": "Der Inhaltstyp Seite kann verwendet werden Inhalte auf einer Einzelseite der Webseite darzustellen. Seiten k\u00f6nnen mit Hilfe von Text, Bildern und Bl\u00f6cken strukturiert werden.",
           "head_title": null,
           "href": [
             {
               "@id": "../../../../resolveuid/7ab9c48ede33415fa2a66a99549c8f70",
               "@type": "Document",
-              "Description": "Der Inhaltstyp Seite kann verwendet werden Inhalte auf einer Einzelseite der Webseite darzustellen. Seiten können mit Hilfe von Text, Bildern und Blöcken strukturiert werden.",
+              "Description": "Der Inhaltstyp Seite kann verwendet werden Inhalte auf einer Einzelseite der Webseite darzustellen. Seiten k\u00f6nnen mit Hilfe von Text, Bildern und Bl\u00f6cken strukturiert werden.",
               "Title": "Inhaltstyp: Seite (Page)",
               "getRemoteUrl": null,
               "hasPreviewImage": true,
@@ -337,13 +336,13 @@
       "blocks": {
         "3131582e-133c-49f1-8f8a-84178fa65bdf": {
           "@type": "teaser",
-          "description": "Der Inhaltstyp Seite kann verwendet werden Inhalte auf einer Einzelseite der Webseite darzustellen. Seiten können mit Hilfe von Text, Bildern und Blöcken strukturiert werden.",
+          "description": "Der Inhaltstyp Seite kann verwendet werden Inhalte auf einer Einzelseite der Webseite darzustellen. Seiten k\u00f6nnen mit Hilfe von Text, Bildern und Bl\u00f6cken strukturiert werden.",
           "head_title": null,
           "href": [
             {
               "@id": "../../../../resolveuid/7ab9c48ede33415fa2a66a99549c8f70",
               "@type": "Document",
-              "Description": "Der Inhaltstyp Seite kann verwendet werden Inhalte auf einer Einzelseite der Webseite darzustellen. Seiten können mit Hilfe von Text, Bildern und Blöcken strukturiert werden.",
+              "Description": "Der Inhaltstyp Seite kann verwendet werden Inhalte auf einer Einzelseite der Webseite darzustellen. Seiten k\u00f6nnen mit Hilfe von Text, Bildern und Bl\u00f6cken strukturiert werden.",
               "Title": "Inhaltstyp: Seite (Page)",
               "getRemoteUrl": null,
               "hasPreviewImage": true,
@@ -360,13 +359,13 @@
         },
         "f3719d15-b7aa-491b-951b-afe82762bc74": {
           "@type": "teaser",
-          "description": "Der Inhaltstyp Seite kann verwendet werden Inhalte auf einer Einzelseite der Webseite darzustellen. Seiten können mit Hilfe von Text, Bildern und Blöcken strukturiert werden.",
+          "description": "Der Inhaltstyp Seite kann verwendet werden Inhalte auf einer Einzelseite der Webseite darzustellen. Seiten k\u00f6nnen mit Hilfe von Text, Bildern und Bl\u00f6cken strukturiert werden.",
           "head_title": null,
           "href": [
             {
               "@id": "../../../../resolveuid/7ab9c48ede33415fa2a66a99549c8f70",
               "@type": "Document",
-              "Description": "Der Inhaltstyp Seite kann verwendet werden Inhalte auf einer Einzelseite der Webseite darzustellen. Seiten können mit Hilfe von Text, Bildern und Blöcken strukturiert werden.",
+              "Description": "Der Inhaltstyp Seite kann verwendet werden Inhalte auf einer Einzelseite der Webseite darzustellen. Seiten k\u00f6nnen mit Hilfe von Text, Bildern und Bl\u00f6cken strukturiert werden.",
               "Title": "Inhaltstyp: Seite (Page)",
               "getRemoteUrl": null,
               "hasPreviewImage": true,
@@ -399,13 +398,13 @@
       "blocks": {
         "3131582e-133c-49f1-8f8a-84178fa65bdf": {
           "@type": "teaser",
-          "description": "Der Inhaltstyp Seite kann verwendet werden Inhalte auf einer Einzelseite der Webseite darzustellen. Seiten können mit Hilfe von Text, Bildern und Blöcken strukturiert werden.",
+          "description": "Der Inhaltstyp Seite kann verwendet werden Inhalte auf einer Einzelseite der Webseite darzustellen. Seiten k\u00f6nnen mit Hilfe von Text, Bildern und Bl\u00f6cken strukturiert werden.",
           "head_title": null,
           "href": [
             {
               "@id": "../../../../resolveuid/7ab9c48ede33415fa2a66a99549c8f70",
               "@type": "Document",
-              "Description": "Der Inhaltstyp Seite kann verwendet werden Inhalte auf einer Einzelseite der Webseite darzustellen. Seiten können mit Hilfe von Text, Bildern und Blöcken strukturiert werden.",
+              "Description": "Der Inhaltstyp Seite kann verwendet werden Inhalte auf einer Einzelseite der Webseite darzustellen. Seiten k\u00f6nnen mit Hilfe von Text, Bildern und Bl\u00f6cken strukturiert werden.",
               "Title": "Inhaltstyp: Seite (Page)",
               "getRemoteUrl": null,
               "hasPreviewImage": true,
@@ -422,13 +421,13 @@
         },
         "f3719d15-b7aa-491b-951b-afe82762bc74": {
           "@type": "teaser",
-          "description": "Der Inhaltstyp Seite kann verwendet werden Inhalte auf einer Einzelseite der Webseite darzustellen. Seiten können mit Hilfe von Text, Bildern und Blöcken strukturiert werden.",
+          "description": "Der Inhaltstyp Seite kann verwendet werden Inhalte auf einer Einzelseite der Webseite darzustellen. Seiten k\u00f6nnen mit Hilfe von Text, Bildern und Bl\u00f6cken strukturiert werden.",
           "head_title": null,
           "href": [
             {
               "@id": "../../../../resolveuid/7ab9c48ede33415fa2a66a99549c8f70",
               "@type": "Document",
-              "Description": "Der Inhaltstyp Seite kann verwendet werden Inhalte auf einer Einzelseite der Webseite darzustellen. Seiten können mit Hilfe von Text, Bildern und Blöcken strukturiert werden.",
+              "Description": "Der Inhaltstyp Seite kann verwendet werden Inhalte auf einer Einzelseite der Webseite darzustellen. Seiten k\u00f6nnen mit Hilfe von Text, Bildern und Bl\u00f6cken strukturiert werden.",
               "Title": "Inhaltstyp: Seite (Page)",
               "getRemoteUrl": null,
               "hasPreviewImage": true,
@@ -457,13 +456,13 @@
       "blocks": {
         "3131582e-133c-49f1-8f8a-84178fa65bdf": {
           "@type": "teaser",
-          "description": "Der Inhaltstyp Seite kann verwendet werden Inhalte auf einer Einzelseite der Webseite darzustellen. Seiten können mit Hilfe von Text, Bildern und Blöcken strukturiert werden.",
+          "description": "Der Inhaltstyp Seite kann verwendet werden Inhalte auf einer Einzelseite der Webseite darzustellen. Seiten k\u00f6nnen mit Hilfe von Text, Bildern und Bl\u00f6cken strukturiert werden.",
           "head_title": null,
           "href": [
             {
               "@id": "../../../../resolveuid/7ab9c48ede33415fa2a66a99549c8f70",
               "@type": "Document",
-              "Description": "Der Inhaltstyp Seite kann verwendet werden Inhalte auf einer Einzelseite der Webseite darzustellen. Seiten können mit Hilfe von Text, Bildern und Blöcken strukturiert werden.",
+              "Description": "Der Inhaltstyp Seite kann verwendet werden Inhalte auf einer Einzelseite der Webseite darzustellen. Seiten k\u00f6nnen mit Hilfe von Text, Bildern und Bl\u00f6cken strukturiert werden.",
               "Title": "Inhaltstyp: Seite (Page)",
               "getRemoteUrl": null,
               "hasPreviewImage": true,
@@ -480,13 +479,13 @@
         },
         "f3719d15-b7aa-491b-951b-afe82762bc74": {
           "@type": "teaser",
-          "description": "Der Inhaltstyp Seite kann verwendet werden Inhalte auf einer Einzelseite der Webseite darzustellen. Seiten können mit Hilfe von Text, Bildern und Blöcken strukturiert werden.",
+          "description": "Der Inhaltstyp Seite kann verwendet werden Inhalte auf einer Einzelseite der Webseite darzustellen. Seiten k\u00f6nnen mit Hilfe von Text, Bildern und Bl\u00f6cken strukturiert werden.",
           "head_title": null,
           "href": [
             {
               "@id": "../../../../resolveuid/7ab9c48ede33415fa2a66a99549c8f70",
               "@type": "Document",
-              "Description": "Der Inhaltstyp Seite kann verwendet werden Inhalte auf einer Einzelseite der Webseite darzustellen. Seiten können mit Hilfe von Text, Bildern und Blöcken strukturiert werden.",
+              "Description": "Der Inhaltstyp Seite kann verwendet werden Inhalte auf einer Einzelseite der Webseite darzustellen. Seiten k\u00f6nnen mit Hilfe von Text, Bildern und Bl\u00f6cken strukturiert werden.",
               "Title": "Inhaltstyp: Seite (Page)",
               "getRemoteUrl": null,
               "hasPreviewImage": true,
@@ -531,13 +530,13 @@
       "blocks": {
         "3131582e-133c-49f1-8f8a-84178fa65bdf": {
           "@type": "teaser",
-          "description": "Der Inhaltstyp Seite kann verwendet werden Inhalte auf einer Einzelseite der Webseite darzustellen. Seiten können mit Hilfe von Text, Bildern und Blöcken strukturiert werden.",
+          "description": "Der Inhaltstyp Seite kann verwendet werden Inhalte auf einer Einzelseite der Webseite darzustellen. Seiten k\u00f6nnen mit Hilfe von Text, Bildern und Bl\u00f6cken strukturiert werden.",
           "head_title": null,
           "href": [
             {
               "@id": "../../../../resolveuid/7ab9c48ede33415fa2a66a99549c8f70",
               "@type": "Document",
-              "Description": "Der Inhaltstyp Seite kann verwendet werden Inhalte auf einer Einzelseite der Webseite darzustellen. Seiten können mit Hilfe von Text, Bildern und Blöcken strukturiert werden.",
+              "Description": "Der Inhaltstyp Seite kann verwendet werden Inhalte auf einer Einzelseite der Webseite darzustellen. Seiten k\u00f6nnen mit Hilfe von Text, Bildern und Bl\u00f6cken strukturiert werden.",
               "Title": "Inhaltstyp: Seite (Page)",
               "getRemoteUrl": null,
               "hasPreviewImage": true,
@@ -554,13 +553,13 @@
         },
         "f3719d15-b7aa-491b-951b-afe82762bc74": {
           "@type": "teaser",
-          "description": "Der Inhaltstyp Seite kann verwendet werden Inhalte auf einer Einzelseite der Webseite darzustellen. Seiten können mit Hilfe von Text, Bildern und Blöcken strukturiert werden.",
+          "description": "Der Inhaltstyp Seite kann verwendet werden Inhalte auf einer Einzelseite der Webseite darzustellen. Seiten k\u00f6nnen mit Hilfe von Text, Bildern und Bl\u00f6cken strukturiert werden.",
           "head_title": null,
           "href": [
             {
               "@id": "../../../../resolveuid/7ab9c48ede33415fa2a66a99549c8f70",
               "@type": "Document",
-              "Description": "Der Inhaltstyp Seite kann verwendet werden Inhalte auf einer Einzelseite der Webseite darzustellen. Seiten können mit Hilfe von Text, Bildern und Blöcken strukturiert werden.",
+              "Description": "Der Inhaltstyp Seite kann verwendet werden Inhalte auf einer Einzelseite der Webseite darzustellen. Seiten k\u00f6nnen mit Hilfe von Text, Bildern und Bl\u00f6cken strukturiert werden.",
               "Title": "Inhaltstyp: Seite (Page)",
               "getRemoteUrl": null,
               "hasPreviewImage": true,
@@ -611,37 +610,29 @@
   ],
   "description": "",
   "effective": "2023-07-06T18:35:00+00:00",
-  "enable_likes": false,
   "exclude_from_nav": false,
   "expires": null,
   "exportimport.constrains": {},
   "exportimport.conversation": [],
-  "feedback_person": null,
   "head_title": null,
   "id": "grid-and-grids",
   "is_folderish": true,
   "language": "##DEFAULT##",
   "layout": "document_view",
-  "location_reference": null,
   "lock": {
     "locked": false,
     "stealable": true
   },
   "modified": "2025-07-09T12:57:09+00:00",
   "nav_title": null,
-  "organisational_unit_reference": null,
   "preview_caption_link": null,
-  "responsible_person": null,
   "review_state": "published",
   "rights": "",
-  "searchwords": [],
-  "showinsearch": true,
   "subjects": [],
   "title": "Grids and Grids",
   "type_title": "Page",
   "version": "current",
   "versioning_enabled": true,
-  "votes": null,
   "workflow_history": {
     "simple_publication_workflow": [
       {

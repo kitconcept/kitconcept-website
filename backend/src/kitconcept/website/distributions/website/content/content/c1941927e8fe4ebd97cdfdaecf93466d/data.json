@@ -3,7 +3,6 @@
   "@type": "Document",
   "UID": "c1941927e8fe4ebd97cdfdaecf93466d",
   "allow_discussion": false,
-  "authors": null,
   "blocks": {
     "16a2702d-4fb0-4e73-a17c-884ef9d04e6d": {
       "@type": "slider",
@@ -85,14 +84,14 @@
         },
         {
           "@id": "4aed26df-c641-48a4-8348-ed452bd227a0",
-          "description": "Die \"Aktuelles\" Sektion dient als zentrale Kommunikationsplattform für alle wichtigen Neuigkeiten, Entwicklungen und Ereignisse innerhalb unserer Forschungseinrichtung. Hier finden Mitarbeiter, Wissenschaftler und Verwaltungspersonal zeitnah alle relevanten Informationen, die für den Arbeitsalltag und die strategische Ausrichtung der Institution von Bedeutung sind.",
+          "description": "Die \"Aktuelles\" Sektion dient als zentrale Kommunikationsplattform f\u00fcr alle wichtigen Neuigkeiten, Entwicklungen und Ereignisse innerhalb unserer Forschungseinrichtung. Hier finden Mitarbeiter, Wissenschaftler und Verwaltungspersonal zeitnah alle relevanten Informationen, die f\u00fcr den Arbeitsalltag und die strategische Ausrichtung der Institution von Bedeutung sind.",
           "flagAlign": "left",
           "head_title": null,
           "href": [
             {
               "@id": "../../../resolveuid/7fce8b9becbb43d091604ae5b3e84ac0",
               "@type": "Document",
-              "Description": "Die \"Aktuelles\" Sektion dient als zentrale Kommunikationsplattform für alle wichtigen Neuigkeiten, Entwicklungen und Ereignisse innerhalb unserer Forschungseinrichtung. Hier finden Mitarbeiter, Wissenschaftler und Verwaltungspersonal zeitnah alle relevanten Informationen, die für den Arbeitsalltag und die strategische Ausrichtung der Institution von Bedeutung sind.",
+              "Description": "Die \"Aktuelles\" Sektion dient als zentrale Kommunikationsplattform f\u00fcr alle wichtigen Neuigkeiten, Entwicklungen und Ereignisse innerhalb unserer Forschungseinrichtung. Hier finden Mitarbeiter, Wissenschaftler und Verwaltungspersonal zeitnah alle relevanten Informationen, die f\u00fcr den Arbeitsalltag und die strategische Ausrichtung der Institution von Bedeutung sind.",
               "Title": "Aktuelles",
               "hasPreviewImage": null,
               "head_title": null,
@@ -104,14 +103,14 @@
         },
         {
           "@id": "6f13f7e9-70cb-49aa-8c06-987f1e5f6f6b",
-          "description": "Die \"Termine\" Sektion fungiert als umfassende Terminübersicht und Veranstaltungskalender für alle institutionsrelevanten Ereignisse unserer Forschungseinrichtung. Diese zentrale Plattform ermöglicht es allen Mitarbeitern, wichtige Termine, Deadlines und Veranstaltungen im Überblick zu behalten und ihre Arbeitsplanung entsprechend auszurichten.",
+          "description": "Die \"Termine\" Sektion fungiert als umfassende Termin\u00fcbersicht und Veranstaltungskalender f\u00fcr alle institutionsrelevanten Ereignisse unserer Forschungseinrichtung. Diese zentrale Plattform erm\u00f6glicht es allen Mitarbeitern, wichtige Termine, Deadlines und Veranstaltungen im \u00dcberblick zu behalten und ihre Arbeitsplanung entsprechend auszurichten.",
           "flagAlign": "left",
           "head_title": null,
           "href": [
             {
               "@id": "../../../resolveuid/66ceae4426a347e19e158f36202c98b5",
               "@type": "Document",
-              "Description": "Die \"Termine\" Sektion fungiert als umfassende Terminübersicht und Veranstaltungskalender für alle institutionsrelevanten Ereignisse unserer Forschungseinrichtung. Diese zentrale Plattform ermöglicht es allen Mitarbeitern, wichtige Termine, Deadlines und Veranstaltungen im Überblick zu behalten und ihre Arbeitsplanung entsprechend auszurichten.",
+              "Description": "Die \"Termine\" Sektion fungiert als umfassende Termin\u00fcbersicht und Veranstaltungskalender f\u00fcr alle institutionsrelevanten Ereignisse unserer Forschungseinrichtung. Diese zentrale Plattform erm\u00f6glicht es allen Mitarbeitern, wichtige Termine, Deadlines und Veranstaltungen im \u00dcberblick zu behalten und ihre Arbeitsplanung entsprechend auszurichten.",
               "Title": "Termine",
               "hasPreviewImage": null,
               "head_title": null,
@@ -123,14 +122,14 @@
         },
         {
           "@id": "f8955fc8-39be-44a8-9e33-99ba22c935c3",
-          "description": "Die \"Organisation\" Sektion bietet eine umfassende Übersicht über die institutionelle Struktur, Organisationsabläufe und administrative Rahmenbedingungen unserer Forschungseinrichtung. Diese zentrale Informationsquelle ermöglicht es allen Mitarbeitern, sich über Zuständigkeiten, Hierarchien und organisatorische Prozesse zu informieren und unterstützt damit eine effiziente Zusammenarbeit innerhalb der Institution.",
+          "description": "Die \"Organisation\" Sektion bietet eine umfassende \u00dcbersicht \u00fcber die institutionelle Struktur, Organisationsabl\u00e4ufe und administrative Rahmenbedingungen unserer Forschungseinrichtung. Diese zentrale Informationsquelle erm\u00f6glicht es allen Mitarbeitern, sich \u00fcber Zust\u00e4ndigkeiten, Hierarchien und organisatorische Prozesse zu informieren und unterst\u00fctzt damit eine effiziente Zusammenarbeit innerhalb der Institution.",
           "flagAlign": "left",
           "head_title": null,
           "href": [
             {
               "@id": "../../../resolveuid/4d9a9737b78842b2a8454f8c26c02cab",
               "@type": "Document",
-              "Description": "Die \"Organisation\" Sektion bietet eine umfassende Übersicht über die institutionelle Struktur, Organisationsabläufe und administrative Rahmenbedingungen unserer Forschungseinrichtung. Diese zentrale Informationsquelle ermöglicht es allen Mitarbeitern, sich über Zuständigkeiten, Hierarchien und organisatorische Prozesse zu informieren und unterstützt damit eine effiziente Zusammenarbeit innerhalb der Institution.",
+              "Description": "Die \"Organisation\" Sektion bietet eine umfassende \u00dcbersicht \u00fcber die institutionelle Struktur, Organisationsabl\u00e4ufe und administrative Rahmenbedingungen unserer Forschungseinrichtung. Diese zentrale Informationsquelle erm\u00f6glicht es allen Mitarbeitern, sich \u00fcber Zust\u00e4ndigkeiten, Hierarchien und organisatorische Prozesse zu informieren und unterst\u00fctzt damit eine effiziente Zusammenarbeit innerhalb der Institution.",
               "Title": "Organisation",
               "hasPreviewImage": null,
               "head_title": null,
@@ -189,14 +188,14 @@
         },
         {
           "@id": "35f8491e-d89c-442e-9954-fb3e565df3e9",
-          "description": "Die \"Aktuelles\" Sektion dient als zentrale Kommunikationsplattform für alle wichtigen Neuigkeiten, Entwicklungen und Ereignisse innerhalb unserer Forschungseinrichtung. Hier finden Mitarbeiter, Wissenschaftler und Verwaltungspersonal zeitnah alle relevanten Informationen, die für den Arbeitsalltag und die strategische Ausrichtung der Institution von Bedeutung sind.",
+          "description": "Die \"Aktuelles\" Sektion dient als zentrale Kommunikationsplattform f\u00fcr alle wichtigen Neuigkeiten, Entwicklungen und Ereignisse innerhalb unserer Forschungseinrichtung. Hier finden Mitarbeiter, Wissenschaftler und Verwaltungspersonal zeitnah alle relevanten Informationen, die f\u00fcr den Arbeitsalltag und die strategische Ausrichtung der Institution von Bedeutung sind.",
           "flagAlign": "left",
           "head_title": null,
           "href": [
             {
               "@id": "../../../resolveuid/7fce8b9becbb43d091604ae5b3e84ac0",
               "@type": "Document",
-              "Description": "Die \"Aktuelles\" Sektion dient als zentrale Kommunikationsplattform für alle wichtigen Neuigkeiten, Entwicklungen und Ereignisse innerhalb unserer Forschungseinrichtung. Hier finden Mitarbeiter, Wissenschaftler und Verwaltungspersonal zeitnah alle relevanten Informationen, die für den Arbeitsalltag und die strategische Ausrichtung der Institution von Bedeutung sind.",
+              "Description": "Die \"Aktuelles\" Sektion dient als zentrale Kommunikationsplattform f\u00fcr alle wichtigen Neuigkeiten, Entwicklungen und Ereignisse innerhalb unserer Forschungseinrichtung. Hier finden Mitarbeiter, Wissenschaftler und Verwaltungspersonal zeitnah alle relevanten Informationen, die f\u00fcr den Arbeitsalltag und die strategische Ausrichtung der Institution von Bedeutung sind.",
               "Title": "Aktuelles",
               "hasPreviewImage": null,
               "head_title": null,
@@ -208,14 +207,14 @@
         },
         {
           "@id": "16faa21a-98cd-406d-98b6-858c9dd5163e",
-          "description": "Die \"Termine\" Sektion fungiert als umfassende Terminübersicht und Veranstaltungskalender für alle institutionsrelevanten Ereignisse unserer Forschungseinrichtung. Diese zentrale Plattform ermöglicht es allen Mitarbeitern, wichtige Termine, Deadlines und Veranstaltungen im Überblick zu behalten und ihre Arbeitsplanung entsprechend auszurichten.",
+          "description": "Die \"Termine\" Sektion fungiert als umfassende Termin\u00fcbersicht und Veranstaltungskalender f\u00fcr alle institutionsrelevanten Ereignisse unserer Forschungseinrichtung. Diese zentrale Plattform erm\u00f6glicht es allen Mitarbeitern, wichtige Termine, Deadlines und Veranstaltungen im \u00dcberblick zu behalten und ihre Arbeitsplanung entsprechend auszurichten.",
           "flagAlign": "left",
           "head_title": null,
           "href": [
             {
               "@id": "../../../resolveuid/66ceae4426a347e19e158f36202c98b5",
               "@type": "Document",
-              "Description": "Die \"Termine\" Sektion fungiert als umfassende Terminübersicht und Veranstaltungskalender für alle institutionsrelevanten Ereignisse unserer Forschungseinrichtung. Diese zentrale Plattform ermöglicht es allen Mitarbeitern, wichtige Termine, Deadlines und Veranstaltungen im Überblick zu behalten und ihre Arbeitsplanung entsprechend auszurichten.",
+              "Description": "Die \"Termine\" Sektion fungiert als umfassende Termin\u00fcbersicht und Veranstaltungskalender f\u00fcr alle institutionsrelevanten Ereignisse unserer Forschungseinrichtung. Diese zentrale Plattform erm\u00f6glicht es allen Mitarbeitern, wichtige Termine, Deadlines und Veranstaltungen im \u00dcberblick zu behalten und ihre Arbeitsplanung entsprechend auszurichten.",
               "Title": "Termine",
               "hasPreviewImage": null,
               "head_title": null,
@@ -227,14 +226,14 @@
         },
         {
           "@id": "ad4af07c-4348-42d1-8ae0-131e5e0f8c00",
-          "description": "Die \"Organisation\" Sektion bietet eine umfassende Übersicht über die institutionelle Struktur, Organisationsabläufe und administrative Rahmenbedingungen unserer Forschungseinrichtung. Diese zentrale Informationsquelle ermöglicht es allen Mitarbeitern, sich über Zuständigkeiten, Hierarchien und organisatorische Prozesse zu informieren und unterstützt damit eine effiziente Zusammenarbeit innerhalb der Institution.",
+          "description": "Die \"Organisation\" Sektion bietet eine umfassende \u00dcbersicht \u00fcber die institutionelle Struktur, Organisationsabl\u00e4ufe und administrative Rahmenbedingungen unserer Forschungseinrichtung. Diese zentrale Informationsquelle erm\u00f6glicht es allen Mitarbeitern, sich \u00fcber Zust\u00e4ndigkeiten, Hierarchien und organisatorische Prozesse zu informieren und unterst\u00fctzt damit eine effiziente Zusammenarbeit innerhalb der Institution.",
           "flagAlign": "left",
           "head_title": null,
           "href": [
             {
               "@id": "../../../resolveuid/4d9a9737b78842b2a8454f8c26c02cab",
               "@type": "Document",
-              "Description": "Die \"Organisation\" Sektion bietet eine umfassende Übersicht über die institutionelle Struktur, Organisationsabläufe und administrative Rahmenbedingungen unserer Forschungseinrichtung. Diese zentrale Informationsquelle ermöglicht es allen Mitarbeitern, sich über Zuständigkeiten, Hierarchien und organisatorische Prozesse zu informieren und unterstützt damit eine effiziente Zusammenarbeit innerhalb der Institution.",
+              "Description": "Die \"Organisation\" Sektion bietet eine umfassende \u00dcbersicht \u00fcber die institutionelle Struktur, Organisationsabl\u00e4ufe und administrative Rahmenbedingungen unserer Forschungseinrichtung. Diese zentrale Informationsquelle erm\u00f6glicht es allen Mitarbeitern, sich \u00fcber Zust\u00e4ndigkeiten, Hierarchien und organisatorische Prozesse zu informieren und unterst\u00fctzt damit eine effiziente Zusammenarbeit innerhalb der Institution.",
               "Title": "Organisation",
               "hasPreviewImage": null,
               "head_title": null,
@@ -290,14 +289,14 @@
         },
         {
           "@id": "347f1902-1d6e-4a37-a6ea-160a06eec325",
-          "description": "Die \"Aktuelles\" Sektion dient als zentrale Kommunikationsplattform für alle wichtigen Neuigkeiten, Entwicklungen und Ereignisse innerhalb unserer Forschungseinrichtung. Hier finden Mitarbeiter, Wissenschaftler und Verwaltungspersonal zeitnah alle relevanten Informationen, die für den Arbeitsalltag und die strategische Ausrichtung der Institution von Bedeutung sind.",
+          "description": "Die \"Aktuelles\" Sektion dient als zentrale Kommunikationsplattform f\u00fcr alle wichtigen Neuigkeiten, Entwicklungen und Ereignisse innerhalb unserer Forschungseinrichtung. Hier finden Mitarbeiter, Wissenschaftler und Verwaltungspersonal zeitnah alle relevanten Informationen, die f\u00fcr den Arbeitsalltag und die strategische Ausrichtung der Institution von Bedeutung sind.",
           "flagAlign": "left",
           "head_title": null,
           "href": [
             {
               "@id": "../../../resolveuid/7fce8b9becbb43d091604ae5b3e84ac0",
               "@type": "Document",
-              "Description": "Die \"Aktuelles\" Sektion dient als zentrale Kommunikationsplattform für alle wichtigen Neuigkeiten, Entwicklungen und Ereignisse innerhalb unserer Forschungseinrichtung. Hier finden Mitarbeiter, Wissenschaftler und Verwaltungspersonal zeitnah alle relevanten Informationen, die für den Arbeitsalltag und die strategische Ausrichtung der Institution von Bedeutung sind.",
+              "Description": "Die \"Aktuelles\" Sektion dient als zentrale Kommunikationsplattform f\u00fcr alle wichtigen Neuigkeiten, Entwicklungen und Ereignisse innerhalb unserer Forschungseinrichtung. Hier finden Mitarbeiter, Wissenschaftler und Verwaltungspersonal zeitnah alle relevanten Informationen, die f\u00fcr den Arbeitsalltag und die strategische Ausrichtung der Institution von Bedeutung sind.",
               "Title": "Aktuelles",
               "hasPreviewImage": null,
               "head_title": null,
@@ -309,14 +308,14 @@
         },
         {
           "@id": "c4b73e07-61ac-49b2-be12-2ec1723e36f8",
-          "description": "Die \"Termine\" Sektion fungiert als umfassende Terminübersicht und Veranstaltungskalender für alle institutionsrelevanten Ereignisse unserer Forschungseinrichtung. Diese zentrale Plattform ermöglicht es allen Mitarbeitern, wichtige Termine, Deadlines und Veranstaltungen im Überblick zu behalten und ihre Arbeitsplanung entsprechend auszurichten.",
+          "description": "Die \"Termine\" Sektion fungiert als umfassende Termin\u00fcbersicht und Veranstaltungskalender f\u00fcr alle institutionsrelevanten Ereignisse unserer Forschungseinrichtung. Diese zentrale Plattform erm\u00f6glicht es allen Mitarbeitern, wichtige Termine, Deadlines und Veranstaltungen im \u00dcberblick zu behalten und ihre Arbeitsplanung entsprechend auszurichten.",
           "flagAlign": "left",
           "head_title": null,
           "href": [
             {
               "@id": "../../../resolveuid/66ceae4426a347e19e158f36202c98b5",
               "@type": "Document",
-              "Description": "Die \"Termine\" Sektion fungiert als umfassende Terminübersicht und Veranstaltungskalender für alle institutionsrelevanten Ereignisse unserer Forschungseinrichtung. Diese zentrale Plattform ermöglicht es allen Mitarbeitern, wichtige Termine, Deadlines und Veranstaltungen im Überblick zu behalten und ihre Arbeitsplanung entsprechend auszurichten.",
+              "Description": "Die \"Termine\" Sektion fungiert als umfassende Termin\u00fcbersicht und Veranstaltungskalender f\u00fcr alle institutionsrelevanten Ereignisse unserer Forschungseinrichtung. Diese zentrale Plattform erm\u00f6glicht es allen Mitarbeitern, wichtige Termine, Deadlines und Veranstaltungen im \u00dcberblick zu behalten und ihre Arbeitsplanung entsprechend auszurichten.",
               "Title": "Termine",
               "hasPreviewImage": null,
               "head_title": null,
@@ -328,14 +327,14 @@
         },
         {
           "@id": "055f9a73-b0a4-41d9-922c-74e98215980a",
-          "description": "Die \"Organisation\" Sektion bietet eine umfassende Übersicht über die institutionelle Struktur, Organisationsabläufe und administrative Rahmenbedingungen unserer Forschungseinrichtung. Diese zentrale Informationsquelle ermöglicht es allen Mitarbeitern, sich über Zuständigkeiten, Hierarchien und organisatorische Prozesse zu informieren und unterstützt damit eine effiziente Zusammenarbeit innerhalb der Institution.",
+          "description": "Die \"Organisation\" Sektion bietet eine umfassende \u00dcbersicht \u00fcber die institutionelle Struktur, Organisationsabl\u00e4ufe und administrative Rahmenbedingungen unserer Forschungseinrichtung. Diese zentrale Informationsquelle erm\u00f6glicht es allen Mitarbeitern, sich \u00fcber Zust\u00e4ndigkeiten, Hierarchien und organisatorische Prozesse zu informieren und unterst\u00fctzt damit eine effiziente Zusammenarbeit innerhalb der Institution.",
           "flagAlign": "left",
           "head_title": null,
           "href": [
             {
               "@id": "../../../resolveuid/4d9a9737b78842b2a8454f8c26c02cab",
               "@type": "Document",
-              "Description": "Die \"Organisation\" Sektion bietet eine umfassende Übersicht über die institutionelle Struktur, Organisationsabläufe und administrative Rahmenbedingungen unserer Forschungseinrichtung. Diese zentrale Informationsquelle ermöglicht es allen Mitarbeitern, sich über Zuständigkeiten, Hierarchien und organisatorische Prozesse zu informieren und unterstützt damit eine effiziente Zusammenarbeit innerhalb der Institution.",
+              "Description": "Die \"Organisation\" Sektion bietet eine umfassende \u00dcbersicht \u00fcber die institutionelle Struktur, Organisationsabl\u00e4ufe und administrative Rahmenbedingungen unserer Forschungseinrichtung. Diese zentrale Informationsquelle erm\u00f6glicht es allen Mitarbeitern, sich \u00fcber Zust\u00e4ndigkeiten, Hierarchien und organisatorische Prozesse zu informieren und unterst\u00fctzt damit eine effiziente Zusammenarbeit innerhalb der Institution.",
               "Title": "Organisation",
               "hasPreviewImage": null,
               "head_title": null,
@@ -378,14 +377,14 @@
         },
         {
           "@id": "e5e7ff6b-a14c-46b3-9a56-7b01171e329b",
-          "description": "Die \"Aktuelles\" Sektion dient als zentrale Kommunikationsplattform für alle wichtigen Neuigkeiten, Entwicklungen und Ereignisse innerhalb unserer Forschungseinrichtung. Hier finden Mitarbeiter, Wissenschaftler und Verwaltungspersonal zeitnah alle relevanten Informationen, die für den Arbeitsalltag und die strategische Ausrichtung der Institution von Bedeutung sind.",
+          "description": "Die \"Aktuelles\" Sektion dient als zentrale Kommunikationsplattform f\u00fcr alle wichtigen Neuigkeiten, Entwicklungen und Ereignisse innerhalb unserer Forschungseinrichtung. Hier finden Mitarbeiter, Wissenschaftler und Verwaltungspersonal zeitnah alle relevanten Informationen, die f\u00fcr den Arbeitsalltag und die strategische Ausrichtung der Institution von Bedeutung sind.",
           "flagAlign": "left",
           "head_title": null,
           "href": [
             {
               "@id": "../../../resolveuid/7fce8b9becbb43d091604ae5b3e84ac0",
               "@type": "Document",
-              "Description": "Die \"Aktuelles\" Sektion dient als zentrale Kommunikationsplattform für alle wichtigen Neuigkeiten, Entwicklungen und Ereignisse innerhalb unserer Forschungseinrichtung. Hier finden Mitarbeiter, Wissenschaftler und Verwaltungspersonal zeitnah alle relevanten Informationen, die für den Arbeitsalltag und die strategische Ausrichtung der Institution von Bedeutung sind.",
+              "Description": "Die \"Aktuelles\" Sektion dient als zentrale Kommunikationsplattform f\u00fcr alle wichtigen Neuigkeiten, Entwicklungen und Ereignisse innerhalb unserer Forschungseinrichtung. Hier finden Mitarbeiter, Wissenschaftler und Verwaltungspersonal zeitnah alle relevanten Informationen, die f\u00fcr den Arbeitsalltag und die strategische Ausrichtung der Institution von Bedeutung sind.",
               "Title": "Aktuelles",
               "hasPreviewImage": null,
               "head_title": null,
@@ -397,14 +396,14 @@
         },
         {
           "@id": "e95ec817-4461-4e56-91d6-dabaf2467110",
-          "description": "Die \"Termine\" Sektion fungiert als umfassende Terminübersicht und Veranstaltungskalender für alle institutionsrelevanten Ereignisse unserer Forschungseinrichtung. Diese zentrale Plattform ermöglicht es allen Mitarbeitern, wichtige Termine, Deadlines und Veranstaltungen im Überblick zu behalten und ihre Arbeitsplanung entsprechend auszurichten.",
+          "description": "Die \"Termine\" Sektion fungiert als umfassende Termin\u00fcbersicht und Veranstaltungskalender f\u00fcr alle institutionsrelevanten Ereignisse unserer Forschungseinrichtung. Diese zentrale Plattform erm\u00f6glicht es allen Mitarbeitern, wichtige Termine, Deadlines und Veranstaltungen im \u00dcberblick zu behalten und ihre Arbeitsplanung entsprechend auszurichten.",
           "flagAlign": "left",
           "head_title": null,
           "href": [
             {
               "@id": "../../../resolveuid/66ceae4426a347e19e158f36202c98b5",
               "@type": "Document",
-              "Description": "Die \"Termine\" Sektion fungiert als umfassende Terminübersicht und Veranstaltungskalender für alle institutionsrelevanten Ereignisse unserer Forschungseinrichtung. Diese zentrale Plattform ermöglicht es allen Mitarbeitern, wichtige Termine, Deadlines und Veranstaltungen im Überblick zu behalten und ihre Arbeitsplanung entsprechend auszurichten.",
+              "Description": "Die \"Termine\" Sektion fungiert als umfassende Termin\u00fcbersicht und Veranstaltungskalender f\u00fcr alle institutionsrelevanten Ereignisse unserer Forschungseinrichtung. Diese zentrale Plattform erm\u00f6glicht es allen Mitarbeitern, wichtige Termine, Deadlines und Veranstaltungen im \u00dcberblick zu behalten und ihre Arbeitsplanung entsprechend auszurichten.",
               "Title": "Termine",
               "hasPreviewImage": null,
               "head_title": null,
@@ -416,14 +415,14 @@
         },
         {
           "@id": "c6932b1c-def7-464a-a175-9eadb4f906ef",
-          "description": "Die \"Organisation\" Sektion bietet eine umfassende Übersicht über die institutionelle Struktur, Organisationsabläufe und administrative Rahmenbedingungen unserer Forschungseinrichtung. Diese zentrale Informationsquelle ermöglicht es allen Mitarbeitern, sich über Zuständigkeiten, Hierarchien und organisatorische Prozesse zu informieren und unterstützt damit eine effiziente Zusammenarbeit innerhalb der Institution.",
+          "description": "Die \"Organisation\" Sektion bietet eine umfassende \u00dcbersicht \u00fcber die institutionelle Struktur, Organisationsabl\u00e4ufe und administrative Rahmenbedingungen unserer Forschungseinrichtung. Diese zentrale Informationsquelle erm\u00f6glicht es allen Mitarbeitern, sich \u00fcber Zust\u00e4ndigkeiten, Hierarchien und organisatorische Prozesse zu informieren und unterst\u00fctzt damit eine effiziente Zusammenarbeit innerhalb der Institution.",
           "flagAlign": "left",
           "head_title": null,
           "href": [
             {
               "@id": "../../../resolveuid/4d9a9737b78842b2a8454f8c26c02cab",
               "@type": "Document",
-              "Description": "Die \"Organisation\" Sektion bietet eine umfassende Übersicht über die institutionelle Struktur, Organisationsabläufe und administrative Rahmenbedingungen unserer Forschungseinrichtung. Diese zentrale Informationsquelle ermöglicht es allen Mitarbeitern, sich über Zuständigkeiten, Hierarchien und organisatorische Prozesse zu informieren und unterstützt damit eine effiziente Zusammenarbeit innerhalb der Institution.",
+              "Description": "Die \"Organisation\" Sektion bietet eine umfassende \u00dcbersicht \u00fcber die institutionelle Struktur, Organisationsabl\u00e4ufe und administrative Rahmenbedingungen unserer Forschungseinrichtung. Diese zentrale Informationsquelle erm\u00f6glicht es allen Mitarbeitern, sich \u00fcber Zust\u00e4ndigkeiten, Hierarchien und organisatorische Prozesse zu informieren und unterst\u00fctzt damit eine effiziente Zusammenarbeit innerhalb der Institution.",
               "Title": "Organisation",
               "hasPreviewImage": null,
               "head_title": null,
@@ -440,14 +439,14 @@
     },
     "f1ee3df4-bea7-4317-9cca-24922de98bd6": {
       "@type": "introduction",
-      "plaintext": "Mit dem Slider-Block können verschiedene Inhalte der Seite prominent angeteasert werden. Der Slider-Block  wird üblicherweise als erstes Element als Eye-Catcher eingesetzt. Ein Slider-Block kann beliebig viele Elemente anzeigen. Verlinkte Inhalte werden mit einem Bild, einem Titel, einer Beschreibung, einem Kopftitel dargestellt. Optional kann ein Button mit einem angepassten Text eingefügt werden.",
+      "plaintext": "Mit dem Slider-Block k\u00f6nnen verschiedene Inhalte der Seite prominent angeteasert werden. Der Slider-Block  wird \u00fcblicherweise als erstes Element als Eye-Catcher eingesetzt. Ein Slider-Block kann beliebig viele Elemente anzeigen. Verlinkte Inhalte werden mit einem Bild, einem Titel, einer Beschreibung, einem Kopftitel dargestellt. Optional kann ein Button mit einem angepassten Text eingef\u00fcgt werden.",
       "styles": {},
       "theme": "default",
       "value": [
         {
           "children": [
             {
-              "text": "Mit dem Slider-Block können verschiedene Inhalte der Seite prominent angeteasert werden. Der Slider-Block  wird üblicherweise als erstes Element als "
+              "text": "Mit dem Slider-Block k\u00f6nnen verschiedene Inhalte der Seite prominent angeteasert werden. Der Slider-Block  wird \u00fcblicherweise als erstes Element als "
             },
             {
               "children": [
@@ -458,7 +457,7 @@
               "type": "em"
             },
             {
-              "text": " eingesetzt. Ein Slider-Block kann beliebig viele Elemente anzeigen. Verlinkte Inhalte werden mit einem Bild, einem Titel, einer Beschreibung, einem Kopftitel dargestellt. Optional kann ein Button mit einem angepassten Text eingefügt werden."
+              "text": " eingesetzt. Ein Slider-Block kann beliebig viele Elemente anzeigen. Verlinkte Inhalte werden mit einem Bild, einem Titel, einer Beschreibung, einem Kopftitel dargestellt. Optional kann ein Button mit einem angepassten Text eingef\u00fcgt werden."
             }
           ],
           "type": "p"
@@ -484,39 +483,31 @@
   "creators": [
     "admin"
   ],
-  "description": "Mit dem Slider-Block können verschieden Inhalte der Seite prominent angeteasert werden. Der Slider-Block  wird üblicherweise als erstes Element als Eye-Catcher eingesetzt. Ein Slider-Block kann beliebig viele Elemente anzeigen. Verlinkte Inhalte werden mit einem Bild, einem Titel, einer Beschreibung, einem Kopftitel dargestellt. Optional kann ein Button mit einem angepassten Text eingefügt werden.",
+  "description": "Mit dem Slider-Block k\u00f6nnen verschieden Inhalte der Seite prominent angeteasert werden. Der Slider-Block  wird \u00fcblicherweise als erstes Element als Eye-Catcher eingesetzt. Ein Slider-Block kann beliebig viele Elemente anzeigen. Verlinkte Inhalte werden mit einem Bild, einem Titel, einer Beschreibung, einem Kopftitel dargestellt. Optional kann ein Button mit einem angepassten Text eingef\u00fcgt werden.",
   "effective": "2024-04-08T17:54:00+00:00",
-  "enable_likes": false,
   "exclude_from_nav": false,
   "expires": null,
   "exportimport.constrains": {},
   "exportimport.conversation": [],
-  "feedback_person": null,
   "head_title": null,
   "id": "slider",
   "is_folderish": true,
   "language": "##DEFAULT##",
   "layout": "document_view",
-  "location_reference": null,
   "lock": {
     "locked": false,
     "stealable": true
   },
   "modified": "2025-12-02T08:59:43+00:00",
   "nav_title": null,
-  "organisational_unit_reference": null,
   "preview_caption_link": null,
-  "responsible_person": null,
   "review_state": "published",
   "rights": "",
-  "searchwords": [],
-  "showinsearch": false,
   "subjects": [],
   "title": "Slider Block",
   "type_title": "Page",
   "version": "current",
   "versioning_enabled": true,
-  "votes": null,
   "workflow_history": {
     "simple_publication_workflow": [
       {

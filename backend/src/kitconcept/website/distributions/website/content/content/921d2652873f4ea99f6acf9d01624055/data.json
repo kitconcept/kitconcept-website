@@ -3,7 +3,6 @@
   "@type": "Document",
   "UID": "921d2652873f4ea99f6acf9d01624055",
   "allow_discussion": false,
-  "authors": null,
   "blocks": {
     "02d0d6d7-49c0-4534-9bea-c31a2850f0e4": {
       "@type": "gridBlock",
@@ -423,7 +422,7 @@
     },
     "14f518ce-aae6-4fd9-85fe-67f3e74becf0": {
       "@type": "heading",
-      "heading": "Event Grid Listing",
+      "heading": "Event\u00a0Grid Listing",
       "styles": {},
       "theme": "default"
     },
@@ -1272,7 +1271,7 @@
     "6491c402-0df8-48d6-a5ec-eea7e7ee134f": {
       "@type": "heading",
       "alignment": "left",
-      "heading": "News Item Grid Listing",
+      "heading": "News Item\u00a0Grid Listing",
       "styles": {},
       "theme": "default"
     },
@@ -1455,7 +1454,7 @@
     "6e2ccc9f-81e1-4ad4-99a7-9934dc01a757": {
       "@type": "heading",
       "alignment": "left",
-      "heading": "List Grid Variations",
+      "heading": "List Grid\u00a0Variations",
       "styles": {},
       "tag": "h2",
       "theme": "default"
@@ -1596,7 +1595,7 @@
     },
     "75a319fe-6126-4f81-aa68-355d8f302e37": {
       "@type": "heading",
-      "heading": "Person Grid Listing",
+      "heading": "Person\u00a0Grid Listing",
       "styles": {},
       "theme": "default"
     },
@@ -2494,7 +2493,7 @@
     },
     "c8c290cd-43da-411b-a901-0ece72938c5d": {
       "@type": "heading",
-      "heading": "File Grid Listing",
+      "heading": "File\u00a0Grid Listing",
       "styles": {},
       "theme": "default"
     },
@@ -2778,7 +2777,7 @@
     "dd37bc9a-4ab3-4637-9713-bc2e12426a60": {
       "@type": "heading",
       "alignment": "left",
-      "heading": "Link Grid Listing",
+      "heading": "Link\u00a0Grid Listing",
       "styles": {},
       "theme": "default"
     },
@@ -3279,7 +3278,7 @@
     "f7d4ced8-951c-4e8f-87bc-451fec469b56": {
       "@type": "heading",
       "alignment": "left",
-      "heading": "List with Image Grid Variations",
+      "heading": "List with Image Grid\u00a0Variations",
       "styles": {},
       "tag": "h2",
       "theme": "default"
@@ -3585,37 +3584,29 @@
   ],
   "description": "\nThe Grid block allows adding multi-column blocks. A grid block can contain between one and four columns of different blocks. This is a grid block with multiple listing blocks.",
   "effective": "2023-07-06T18:35:00+00:00",
-  "enable_likes": false,
   "exclude_from_nav": false,
   "expires": null,
   "exportimport.constrains": {},
   "exportimport.conversation": [],
-  "feedback_person": null,
   "head_title": null,
   "id": "listing",
   "is_folderish": true,
   "language": "##DEFAULT##",
   "layout": "document_view",
-  "location_reference": null,
   "lock": {
     "locked": false,
     "stealable": true
   },
   "modified": "2025-12-02T08:59:42+00:00",
   "nav_title": null,
-  "organisational_unit_reference": null,
   "preview_caption_link": null,
-  "responsible_person": null,
   "review_state": "published",
   "rights": "",
-  "searchwords": [],
-  "showinsearch": false,
   "subjects": [],
   "title": "Grid-Listing",
   "type_title": "Page",
   "version": "current",
   "versioning_enabled": true,
-  "votes": null,
   "workflow_history": {
     "simple_publication_workflow": [
       {

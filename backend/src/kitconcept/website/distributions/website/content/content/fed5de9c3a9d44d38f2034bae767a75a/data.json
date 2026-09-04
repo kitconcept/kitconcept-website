@@ -3,7 +3,6 @@
   "@type": "Document",
   "UID": "fed5de9c3a9d44d38f2034bae767a75a",
   "allow_discussion": null,
-  "authors": null,
   "blocks": {
     "03980cdc-fc0c-4834-a15d-06bfa8643555": {
       "@type": "title"
@@ -12,7 +11,7 @@
       "@type": "schemaForm",
       "cancel_label": "Abbrechen",
       "data_wipe": -1,
-      "description": "This Form Block provides a versatile and user-friendly way to create forms in Volto. It supports a wide range of field types—including text, email, date, file upload, radio groups, checkboxes, and more.",
+      "description": "This Form Block provides a versatile and user-friendly way to create forms in Volto. It supports a wide range of field types\u2014including text, email, date, file upload, radio groups, checkboxes, and more.",
       "schema": {
         "fieldsets": [
           {
@@ -467,7 +466,7 @@
       "show_cancel": false,
       "subject": "Volto Form Block",
       "submit_label": "Senden",
-      "success": "Vielen Dank! Sie haben folgende Daten übermittelt:",
+      "success": "Vielen Dank! Sie haben folgende Daten \u00fcbermittelt:",
       "thankyou": "${formfields}",
       "title": "Form block with Required , Placeholder and Default value."
     }
@@ -486,37 +485,29 @@
   ],
   "description": "",
   "effective": "2025-09-19T11:48:00+00:00",
-  "enable_likes": false,
   "exclude_from_nav": false,
   "expires": null,
   "exportimport.constrains": {},
   "exportimport.conversation": [],
-  "feedback_person": null,
   "head_title": null,
   "id": "form-block",
   "is_folderish": true,
   "language": "##DEFAULT##",
   "layout": "document_view",
-  "location_reference": null,
   "lock": {
     "locked": false,
     "stealable": true
   },
   "modified": "2025-12-02T08:59:43+00:00",
   "nav_title": null,
-  "organisational_unit_reference": null,
   "preview_caption_link": null,
-  "responsible_person": null,
   "review_state": "published",
   "rights": "",
-  "searchwords": [],
-  "showinsearch": false,
   "subjects": [],
   "title": "Form",
   "type_title": "Page",
   "version": "current",
   "versioning_enabled": true,
-  "votes": null,
   "workflow_history": {
     "simple_publication_workflow": [
       {

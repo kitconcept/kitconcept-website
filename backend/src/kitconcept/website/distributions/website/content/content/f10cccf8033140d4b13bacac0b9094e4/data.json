@@ -3,7 +3,6 @@
   "@type": "Document",
   "UID": "f10cccf8033140d4b13bacac0b9094e4",
   "allow_discussion": false,
-  "authors": null,
   "blocks": {
     "00146980-5c86-4ecd-a84e-d373183231ad": {
       "@type": "slate",
@@ -208,14 +207,14 @@
     },
     "910a3f25-0318-41b3-a1a6-6e35cdf83451": {
       "@type": "slate",
-      "plaintext": "Überschrift zweiter Ordnung (Headline H2)",
+      "plaintext": "\u00dcberschrift zweiter Ordnung (Headline H2)",
       "styles": {},
       "theme": "default",
       "value": [
         {
           "children": [
             {
-              "text": "Überschrift zweiter Ordnung (Headline H2)"
+              "text": "\u00dcberschrift zweiter Ordnung (Headline H2)"
             }
           ],
           "type": "h2"
@@ -308,14 +307,14 @@
     },
     "f0a56edf-a963-4177-877c-76d9a4d6c20b": {
       "@type": "slate",
-      "plaintext": "Überschrift dritter Ordnung (Headline H3)",
+      "plaintext": "\u00dcberschrift dritter Ordnung (Headline H3)",
       "styles": {},
       "theme": "default",
       "value": [
         {
           "children": [
             {
-              "text": "Überschrift dritter Ordnung (Headline H3)"
+              "text": "\u00dcberschrift dritter Ordnung (Headline H3)"
             }
           ],
           "type": "h3"
@@ -352,37 +351,29 @@
   ],
   "description": "\nThe Text Block allows you to add text to a web page. The text can be formatted and structured in different ways (bold, headings, etc.).",
   "effective": "2023-07-06T18:35:00+00:00",
-  "enable_likes": false,
   "exclude_from_nav": false,
   "expires": null,
   "exportimport.constrains": {},
   "exportimport.conversation": [],
-  "feedback_person": null,
   "head_title": null,
   "id": "text-block",
   "is_folderish": true,
   "language": "##DEFAULT##",
   "layout": "document_view",
-  "location_reference": null,
   "lock": {
     "locked": false,
     "stealable": true
   },
   "modified": "2025-12-02T08:59:43+00:00",
   "nav_title": null,
-  "organisational_unit_reference": null,
   "preview_caption_link": null,
-  "responsible_person": null,
   "review_state": "published",
   "rights": "",
-  "searchwords": [],
-  "showinsearch": false,
   "subjects": [],
   "title": "Text",
   "type_title": "Page",
   "version": "current",
   "versioning_enabled": true,
-  "votes": null,
   "workflow_history": {
     "simple_publication_workflow": [
       {

@@ -3,7 +3,6 @@
   "@type": "Document",
   "UID": "7aa6178980844a629cebbe01164900b5",
   "allow_discussion": null,
-  "authors": null,
   "blocks": {
     "01d2ee8d-7a87-4608-838a-1594e20d8bb9": {
       "@type": "highlight",
@@ -215,7 +214,7 @@
       "blocks": {
         "a97d9cc0-dc09-4705-8922-f9ec875b42c4": {
           "@type": "teaser",
-          "description": "Der Inhaltstyp Seite kann verwendet werden Inhalte auf einer Einzelseite der Webseite darzustellen. Seiten können mit Hilfe von Text, Bildern und Blöcken strukturiert werden.",
+          "description": "Der Inhaltstyp Seite kann verwendet werden Inhalte auf einer Einzelseite der Webseite darzustellen. Seiten k\u00f6nnen mit Hilfe von Text, Bildern und Bl\u00f6cken strukturiert werden.",
           "head_title": null,
           "href": [
             {
@@ -253,7 +252,7 @@
         },
         "d11b603a-bac7-4e9f-b6b1-fd6abf7cae62": {
           "@type": "teaser",
-          "description": "Der Inhaltstyp Seite kann verwendet werden Inhalte auf einer Einzelseite der Webseite darzustellen. Seiten können mit Hilfe von Text, Bildern und Blöcken strukturiert werden.",
+          "description": "Der Inhaltstyp Seite kann verwendet werden Inhalte auf einer Einzelseite der Webseite darzustellen. Seiten k\u00f6nnen mit Hilfe von Text, Bildern und Bl\u00f6cken strukturiert werden.",
           "head_title": null,
           "href": [
             {
@@ -304,7 +303,7 @@
       "blocks": {
         "9d349315-341b-40b6-8384-025e2c67c78d": {
           "@type": "teaser",
-          "description": "Der Inhaltstyp Seite kann verwendet werden Inhalte auf einer Einzelseite der Webseite darzustellen. Seiten können mit Hilfe von Text, Bildern und Blöcken strukturiert werden.",
+          "description": "Der Inhaltstyp Seite kann verwendet werden Inhalte auf einer Einzelseite der Webseite darzustellen. Seiten k\u00f6nnen mit Hilfe von Text, Bildern und Bl\u00f6cken strukturiert werden.",
           "head_title": null,
           "href": [
             {
@@ -342,7 +341,7 @@
         },
         "ad17159a-72ff-431e-aa8f-521ae5275acc": {
           "@type": "teaser",
-          "description": "Der Inhaltstyp Seite kann verwendet werden Inhalte auf einer Einzelseite der Webseite darzustellen. Seiten können mit Hilfe von Text, Bildern und Blöcken strukturiert werden.",
+          "description": "Der Inhaltstyp Seite kann verwendet werden Inhalte auf einer Einzelseite der Webseite darzustellen. Seiten k\u00f6nnen mit Hilfe von Text, Bildern und Bl\u00f6cken strukturiert werden.",
           "head_title": null,
           "href": [
             {
@@ -408,37 +407,29 @@
   ],
   "description": "",
   "effective": "2025-12-10T12:47:00+00:00",
-  "enable_likes": false,
   "exclude_from_nav": false,
   "expires": null,
   "exportimport.constrains": {},
   "exportimport.conversation": [],
-  "feedback_person": null,
   "head_title": null,
   "id": "highlight-and-grid",
   "is_folderish": true,
   "language": "##DEFAULT##",
   "layout": "document_view",
-  "location_reference": null,
   "lock": {
     "locked": false,
     "stealable": true
   },
   "modified": "2025-12-10T12:47:49+00:00",
   "nav_title": null,
-  "organisational_unit_reference": null,
   "preview_caption_link": null,
-  "responsible_person": null,
   "review_state": "published",
   "rights": "",
-  "searchwords": [],
-  "showinsearch": false,
   "subjects": [],
   "title": "Highlight and Grid",
   "type_title": "Page",
   "version": "current",
   "versioning_enabled": true,
-  "votes": null,
   "workflow_history": {
     "simple_publication_workflow": [
       {

@@ -3,7 +3,6 @@
   "@type": "Document",
   "UID": "41164f17d41f47d0ba0226735751ed00",
   "allow_discussion": false,
-  "authors": null,
   "blocks": {
     "177de529-ce72-4721-a58c-15feadaf285e": {
       "@type": "slate",
@@ -152,37 +151,29 @@
   ],
   "description": "\nThe introductory block allows the display of an introductory text, which is displayed larger than normal continuous text.",
   "effective": "2023-07-06T18:35:00+00:00",
-  "enable_likes": false,
   "exclude_from_nav": false,
   "expires": null,
   "exportimport.constrains": {},
   "exportimport.conversation": [],
-  "feedback_person": null,
   "head_title": null,
   "id": "introduction-block",
   "is_folderish": true,
   "language": "##DEFAULT##",
   "layout": "document_view",
-  "location_reference": null,
   "lock": {
     "locked": false,
     "stealable": true
   },
   "modified": "2025-12-02T08:59:43+00:00",
   "nav_title": null,
-  "organisational_unit_reference": null,
   "preview_caption_link": null,
-  "responsible_person": null,
   "review_state": "published",
   "rights": "",
-  "searchwords": [],
-  "showinsearch": false,
   "subjects": [],
   "title": "Introduction",
   "type_title": "Page",
   "version": "current",
   "versioning_enabled": true,
-  "votes": null,
   "workflow_history": {
     "simple_publication_workflow": [
       {

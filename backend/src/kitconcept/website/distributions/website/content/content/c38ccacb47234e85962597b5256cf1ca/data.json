@@ -3,7 +3,6 @@
   "@type": "Document",
   "UID": "c38ccacb47234e85962597b5256cf1ca",
   "allow_discussion": null,
-  "authors": null,
   "blocks": {
     "953ad56f-0854-4aa1-919d-8adb98a533cc": {
       "@type": "listing",
@@ -30,37 +29,29 @@
   ],
   "description": "",
   "effective": "2025-12-02T11:11:00+00:00",
-  "enable_likes": false,
   "exclude_from_nav": true,
   "expires": null,
   "exportimport.constrains": {},
   "exportimport.conversation": [],
-  "feedback_person": null,
   "head_title": null,
   "id": "qa",
   "is_folderish": true,
   "language": "##DEFAULT##",
   "layout": "document_view",
-  "location_reference": null,
   "lock": {
     "locked": false,
     "stealable": true
   },
   "modified": "2025-12-10T08:59:46+00:00",
   "nav_title": null,
-  "organisational_unit_reference": null,
   "preview_caption_link": null,
-  "responsible_person": null,
   "review_state": "published",
   "rights": "",
-  "searchwords": [],
-  "showinsearch": false,
   "subjects": [],
   "title": "QA",
   "type_title": "Page",
   "version": "current",
   "versioning_enabled": true,
-  "votes": null,
   "workflow_history": {
     "simple_publication_workflow": [
       {

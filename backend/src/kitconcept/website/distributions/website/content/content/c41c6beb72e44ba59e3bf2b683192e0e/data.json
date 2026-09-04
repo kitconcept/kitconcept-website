@@ -3,7 +3,6 @@
   "@type": "Document",
   "UID": "c41c6beb72e44ba59e3bf2b683192e0e",
   "allow_discussion": false,
-  "authors": null,
   "blocks": {
     "0e3611aa-3dfe-421b-a8dc-c45ec3cf7262": {
       "@type": "slate",
@@ -39,7 +38,7 @@
       "@type": "maps",
       "align": "left",
       "styles": {},
-      "title": "kitconcept , Riesstraße 21, 53113 Bonn, Germany",
+      "title": "kitconcept , Riesstra\u00dfe 21, 53113 Bonn, Germany",
       "url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2525.497302522086!2d7.10273717832893!3d50.729264671646604!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47bee1b954c6ab87%3A0xafb410d310340cc2!2skitconcept%20GmbH!5e0!3m2!1sen!2sin!4v1690535017060!5m2!1sen!2sin"
     },
     "68370edd-bfe5-47fb-937e-16a19a3a92ad": {
@@ -49,7 +48,7 @@
       "@type": "maps",
       "align": "right",
       "styles": {},
-      "title": "kitconcept GmbH, Riesstraße 21, 53113 Bonn, Germany",
+      "title": "kitconcept GmbH, Riesstra\u00dfe 21, 53113 Bonn, Germany",
       "url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2525.497302522086!2d7.10273717832893!3d50.729264671646604!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47bee1b954c6ab87%3A0xafb410d310340cc2!2skitconcept%20GmbH!5e0!3m2!1sen!2sin!4v1690535017060!5m2!1sen!2sin"
     },
     "7248c659-f678-4e2f-8ac7-5bc5a8abf729": {
@@ -115,7 +114,7 @@
       "@type": "maps",
       "align": "center",
       "styles": {},
-      "title": "kitconcept GmbH, Riesstraße 21, Germany",
+      "title": "kitconcept GmbH, Riesstra\u00dfe 21, Germany",
       "url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2525.497302522086!2d7.10273717832893!3d50.729264671646604!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47bee1b954c6ab87%3A0xafb410d310340cc2!2skitconcept%20GmbH!5e0!3m2!1sen!2sin!4v1690535017060!5m2!1sen!2sin"
     },
     "ce3be1bc-5e35-409d-971b-194bb084db4a": {
@@ -138,7 +137,7 @@
       "@type": "maps",
       "align": "full",
       "styles": {},
-      "title": "kitconcept GmbH, 53113 Bonn, Riesstraße 21, Germany",
+      "title": "kitconcept GmbH, 53113 Bonn, Riesstra\u00dfe 21, Germany",
       "url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2525.497302522086!2d7.10273717832893!3d50.729264671646604!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47bee1b954c6ab87%3A0xafb410d310340cc2!2skitconcept%20GmbH!5e0!3m2!1sen!2sin!4v1690535017060!5m2!1sen!2sin"
     },
     "d5fe5f6d-2a9b-4e65-b5bf-2faded6073b7": {
@@ -191,37 +190,29 @@
   ],
   "description": "The maps block can have embeded a Map (Google Maps, OpenMaps, etc).",
   "effective": "2023-09-22T16:09:00+00:00",
-  "enable_likes": false,
   "exclude_from_nav": false,
   "expires": null,
   "exportimport.constrains": {},
   "exportimport.conversation": [],
-  "feedback_person": null,
   "head_title": null,
   "id": "maps-block",
   "is_folderish": true,
   "language": "##DEFAULT##",
   "layout": "document_view",
-  "location_reference": null,
   "lock": {
     "locked": false,
     "stealable": true
   },
   "modified": "2025-12-02T08:59:43+00:00",
   "nav_title": null,
-  "organisational_unit_reference": null,
   "preview_caption_link": null,
-  "responsible_person": null,
   "review_state": "published",
   "rights": "",
-  "searchwords": [],
-  "showinsearch": false,
   "subjects": [],
   "title": "Maps",
   "type_title": "Page",
   "version": "current",
   "versioning_enabled": true,
-  "votes": null,
   "workflow_history": {
     "simple_publication_workflow": [
       {

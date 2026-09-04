@@ -1,5 +1,5 @@
 {
-  "@id": "/person/dr-miriam-engelhardt",
+  "@id": "/persons/dr-miriam-engelhardt",
   "@type": "Person",
   "UID": "c71a61066533455db656f0ac93044401",
   "address": "Mustermann-Stra\u00dfe\n52425 Musterhausen",
@@ -35,7 +35,7 @@
     "locked": false,
     "stealable": true
   },
-  "modified": "2026-03-05T13:16:00+00:00",
+  "modified": "2026-09-04T09:24:51+00:00",
   "nav_title": null,
   "office_phone": "+49 30 1234567",
   "review_state": "published",

@@ -3,7 +3,6 @@
   "@type": "Document",
   "UID": "e889b3fc258646139284b92ffe3f7495",
   "allow_discussion": false,
-  "authors": null,
   "blocks": {
     "25a0a1b5-3ce9-468f-8968-9a7f83ca4e53": {
       "@type": "highlight",
@@ -792,37 +791,29 @@
   ],
   "description": "\nThe highlight block allows you to highlight and tease a single piece of content. The content is displayed with a large image and a title and description in a banderole.",
   "effective": "2023-07-06T18:35:00+00:00",
-  "enable_likes": false,
   "exclude_from_nav": false,
   "expires": null,
   "exportimport.constrains": {},
   "exportimport.conversation": [],
-  "feedback_person": null,
   "head_title": null,
   "id": "highlight-block",
   "is_folderish": true,
   "language": "##DEFAULT##",
   "layout": "document_view",
-  "location_reference": null,
   "lock": {
     "locked": false,
     "stealable": true
   },
   "modified": "2025-12-02T08:59:43+00:00",
   "nav_title": null,
-  "organisational_unit_reference": null,
   "preview_caption_link": null,
-  "responsible_person": null,
   "review_state": "published",
   "rights": "",
-  "searchwords": [],
-  "showinsearch": false,
   "subjects": [],
   "title": "Highlight",
   "type_title": "Page",
   "version": "current",
   "versioning_enabled": true,
-  "votes": null,
   "workflow_history": {
     "simple_publication_workflow": [
       {

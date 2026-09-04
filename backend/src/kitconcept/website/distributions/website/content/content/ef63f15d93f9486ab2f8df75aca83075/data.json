@@ -3,7 +3,6 @@
   "@type": "Document",
   "UID": "ef63f15d93f9486ab2f8df75aca83075",
   "allow_discussion": null,
-  "authors": null,
   "blocks": {
     "08f14f22-3e6b-453e-83b4-0dd6ff3abc2c": {
       "@type": "listing",
@@ -165,37 +164,29 @@
   ],
   "description": "",
   "effective": "2025-12-10T12:44:00+00:00",
-  "enable_likes": false,
   "exclude_from_nav": false,
   "expires": null,
   "exportimport.constrains": {},
   "exportimport.conversation": [],
-  "feedback_person": null,
   "head_title": null,
   "id": "listing-and-listing",
   "is_folderish": true,
   "language": "##DEFAULT##",
   "layout": "document_view",
-  "location_reference": null,
   "lock": {
     "locked": false,
     "stealable": true
   },
   "modified": "2025-12-10T12:47:11+00:00",
   "nav_title": null,
-  "organisational_unit_reference": null,
   "preview_caption_link": null,
-  "responsible_person": null,
   "review_state": "published",
   "rights": "",
-  "searchwords": [],
-  "showinsearch": false,
   "subjects": [],
   "title": "Listing and Listing",
   "type_title": "Page",
   "version": "current",
   "versioning_enabled": true,
-  "votes": null,
   "workflow_history": {
     "simple_publication_workflow": [
       {
