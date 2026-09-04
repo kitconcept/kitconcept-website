@@ -105,6 +105,18 @@ jobs:
       name: ${{ matrix.name }}
       spec-pattern: ${{ matrix.spec-pattern }}
 
+  playwright-acceptance:
+    name: "Playwright Acceptance"
+    uses: ./.github/workflows/playwright.yml
+    if: ${{ needs.config.outputs.acceptance == 'true' }}
+    needs:
+      - config
+      - image-build
+    with:
+      node-version: ${{ needs.config.outputs.node-version }}
+      image-name-prefix: ${{ needs.config.outputs.image-name-prefix }}
+      image-tag: ${{ needs.config.outputs.base-tag }}
+
   # @sneridagh 2026-06-01: Temporarily disable a11y tests until we have in place proper
   # example/demo content in place.
   # a11y:
@@ -134,6 +146,7 @@ jobs:
     needs:
         - config
         - acceptance
+        - playwright-acceptance
         # - a11y
         - backend
     with:
@@ -152,6 +165,7 @@ jobs:
     needs:
         - config
         - acceptance
+        - playwright-acceptance
         # - a11y
         - frontend
     with:

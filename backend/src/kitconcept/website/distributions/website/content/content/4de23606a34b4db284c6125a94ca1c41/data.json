@@ -1,0 +1,81 @@
+{
+  "@id": "/person/jonas-seidel-b-a",
+  "@type": "Person",
+  "UID": "4de23606a34b4db284c6125a94ca1c41",
+  "academic_title": null,
+  "address": null,
+  "allow_discussion": null,
+  "changeNote": "",
+  "contact_building": "B32",
+  "contact_email": "jonas.seidel@example.com",
+  "contact_phone": "0221 3902 323",
+  "contact_room": "R875",
+  "contact_website": "https://plone.org",
+  "created": "2025-06-12T10:48:42+00:00",
+  "department": null,
+  "description": "",
+  "exclude_from_nav": false,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "fax": null,
+  "first_name": "Jonas",
+  "head_title": null,
+  "id": "jonas-seidel-b-a",
+  "image": {
+    "blob_path": "4de23606a34b4db284c6125a94ca1c41/image/Jonas-Seidel.jpeg",
+    "content-type": "image/jpeg",
+    "filename": "Jonas-Seidel.jpeg",
+    "height": 1921,
+    "size": 508638,
+    "width": 2880
+  },
+  "is_folderish": true,
+  "job_title": "Sachbearbeiter – Personalentwicklung",
+  "language": "##DEFAULT##",
+  "last_name": "Seidel, B.A.",
+  "layout": "view",
+  "location_reference": null,
+  "lock": {
+    "locked": false,
+    "stealable": true
+  },
+  "modified": "2026-01-19T13:04:36+00:00",
+  "nav_title": null,
+  "office_phone": null,
+  "organisational_unit_reference": null,
+  "responsibilities": [],
+  "review_state": "published",
+  "roles": [
+    "member"
+  ],
+  "text": {
+    "content-type": "text/html",
+    "data": "<p>Jonas Seidel, B.A. ist Sachbearbeiter in der Personalentwicklung und unterstützt die Abteilung Interne Services in den Bereichen Weiterbildung, Karriereplanung und Onboarding. Er organisiert Fortbildungsprogramme, betreut E-Learning-Plattformen und begleitet Personalgespräche. Dank seiner Kompetenzen in HR-Systemen wie SAP HCM, seiner ausgeprägten Kommunikationsfähigkeit sowie seiner Erfahrung in der Projektkoordination trägt er maßgeblich zur nachhaltigen Entwicklung der Mitarbeitenden bei.</p>",
+    "encoding": "utf8"
+  },
+  "title": "Jonas Seidel, B.A.",
+  "type_title": "Person",
+  "username": null,
+  "version": "current",
+  "versioning_enabled": true,
+  "workflow_history": {
+    "simple_publication_workflow": [
+      {
+        "action": null,
+        "actor": "admin",
+        "comments": "",
+        "review_state": "private",
+        "time": "2025-06-12T10:48:42+00:00"
+      },
+      {
+        "action": "publish",
+        "actor": "admin",
+        "comments": "",
+        "review_state": "published",
+        "time": "2025-06-13T09:29:27+00:00"
+      }
+    ]
+  },
+  "working_copy": null,
+  "working_copy_of": null
+}

@@ -1,0 +1,81 @@
+{
+  "@id": "/person/tim-werner-ll-m",
+  "@type": "Person",
+  "UID": "059feee144a44bf88a3b38fbe9deca65",
+  "academic_title": null,
+  "address": null,
+  "allow_discussion": null,
+  "changeNote": "",
+  "contact_building": "B19",
+  "contact_email": "tim.werner@example.com",
+  "contact_phone": "0221 3902 323",
+  "contact_room": "R874",
+  "contact_website": "https://plone.org",
+  "created": "2025-06-12T11:23:38+00:00",
+  "department": null,
+  "description": "",
+  "exclude_from_nav": false,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "fax": null,
+  "first_name": "Tim",
+  "head_title": null,
+  "id": "tim-werner-ll-m",
+  "image": {
+    "blob_path": "059feee144a44bf88a3b38fbe9deca65/image/Tim-Werner.jpeg",
+    "content-type": "image/jpeg",
+    "filename": "Tim-Werner.jpeg",
+    "height": 230,
+    "size": 7268,
+    "width": 345
+  },
+  "is_folderish": true,
+  "job_title": "Prüfer – Öffentliche Finanzen",
+  "language": "##DEFAULT##",
+  "last_name": "Werner, LL.M.",
+  "layout": "view",
+  "location_reference": null,
+  "lock": {
+    "locked": false,
+    "stealable": true
+  },
+  "modified": "2026-01-19T14:50:45+00:00",
+  "nav_title": null,
+  "office_phone": null,
+  "organisational_unit_reference": null,
+  "responsibilities": [],
+  "review_state": "published",
+  "roles": [
+    "member"
+  ],
+  "text": {
+    "content-type": "text/html",
+    "data": "<p>Tim Werner, LL.M. ist Prüfer im Bereich Öffentliche Finanzen und in der Abteilung Haushalts- und Strukturkontrolle tätig. Seine Schwerpunkte liegen im Haushaltsrecht, der Mittelverwendung und der Bewertung öffentlicher Projekte. Er führt Prüfungen durch, erstellt fundierte Prüfberichte und berät zu Optimierungspotenzialen im Haushaltsvollzug. Mit seiner juristischen Expertise im Verwaltungsrecht, seiner Erfahrung in der Bilanzanalyse sowie dem sicheren Umgang mit MS Excel und spezialisierter Prüfsoftware trägt er zur Transparenz und Effizienz öffentlicher Finanzen bei.</p>",
+    "encoding": "utf8"
+  },
+  "title": "Tim Werner, LL.M.",
+  "type_title": "Person",
+  "username": null,
+  "version": "current",
+  "versioning_enabled": true,
+  "workflow_history": {
+    "simple_publication_workflow": [
+      {
+        "action": null,
+        "actor": "admin",
+        "comments": "",
+        "review_state": "private",
+        "time": "2025-06-12T11:23:38+00:00"
+      },
+      {
+        "action": "publish",
+        "actor": "admin",
+        "comments": "",
+        "review_state": "published",
+        "time": "2025-06-13T09:29:27+00:00"
+      }
+    ]
+  },
+  "working_copy": null,
+  "working_copy_of": null
+}

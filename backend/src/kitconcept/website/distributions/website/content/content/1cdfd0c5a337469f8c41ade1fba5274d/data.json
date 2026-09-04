@@ -1,0 +1,81 @@
+{
+  "@id": "/person/dr-ayla-demir",
+  "@type": "Person",
+  "UID": "1cdfd0c5a337469f8c41ade1fba5274d",
+  "academic_title": "Dr.",
+  "address": null,
+  "allow_discussion": null,
+  "changeNote": "",
+  "contact_building": "B32",
+  "contact_email": "ayla.demir@example.com",
+  "contact_phone": "0221 3902 323",
+  "contact_room": "R943",
+  "contact_website": "https://plone.org",
+  "created": "2025-06-12T11:26:07+00:00",
+  "department": null,
+  "description": "",
+  "exclude_from_nav": false,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "fax": null,
+  "first_name": "Ayla",
+  "head_title": null,
+  "id": "dr-ayla-demir",
+  "image": {
+    "blob_path": "1cdfd0c5a337469f8c41ade1fba5274d/image/Ayla-Demir.jpeg",
+    "content-type": "image/jpeg",
+    "filename": "Ayla-Demir.jpeg",
+    "height": 900,
+    "size": 45041,
+    "width": 600
+  },
+  "is_folderish": true,
+  "job_title": "Projektkoordinatorin – Internationale Zusammenarbeit",
+  "language": "##DEFAULT##",
+  "last_name": "Demir",
+  "layout": "view",
+  "location_reference": null,
+  "lock": {
+    "locked": false,
+    "stealable": true
+  },
+  "modified": "2026-01-19T13:04:26+00:00",
+  "nav_title": null,
+  "office_phone": null,
+  "organisational_unit_reference": null,
+  "responsibilities": [],
+  "review_state": "published",
+  "roles": [
+    "member"
+  ],
+  "text": {
+    "content-type": "text/html",
+    "data": "<p>Dr. Ayla Demir ist Projektkoordinatorin für Internationale Zusammenarbeit in der Abteilung Wissenschaftspolitische Beziehungen. Sie koordiniert internationale Partnerschaften, begleitet das Antragsmanagement für EU- und Drittmittelprojekte und organisiert Fachkonferenzen. Ihre Schwerpunkte liegen in der Entwicklung von Förderprogrammen, dem Aufbau wissenschaftlicher Netzwerke und der strategischen Projektentwicklung. Mit fundierten Kenntnissen im Drittmittelrecht (z. B. Horizon, BMBF), interkultureller Kommunikation sowie Projektmanagement-Standards wie PRINCE2 und GPM/IPMA unterstützt sie wirkungsvoll die internationale Wissenschaftskooperation.</p>",
+    "encoding": "utf8"
+  },
+  "title": "Dr. Ayla Demir",
+  "type_title": "Person",
+  "username": null,
+  "version": "current",
+  "versioning_enabled": true,
+  "workflow_history": {
+    "simple_publication_workflow": [
+      {
+        "action": null,
+        "actor": "admin",
+        "comments": "",
+        "review_state": "private",
+        "time": "2025-06-12T11:26:07+00:00"
+      },
+      {
+        "action": "publish",
+        "actor": "admin",
+        "comments": "",
+        "review_state": "published",
+        "time": "2025-06-13T09:29:27+00:00"
+      }
+    ]
+  },
+  "working_copy": null,
+  "working_copy_of": null
+}

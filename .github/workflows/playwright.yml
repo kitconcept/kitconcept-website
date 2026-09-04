@@ -1,0 +1,84 @@
+name: Playwright Acceptance Tests
+
+on:
+  workflow_call:
+    inputs:
+      node-version:
+        required: true
+        type: string
+      image-name-prefix:
+        required: true
+        type: string
+      image-tag:
+        required: true
+        type: string
+
+defaults:
+  run:
+    working-directory: ./frontend
+
+jobs:
+  playwright-acceptance:
+    name: Playwright Acceptance
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      - name: Load images
+        run: |
+          docker pull ${{ inputs.image-name-prefix }}-acceptance:${{ inputs.image-tag }}
+          docker pull ${{ inputs.image-name-prefix }}-frontend:${{ inputs.image-tag }}
+          docker image ls -a
+
+      - name: Use Node.js ${{ inputs.node-version }}
+        uses: actions/setup-node@v7
+        with:
+          node-version: ${{ inputs.node-version }}
+
+      - name: Enable corepack
+        run: npm i -g corepack@latest && corepack enable
+
+      - name: Get pnpm store directory
+        shell: bash
+        run: echo "STORE_PATH=$(pnpm store path --silent)" >> "$GITHUB_ENV"
+
+      - uses: actions/cache@v6
+        name: Setup pnpm cache
+        with:
+          path: ${{ env.STORE_PATH }}
+          key: ${{ runner.os }}-pnpm-store-${{ hashFiles('**/pnpm-lock.yaml', 'package.json') }}
+          restore-keys: |
+            ${{ runner.os }}-pnpm-store-
+
+      - name: Install dependencies
+        run: make install
+
+      - name: Install Playwright browsers
+        run: pnpm exec playwright install --with-deps chromium
+
+      - uses: JarvusInnovations/background-action@v2
+        name: Start Servers
+        with:
+          run: |
+            docker run -i --net=host --rm --name=backend ${{ inputs.image-name-prefix }}-acceptance:${{ inputs.image-tag }} &
+            docker run -i --net=host --rm --name=frontend -e RAZZLE_INTERNAL_API_PATH=http://127.0.0.1:55001/plone ${{ inputs.image-name-prefix }}-frontend:${{ inputs.image-tag }} &
+          wait-on: |
+            http-get://localhost:55001/plone
+            http://localhost:3000
+          tail: true
+          log-output-resume: stderr
+          wait-for: 10m
+          log-output: stderr,stdout
+          log-output-if: failure
+
+      - name: Run Playwright acceptance tests
+        run: pnpm test:acceptance --reporter=list,html
+
+      - name: Upload Playwright artifacts
+        if: ${{ !cancelled() }}
+        uses: actions/upload-artifact@v7
+        with:
+          name: playwright-acceptance-report
+          path: |
+            frontend/playwright-report
+            frontend/acceptance/results

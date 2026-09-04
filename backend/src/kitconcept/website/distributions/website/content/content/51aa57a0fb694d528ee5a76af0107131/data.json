@@ -1,0 +1,55 @@
+{
+  "@id": "/features/content-types/link",
+  "@type": "Link",
+  "UID": "51aa57a0fb694d528ee5a76af0107131",
+  "allow_discussion": null,
+  "changeNote": "",
+  "contributors": [],
+  "created": "2023-07-06T21:35:19+00:00",
+  "creators": [
+    "admin"
+  ],
+  "description": "The Link content type can be used to display links on the page. Users are automatically redirected to the external site when they click on the link.",
+  "effective": "2023-07-06T18:35:00+00:00",
+  "exclude_from_nav": false,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "head_title": null,
+  "id": "link",
+  "is_folderish": false,
+  "language": "##DEFAULT##",
+  "layout": "link_redirect_view",
+  "location_reference": null,
+  "lock": {
+    "locked": false,
+    "stealable": true
+  },
+  "modified": "2026-06-24T13:26:30+00:00",
+  "nav_title": null,
+  "organisational_unit_reference": null,
+  "preview_caption_link": null,
+  "remoteUrl": "https://www.google.com",
+  "review_state": "published",
+  "rights": "",
+  "searchwords": [],
+  "showinsearch": true,
+  "subjects": [],
+  "title": "Link",
+  "type_title": "Link",
+  "version": "current",
+  "versioning_enabled": true,
+  "workflow_history": {
+    "simple_publication_workflow": [
+      {
+        "action": "publish",
+        "actor": "admin",
+        "comments": "",
+        "review_state": "published",
+        "time": "2025-07-09T10:52:58+00:00"
+      }
+    ]
+  },
+  "working_copy": null,
+  "working_copy_of": null
+}

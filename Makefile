@@ -252,6 +252,23 @@ ci-containers-start: ## Start Acceptance containers
 ci-acceptance-test: ## Run Acceptance tests in ci mode
 	$(MAKE) -C "./frontend/" ci-acceptance-test
 
+###########################################
+# Playwright Acceptance Tests
+###########################################
+
+.PHONY: acceptance-playwright-test
+acceptance-playwright-test: ## Start Playwright acceptance tests in interactive (UI) mode
+	@echo "Start Playwright acceptance tests in interactive mode"
+	$(MAKE) -C "./frontend/" acceptance-playwright-test
+
+.PHONY: ci-acceptance-playwright-test
+ci-acceptance-playwright-test: ## Run Playwright acceptance tests against the acceptance containers in CI mode
+	@echo "Run Playwright acceptance tests in CI mode"
+	$(MAKE) acceptance-containers-start
+	pnpm dlx wait-on --httpTimeout 20000 http-get://localhost:55001/plone http://localhost:3000
+	$(MAKE) -C "./frontend/" ci-acceptance-playwright-test
+	$(MAKE) acceptance-containers-stop
+
 .PHONY: ci-acceptance-a11y-test
 ci-acceptance-a11y-test: ## Run a11y cypress tests in headless mode for CI
 	$(MAKE) -C "./frontend/" ci-acceptance-a11y-test

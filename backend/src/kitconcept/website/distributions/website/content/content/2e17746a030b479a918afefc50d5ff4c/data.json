@@ -1,0 +1,81 @@
+{
+  "@id": "/person/dr-clara-beck",
+  "@type": "Person",
+  "UID": "2e17746a030b479a918afefc50d5ff4c",
+  "academic_title": "Dr.",
+  "address": null,
+  "allow_discussion": null,
+  "changeNote": "",
+  "contact_building": "B32",
+  "contact_email": "clara.beck@example.com",
+  "contact_phone": "0221 3902 323",
+  "contact_room": "R965",
+  "contact_website": "https://plone.org",
+  "created": "2025-06-12T11:31:42+00:00",
+  "department": null,
+  "description": "",
+  "exclude_from_nav": false,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "fax": null,
+  "first_name": "Clara",
+  "head_title": null,
+  "id": "dr-clara-beck",
+  "image": {
+    "blob_path": "2e17746a030b479a918afefc50d5ff4c/image/Clara-Beck .jpeg",
+    "content-type": "image/jpeg",
+    "filename": "Clara-Beck .jpeg",
+    "height": 1923,
+    "size": 1144132,
+    "width": 2880
+  },
+  "is_folderish": true,
+  "job_title": "Wissenschaftliche Beraterin – Gesundheits- und Umweltschutz",
+  "language": "##DEFAULT##",
+  "last_name": "Beck",
+  "layout": "view",
+  "location_reference": null,
+  "lock": {
+    "locked": false,
+    "stealable": true
+  },
+  "modified": "2025-09-26T19:36:34+00:00",
+  "nav_title": null,
+  "office_phone": null,
+  "organisational_unit_reference": null,
+  "responsibilities": [],
+  "review_state": "published",
+  "roles": [
+    "member"
+  ],
+  "text": {
+    "content-type": "text/html",
+    "data": "<p>Dr. Clara Beck ist wissenschaftliche Beraterin für Gesundheits- und Umweltschutz in der Abteilung Politikberatung und Wissenschaftstransfer. Sie erstellt evidenzbasierte Gutachten, begleitet politische Entscheidungsprozesse fachlich und pflegt den Austausch mit relevanten Stakeholdern. Ihre Arbeit verbindet Risikoanalyse mit gezielter Öffentlichkeitsarbeit, um wissenschaftliche Erkenntnisse wirksam in die Praxis zu überführen. Mit ihrer Expertise in Wissenschaftskommunikation, fundierter Literaturrecherche und Metaanalysen sowie dem Verfassen prägnanter Policy Briefs trägt sie zur fundierten und transparenten politischen Beratung bei.</p>",
+    "encoding": "utf8"
+  },
+  "title": "Dr. Clara Beck",
+  "type_title": "Person",
+  "username": null,
+  "version": "current",
+  "versioning_enabled": true,
+  "workflow_history": {
+    "simple_publication_workflow": [
+      {
+        "action": null,
+        "actor": "admin",
+        "comments": "",
+        "review_state": "private",
+        "time": "2025-06-12T11:31:42+00:00"
+      },
+      {
+        "action": "publish",
+        "actor": "admin",
+        "comments": "",
+        "review_state": "published",
+        "time": "2025-06-13T09:29:28+00:00"
+      }
+    ]
+  },
+  "working_copy": null,
+  "working_copy_of": null
+}
