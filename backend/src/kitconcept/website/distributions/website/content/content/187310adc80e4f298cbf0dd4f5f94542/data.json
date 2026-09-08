@@ -12,7 +12,7 @@
           "alt": "",
           "logo": [
             {
-              "@id": "../../resolveuid/c7a92b57c81843a18daacf778f7d548e",
+              "@id": "../../resolveuid/3f86e910ec474fc48a7f9b107d0b0be9",
               "@type": "Image",
               "Description": "",
               "Title": "Plone SVG",
@@ -26,7 +26,7 @@
           "alt": "",
           "logo": [
             {
-              "@id": "../../resolveuid/c7a92b57c81843a18daacf778f7d548e",
+              "@id": "../../resolveuid/3f86e910ec474fc48a7f9b107d0b0be9",
               "@type": "Image",
               "Description": "",
               "Title": "Plone SVG",
@@ -40,7 +40,7 @@
           "alt": "",
           "logo": [
             {
-              "@id": "../../resolveuid/c7a92b57c81843a18daacf778f7d548e",
+              "@id": "../../resolveuid/3f86e910ec474fc48a7f9b107d0b0be9",
               "@type": "Image",
               "Description": "",
               "Title": "Plone SVG",
@@ -67,7 +67,7 @@
           ],
           "logo": [
             {
-              "@id": "../../resolveuid/c7a92b57c81843a18daacf778f7d548e",
+              "@id": "../../resolveuid/3f86e910ec474fc48a7f9b107d0b0be9",
               "@type": "Image",
               "Description": "",
               "Title": "Plone SVG",
@@ -89,7 +89,7 @@
           "alt": "",
           "logo": [
             {
-              "@id": "../../resolveuid/c7a92b57c81843a18daacf778f7d548e",
+              "@id": "../../resolveuid/3f86e910ec474fc48a7f9b107d0b0be9",
               "@type": "Image",
               "Description": "",
               "Title": "Plone SVG",
@@ -103,7 +103,7 @@
           "alt": "",
           "logo": [
             {
-              "@id": "../../resolveuid/c7a92b57c81843a18daacf778f7d548e",
+              "@id": "../../resolveuid/3f86e910ec474fc48a7f9b107d0b0be9",
               "@type": "Image",
               "Description": "",
               "Title": "Plone SVG",
@@ -117,7 +117,7 @@
           "alt": "",
           "logo": [
             {
-              "@id": "../../resolveuid/c7a92b57c81843a18daacf778f7d548e",
+              "@id": "../../resolveuid/3f86e910ec474fc48a7f9b107d0b0be9",
               "@type": "Image",
               "Description": "",
               "Title": "Plone SVG",
@@ -131,7 +131,7 @@
           "alt": "",
           "logo": [
             {
-              "@id": "../../resolveuid/c7a92b57c81843a18daacf778f7d548e",
+              "@id": "../../resolveuid/3f86e910ec474fc48a7f9b107d0b0be9",
               "@type": "Image",
               "Description": "",
               "Title": "Plone SVG",
@@ -152,7 +152,7 @@
           "alt": "",
           "logo": [
             {
-              "@id": "../../resolveuid/c7a92b57c81843a18daacf778f7d548e",
+              "@id": "../../resolveuid/3f86e910ec474fc48a7f9b107d0b0be9",
               "@type": "Image",
               "Description": "",
               "Title": "Plone SVG",
@@ -166,7 +166,7 @@
           "alt": "",
           "logo": [
             {
-              "@id": "../../resolveuid/c7a92b57c81843a18daacf778f7d548e",
+              "@id": "../../resolveuid/3f86e910ec474fc48a7f9b107d0b0be9",
               "@type": "Image",
               "Description": "",
               "Title": "Plone SVG",
@@ -250,7 +250,7 @@
   "creators": [
     "admin"
   ],
-  "description": "",
+  "description": "The logos block displays a grid of logos, optionally linked. Logos can be shown in different sizes (S / L) and container widths (default / layout).",
   "effective": "2025-07-09T10:52:00+00:00",
   "exclude_from_nav": false,
   "expires": null,
