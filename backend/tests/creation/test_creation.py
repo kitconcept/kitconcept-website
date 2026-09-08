@@ -51,7 +51,7 @@ class TestSiteCreation:
         "path,title,portal_type,review_state",
         [
             ("/about", "About", "Document", "published"),
-            ("/qa", "QA", "Document", "published"),
+            ("/qa", "Quality Assurance", "Document", "published"),
         ],
     )
     def test_content_created(self, path, title, portal_type, review_state):
