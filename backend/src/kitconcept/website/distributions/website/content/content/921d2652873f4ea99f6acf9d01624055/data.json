@@ -65,7 +65,7 @@
               {
                 "i": "path",
                 "o": "plone.app.querystring.operation.string.absolutePath",
-                "v": "/features/block/grid-block"
+                "v": "/qa/block/grid-block"
               }
             ],
             "sort_order": "ascending"
@@ -1100,7 +1100,7 @@
               {
                 "i": "path",
                 "o": "plone.app.querystring.operation.string.absolutePath",
-                "v": "/features/block/grid-block"
+                "v": "/qa/block/grid-block"
               }
             ],
             "sort_on": "getId",
@@ -1118,7 +1118,7 @@
               {
                 "i": "path",
                 "o": "plone.app.querystring.operation.string.absolutePath",
-                "v": "/features/block/grid-block"
+                "v": "/qa/block/grid-block"
               }
             ],
             "sort_on": "",
@@ -1135,7 +1135,7 @@
               {
                 "i": "path",
                 "o": "plone.app.querystring.operation.string.absolutePath",
-                "v": "/features/block/grid-block"
+                "v": "/qa/block/grid-block"
               }
             ],
             "sort_order": "ascending"
@@ -1151,7 +1151,7 @@
               {
                 "i": "path",
                 "o": "plone.app.querystring.operation.string.absolutePath",
-                "v": "/features/block/grid-block"
+                "v": "/qa/block/grid-block"
               }
             ],
             "sort_order": "ascending"
@@ -1571,7 +1571,7 @@
               {
                 "i": "path",
                 "o": "plone.app.querystring.operation.string.absolutePath",
-                "v": "/features/block/grid-block"
+                "v": "/qa/block/grid-block"
               }
             ],
             "sort_order": "ascending"
@@ -1712,7 +1712,7 @@
               {
                 "i": "path",
                 "o": "plone.app.querystring.operation.string.absolutePath",
-                "v": "/features/block/grid-block"
+                "v": "/qa/block/grid-block"
               }
             ],
             "sort_order": "ascending"
@@ -1727,7 +1727,7 @@
               {
                 "i": "path",
                 "o": "plone.app.querystring.operation.string.absolutePath",
-                "v": "/features/block/grid-block"
+                "v": "/qa/block/grid-block"
               }
             ],
             "sort_order": "ascending"
@@ -1742,7 +1742,7 @@
               {
                 "i": "path",
                 "o": "plone.app.querystring.operation.string.absolutePath",
-                "v": "/features/block/grid-block"
+                "v": "/qa/block/grid-block"
               }
             ],
             "sort_order": "ascending"
@@ -2155,7 +2155,7 @@
               {
                 "i": "path",
                 "o": "plone.app.querystring.operation.string.absolutePath",
-                "v": "/features/block/grid-block"
+                "v": "/qa/block/grid-block"
               }
             ],
             "sort_order": "ascending"
@@ -2171,7 +2171,7 @@
               {
                 "i": "path",
                 "o": "plone.app.querystring.operation.string.absolutePath",
-                "v": "/features/block/grid-block"
+                "v": "/qa/block/grid-block"
               }
             ],
             "sort_order": "ascending"
@@ -2187,7 +2187,7 @@
               {
                 "i": "path",
                 "o": "plone.app.querystring.operation.string.absolutePath",
-                "v": "/features/block/grid-block"
+                "v": "/qa/block/grid-block"
               }
             ],
             "sort_order": "ascending"
@@ -2203,7 +2203,7 @@
               {
                 "i": "path",
                 "o": "plone.app.querystring.operation.string.absolutePath",
-                "v": "/features/block/grid-block"
+                "v": "/qa/block/grid-block"
               }
             ],
             "sort_order": "ascending"
@@ -2235,7 +2235,7 @@
               {
                 "i": "path",
                 "o": "plone.app.querystring.operation.string.absolutePath",
-                "v": "/features/block/grid-block"
+                "v": "/qa/block/grid-block"
               }
             ],
             "sort_order": "ascending"
@@ -2251,7 +2251,7 @@
               {
                 "i": "path",
                 "o": "plone.app.querystring.operation.string.absolutePath",
-                "v": "/features/block/grid-block"
+                "v": "/qa/block/grid-block"
               }
             ],
             "sort_order": "ascending"
@@ -2392,7 +2392,7 @@
               {
                 "i": "path",
                 "o": "plone.app.querystring.operation.string.absolutePath",
-                "v": "/features/block/grid-block"
+                "v": "/qa/block/grid-block"
               }
             ],
             "sort_order": "ascending"
@@ -2408,7 +2408,7 @@
               {
                 "i": "path",
                 "o": "plone.app.querystring.operation.string.absolutePath",
-                "v": "/features/block/grid-block"
+                "v": "/qa/block/grid-block"
               }
             ],
             "sort_order": "ascending"
@@ -2424,7 +2424,7 @@
               {
                 "i": "path",
                 "o": "plone.app.querystring.operation.string.absolutePath",
-                "v": "/features/block/grid-block"
+                "v": "/qa/block/grid-block"
               }
             ],
             "sort_order": "ascending"
@@ -3140,7 +3140,7 @@
               {
                 "i": "path",
                 "o": "plone.app.querystring.operation.string.absolutePath",
-                "v": "/features/block/grid-block"
+                "v": "/qa/block/grid-block"
               }
             ],
             "sort_order": "ascending"
@@ -3155,7 +3155,7 @@
               {
                 "i": "path",
                 "o": "plone.app.querystring.operation.string.absolutePath",
-                "v": "/features/block/grid-block"
+                "v": "/qa/block/grid-block"
               }
             ],
             "sort_order": "ascending"
