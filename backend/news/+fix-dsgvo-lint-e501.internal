@@ -1,0 +1,1 @@
+Wrap two long strings in the DSGVO control panel schema to satisfy ruff E501 (line length) under `make lint`. No behavior change. @sneridagh

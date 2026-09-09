@@ -87,7 +87,8 @@ class IDSGVOSettings(Interface):
         description=_(
             "help_dsgvo_tracker_options",
             default="JSON object with tracker configuration. "
-            'For Google Analytics: {"id": "G-XXXXXXX", "gaOptions": {"anonymizeIp": true}}. '
+            'For Google Analytics: {"id": "G-XXXXXXX", "gaOptions": '
+            '{"anonymizeIp": true}}. '
             'For Matomo: {"id": 1, "urlBase": "https://matomo.example.com/"}.',
         ),
         schema=TRACKER_OPTIONS_SCHEMA,
@@ -107,7 +108,8 @@ class IDSGVOSettings(Interface):
         title=_("label_dsgvo_privacy_url", default="Privacy policy URL"),
         description=_(
             "help_dsgvo_privacy_url",
-            default="JSON object mapping language codes to privacy policy paths or URLs. "
+            default="JSON object mapping language codes to privacy "
+            "policy paths or URLs. "
             'Example: {"en": "/en/privacy", "de": "/de/datenschutz"}.',
         ),
         schema=PRIVACY_URL_SCHEMA,
