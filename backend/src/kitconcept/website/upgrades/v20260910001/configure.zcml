@@ -1,0 +1,21 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+    >
+
+  <genericsetup:upgradeSteps
+      profile="kitconcept.website:default"
+      source="20260909001"
+      destination="20260910001"
+      >
+    <genericsetup:upgradeDepends
+        title="Install kitconcept.seo."
+        import_profile="kitconcept.seo:default"
+        />
+    <genericsetup:upgradeDepends
+        title="Enable the kitconcept.seo behavior on all content types."
+        import_steps="typeinfo"
+        />
+  </genericsetup:upgradeSteps>
+
+</configure>

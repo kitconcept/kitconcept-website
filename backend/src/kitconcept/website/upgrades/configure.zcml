@@ -7,5 +7,6 @@
   <include package=".v20260611001" />
   <include package=".v20260617001" />
   <include package=".v20260909001" />
+  <include package=".v20260910001" />
 
 </configure>

@@ -46,6 +46,7 @@ class TestContentTypeFTI:
             "plone.versioning",
             "plone.locking",
             "plone.translatable",
+            "kitconcept.seo",
         )),
     )
     def test_behaviors(self, idx: int, behavior: str):
