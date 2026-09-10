@@ -1,6 +1,51 @@
 # Changelog
 
 <!-- towncrier release notes start -->
+## 2.0.0b10 (2026-09-10)
+
+### Backend
+
+
+#### Feature
+
+- Add `Subsite` content type to the Website distribution. A Subsite is a navigation root with its own navigation, breadcrumbs, header/footer logo and theme customizations. @sneridagh [#86](https://gitlab.kitconcept.io/kitconcept/distribution-kitconcept-website/-/work_items/86)
+
+
+#### Bugfix
+
+- Repoint the leftover ``/features/block`` listing queries at the retained ``/qa`` block fixtures so the demo listings resolve again. @sneridagh 
+
+
+#### Internal
+
+- Adjust QA example content: rename QA section to "Quality Assurance", add missing block descriptions (banner, carousel, form, logos), fix broken logo image references, add banner variations, add grey background variants (carousel, form, event calendar, maps) and an OpenStreetMap example to the maps block. 
+- Upgrade kitconcept.voltolighttheme to 8.0.0a32. @sneridagh 
+- Wrap two long strings in the DSGVO control panel schema to satisfy ruff E501 (line length) under `make lint`. No behavior change. @sneridagh 
+
+
+
+### Frontend
+
+#### Internal
+
+- Enforce the mandatory OVERRIDE header on shadowed components in CI (shadow-headers check). 
+- Upgrade Volto to 19.4.1 and Volto Light Theme to 8.0.0a32. @sneridagh 
+
+#### Test
+
+- Add a Playwright acceptance test for the Subsite content type: it verifies a Subsite renders its own header logo (distinct from the site root) and that a descendant page inherits it, confirming the logo resolves from the nearest navigation root. @sneridagh [#86](https://gitlab.kitconcept.io/kitconcept/distribution-kitconcept-website/-/work_items/86)
+
+
+
+### Project
+
+
+#### Internal
+
+- Enforce the mandatory OVERRIDE header on shadowed components in CI (shadow-headers check). 
+
+
+
 ## 2.0.0b9 (2026-09-04)
 
 ### Backend

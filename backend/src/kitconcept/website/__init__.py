@@ -5,7 +5,7 @@ from zope.i18nmessageid import MessageFactory
 import logging
 
 
-__version__ = "2.0.0b9"
+__version__ = "2.0.0b10"
 
 PACKAGE_NAME = "kitconcept.website"
 

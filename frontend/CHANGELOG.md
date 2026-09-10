@@ -1,3 +1,14 @@
+## 2.0.0-beta.10 (2026-09-10)
+
+### Internal
+
+- Enforce the mandatory OVERRIDE header on shadowed components in CI (shadow-headers check). 
+- Upgrade Volto to 19.4.1 and Volto Light Theme to 8.0.0a32. @sneridagh 
+
+### Test
+
+- Add a Playwright acceptance test for the Subsite content type: it verifies a Subsite renders its own header logo (distinct from the site root) and that a descendant page inherits it, confirming the logo resolves from the nearest navigation root. @sneridagh [#86](https://gitlab.kitconcept.io/kitconcept/distribution-kitconcept-website/-/work_items/86)
+
 ## 2.0.0-beta.9 (2026-09-04)
 
 ### Feature

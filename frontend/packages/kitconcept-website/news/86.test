@@ -1,1 +1,0 @@
-Add a Playwright acceptance test for the Subsite content type: it verifies a Subsite renders its own header logo (distinct from the site root) and that a descendant page inherits it, confirming the logo resolves from the nearest navigation root. @sneridagh
