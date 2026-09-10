@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<object xmlns:i18n="http://xml.zope.org/namespaces/i18n"
+        meta_type="Dexterity FTI"
+        name="Folder"
+        i18n:domain="kitconcept.website"
+>
+
+  <!-- Enable SEO metadata fields (kitconcept.seo) without touching the
+       behaviors already configured by upstream profiles. -->
+  <property name="behaviors"
+            purge="false"
+  >
+    <element value="kitconcept.seo" />
+  </property>
+
+</object>

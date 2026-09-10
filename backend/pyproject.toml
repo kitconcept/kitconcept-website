@@ -25,6 +25,7 @@ classifiers = [
 ]
 dependencies = [
     "kitconcept.core==2.0.0b7",
+    "kitconcept.seo",
     "plone.api",
     "plone.distribution",
     "plone.restapi",

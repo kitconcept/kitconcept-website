@@ -13,3 +13,9 @@ class TestSetupInstall:
         from kitconcept.website.interfaces import IBrowserLayer
 
         assert IBrowserLayer in browser_layers
+
+    def test_seo_browserlayer(self, browser_layers):
+        """The kitconcept.seo profile dependency is installed."""
+        from kitconcept.seo.interfaces import IKitconceptSeoLayer
+
+        assert IKitconceptSeoLayer in browser_layers

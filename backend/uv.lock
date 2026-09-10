@@ -1440,6 +1440,20 @@ wheels = [
 ]
 
 [[package]]
+name = "kitconcept-seo"
+version = "3.0.0a2"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "plone-api" },
+    { name = "plone-restapi" },
+    { name = "products-cmfplone" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/ef/47/2190877ba56bdea49f50dfc3027e1f8cc78471e316f5927868968673e738/kitconcept_seo-3.0.0a2.tar.gz", hash = "sha256:9387806269c785c49f5d192e25895ad0159baff4652ad68a70afcce210304394", size = 175211, upload-time = "2026-04-07T08:39:23.896Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/4e/95/3f24f77fc93303137da50a0f0872f83add7e5d380431a8e5ed4b222b69ae/kitconcept_seo-3.0.0a2-py3-none-any.whl", hash = "sha256:b6ec636a154a5d7052c99c7265b641367aa1dfd938958221c7b051cd076317df", size = 28860, upload-time = "2026-04-07T08:39:22.528Z" },
+]
+
+[[package]]
 name = "kitconcept-voltolighttheme"
 version = "8.0.0a30"
 source = { registry = "https://pypi.org/simple" }
@@ -1461,6 +1475,7 @@ source = { editable = "." }
 dependencies = [
     { name = "kitconcept-contactblock" },
     { name = "kitconcept-core" },
+    { name = "kitconcept-seo" },
     { name = "plone-api" },
     { name = "plone-distribution" },
     { name = "plone-restapi" },
@@ -1496,6 +1511,7 @@ test = [
 requires-dist = [
     { name = "kitconcept-contactblock", specifier = "==1.0.0a5" },
     { name = "kitconcept-core", specifier = "==2.0.0b7" },
+    { name = "kitconcept-seo" },
     { name = "plone-api" },
     { name = "plone-distribution" },
     { name = "plone-restapi" },
