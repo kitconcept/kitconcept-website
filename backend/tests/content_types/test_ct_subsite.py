@@ -63,6 +63,7 @@ class TestContentTypeFTI:
             "plone.locking",
             "plone.translatable",
             "plone.navigationroot",
+            "kitconcept.seo",
         )),
     )
     def test_behaviors(self, idx: int, behavior: str):

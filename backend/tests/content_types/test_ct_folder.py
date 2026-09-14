@@ -24,3 +24,7 @@ class TestContentTypeFTI:
 
         assert isinstance(fti, DexterityFTI)
         assert getattr(fti, attr) == expected
+
+    def test_seo_behavior(self):
+        """The kitconcept.seo behavior is enabled."""
+        assert "kitconcept.seo" in self.fti.behaviors

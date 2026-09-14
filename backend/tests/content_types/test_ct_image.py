@@ -38,6 +38,7 @@ class TestContentTypeFTI:
             "plone.namefromfilename",
             "plone.versioning",
             "plone.locking",
+            "kitconcept.seo",
         )),
     )
     def test_behaviors(self, idx: int, behavior: str):

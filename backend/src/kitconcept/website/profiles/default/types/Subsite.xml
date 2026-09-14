@@ -60,6 +60,7 @@
     <element value="plone.locking" />
     <element value="plone.translatable" />
     <element value="plone.navigationroot" />
+    <element value="kitconcept.seo" />
   </property>
 
 </object>
