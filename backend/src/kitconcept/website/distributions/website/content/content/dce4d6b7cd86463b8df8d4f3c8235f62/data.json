@@ -1,0 +1,738 @@
+{
+  "@id": "/features/blocks-catalogue/grid-block",
+  "@type": "Document",
+  "UID": "dce4d6b7cd86463b8df8d4f3c8235f62",
+  "allow_discussion": false,
+  "blocks": {
+    "17a83bc3-0424-4810-b89c-c6ac318c12d7": {
+      "@type": "slate",
+      "plaintext": "Text, Teasers, Listings or Images.",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Text, Teasers, Listings or Images. "
+            }
+          ],
+          "type": "h3"
+        }
+      ]
+    },
+    "1fb1b19c-3473-43a8-9a08-18d9243818aa": {
+      "@type": "gridBlock",
+      "blocks": {
+        "58711f54-de0e-4901-8c46-593490c3fff8": {
+          "@type": "image",
+          "credit": {},
+          "description": "",
+          "image_field": "image",
+          "styles": {
+            "align:noprefix": "center",
+            "blockWidth:noprefix": "narrow",
+            "size:noprefix": "l"
+          },
+          "title": "Image",
+          "url": "../../../resolveuid/df4d71d6f0d044ec8ecd9c5164449c37"
+        },
+        "d867c01e-dca4-4e16-b038-c89690dc2313": {
+          "@type": "slate",
+          "plaintext": "Text\nInteger posuere erat a ante venenatis dapibus posuere velit aliquet. Donec sed odio dui. Curabitur blandit tempus porttitor.\n\nCum sociis natoque penatibus et magnis.",
+          "value": [
+            {
+              "children": [
+                {
+                  "text": "Text"
+                }
+              ],
+              "type": "h2"
+            },
+            {
+              "children": [
+                {
+                  "text": "Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec sed odio dui. Curabitur blandit tempus porttitor."
+                }
+              ],
+              "type": "p"
+            },
+            {
+              "children": [
+                {
+                  "text": ""
+                }
+              ],
+              "type": "p"
+            },
+            {
+              "children": [
+                {
+                  "text": "Cum sociis natoque penatibus et magnis. "
+                }
+              ],
+              "type": "p"
+            }
+          ]
+        }
+      },
+      "blocks_layout": {
+        "items": [
+          "d867c01e-dca4-4e16-b038-c89690dc2313",
+          "58711f54-de0e-4901-8c46-593490c3fff8"
+        ]
+      },
+      "styles": {},
+      "theme": "default"
+    },
+    "3c9877e3-5b94-4ba9-b860-8d60007aadd6": {
+      "@type": "separator",
+      "styles": {
+        "align:noprefix": "left",
+        "blockWidth:noprefix": "default",
+        "shortLine": false
+      },
+      "theme": "default"
+    },
+    "3f1e825b-889e-470e-9388-048c1444c2db": {
+      "@type": "slate",
+      "plaintext": "Create complex layouts bu using the grids and stacking them on top of each other.",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Create complex layouts bu using the grids and stacking them on top of each other."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "4675b40c-300e-4377-9f1d-d1cb8cb7bdb2": {
+      "@type": "slate",
+      "plaintext": "Mixed block types",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Mixed block types"
+            }
+          ],
+          "type": "h3"
+        }
+      ]
+    },
+    "7690a31c-4fcc-43a2-a916-2998c6684ec7": {
+      "@type": "gridBlock",
+      "blocks": {
+        "0e079d27-a824-4849-94c5-a071dec39ba5": {
+          "@type": "teaser",
+          "description": "The accordion contains other blocks in an accordion behavior layout.",
+          "head_title": null,
+          "href": [
+            {
+              "@id": "../../../resolveuid/865b214d17054349b5f3e786e17c574c",
+              "@type": "Document",
+              "Description": "The accordion contains other blocks in an accordion behavior layout.",
+              "Subject": [],
+              "Title": "Accordion",
+              "contact_building": null,
+              "contact_email": null,
+              "contact_phone": null,
+              "contact_room": null,
+              "description": "The accordion contains other blocks in an accordion behavior layout.",
+              "effective": "2023-09-22T16:09:00+00:00",
+              "end": null,
+              "getObjSize": "0 KB",
+              "getRemoteUrl": null,
+              "hasPreviewImage": null,
+              "head_title": null,
+              "image_field": "",
+              "mime_type": "text/plain",
+              "nav_title": null,
+              "review_state": "published",
+              "start": null,
+              "title": "Accordion",
+              "type_title": "Page"
+            }
+          ],
+          "overwrite": false,
+          "styles": {
+            "align": "left"
+          },
+          "title": "Accordion"
+        },
+        "21ac1ac6-0376-44ff-b9fe-b4c06c88fce7": {
+          "@type": "teaser",
+          "description": "The carousel block shows a horizontally scrolling row of teaser cards. Editors can configure the number of items to show, an optional headline and whether the descriptions are displayed.",
+          "head_title": null,
+          "href": [
+            {
+              "@id": "../../../resolveuid/13ff7aa3c4eb41f78151d81d41ca3cc3",
+              "@type": "Document",
+              "Description": "The carousel block shows a horizontally scrolling row of teaser cards. Editors can configure the number of items to show, an optional headline and whether the descriptions are displayed.",
+              "Subject": [],
+              "Title": "Carousel",
+              "contact_building": null,
+              "contact_email": null,
+              "contact_phone": null,
+              "contact_room": null,
+              "description": "The carousel block shows a horizontally scrolling row of teaser cards. Editors can configure the number of items to show, an optional headline and whether the descriptions are displayed.",
+              "effective": "2025-07-09T10:52:00+00:00",
+              "end": null,
+              "getObjSize": "0 KB",
+              "getRemoteUrl": null,
+              "hasPreviewImage": null,
+              "head_title": null,
+              "image_field": "",
+              "mime_type": "text/plain",
+              "nav_title": null,
+              "review_state": "published",
+              "start": null,
+              "title": "Carousel",
+              "type_title": "Page"
+            }
+          ],
+          "overwrite": false,
+          "styles": {
+            "align": "left"
+          },
+          "title": "Carousel"
+        },
+        "3210aac3-e992-400f-9b42-bec0abdc1b7f": {
+          "@type": "teaser",
+          "description": "Event Calendar block can be used to search and display events in a listing format.",
+          "head_title": null,
+          "href": [
+            {
+              "@id": "../../../resolveuid/01d4481480ec4763901930860152914c",
+              "@type": "Document",
+              "Description": "Event Calendar block can be used to search and display events in a listing format.",
+              "Subject": [],
+              "Title": "Event Calendar",
+              "contact_building": null,
+              "contact_email": null,
+              "contact_phone": null,
+              "contact_room": null,
+              "description": "Event Calendar block can be used to search and display events in a listing format.",
+              "effective": "2025-07-02T13:56:00+00:00",
+              "end": null,
+              "getObjSize": "0 KB",
+              "getRemoteUrl": null,
+              "hasPreviewImage": null,
+              "head_title": null,
+              "image_field": "",
+              "mime_type": "text/plain",
+              "nav_title": null,
+              "review_state": "published",
+              "start": null,
+              "title": "Event Calendar",
+              "type_title": "Page"
+            }
+          ],
+          "overwrite": false,
+          "styles": {
+            "align": "left"
+          },
+          "title": "Event Calendar"
+        },
+        "eeaf50da-1886-49b7-a1a0-cf54ab73835b": {
+          "@type": "teaser",
+          "description": " The button block shows a button for which a link (internal or external) can be stored. The button can be displayed left, right or center and have a background color.",
+          "head_title": null,
+          "href": [
+            {
+              "@id": "../../../resolveuid/964daf973f05458a81db4a121d0c7ef3",
+              "@type": "Document",
+              "Description": " The button block shows a button for which a link (internal or external) can be stored. The button can be displayed left, right or center and have a background color.",
+              "Subject": [],
+              "Title": "Button",
+              "contact_building": null,
+              "contact_email": null,
+              "contact_phone": null,
+              "contact_room": null,
+              "description": " The button block shows a button for which a link (internal or external) can be stored. The button can be displayed left, right or center and have a background color.",
+              "effective": "2023-07-06T18:35:00+00:00",
+              "end": null,
+              "getObjSize": "0 KB",
+              "getRemoteUrl": null,
+              "hasPreviewImage": null,
+              "head_title": null,
+              "image_field": "",
+              "mime_type": "text/plain",
+              "nav_title": null,
+              "review_state": "published",
+              "start": null,
+              "title": "Button",
+              "type_title": "Page"
+            }
+          ],
+          "overwrite": false,
+          "styles": {
+            "align": "left"
+          },
+          "title": "Button"
+        }
+      },
+      "blocks_layout": {
+        "items": [
+          "0e079d27-a824-4849-94c5-a071dec39ba5",
+          "eeaf50da-1886-49b7-a1a0-cf54ab73835b",
+          "21ac1ac6-0376-44ff-b9fe-b4c06c88fce7",
+          "3210aac3-e992-400f-9b42-bec0abdc1b7f"
+        ]
+      },
+      "styles": {},
+      "theme": "default"
+    },
+    "7a332edd-a1c3-4908-8895-19eb231e0bfa": {
+      "@type": "introduction",
+      "plaintext": "The grid block puts one to four other blocks side by side in a row. Use it when the items are genuinely parallel \u2014 three services, four contacts, two options \u2014 so the reader compares them at a glance instead of scrolling past them.",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "The grid block puts one to four other blocks side by side in a row. Use it when the items are genuinely parallel \u2014 three services, four contacts, two options \u2014 so the reader compares them at a glance instead of scrolling past them."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "899e315e-fb52-47f5-89b4-f24b8856a1f7": {
+      "@type": "heading",
+      "heading": "2 \u00b7 How many columns",
+      "styles": {},
+      "theme": "default"
+    },
+    "929cbe37-a3c6-49d8-99db-db608d6b122e": {
+      "@type": "gridBlock",
+      "blocks": {
+        "027addb1-5a64-47a8-8238-4e9b80072fc9": {
+          "@type": "teaser",
+          "description": "The banner block displays a full-width image banner with one or two lines of text overlaid on a gradient. It can be shown at layout or full width.",
+          "head_title": null,
+          "href": [
+            {
+              "@id": "../../../resolveuid/9bd6f630c6694f0a8d35097c62e9949f",
+              "@type": "Document",
+              "Description": "The banner block displays a full-width image banner with one or two lines of text overlaid on a gradient. It can be shown at layout or full width.",
+              "Subject": [],
+              "Title": "Banner",
+              "contact_building": null,
+              "contact_email": null,
+              "contact_phone": null,
+              "contact_room": null,
+              "description": "The banner block displays a full-width image banner with one or two lines of text overlaid on a gradient. It can be shown at layout or full width.",
+              "effective": "2025-07-09T10:52:00+00:00",
+              "end": null,
+              "getObjSize": "0 KB",
+              "getRemoteUrl": null,
+              "hasPreviewImage": null,
+              "head_title": null,
+              "image_field": "",
+              "mime_type": "text/plain",
+              "nav_title": null,
+              "review_state": "published",
+              "start": null,
+              "title": "Banner",
+              "type_title": "Page"
+            }
+          ],
+          "overwrite": false,
+          "styles": {
+            "align": "left"
+          },
+          "title": "Banner"
+        }
+      },
+      "blocks_layout": {
+        "items": [
+          "027addb1-5a64-47a8-8238-4e9b80072fc9"
+        ]
+      },
+      "styles": {},
+      "theme": "default"
+    },
+    "97993acc-79a7-4f4a-a41f-f8a87be8070e": {
+      "@type": "slate",
+      "plaintext": "Columns need not hold the same kind of block. Here a text column and an image sit together.",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Columns need not hold the same kind of block. Here a text column and an image sit together."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "9899b985-707c-4150-acea-719b4fecf978": {
+      "@type": "slate",
+      "plaintext": "Add from one to four columns on any Grid block. Stack multiple Grid blocks to create complex and cohesive layouts.",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Add from one to four columns on any Grid block. Stack multiple Grid blocks to create complex and cohesive layouts."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "9add1fd4-1609-4514-9029-b6f77d6a5227": {
+      "@type": "gridBlock",
+      "blocks": {
+        "38daa91b-6cf2-4f78-b0a9-ed3e40767298": {
+          "@type": "teaser",
+          "description": "The Page content type can be used to display content on a single page of the website. Pages can be structured using text, images and blocks.",
+          "head_title": null,
+          "href": [
+            {
+              "@id": "../../../resolveuid/8e95863945614257b0d593590769a699",
+              "@type": "Document",
+              "Description": "The Page content type can be used to display content on a single page of the website. Pages can be structured using text, images and blocks.",
+              "Subject": [],
+              "Title": "Page",
+              "contact_building": null,
+              "contact_email": null,
+              "contact_phone": null,
+              "contact_room": null,
+              "description": "The Page content type can be used to display content on a single page of the website. Pages can be structured using text, images and blocks.",
+              "effective": "2023-07-06T18:35:00+00:00",
+              "end": null,
+              "getObjSize": "0 KB",
+              "getRemoteUrl": null,
+              "hasPreviewImage": null,
+              "head_title": null,
+              "image_field": "preview_image_link",
+              "mime_type": "text/plain",
+              "nav_title": null,
+              "review_state": "published",
+              "start": null,
+              "title": "Page",
+              "type_title": "Page"
+            }
+          ],
+          "overwrite": false,
+          "styles": {
+            "align": "left"
+          },
+          "title": "Page"
+        },
+        "485bc992-968d-4271-9461-c03d8ea556a9": {
+          "@type": "teaser",
+          "description": "The News Item content type can be used to display News content on the website.",
+          "head_title": "Head title",
+          "href": [
+            {
+              "@id": "../../../resolveuid/403e819570464e21887e265f73d6a3ed",
+              "@type": "News Item",
+              "Description": "The News Item content type can be used to display News content on the website.",
+              "Subject": [],
+              "Title": "News Item",
+              "contact_building": null,
+              "contact_email": null,
+              "contact_phone": null,
+              "contact_room": null,
+              "description": "The News Item content type can be used to display News content on the website.",
+              "effective": "2023-01-01T10:42:00+00:00",
+              "end": null,
+              "getObjSize": "0 KB",
+              "getRemoteUrl": null,
+              "hasPreviewImage": null,
+              "head_title": "Head title",
+              "image_field": "preview_image_link",
+              "mime_type": "text/plain",
+              "nav_title": null,
+              "review_state": "published",
+              "start": null,
+              "title": "News Item",
+              "type_title": "News Item"
+            }
+          ],
+          "overwrite": false,
+          "styles": {
+            "align": "left"
+          },
+          "title": "News Item"
+        }
+      },
+      "blocks_layout": {
+        "items": [
+          "38daa91b-6cf2-4f78-b0a9-ed3e40767298",
+          "485bc992-968d-4271-9461-c03d8ea556a9"
+        ]
+      },
+      "styles": {},
+      "theme": "default"
+    },
+    "a3e9cff4-f347-4cd2-9ab0-0a1effc0a204": {
+      "@type": "introduction",
+      "plaintext": " -> See full example matrix of the Grid block ",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": ""
+            },
+            {
+              "children": [
+                {
+                  "text": "-> See full example matrix of the Grid block"
+                }
+              ],
+              "data": {
+                "url": "../../../resolveuid/92f0ea7fba7e4a939ba223320f0d8621"
+              },
+              "type": "link"
+            },
+            {
+              "text": ""
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "c6179036-6f98-456e-a034-fca22070e856": {
+      "@type": "__button",
+      "href": [
+        {
+          "@id": "../../../resolveuid/c48f50e5f6d345ba84b69c2143eddc62",
+          "Description": " The heading block allows you to display headings to group multiple blocks under one topic.",
+          "Title": "Heading",
+          "hasPreviewImage": null,
+          "title": "Heading"
+        }
+      ],
+      "styles": {
+        "align:noprefix": "right",
+        "blockWidth:noprefix": "default"
+      },
+      "theme": "default",
+      "title": "Next block: Heading"
+    },
+    "d3f1c443-583f-4e8e-a682-3bf25752a300": {
+      "@type": "title"
+    },
+    "e0ef20b8-b5a9-4101-ac21-64891ee49c61": {
+      "@type": "heading",
+      "alignment": "left",
+      "heading": "1 \u00b7 What goes in a column",
+      "styles": {},
+      "tag": "h2",
+      "theme": "default"
+    },
+    "ec02a712-da9e-4228-adbe-ac029d0a4e13": {
+      "@type": "gridBlock",
+      "blocks": {
+        "4e8cc025-5835-4e91-af12-c6c7b1b838cd": {
+          "@type": "teaser",
+          "description": "The banner block displays a full-width image banner with one or two lines of text overlaid on a gradient. It can be shown at layout or full width.",
+          "head_title": null,
+          "href": [
+            {
+              "@id": "../../../resolveuid/9bd6f630c6694f0a8d35097c62e9949f",
+              "@type": "Document",
+              "Description": "The banner block displays a full-width image banner with one or two lines of text overlaid on a gradient. It can be shown at layout or full width.",
+              "Subject": [],
+              "Title": "Banner",
+              "contact_building": null,
+              "contact_email": null,
+              "contact_phone": null,
+              "contact_room": null,
+              "description": "The banner block displays a full-width image banner with one or two lines of text overlaid on a gradient. It can be shown at layout or full width.",
+              "effective": "2025-07-09T10:52:00+00:00",
+              "end": null,
+              "getObjSize": "0 KB",
+              "getRemoteUrl": null,
+              "hasPreviewImage": null,
+              "head_title": null,
+              "image_field": "",
+              "mime_type": "text/plain",
+              "nav_title": null,
+              "review_state": "published",
+              "start": null,
+              "title": "Banner",
+              "type_title": "Page"
+            }
+          ],
+          "overwrite": false,
+          "styles": {
+            "align": "left"
+          },
+          "title": "Banner"
+        },
+        "87e12f96-0122-47ee-9ad5-1158243fc7dc": {
+          "@type": "teaser",
+          "description": "Event Calendar block can be used to search and display events in a listing format.",
+          "head_title": null,
+          "href": [
+            {
+              "@id": "../../../resolveuid/01d4481480ec4763901930860152914c",
+              "@type": "Document",
+              "Description": "Event Calendar block can be used to search and display events in a listing format.",
+              "Subject": [],
+              "Title": "Event Calendar",
+              "contact_building": null,
+              "contact_email": null,
+              "contact_phone": null,
+              "contact_room": null,
+              "description": "Event Calendar block can be used to search and display events in a listing format.",
+              "effective": "2025-07-02T13:56:00+00:00",
+              "end": null,
+              "getObjSize": "0 KB",
+              "getRemoteUrl": null,
+              "hasPreviewImage": null,
+              "head_title": null,
+              "image_field": "",
+              "mime_type": "text/plain",
+              "nav_title": null,
+              "review_state": "published",
+              "start": null,
+              "title": "Event Calendar",
+              "type_title": "Page"
+            }
+          ],
+          "overwrite": false,
+          "styles": {
+            "align": "left"
+          },
+          "title": "Event Calendar"
+        },
+        "bfec4536-a65c-43e6-950e-262753e79ea4": {
+          "@type": "teaser",
+          "description": "The accordion contains other blocks in an accordion behavior layout.",
+          "head_title": null,
+          "href": [
+            {
+              "@id": "../../../resolveuid/865b214d17054349b5f3e786e17c574c",
+              "@type": "Document",
+              "Description": "The accordion contains other blocks in an accordion behavior layout.",
+              "Subject": [],
+              "Title": "Accordion",
+              "contact_building": null,
+              "contact_email": null,
+              "contact_phone": null,
+              "contact_room": null,
+              "description": "The accordion contains other blocks in an accordion behavior layout.",
+              "effective": "2023-09-22T16:09:00+00:00",
+              "end": null,
+              "getObjSize": "0 KB",
+              "getRemoteUrl": null,
+              "hasPreviewImage": null,
+              "head_title": null,
+              "image_field": "",
+              "mime_type": "text/plain",
+              "nav_title": null,
+              "review_state": "published",
+              "start": null,
+              "title": "Accordion",
+              "type_title": "Page"
+            }
+          ],
+          "overwrite": false,
+          "styles": {
+            "align": "left"
+          },
+          "title": "Accordion"
+        }
+      },
+      "blocks_layout": {
+        "items": [
+          "87e12f96-0122-47ee-9ad5-1158243fc7dc",
+          "4e8cc025-5835-4e91-af12-c6c7b1b838cd",
+          "bfec4536-a65c-43e6-950e-262753e79ea4"
+        ]
+      },
+      "styles": {},
+      "theme": "default"
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "d3f1c443-583f-4e8e-a682-3bf25752a300",
+      "7a332edd-a1c3-4908-8895-19eb231e0bfa",
+      "3c9877e3-5b94-4ba9-b860-8d60007aadd6",
+      "e0ef20b8-b5a9-4101-ac21-64891ee49c61",
+      "17a83bc3-0424-4810-b89c-c6ac318c12d7",
+      "3f1e825b-889e-470e-9388-048c1444c2db",
+      "9add1fd4-1609-4514-9029-b6f77d6a5227",
+      "4675b40c-300e-4377-9f1d-d1cb8cb7bdb2",
+      "97993acc-79a7-4f4a-a41f-f8a87be8070e",
+      "1fb1b19c-3473-43a8-9a08-18d9243818aa",
+      "899e315e-fb52-47f5-89b4-f24b8856a1f7",
+      "9899b985-707c-4150-acea-719b4fecf978",
+      "7690a31c-4fcc-43a2-a916-2998c6684ec7",
+      "ec02a712-da9e-4228-adbe-ac029d0a4e13",
+      "929cbe37-a3c6-49d8-99db-db608d6b122e",
+      "a3e9cff4-f347-4cd2-9ab0-0a1effc0a204",
+      "c6179036-6f98-456e-a034-fca22070e856"
+    ]
+  },
+  "changeNote": "",
+  "contributors": [],
+  "created": "2023-07-06T21:35:07+00:00",
+  "creators": [
+    "admin"
+  ],
+  "description": "\nThe Grid block allows adding multi-column blocks. A grid block can contain between one and four columns of different blocks. Teasers and images can be added in a grid block.",
+  "effective": "2023-07-06T18:35:00+00:00",
+  "exclude_from_nav": true,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "head_title": null,
+  "id": "grid-block",
+  "is_folderish": true,
+  "language": "##DEFAULT##",
+  "layout": "document_view",
+  "lock": {
+    "locked": false,
+    "stealable": true
+  },
+  "modified": "2026-09-11T13:53:03+00:00",
+  "nav_title": null,
+  "preview_caption_link": null,
+  "review_state": "published",
+  "rights": "",
+  "subjects": [],
+  "title": "Grid",
+  "type_title": "Page",
+  "version": "current",
+  "versioning_enabled": true,
+  "workflow_history": {
+    "simple_publication_workflow": [
+      {
+        "action": null,
+        "actor": "admin",
+        "comments": "",
+        "review_state": "private",
+        "time": "2026-09-10T12:05:35+00:00"
+      },
+      {
+        "action": "publish",
+        "actor": "admin",
+        "comments": "",
+        "review_state": "published",
+        "time": "2026-09-10T13:52:55+00:00"
+      }
+    ]
+  },
+  "working_copy": null,
+  "working_copy_of": null
+}

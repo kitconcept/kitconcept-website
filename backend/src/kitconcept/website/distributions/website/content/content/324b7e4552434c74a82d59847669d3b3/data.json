@@ -1,7 +1,7 @@
 {
   "@id": "/qa/block/block-accordion",
   "@type": "Document",
-  "UID": "318f93f699924ddfb6bb1fc0e7fd5904",
+  "UID": "324b7e4552434c74a82d59847669d3b3",
   "allow_discussion": false,
   "blocks": {
     "41a82a93-c00c-4a40-bac8-53a3e3420c8e": {
@@ -3282,7 +3282,7 @@
   },
   "changeNote": "",
   "contributors": [],
-  "created": "2023-07-27T19:48:00+00:00",
+  "created": "2026-09-10T11:21:17+00:00",
   "creators": [
     "admin"
   ],
@@ -3301,7 +3301,7 @@
     "locked": false,
     "stealable": true
   },
-  "modified": "2025-12-02T08:59:42+00:00",
+  "modified": "2026-09-10T12:06:17+00:00",
   "nav_title": null,
   "preview_caption_link": null,
   "review_state": "published",

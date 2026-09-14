@@ -4,8 +4,137 @@
   "UID": "144516507ac74892b96c1f7b574af7c4",
   "allow_discussion": false,
   "blocks": {
-    "7c8dcae2-84b5-466c-8f9e-3e40856f76d9": {
-      "@type": "slate"
+    "15f7d70e-cd56-426b-852d-478d5c65cb5f": {
+      "@type": "slate",
+      "plaintext": "This holds across the range of devices people actually use: desktop monitors, laptops, tablets in either orientation, phones of every size, and browsers with text scaled up for readability.",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "This holds across the range of devices people actually use: desktop monitors, laptops, tablets in either orientation, phones of every size, and browsers with text scaled up for readability."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "379ad9af-f9b2-44a7-80f5-fb62c53446fa": {
+      "@type": "slate",
+      "plaintext": "The site uses pages that adapt to whatever screen they are opened on. Rather than maintaining a separate mobile version, the layout responds to the space available: columns that sit side by side on a wide monitor stack into a single column on a phone, images scale to the width they are given, and navigation collapses into a menu when there is no room for a full bar.",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "The site uses pages that adapt to whatever screen they are opened on. Rather than maintaining a separate mobile version, the layout responds to the space available: columns that sit side by side on a wide monitor stack into a single column on a phone, images scale to the width they are given, and navigation collapses into a menu when there is no room for a full bar."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "6357815e-e180-4569-9be3-e7c3213f275f": {
+      "@type": "slate",
+      "plaintext": "How it works",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "How it works"
+            }
+          ],
+          "type": "h2"
+        }
+      ]
+    },
+    "81c015e7-6ffc-42a0-84e0-cec4fb4eab9b": {
+      "@type": "slate",
+      "plaintext": "What it means in practice",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "What it means in practice"
+            }
+          ],
+          "type": "h2"
+        }
+      ]
+    },
+    "89e257d6-3fcf-48dd-8263-bbaf0df1c70d": {
+      "@type": "slate",
+      "plaintext": "Text remains readable without pinching and zooming, and everything reachable with a mouse is equally reachable by touch, with targets large enough to hit comfortably with a thumb.",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Text remains readable without pinching and zooming, and everything reachable with a mouse is equally reachable by touch, with targets large enough to hit comfortably with a thumb."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "8c9ae323-f716-4d77-8ddf-1edd0795e9ce": {
+      "@type": "separator",
+      "styles": {
+        "align:noprefix": "left",
+        "blockWidth:noprefix": "default"
+      },
+      "theme": "default"
+    },
+    "b65844e7-fc98-48b6-b90b-e8ee4e86f660": {
+      "@type": "image",
+      "align": "center",
+      "credit": {},
+      "image_field": "image",
+      "size": "l",
+      "styles": {
+        "align:noprefix": "center",
+        "blockWidth:noprefix": "default",
+        "size:noprefix": "l"
+      },
+      "theme": "default",
+      "url": "../../resolveuid/eec82559bf3242a6be4d43bc2096f399"
+    },
+    "b793f7c9-9481-4973-95e9-49be43d5c2d8": {
+      "@type": "slate",
+      "plaintext": "Content is written and published once. An editor adds a page without deciding how it should look on a tablet or a phone \u2014 the same content is delivered to every visitor, and the presentation adjusts on its own.",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Content is written and published once. An editor adds a page without deciding how it should look on a tablet or a phone \u2014 the same content is delivered to every visitor, and the presentation adjusts on its own."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "d81a50bf-f1b9-471b-a40b-a898b662d83b": {
+      "@type": "introduction",
+      "plaintext": "Visitors arrive on every kind of screen \u2014 a phone on the way to a lecture, a tablet at home, a desktop monitor in an office. The site is built to meet them wherever they are, presenting the same content in a form that suits the device in hand.",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Visitors arrive on every kind of screen \u2014 a phone on the way to a lecture, a tablet at home, a desktop monitor in an office. The site is built to meet them wherever they are, presenting the same content in a form that suits the device in hand."
+            }
+          ],
+          "type": "p"
+        }
+      ]
     },
     "e7d678c6-f114-4127-a3d0-b080ffbef8bb": {
       "@type": "title"
@@ -14,7 +143,15 @@
   "blocks_layout": {
     "items": [
       "e7d678c6-f114-4127-a3d0-b080ffbef8bb",
-      "7c8dcae2-84b5-466c-8f9e-3e40856f76d9"
+      "d81a50bf-f1b9-471b-a40b-a898b662d83b",
+      "b65844e7-fc98-48b6-b90b-e8ee4e86f660",
+      "8c9ae323-f716-4d77-8ddf-1edd0795e9ce",
+      "6357815e-e180-4569-9be3-e7c3213f275f",
+      "379ad9af-f9b2-44a7-80f5-fb62c53446fa",
+      "89e257d6-3fcf-48dd-8263-bbaf0df1c70d",
+      "81c015e7-6ffc-42a0-84e0-cec4fb4eab9b",
+      "b793f7c9-9481-4973-95e9-49be43d5c2d8",
+      "15f7d70e-cd56-426b-852d-478d5c65cb5f"
     ]
   },
   "changeNote": "",
@@ -23,7 +160,7 @@
   "creators": [
     "admin"
   ],
-  "description": "",
+  "description": "How the site adapts to phones, tablets, and desktops without a separate mobile version.",
   "effective": null,
   "exclude_from_nav": false,
   "expires": null,
@@ -38,7 +175,7 @@
     "locked": false,
     "stealable": true
   },
-  "modified": "2024-05-20T08:38:33+00:00",
+  "modified": "2026-09-14T08:25:20+00:00",
   "nav_title": null,
   "preview_caption_link": null,
   "review_state": "published",

@@ -1,0 +1,358 @@
+{
+  "@id": "/features/blocks-catalogue/button-block",
+  "@type": "Document",
+  "UID": "65e96494f19d4c03a341c04f3844f22f",
+  "allow_discussion": false,
+  "blocks": {
+    "09a420f7-ea7a-4faf-b09a-2b38387c9002": {
+      "@type": "separator",
+      "styles": {
+        "align:noprefix": "left",
+        "blockWidth:noprefix": "default",
+        "shortLine": false
+      },
+      "theme": "default"
+    },
+    "2fcb1a54-7034-497f-942d-2101206ea91a": {
+      "@type": "slate",
+      "plaintext": "Centred",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Centred"
+            }
+          ],
+          "type": "h3"
+        }
+      ]
+    },
+    "362eeff5-d59e-4fd9-812c-e461ba09b8c7": {
+      "@type": "introduction",
+      "plaintext": " -> See full example matrix of the Button block ",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": ""
+            },
+            {
+              "children": [
+                {
+                  "text": "-> See full example matrix of the Button block"
+                }
+              ],
+              "data": {
+                "url": "../../../resolveuid/964daf973f05458a81db4a121d0c7ef3"
+              },
+              "type": "link"
+            },
+            {
+              "text": ""
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "5e7047f5-4083-4326-b1d5-1af29829f845": {
+      "@type": "__button",
+      "href": [
+        {
+          "@id": "../../../resolveuid/13ff7aa3c4eb41f78151d81d41ca3cc3",
+          "Description": "The carousel block shows a horizontally scrolling row of teaser cards. Editors can configure the number of items to show, an optional headline and whether the descriptions are displayed.",
+          "Title": "Carousel",
+          "hasPreviewImage": null,
+          "title": "Carousel"
+        }
+      ],
+      "styles": {
+        "align:noprefix": "right",
+        "blockWidth:noprefix": "default"
+      },
+      "theme": "default",
+      "title": "Next block: Carousel"
+    },
+    "64edaf19-9e94-455d-953a-45174961ca72": {
+      "@type": "separator",
+      "styles": {
+        "align:noprefix": "center",
+        "blockWidth:noprefix": "narrow",
+        "shortLine": true
+      },
+      "theme": "default"
+    },
+    "678d6ace-9519-4b39-89df-ddc8675fe82a": {
+      "@type": "separator",
+      "styles": {
+        "align:noprefix": "left",
+        "blockWidth:noprefix": "default",
+        "shortLine": false
+      },
+      "theme": "default"
+    },
+    "80445d4d-f0d7-4f61-9430-f5871a41a569": {
+      "@type": "slate",
+      "plaintext": "It reads as the continuation of the paragraph above it, which is what you want after an explanation.",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "It reads as the continuation of the paragraph above it, which is what you want after an explanation."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "8087bef2-0d21-42ea-935c-5a35edf84d20": {
+      "@type": "introduction",
+      "plaintext": "Nulla vitae elit libero, a pharetra augue. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean lacinia bibendum nulla sed consectetur. Maecenas faucibus mollis interdum. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Nulla vitae elit libero, a pharetra augue. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean lacinia bibendum nulla sed consectetur. Maecenas faucibus mollis interdum. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "911532f2-6884-426b-b685-fe1c7b01ce11": {
+      "@type": "slate",
+      "plaintext": "Aligned with the text",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Aligned with the text"
+            }
+          ],
+          "type": "h3"
+        }
+      ]
+    },
+    "9aa3c0c3-6565-4e9c-8e27-d07eeedf4314": {
+      "@type": "__button",
+      "href": [
+        {
+          "@id": "../../resolveuid/2647c16486eb4c42857e46c2988013e4",
+          "Description": "example",
+          "Title": "Example",
+          "hasPreviewImage": null,
+          "title": "Example"
+        }
+      ],
+      "styles": {
+        "align": "full",
+        "align:noprefix": "right",
+        "blockWidth:noprefix": "default"
+      },
+      "theme": "default",
+      "title": "Download Lorem Ipsum (PDF)"
+    },
+    "9f91ece5-0a66-41f9-ab92-1701a00df244": {
+      "@type": "slate",
+      "plaintext": "Adjust the width",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Adjust the width"
+            }
+          ],
+          "type": "h3"
+        }
+      ]
+    },
+    "a8d191e1-5b3a-4ef6-b38f-6cb9af33ff85": {
+      "@type": "__button",
+      "href": [
+        {
+          "@id": "../../resolveuid/2647c16486eb4c42857e46c2988013e4",
+          "Description": "example",
+          "Title": "Example",
+          "hasPreviewImage": null,
+          "title": "Example"
+        }
+      ],
+      "styles": {
+        "align:noprefix": "center",
+        "blockWidth:noprefix": "default"
+      },
+      "theme": "default",
+      "title": "Submit"
+    },
+    "b0a6973a-ea79-442f-ae1b-2123c8d0cf32": {
+      "@type": "__button",
+      "href": [
+        {
+          "@id": "../../resolveuid/2647c16486eb4c42857e46c2988013e4",
+          "Description": "example",
+          "Title": "Example",
+          "hasPreviewImage": null,
+          "title": "Example"
+        }
+      ],
+      "styles": {
+        "align:noprefix": "left",
+        "blockWidth:noprefix": "narrow"
+      },
+      "theme": "default",
+      "title": "Apply now"
+    },
+    "bc04fb23-1b8d-4b85-841c-87db2ed900cd": {
+      "@type": "slate",
+      "plaintext": "Use the default width for the button to line it up with wider blocks.",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Use the default width for the button to line it up with wider blocks."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "bec687db-0848-4692-8076-93cb0ecabfc8": {
+      "@type": "introduction",
+      "plaintext": "The button block turns one link into a deliberate call to action. Use it for the single next step you want a reader to take \u2014 apply, download, book.",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "The button block turns one link into a deliberate call to action. Use it for the single next step you want a reader to take \u2014 apply, download, book."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "c23bc7a2-f568-4cdf-b91d-08ad8b0bc824": {
+      "@type": "slate",
+      "plaintext": "Stands apart from the text and closes a section. Right at the end of a landing page.",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Stands apart from the text and closes a section. Right at the end of a landing page."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "c8cf2ebb-b400-404a-8326-d98110e33d34": {
+      "@type": "heading",
+      "alignment": "left",
+      "heading": "1 \u00b7 Where the button sits",
+      "styles": {},
+      "tag": "h2",
+      "theme": "default"
+    },
+    "e7a28df0-e14a-46cb-a3ad-be5fa1f52d92": {
+      "@type": "separator",
+      "styles": {
+        "align:noprefix": "left",
+        "blockWidth:noprefix": "narrow",
+        "shortLine": true
+      },
+      "theme": "default"
+    },
+    "f3ee132b-6215-4e42-b26b-713f668eea61": {
+      "@type": "title"
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "f3ee132b-6215-4e42-b26b-713f668eea61",
+      "bec687db-0848-4692-8076-93cb0ecabfc8",
+      "678d6ace-9519-4b39-89df-ddc8675fe82a",
+      "c8cf2ebb-b400-404a-8326-d98110e33d34",
+      "911532f2-6884-426b-b685-fe1c7b01ce11",
+      "80445d4d-f0d7-4f61-9430-f5871a41a569",
+      "b0a6973a-ea79-442f-ae1b-2123c8d0cf32",
+      "e7a28df0-e14a-46cb-a3ad-be5fa1f52d92",
+      "2fcb1a54-7034-497f-942d-2101206ea91a",
+      "c23bc7a2-f568-4cdf-b91d-08ad8b0bc824",
+      "a8d191e1-5b3a-4ef6-b38f-6cb9af33ff85",
+      "64edaf19-9e94-455d-953a-45174961ca72",
+      "9f91ece5-0a66-41f9-ab92-1701a00df244",
+      "bc04fb23-1b8d-4b85-841c-87db2ed900cd",
+      "8087bef2-0d21-42ea-935c-5a35edf84d20",
+      "9aa3c0c3-6565-4e9c-8e27-d07eeedf4314",
+      "09a420f7-ea7a-4faf-b09a-2b38387c9002",
+      "362eeff5-d59e-4fd9-812c-e461ba09b8c7",
+      "5e7047f5-4083-4326-b1d5-1af29829f845"
+    ]
+  },
+  "changeNote": "",
+  "contributors": [],
+  "created": "2023-07-06T21:35:07+00:00",
+  "creators": [
+    "admin"
+  ],
+  "description": "\nThe button block shows a button for which a link (internal or external) can be stored. The button can be displayed left, right or center and have a background color.",
+  "effective": "2023-07-06T18:35:00+00:00",
+  "exclude_from_nav": true,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "head_title": null,
+  "id": "button-block",
+  "is_folderish": true,
+  "language": "##DEFAULT##",
+  "layout": "document_view",
+  "lock": {
+    "locked": false,
+    "stealable": true
+  },
+  "modified": "2026-09-11T13:38:12+00:00",
+  "nav_title": null,
+  "preview_caption_link": null,
+  "review_state": "published",
+  "rights": "",
+  "subjects": [],
+  "title": "Button",
+  "type_title": "Page",
+  "version": "current",
+  "versioning_enabled": true,
+  "workflow_history": {
+    "simple_publication_workflow": [
+      {
+        "action": null,
+        "actor": "admin",
+        "comments": "",
+        "review_state": "private",
+        "time": "2026-09-10T12:05:35+00:00"
+      },
+      {
+        "action": "publish",
+        "actor": "admin",
+        "comments": "",
+        "review_state": "published",
+        "time": "2026-09-10T13:52:55+00:00"
+      }
+    ]
+  },
+  "working_copy": null,
+  "working_copy_of": null
+}

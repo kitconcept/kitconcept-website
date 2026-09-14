@@ -41,7 +41,7 @@
   "creators": [
     "admin"
   ],
-  "description": "",
+  "description": "Examples of spatial relations between different blocks.",
   "effective": "2023-07-06T18:35:00+00:00",
   "exclude_from_nav": false,
   "expires": null,
@@ -56,7 +56,7 @@
     "locked": false,
     "stealable": true
   },
-  "modified": "2025-09-08T07:41:09+00:00",
+  "modified": "2026-09-14T08:18:13+00:00",
   "nav_title": null,
   "preview_caption_link": null,
   "review_state": "private",

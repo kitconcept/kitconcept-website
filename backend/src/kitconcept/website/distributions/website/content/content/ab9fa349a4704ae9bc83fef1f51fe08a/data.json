@@ -2,19 +2,132 @@
   "@id": "/features/comments",
   "@type": "Document",
   "UID": "ab9fa349a4704ae9bc83fef1f51fe08a",
-  "allow_discussion": false,
+  "allow_discussion": true,
   "blocks": {
+    "1610e49a-60a7-49d0-8928-53b0b3316966": {
+      "@type": "slate",
+      "plaintext": "A comment thread turns a page into a two-way exchange. Readers reply beneath the content itself, and everyone who visits sees the conversation alongside what prompted it \u2014 questions and the answers to them, corrections, additions from people who know the subject first-hand.",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "A comment thread turns a page into a two-way exchange. Readers reply beneath the content itself, and everyone who visits sees the conversation alongside what prompted it \u2014 questions and the answers to them, corrections, additions from people who know the subject first-hand."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "352f9ac4-8565-42f5-aa44-02bcf4965a15": {
+      "@type": "slate",
+      "plaintext": "Discussion is governed at two levels. A site-wide setting decides whether comments are possible at all, and which kinds of content may carry them. An individual item can then be opened or closed on its own, so a single news story can accept replies while the rest of the site does not.",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Discussion is governed at two levels. A site-wide setting decides whether comments are possible at all, and which kinds of content may carry them. An individual item can then be opened or closed on its own, so a single news story can accept replies while the rest of the site does not."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "44f8ec45-65c6-4135-bec1-ce37a0b89076": {
+      "@type": "introduction",
+      "plaintext": "Readers can be allowed to comment on individual items. In this distribution the capability is present but switched off: no page accepts comments until someone deliberately enables it.",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Readers can be allowed to comment on individual items. In this distribution the capability is present but switched off: no page accepts comments until someone deliberately enables it."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
     "771341aa-39a3-41c5-9032-6dfd36013d86": {
-      "@type": "slate"
+      "@type": "separator",
+      "styles": {
+        "align:noprefix": "left",
+        "blockWidth:noprefix": "default",
+        "shortLine": false
+      },
+      "theme": "default"
+    },
+    "7f55f472-9f91-4d95-b10d-89eef1258924": {
+      "@type": "slate",
+      "plaintext": "What it is for",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "What it is for"
+            }
+          ],
+          "type": "h2"
+        }
+      ]
+    },
+    "8ef2afda-6a70-4df9-bf61-ffc1f2bff3ef": {
+      "@type": "slate",
+      "plaintext": "How it is controlled",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "How it is controlled"
+            }
+          ],
+          "type": "h2"
+        }
+      ]
+    },
+    "a47656d6-3a33-4c7f-b0b9-d7a9d798617e": {
+      "@type": "slate",
+      "plaintext": "That fits announcements and news that readers will want to respond to, blog posts and opinion pieces, consultations gathering public input, and event pages where attendees have practical questions. The common thread is content where the replies are worth reading, not just worth receiving.",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "That fits announcements and news that readers will want to respond to, blog posts and opinion pieces, consultations gathering public input, and event pages where attendees have practical questions. The common thread is content where the replies are worth reading, not just worth receiving."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "ba4639c1-70c0-4c6e-99bd-ec22c6264b22": {
+      "@type": "slate",
+      "plaintext": "Closing discussion on a page hides the form without discarding what has already been written.",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Closing discussion on a page hides the form without discarding what has already been written."
+            }
+          ],
+          "type": "p"
+        }
+      ]
     },
     "c6200ae2-dd66-47fa-85a0-3f8299464160": {
       "@type": "image",
-      "align": "full",
       "credit": {},
       "description": "",
       "image_field": "image",
-      "size": "l",
-      "title": "volodymyr-hryshchenko-V5vqWC9gyEU-unsplash.jpg",
+      "styles": {
+        "align:noprefix": "center",
+        "blockWidth:noprefix": "default",
+        "size:noprefix": "l"
+      },
+      "theme": "default",
       "url": "../../resolveuid/575ada43fa3047218a8824890fd3355a"
     },
     "ea292231-010c-435c-ae47-6c5c6f9d32c3": {
@@ -24,8 +137,15 @@
   "blocks_layout": {
     "items": [
       "ea292231-010c-435c-ae47-6c5c6f9d32c3",
+      "44f8ec45-65c6-4135-bec1-ce37a0b89076",
       "c6200ae2-dd66-47fa-85a0-3f8299464160",
-      "771341aa-39a3-41c5-9032-6dfd36013d86"
+      "771341aa-39a3-41c5-9032-6dfd36013d86",
+      "8ef2afda-6a70-4df9-bf61-ffc1f2bff3ef",
+      "352f9ac4-8565-42f5-aa44-02bcf4965a15",
+      "ba4639c1-70c0-4c6e-99bd-ec22c6264b22",
+      "7f55f472-9f91-4d95-b10d-89eef1258924",
+      "1610e49a-60a7-49d0-8928-53b0b3316966",
+      "a47656d6-3a33-4c7f-b0b9-d7a9d798617e"
     ]
   },
   "changeNote": "",
@@ -49,7 +169,7 @@
     "locked": false,
     "stealable": true
   },
-  "modified": "2024-06-24T17:09:41+00:00",
+  "modified": "2026-09-14T08:05:28+00:00",
   "nav_title": null,
   "preview_caption_link": null,
   "review_state": "published",

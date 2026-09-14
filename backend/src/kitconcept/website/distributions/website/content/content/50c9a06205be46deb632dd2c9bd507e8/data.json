@@ -1,0 +1,485 @@
+{
+  "@id": "/features/blocks-catalogue/search-block",
+  "@type": "Document",
+  "UID": "50c9a06205be46deb632dd2c9bd507e8",
+  "allow_discussion": false,
+  "blocks": {
+    "183b0b25-3aa4-4aea-98d7-d03edc56c13e": {
+      "@type": "slate",
+      "plaintext": " Image gallery \u2014 For results that are photographs.",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": ""
+            },
+            {
+              "children": [
+                {
+                  "text": "Image gallery"
+                }
+              ],
+              "type": "strong"
+            },
+            {
+              "text": " \u2014 For results that are photographs."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "3691c1e4-5ae9-46e0-836d-7c207390a86a": {
+      "@type": "introduction",
+      "plaintext": " -> See full example matrix of the Search block ",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": ""
+            },
+            {
+              "children": [
+                {
+                  "text": "-> See full example matrix of the Search block"
+                }
+              ],
+              "data": {
+                "url": "../../../resolveuid/a9ba8fa4d1074204832cceee9157c07b"
+              },
+              "type": "link"
+            },
+            {
+              "text": ""
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "393ce396-d01e-4780-ac2e-df3d648d3917": {
+      "@type": "heading",
+      "heading": "1 \u00b7 How results look",
+      "theme": "default"
+    },
+    "3f1abec2-60e2-4237-81df-a75c97755393": {
+      "@type": "search",
+      "listingBodyTemplate": "summary",
+      "query": {
+        "limit": "4",
+        "query": [
+          {
+            "i": "path",
+            "o": "plone.app.querystring.operation.string.absolutePath",
+            "v": "f29a0a79ff974cbab0ea9b016944336a::1"
+          }
+        ],
+        "sort_order": "descending",
+        "sort_order_boolean": true
+      },
+      "showSearchInput": true,
+      "showSortOn": true,
+      "showTotalResults": true,
+      "styles": {},
+      "theme": "default"
+    },
+    "4187d4d5-b96b-4e5d-b511-ddb079fdcf43": {
+      "@type": "slate",
+      "plaintext": " Grid \u2014 Cards side by side, for browsing a visual collection.  ",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": ""
+            },
+            {
+              "children": [
+                {
+                  "text": "Grid"
+                }
+              ],
+              "type": "strong"
+            },
+            {
+              "text": " \u2014 Cards side by side, for browsing a visual collection."
+            },
+            {
+              "children": [
+                {
+                  "text": ""
+                }
+              ],
+              "type": "strong"
+            },
+            {
+              "text": ""
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "54d788cb-9217-4413-a8c0-3810d8d39a5c": {
+      "@type": "slate",
+      "plaintext": " Facets \u2014 Date range, type and status filters beside the field. Offer only facets your content actually fills, or readers hit empty results.",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": ""
+            },
+            {
+              "children": [
+                {
+                  "text": "Facets"
+                }
+              ],
+              "type": "strong"
+            },
+            {
+              "text": " \u2014 Date range, type and status filters beside the field. Offer only facets your content actually fills, or readers hit empty results."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "7fbd7c52-e223-40c6-a79f-f07b7f64d592": {
+      "@type": "slate",
+      "plaintext": " List with images \u2014 Adds thumbnails where pictures help people recognise a result.  ",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": ""
+            },
+            {
+              "children": [
+                {
+                  "text": "List with images"
+                }
+              ],
+              "type": "strong"
+            },
+            {
+              "text": " \u2014 Adds thumbnails where pictures help people recognise a result."
+            },
+            {
+              "children": [
+                {
+                  "text": ""
+                }
+              ],
+              "type": "strong"
+            },
+            {
+              "text": ""
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "84bea8f4-fcd6-4090-a987-79108b4f1024": {
+      "@type": "separator",
+      "styles": {
+        "align:noprefix": "left",
+        "blockWidth:noprefix": "default",
+        "shortLine": false
+      },
+      "theme": "default"
+    },
+    "875e0719-04d5-4b76-99d7-6a08a8ed2f31": {
+      "@type": "heading",
+      "heading": "2 \u00b7 Narrowing the results",
+      "styles": {},
+      "theme": "default"
+    },
+    "934b6b81-17c1-4635-b5cf-fc8abdbb03e6": {
+      "@type": "search",
+      "facets": [
+        {
+          "@id": "0b167028-6a1f-479c-a871-03553f0b2455",
+          "advanced": false,
+          "field": {
+            "label": "Modification date",
+            "value": "modified"
+          },
+          "hidden": false,
+          "multiple": false,
+          "title": "Modification date",
+          "type": "daterangeFacet"
+        },
+        {
+          "@id": "adce4bce-098d-4161-a75c-7b1ac51eaeae",
+          "advanced": false,
+          "field": {
+            "label": "Review state",
+            "value": "review_state"
+          },
+          "hidden": false,
+          "multiple": false,
+          "title": "Review state",
+          "type": "checkboxFacet"
+        },
+        {
+          "@id": "9b3df5cd-9fe1-4bc1-ba12-4bece98e138f",
+          "advanced": false,
+          "field": {
+            "label": "Type",
+            "value": "portal_type"
+          },
+          "hidden": false,
+          "multiple": false,
+          "title": "Type",
+          "type": "selectFacet"
+        }
+      ],
+      "facetsTitle": "Search facets",
+      "listingBodyTemplate": "default",
+      "plaintext": "",
+      "query": {
+        "b_size": "5",
+        "query": [
+          {
+            "i": "path",
+            "o": "plone.app.querystring.operation.string.absolutePath",
+            "v": "/features/content-types::1"
+          }
+        ],
+        "sort_on": "getObjPositionInParent",
+        "sort_order": "ascending"
+      },
+      "showSearchInput": true,
+      "showSortOn": true,
+      "showTotalResults": true,
+      "value": []
+    },
+    "990f4127-0713-49b7-ae8e-4b0ca97ea5be": {
+      "@type": "slate",
+      "plaintext": " List \u2014 Title and description per result. The default, and the best for reading.  ",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": ""
+            },
+            {
+              "children": [
+                {
+                  "text": "List"
+                }
+              ],
+              "type": "strong"
+            },
+            {
+              "text": " \u2014 Title and description per result. The default, and the best for reading."
+            },
+            {
+              "children": [
+                {
+                  "text": ""
+                }
+              ],
+              "type": "strong"
+            },
+            {
+              "text": ""
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "b204aea1-5adf-4f36-802a-8a9d33bea141": {
+      "@type": "introduction",
+      "plaintext": "The search block lets readers search the site from inside a page and narrow what comes back. Use it to make a large section findable \u2014 publications, courses, an archive.",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "The search block lets readers search the site from inside a page and narrow what comes back. Use it to make a large section findable \u2014 publications, courses, an archive."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "b2e8da3c-7404-4f6c-beb5-ff57a408850a": {
+      "@type": "separator",
+      "styles": {
+        "align:noprefix": "left",
+        "blockWidth:noprefix": "default",
+        "shortLine": false
+      },
+      "theme": "default"
+    },
+    "d1cf4a0a-d40f-4ea3-94ca-7d0b8e04598f": {
+      "@type": "__button",
+      "href": [
+        {
+          "@id": "../../../resolveuid/8ece26145b6d478d9e94278b2663b477",
+          "Description": " The separator block allows blocks or groups of blocks to be visually separated by a horizontal line.",
+          "Title": "Separator",
+          "hasPreviewImage": null,
+          "title": "Separator"
+        }
+      ],
+      "styles": {
+        "align:noprefix": "right",
+        "blockWidth:noprefix": "default"
+      },
+      "theme": "default",
+      "title": "Next block: Separator"
+    },
+    "f6d35d7e-6422-4496-8a65-f7cfd42fb519": {
+      "@type": "title"
+    },
+    "undefined": {
+      "@type": "search",
+      "facets": [
+        {
+          "@id": "0b167028-6a1f-479c-a871-03553f0b2455",
+          "advanced": false,
+          "field": {
+            "label": "Modification date",
+            "value": "modified"
+          },
+          "hidden": false,
+          "multiple": false,
+          "title": "Modification date",
+          "type": "daterangeFacet"
+        },
+        {
+          "@id": "adce4bce-098d-4161-a75c-7b1ac51eaeae",
+          "advanced": false,
+          "field": {
+            "label": "Review state",
+            "value": "review_state"
+          },
+          "hidden": false,
+          "multiple": false,
+          "title": "Review state",
+          "type": "checkboxFacet"
+        },
+        {
+          "@id": "9b3df5cd-9fe1-4bc1-ba12-4bece98e138f",
+          "advanced": false,
+          "field": {
+            "label": "Type",
+            "value": "portal_type"
+          },
+          "hidden": false,
+          "multiple": false,
+          "title": "Type",
+          "type": "selectFacet"
+        }
+      ],
+      "facetsTitle": "Search facets",
+      "listingBodyTemplate": "default",
+      "plaintext": "",
+      "query": {
+        "b_size": "5",
+        "query": [
+          {
+            "i": "path",
+            "o": "plone.app.querystring.operation.string.absolutePath",
+            "v": "/features/content-types::1"
+          }
+        ],
+        "sort_on": "getObjPositionInParent",
+        "sort_order": "ascending"
+      },
+      "showSearchInput": true,
+      "showSortOn": true,
+      "showTotalResults": true,
+      "styles": {},
+      "theme": "default",
+      "value": []
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "f6d35d7e-6422-4496-8a65-f7cfd42fb519",
+      "b204aea1-5adf-4f36-802a-8a9d33bea141",
+      "84bea8f4-fcd6-4090-a987-79108b4f1024",
+      "393ce396-d01e-4780-ac2e-df3d648d3917",
+      "990f4127-0713-49b7-ae8e-4b0ca97ea5be",
+      "7fbd7c52-e223-40c6-a79f-f07b7f64d592",
+      "4187d4d5-b96b-4e5d-b511-ddb079fdcf43",
+      "183b0b25-3aa4-4aea-98d7-d03edc56c13e",
+      "3f1abec2-60e2-4237-81df-a75c97755393",
+      "b2e8da3c-7404-4f6c-beb5-ff57a408850a",
+      "875e0719-04d5-4b76-99d7-6a08a8ed2f31",
+      "54d788cb-9217-4413-a8c0-3810d8d39a5c",
+      "934b6b81-17c1-4635-b5cf-fc8abdbb03e6",
+      "3691c1e4-5ae9-46e0-836d-7c207390a86a",
+      "d1cf4a0a-d40f-4ea3-94ca-7d0b8e04598f"
+    ]
+  },
+  "changeNote": "",
+  "contributors": [],
+  "created": "2023-07-06T21:35:20+00:00",
+  "creators": [
+    "admin"
+  ],
+  "description": "The search block allows the content of the website to be listed. Users can use so-called facets to select certain properties of the listed content in order to filter them (e.g. filtering the news of 2022).",
+  "effective": "2023-07-06T18:35:00+00:00",
+  "exclude_from_nav": true,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "head_title": null,
+  "id": "search-block",
+  "is_folderish": true,
+  "language": "##DEFAULT##",
+  "layout": "document_view",
+  "lock": {
+    "locked": false,
+    "stealable": true
+  },
+  "modified": "2026-09-11T13:40:14+00:00",
+  "nav_title": null,
+  "preview_caption_link": null,
+  "review_state": "published",
+  "rights": "",
+  "subjects": [],
+  "title": "Search",
+  "type_title": "Page",
+  "version": "current",
+  "versioning_enabled": true,
+  "workflow_history": {
+    "simple_publication_workflow": [
+      {
+        "action": null,
+        "actor": "admin",
+        "comments": "",
+        "review_state": "private",
+        "time": "2026-09-10T12:05:36+00:00"
+      },
+      {
+        "action": "publish",
+        "actor": "admin",
+        "comments": "",
+        "review_state": "published",
+        "time": "2026-09-10T13:52:55+00:00"
+      }
+    ]
+  },
+  "working_copy": null,
+  "working_copy_of": null
+}

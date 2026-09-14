@@ -1,0 +1,435 @@
+{
+  "@id": "/features/blocks-catalogue/highlight-block",
+  "@type": "Document",
+  "UID": "14af58222dbd4259a84553013ba7ad8f",
+  "allow_discussion": false,
+  "blocks": {
+    "057b8d99-01a4-412c-9b63-dafd416022bb": {
+      "@type": "slate",
+      "plaintext": " Without the button \u2014 An announcement rather than an action.  ",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": ""
+            },
+            {
+              "children": [
+                {
+                  "text": "Without the button"
+                }
+              ],
+              "type": "strong"
+            },
+            {
+              "text": "\u00a0\u2014 An announcement rather than an action."
+            },
+            {
+              "children": [
+                {
+                  "text": ""
+                }
+              ],
+              "type": "strong"
+            },
+            {
+              "text": ""
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "138d4b7d-d812-44e7-8bb2-87f0042c17c3": {
+      "@type": "__button",
+      "href": [
+        {
+          "@id": "../../../resolveuid/c0471d6c00ef49b5b448a6bd3a659669",
+          "Description": " The image block allows images to be embedded in various display formats. Images can be displayed in different sizes (100%, L, M, S) and aligned left, right or center of the text flow.",
+          "Title": "Image",
+          "hasPreviewImage": null,
+          "title": "Image"
+        }
+      ],
+      "styles": {
+        "align:noprefix": "right",
+        "blockWidth:noprefix": "default"
+      },
+      "theme": "default",
+      "title": "Next block: Image"
+    },
+    "20c837a2-a2e9-4c07-86d1-fd6f08efdc4c": {
+      "@type": "introduction",
+      "plaintext": " -> See full example matrix of the Highlight block ",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": ""
+            },
+            {
+              "children": [
+                {
+                  "text": "-> See full example matrix of the Highlight block"
+                }
+              ],
+              "data": {
+                "url": "../../../resolveuid/e889b3fc258646139284b92ffe3f7495"
+              },
+              "type": "link"
+            },
+            {
+              "text": ""
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "2dddc788-cae4-4a6f-b061-fab295f68f9d": {
+      "@type": "heading",
+      "alignment": "left",
+      "heading": "2 \u00b7 Behind the panel",
+      "styles": {},
+      "theme": "default"
+    },
+    "417e7343-af04-4da4-96bf-29321a3e0fc6": {
+      "@type": "highlight",
+      "button": false,
+      "buttonLink": [],
+      "headtitle": "Vestibulum Nibh Malesuada",
+      "image_field": "image",
+      "plaintext": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt.",
+      "styles": {
+        "descriptionColor": "highlight-custom-color-4"
+      },
+      "theme": "default",
+      "title": "Nibh Pharetra Ultricies",
+      "url": "../../../resolveuid/902fad18bb584693bac78e5ffeaf39d3",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Lorem ipsum dolor sit amet, "
+            },
+            {
+              "children": [
+                {
+                  "text": "consetetur sadipscing"
+                }
+              ],
+              "data": {
+                "url": "http://host.docker.internal:8080/Plone/block/button-block"
+              },
+              "type": "link"
+            },
+            {
+              "text": " elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "4e1d09df-7a03-459f-952a-e8794e1a65c8": {
+      "@type": "separator",
+      "styles": {
+        "align:noprefix": "left",
+        "blockWidth:noprefix": "default",
+        "shortLine": false
+      },
+      "theme": "default"
+    },
+    "55086328-52c0-4c63-9d8b-0a62b68d2096": {
+      "@type": "slate",
+      "plaintext": " An image \u2014 Select any image in the system.  ",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": ""
+            },
+            {
+              "children": [
+                {
+                  "text": "An image"
+                }
+              ],
+              "type": "strong"
+            },
+            {
+              "text": "\u00a0\u2014 Select any image in the system."
+            },
+            {
+              "children": [
+                {
+                  "text": ""
+                }
+              ],
+              "type": "strong"
+            },
+            {
+              "text": ""
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "8d932379-1247-4281-bd30-dfecd5b3c378": {
+      "@type": "highlight",
+      "button": true,
+      "buttonLink": [
+        {
+          "@id": "/content-types/page",
+          "@type": "Document",
+          "CreationDate": "2023-07-06T23:35:20+02:00",
+          "Creator": "admin",
+          "Date": "2023-07-06T18:35:00+02:00",
+          "Description": "The Page content type can be used to display content on a single page of the website. Pages can be structured using text, images and blocks.",
+          "EffectiveDate": "2023-07-06T18:35:00+02:00",
+          "ExpirationDate": "None",
+          "ModificationDate": "2023-09-22T16:25:49+02:00",
+          "Subject": [],
+          "Title": "Page",
+          "Type": "Page",
+          "UID": "7ab9c48ede33415fa2a66a99549c8f70",
+          "author_name": null,
+          "cmf_uid": null,
+          "commentators": [],
+          "created": "2023-07-06T21:35:20+00:00",
+          "description": "The Page content type can be used to display content on a single page of the website. Pages can be structured using text, images and blocks.",
+          "effective": "2023-07-06T16:35:00+00:00",
+          "end": null,
+          "exclude_from_nav": false,
+          "expires": "2499-12-30T22:00:00+00:00",
+          "getIcon": null,
+          "getId": "page",
+          "getObjSize": "676.8 KB",
+          "getPath": "/Plone/content-types/page",
+          "getRemoteUrl": null,
+          "getURL": "http://localhost:8080/Plone/content-types/page",
+          "hasPreviewImage": true,
+          "head_title": null,
+          "id": "page",
+          "image_field": "preview_image",
+          "in_response_to": null,
+          "is_folderish": true,
+          "last_comment_date": null,
+          "listCreators": [
+            "admin"
+          ],
+          "location_reference": null,
+          "mime_type": "text/plain",
+          "modified": "2023-09-22T14:25:49+00:00",
+          "nav_title": null,
+          "portal_type": "Document",
+          "review_state": "published",
+          "start": null,
+          "sync_uid": null,
+          "title": "Page",
+          "total_comments": 0,
+          "type_title": "Page"
+        }
+      ],
+      "buttonText": "Button ",
+      "headtitle": "heading",
+      "image_field": "image",
+      "plaintext": "Description lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt.",
+      "styles": {
+        "descriptionColor": "highlight-custom-color-1"
+      },
+      "theme": "default",
+      "title": "Highlight Block Title",
+      "url": "../../../resolveuid/970ec24c76784c66a06d8c8d8b6522b2",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Description lorem ipsum dolor sit amet, "
+            },
+            {
+              "children": [
+                {
+                  "text": "consetetur sadipscing"
+                }
+              ],
+              "data": {
+                "url": "http://host.docker.internal:8080/Plone/block/button-block"
+              },
+              "type": "link"
+            },
+            {
+              "text": " elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "9df49783-b46a-4702-9f08-a9591f5cffab": {
+      "@type": "heading",
+      "heading": "1 \u00b7 What the panel contains",
+      "styles": {},
+      "theme": "default"
+    },
+    "a82e7ee4-d83f-4f30-9d4a-ac3b60ad8dfd": {
+      "@type": "introduction",
+      "plaintext": "The highlight block lifts one piece of content into a panel with its own title, text and button. Use it for the single thing on a page you want nobody to miss.",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "The highlight block lifts one piece of content into a panel with its own title, text and button. Use it for the single thing on a page you want nobody to miss."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "af3c704a-1f80-48c8-843b-dc29368d43d9": {
+      "@type": "title"
+    },
+    "b8b1a2c6-637c-499a-8678-4c87fd8ab3e2": {
+      "@type": "slate",
+      "plaintext": " The complete panel \u2014 Heading, title, description and button. Start here and only add what you need.  ",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": ""
+            },
+            {
+              "children": [
+                {
+                  "text": "The complete panel"
+                }
+              ],
+              "type": "strong"
+            },
+            {
+              "text": "\u00a0\u2014 Heading, title, description and button. Start here and only add what you need."
+            },
+            {
+              "children": [
+                {
+                  "text": ""
+                }
+              ],
+              "type": "strong"
+            },
+            {
+              "text": ""
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "e53c3f9a-43c5-48c0-85b3-6923a2d25016": {
+      "@type": "slate",
+      "plaintext": " A description color \u2014 For emphasis and branding. Try chaning the description color and pick your favorite.",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": ""
+            },
+            {
+              "children": [
+                {
+                  "text": "A description color"
+                }
+              ],
+              "type": "strong"
+            },
+            {
+              "text": "\u00a0\u2014 For emphasis and branding. Try chaning the description color and pick your favorite."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "af3c704a-1f80-48c8-843b-dc29368d43d9",
+      "a82e7ee4-d83f-4f30-9d4a-ac3b60ad8dfd",
+      "4e1d09df-7a03-459f-952a-e8794e1a65c8",
+      "9df49783-b46a-4702-9f08-a9591f5cffab",
+      "b8b1a2c6-637c-499a-8678-4c87fd8ab3e2",
+      "057b8d99-01a4-412c-9b63-dafd416022bb",
+      "8d932379-1247-4281-bd30-dfecd5b3c378",
+      "2dddc788-cae4-4a6f-b061-fab295f68f9d",
+      "55086328-52c0-4c63-9d8b-0a62b68d2096",
+      "e53c3f9a-43c5-48c0-85b3-6923a2d25016",
+      "417e7343-af04-4da4-96bf-29321a3e0fc6",
+      "20c837a2-a2e9-4c07-86d1-fd6f08efdc4c",
+      "138d4b7d-d812-44e7-8bb2-87f0042c17c3"
+    ]
+  },
+  "changeNote": "",
+  "contributors": [],
+  "created": "2023-07-06T21:35:08+00:00",
+  "creators": [
+    "admin"
+  ],
+  "description": "\nThe highlight block allows you to highlight and tease a single piece of content. The content is displayed with a large image and a title and description in a banderole.",
+  "effective": "2023-07-06T18:35:00+00:00",
+  "exclude_from_nav": true,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "head_title": null,
+  "id": "highlight-block",
+  "is_folderish": true,
+  "language": "##DEFAULT##",
+  "layout": "document_view",
+  "lock": {
+    "locked": false,
+    "stealable": true
+  },
+  "modified": "2026-09-11T13:39:01+00:00",
+  "nav_title": null,
+  "preview_caption_link": null,
+  "review_state": "published",
+  "rights": "",
+  "subjects": [],
+  "title": "Highlight",
+  "type_title": "Page",
+  "version": "current",
+  "versioning_enabled": true,
+  "workflow_history": {
+    "simple_publication_workflow": [
+      {
+        "action": null,
+        "actor": "admin",
+        "comments": "",
+        "review_state": "private",
+        "time": "2026-09-10T12:05:36+00:00"
+      },
+      {
+        "action": "publish",
+        "actor": "admin",
+        "comments": "",
+        "review_state": "published",
+        "time": "2026-09-10T13:52:56+00:00"
+      }
+    ]
+  },
+  "working_copy": null,
+  "working_copy_of": null
+}

@@ -1,0 +1,436 @@
+{
+  "@id": "/features/blocks-catalogue/image-block",
+  "@type": "Document",
+  "UID": "c0471d6c00ef49b5b448a6bd3a659669",
+  "allow_discussion": false,
+  "blocks": {
+    "05d478c5-9671-46f6-83ee-2e0d54af0b31": {
+      "@type": "slate",
+      "plaintext": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "07221f33-39c9-4eae-a5fa-da36fdd194a3": {
+      "@type": "heading",
+      "alignment": "left",
+      "heading": "1 \u00b7 How wide the block runs",
+      "styles": {},
+      "tag": "h2",
+      "theme": "default"
+    },
+    "3286596f-5ec9-47e5-8786-a889ce20f51d": {
+      "@type": "separator",
+      "styles": {
+        "align:noprefix": "left",
+        "blockWidth:noprefix": "default",
+        "shortLine": false
+      },
+      "theme": "default"
+    },
+    "38a90c98-b69b-4b9e-9b6f-4461a0a0074d": {
+      "@type": "heading",
+      "alignment": "left",
+      "heading": "3 \u00b7 What size the image is",
+      "styles": {},
+      "tag": "h2",
+      "theme": "default"
+    },
+    "45c5bb50-8778-479a-b685-7ff74fad20bd": {
+      "@type": "introduction",
+      "plaintext": "The image block places a single image into the page, with control over its alignment, its size and how wide it runs. Use it wherever a picture belongs in the reading flow rather than as a banner or a teaser.",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "The image block places a single image into the page, with control over its alignment, its size and how wide it runs. Use it wherever a picture belongs in the reading flow rather than as a banner or a teaser."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "4b7de52c-ceac-4516-9bcf-d98adee2775e": {
+      "@type": "image",
+      "credit": {},
+      "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.",
+      "styles": {
+        "align:noprefix": "center",
+        "blockWidth:noprefix": "layout",
+        "size:noprefix": "l"
+      },
+      "theme": "default",
+      "title": "Headline H2",
+      "url": "../../../resolveuid/970ec24c76784c66a06d8c8d8b6522b2"
+    },
+    "4bfc973c-5fbf-45a3-819a-750a3eff4def": {
+      "@type": "title"
+    },
+    "5a32c2a7-2cd8-4220-934d-762411403099": {
+      "@type": "slate",
+      "plaintext": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "6b2f679e-02bb-4ad8-afaa-c1def8ed329d": {
+      "@type": "image",
+      "credit": {},
+      "description": " The Image content type can be used to upload an image in various formats (JPG, GIF, PNG, SVG). The uploaded image should always have a high resolution so that it can be used flexibly, for example as a banner image. Plone automatically delivers the images in the best scaling, so there is no need to scale images down manually.",
+      "image_field": "image",
+      "styles": {
+        "align:noprefix": "left",
+        "blockWidth:noprefix": "default",
+        "size:noprefix": "l"
+      },
+      "theme": "default",
+      "title": "Image",
+      "url": "../../../resolveuid/970ec24c76784c66a06d8c8d8b6522b2"
+    },
+    "6e925c56-e7e5-4f2d-a29f-4421ebd3aea9": {
+      "@type": "image",
+      "credit": {},
+      "description": " The Image content type can be used to upload an image in various formats (JPG, GIF, PNG, SVG). The uploaded image should always have a high resolution so that it can be used flexibly, for example as a banner image. Plone automatically delivers the images in the best scaling, so there is no need to scale images down manually.",
+      "image_field": "image",
+      "styles": {
+        "align:noprefix": "right",
+        "blockWidth:noprefix": "narrow",
+        "size:noprefix": "m"
+      },
+      "theme": "default",
+      "title": "Image",
+      "url": "../../../resolveuid/970ec24c76784c66a06d8c8d8b6522b2"
+    },
+    "90db6ac2-6d82-4421-8b1c-2176a4d750ce": {
+      "@type": "slate",
+      "plaintext": "Alignment decides whether the picture sits in the middle of the reading flow or to one side with the text running past it. The examples below start with a centred image, then pull the same image to the left and to the right of a paragraph.",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Alignment decides whether the picture sits in the middle of the reading flow or to one side with the text running past it. The examples below start with a centred image, then pull the same image to the left and to the right of a paragraph."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "9391601d-84cb-435d-96fb-981822ad43f3": {
+      "@type": "separator",
+      "styles": {
+        "align:noprefix": "left",
+        "blockWidth:noprefix": "default",
+        "shortLine": false
+      },
+      "theme": "default"
+    },
+    "a2026452-e043-4b71-879f-70ba91955500": {
+      "@type": "__button",
+      "href": [
+        {
+          "@id": "../../../resolveuid/9a552f6c8abe4c6cac937efc27014aba",
+          "Description": " The introductory block allows the display of an introductory text, which is displayed larger than normal continuous text.",
+          "Title": "Introduction",
+          "hasPreviewImage": null,
+          "title": "Introduction"
+        }
+      ],
+      "styles": {
+        "align:noprefix": "right",
+        "blockWidth:noprefix": "default"
+      },
+      "theme": "default",
+      "title": "Next block: Introduction"
+    },
+    "b0f6ac40-d67c-4864-a2c6-f020ecd2e8b6": {
+      "@type": "slate",
+      "plaintext": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "b413b34a-ca6f-400d-9fb1-b60e93741c68": {
+      "@type": "separator",
+      "styles": {
+        "align:noprefix": "left",
+        "blockWidth:noprefix": "default",
+        "shortLine": false
+      },
+      "theme": "default"
+    },
+    "b6bf35d7-7536-4a32-9821-4ae209de88fe": {
+      "@type": "slate",
+      "plaintext": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "b7d57c29-c082-4b41-b6e0-7ccf83d46b97": {
+      "@type": "image",
+      "credit": {},
+      "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.",
+      "styles": {
+        "align:noprefix": "right",
+        "blockWidth:noprefix": "default",
+        "size:noprefix": "l"
+      },
+      "title": "Headline H2",
+      "url": "../../../resolveuid/970ec24c76784c66a06d8c8d8b6522b2"
+    },
+    "bcc07f9d-7f53-450a-b3f4-20286fd66692": {
+      "@type": "image",
+      "credit": {},
+      "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.",
+      "styles": {
+        "align:noprefix": "center",
+        "blockWidth:noprefix": "default",
+        "size:noprefix": "l"
+      },
+      "theme": "default",
+      "title": "Headline H2",
+      "url": "../../../resolveuid/970ec24c76784c66a06d8c8d8b6522b2"
+    },
+    "c2afb92f-a024-4225-8191-7545aa4c9848": {
+      "@type": "introduction",
+      "plaintext": " -> See full example matrix of the Image block ",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": ""
+            },
+            {
+              "children": [
+                {
+                  "text": "-> See full example matrix of the Image block"
+                }
+              ],
+              "data": {
+                "url": "../../../resolveuid/183b029093174045b4af38583ebe5365"
+              },
+              "type": "link"
+            },
+            {
+              "text": ""
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "c4eddbb6-cb34-479f-bf35-52adc6dd0f4e": {
+      "@type": "slate",
+      "plaintext": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "c78937ae-5c8b-4e77-9cda-bddf8949795b": {
+      "@type": "slate",
+      "plaintext": "Width decides how far the picture reaches across the page, from the narrow text column out to the full edge of the screen.",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Width decides how far the picture reaches across the page, from the narrow text column out to the full edge of the screen. "
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "d48b2411-07fd-4911-8185-56e8760abab5": {
+      "@type": "image",
+      "credit": {},
+      "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. ",
+      "styles": {
+        "align:noprefix": "left",
+        "blockWidth:noprefix": "default",
+        "size:noprefix": "l"
+      },
+      "title": "Headline H2",
+      "url": "../../../resolveuid/970ec24c76784c66a06d8c8d8b6522b2"
+    },
+    "e4621ed9-b541-4944-b0d8-cb11f79bea12": {
+      "@type": "image",
+      "credit": {},
+      "description": " The Image content type can be used to upload an image in various formats (JPG, GIF, PNG, SVG). The uploaded image should always have a high resolution so that it can be used flexibly, for example as a banner image. Plone automatically delivers the images in the best scaling, so there is no need to scale images down manually.",
+      "image_field": "image",
+      "styles": {
+        "align:noprefix": "left",
+        "blockWidth:noprefix": "narrow",
+        "size:noprefix": "s"
+      },
+      "theme": "default",
+      "title": "Image",
+      "url": "../../../resolveuid/970ec24c76784c66a06d8c8d8b6522b2"
+    },
+    "edf539f4-5315-4e1e-9efd-3cf8593f9dbc": {
+      "@type": "slate",
+      "plaintext": "Size controls how big the picture is drawn inside whatever width it has been given, from large down to small. The examples below place each size next to a block of text, so you can judge how much reading space is left beside it.",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Size controls how big the picture is drawn inside whatever width it has been given, from large down to small. The examples below place each size next to a block of text, so you can judge how much reading space is left beside it."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "ee675b34-70dc-4481-8c34-6c845ba86fa6": {
+      "@type": "heading",
+      "alignment": "left",
+      "heading": "2 \u00b7 How the image is aligned",
+      "styles": {},
+      "tag": "h2",
+      "theme": "default"
+    },
+    "fac2624f-0213-49a1-a404-dedb7dca2c68": {
+      "@type": "separator",
+      "styles": {
+        "align:noprefix": "left",
+        "blockWidth:noprefix": "default",
+        "shortLine": false
+      },
+      "theme": "default"
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "4bfc973c-5fbf-45a3-819a-750a3eff4def",
+      "45c5bb50-8778-479a-b685-7ff74fad20bd",
+      "fac2624f-0213-49a1-a404-dedb7dca2c68",
+      "07221f33-39c9-4eae-a5fa-da36fdd194a3",
+      "c78937ae-5c8b-4e77-9cda-bddf8949795b",
+      "bcc07f9d-7f53-450a-b3f4-20286fd66692",
+      "4b7de52c-ceac-4516-9bcf-d98adee2775e",
+      "9391601d-84cb-435d-96fb-981822ad43f3",
+      "ee675b34-70dc-4481-8c34-6c845ba86fa6",
+      "90db6ac2-6d82-4421-8b1c-2176a4d750ce",
+      "d48b2411-07fd-4911-8185-56e8760abab5",
+      "c4eddbb6-cb34-479f-bf35-52adc6dd0f4e",
+      "b7d57c29-c082-4b41-b6e0-7ccf83d46b97",
+      "b6bf35d7-7536-4a32-9821-4ae209de88fe",
+      "3286596f-5ec9-47e5-8786-a889ce20f51d",
+      "38a90c98-b69b-4b9e-9b6f-4461a0a0074d",
+      "edf539f4-5315-4e1e-9efd-3cf8593f9dbc",
+      "6b2f679e-02bb-4ad8-afaa-c1def8ed329d",
+      "b0f6ac40-d67c-4864-a2c6-f020ecd2e8b6",
+      "6e925c56-e7e5-4f2d-a29f-4421ebd3aea9",
+      "5a32c2a7-2cd8-4220-934d-762411403099",
+      "e4621ed9-b541-4944-b0d8-cb11f79bea12",
+      "05d478c5-9671-46f6-83ee-2e0d54af0b31",
+      "b413b34a-ca6f-400d-9fb1-b60e93741c68",
+      "c2afb92f-a024-4225-8191-7545aa4c9848",
+      "a2026452-e043-4b71-879f-70ba91955500"
+    ]
+  },
+  "changeNote": "",
+  "contributors": [],
+  "created": "2023-07-06T21:35:19+00:00",
+  "creators": [
+    "admin"
+  ],
+  "description": "\nThe image block allows images to be embedded in various display formats. Images can be displayed in different sizes (100%, L, M, S) and aligned left, right or center of the text flow.",
+  "effective": "2023-07-06T18:35:00+00:00",
+  "exclude_from_nav": true,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "head_title": null,
+  "id": "image-block",
+  "is_folderish": true,
+  "language": "##DEFAULT##",
+  "layout": "document_view",
+  "lock": {
+    "locked": false,
+    "stealable": true
+  },
+  "modified": "2026-09-11T13:39:09+00:00",
+  "nav_title": null,
+  "preview_caption_link": null,
+  "review_state": "published",
+  "rights": "",
+  "subjects": [],
+  "title": "Image",
+  "type_title": "Page",
+  "version": "current",
+  "versioning_enabled": true,
+  "workflow_history": {
+    "simple_publication_workflow": [
+      {
+        "action": null,
+        "actor": "admin",
+        "comments": "",
+        "review_state": "private",
+        "time": "2026-09-10T12:05:36+00:00"
+      },
+      {
+        "action": "publish",
+        "actor": "admin",
+        "comments": "",
+        "review_state": "published",
+        "time": "2026-09-10T13:52:57+00:00"
+      }
+    ]
+  },
+  "working_copy": null,
+  "working_copy_of": null
+}

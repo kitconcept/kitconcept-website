@@ -1,0 +1,1037 @@
+{
+  "@id": "/features/blocks-catalogue/block-accordion",
+  "@type": "Document",
+  "UID": "865b214d17054349b5f3e786e17c574c",
+  "allow_discussion": false,
+  "blocks": {
+    "3369f366-e001-49c3-93b6-bbc420edb471": {
+      "@type": "introduction",
+      "plaintext": "The accordion block stacks content into panels a reader can open one at a time. Use it when a page must hold detail that not everyone needs at once \u2014 FAQs, programme days, downloads per department.",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "The accordion block stacks content into panels a reader can open one at a time. Use it when a page must hold detail that not everyone needs at once \u2014 FAQs, programme days, downloads per department."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "41a82a93-c00c-4a40-bac8-53a3e3420c8e": {
+      "@type": "accordion",
+      "collapsed": false,
+      "data": {
+        "blocks": {
+          "b58c92b4-6604-4408-9039-a147965fa4bd": {
+            "@type": "accordionPanel",
+            "blocks": {
+              "54bee7c1-0d30-41e9-983e-e97645ce1ba0": {
+                "@type": "teaser",
+                "description": "Lorem ipsum dolor sit amet adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper ",
+                "head_title": "Event Teaser",
+                "href": [
+                  {
+                    "@id": "../../../resolveuid/7adc12f0e7604982a6cdcb9437bccf66",
+                    "@type": "Event",
+                    "Description": "The event content type can be used to display an event on the website.",
+                    "Subject": [],
+                    "Title": "Event",
+                    "contact_building": null,
+                    "contact_email": "m.mustermann@plone.com",
+                    "contact_phone": "+49 1234 567-890",
+                    "contact_room": null,
+                    "description": "The event content type can be used to display an event on the website.",
+                    "effective": "2023-07-06T18:35:00+00:00",
+                    "end": "2023-12-31T12:00:00+00:00",
+                    "getObjSize": "0 KB",
+                    "getRemoteUrl": null,
+                    "hasPreviewImage": null,
+                    "head_title": null,
+                    "image_field": "",
+                    "mime_type": "text/plain",
+                    "nav_title": null,
+                    "review_state": "published",
+                    "start": "2023-01-01T11:00:00+00:00",
+                    "title": "Event",
+                    "type_title": "Event"
+                  }
+                ],
+                "overwrite": true,
+                "preview_image": [
+                  {
+                    "@id": "../../../resolveuid/b391c580c3ef40d99a56b7d87f561889",
+                    "image_field": "image",
+                    "title": "Image for Link"
+                  }
+                ],
+                "styles": {
+                  "align": "right"
+                },
+                "title": "Teaser to an Event"
+              },
+              "6c16bdbd-c642-4fab-9905-202ef4ed0aba": {
+                "@type": "teaser",
+                "description": "Lorem ipsum dolor sit amet adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper ",
+                "head_title": "News Item Teaser",
+                "href": [
+                  {
+                    "@id": "../../../resolveuid/8cc3e9af77c0452aa2278b0bfdcf9c85",
+                    "@type": "News Item",
+                    "Description": "The News Item content type can be used to display News content on the website.",
+                    "Subject": [],
+                    "Title": "News Item",
+                    "contact_building": null,
+                    "contact_email": null,
+                    "contact_phone": null,
+                    "contact_room": null,
+                    "description": "The News Item content type can be used to display News content on the website.",
+                    "effective": "2023-01-01T10:42:00+00:00",
+                    "end": null,
+                    "getObjSize": "0 KB",
+                    "getRemoteUrl": null,
+                    "hasPreviewImage": null,
+                    "head_title": "Head title",
+                    "image_field": "preview_image_link",
+                    "mime_type": "text/plain",
+                    "nav_title": null,
+                    "review_state": "published",
+                    "start": null,
+                    "title": "News Item",
+                    "type_title": "News Item"
+                  }
+                ],
+                "overwrite": true,
+                "styles": {
+                  "align": "left"
+                },
+                "title": "Teaser to a News Item"
+              },
+              "d6a38fa5-e8a8-40ee-9078-5788c494086b": {
+                "@type": "teaser",
+                "description": "Lorem ipsum dolor sit amet adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo",
+                "head_title": "Page Teaser",
+                "href": [
+                  {
+                    "@id": "../../../resolveuid/7ab9c48ede33415fa2a66a99549c8f70",
+                    "@type": "Document",
+                    "Description": "The Page content type can be used to display content on a single page of the website. Pages can be structured using text, images and blocks.",
+                    "Subject": [],
+                    "Title": "Page",
+                    "contact_building": null,
+                    "contact_email": null,
+                    "contact_phone": null,
+                    "contact_room": null,
+                    "description": "The Page content type can be used to display content on a single page of the website. Pages can be structured using text, images and blocks.",
+                    "effective": "2023-07-06T18:35:00+00:00",
+                    "end": null,
+                    "getObjSize": "0 KB",
+                    "getRemoteUrl": null,
+                    "hasPreviewImage": true,
+                    "head_title": null,
+                    "image_field": "preview_image_link",
+                    "mime_type": "text/plain",
+                    "nav_title": null,
+                    "review_state": "published",
+                    "start": null,
+                    "title": "Page",
+                    "type_title": "Page"
+                  }
+                ],
+                "overwrite": true,
+                "styles": {
+                  "align": "center"
+                },
+                "title": "Teaser to a Page"
+              }
+            },
+            "blocks_layout": {
+              "items": [
+                "d6a38fa5-e8a8-40ee-9078-5788c494086b",
+                "6c16bdbd-c642-4fab-9905-202ef4ed0aba",
+                "54bee7c1-0d30-41e9-983e-e97645ce1ba0"
+              ]
+            },
+            "selected": "6a14fdb0-e0cf-470e-95dd-15aadb0e85c1",
+            "title": "Teasers"
+          },
+          "bc2c120e-51df-4c47-b4d0-5a11311d020d": {
+            "@type": "accordionPanel",
+            "blocks": {
+              "3272740e-1998-4a82-a4ae-dbd303f31021": {
+                "@type": "slate",
+                "plaintext": "This is unordered list This is unordered list This is unordered list",
+                "styles": {},
+                "theme": "default",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "text": "This is unordered list"
+                          }
+                        ],
+                        "type": "li"
+                      },
+                      {
+                        "children": [
+                          {
+                            "text": "This is unordered list"
+                          }
+                        ],
+                        "type": "li"
+                      },
+                      {
+                        "children": [
+                          {
+                            "text": "This is unordered list"
+                          }
+                        ],
+                        "type": "li"
+                      }
+                    ],
+                    "type": "ul"
+                  }
+                ]
+              },
+              "b314ee6a-b847-4bc8-ba0d-b700725a37c9": {
+                "@type": "slate",
+                "plaintext": "This is H3",
+                "styles": {},
+                "theme": "default",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": "This is H3\n"
+                      }
+                    ],
+                    "type": "h3"
+                  }
+                ]
+              },
+              "c85ec1d2-f371-4ed4-be65-8fa0a091b833": {
+                "@type": "slate",
+                "plaintext": "The everyday case: a heading and a few paragraphs per panel. Right when the answers are short and self-contained.",
+                "styles": {},
+                "theme": "default",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": "The "
+                      },
+                      {
+                        "children": [
+                          {
+                            "text": "everyday"
+                          }
+                        ],
+                        "type": "strong"
+                      },
+                      {
+                        "text": " case: a "
+                      },
+                      {
+                        "children": [
+                          {
+                            "text": "heading"
+                          }
+                        ],
+                        "type": "em"
+                      },
+                      {
+                        "text": " and a few paragraphs per panel. Right when the answers are short and self-contained."
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              },
+              "d54db3fd-b376-49a5-ae3f-e9ea31fb98f3": {
+                "@type": "slate",
+                "plaintext": "one two three",
+                "styles": {},
+                "theme": "default",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "text": "one"
+                          }
+                        ],
+                        "type": "li"
+                      },
+                      {
+                        "children": [
+                          {
+                            "text": "two"
+                          }
+                        ],
+                        "type": "li"
+                      },
+                      {
+                        "children": [
+                          {
+                            "text": "three"
+                          }
+                        ],
+                        "type": "li"
+                      }
+                    ],
+                    "type": "ol"
+                  }
+                ]
+              }
+            },
+            "blocks_layout": {
+              "items": [
+                "c85ec1d2-f371-4ed4-be65-8fa0a091b833",
+                "b314ee6a-b847-4bc8-ba0d-b700725a37c9",
+                "3272740e-1998-4a82-a4ae-dbd303f31021",
+                "d54db3fd-b376-49a5-ae3f-e9ea31fb98f3"
+              ]
+            },
+            "title": "Text"
+          },
+          "d2168440-888d-4081-8409-b59392abc189": {
+            "@type": "accordionPanel",
+            "blocks": {
+              "1da28f76-9d9c-4a98-af0b-2e8c7abc1c35": {
+                "@type": "separator",
+                "styles": {
+                  "align": "left",
+                  "align:noprefix": {
+                    "--block-alignment": "var(--align-left)"
+                  },
+                  "blockWidth:noprefix": {
+                    "--block-width": "var(--narrow-container-width)"
+                  }
+                }
+              },
+              "6e94c839-855c-43ff-92fa-a2f9dfac2bc9": {
+                "@type": "image",
+                "align": "center",
+                "credit": {},
+                "description": " The Image content type can be used to upload an image in various formats (JPG, GIF, PNG, SVG). The uploaded image should always have a high resolution so that it can be used flexibly, for example as a banner image. Plone automatically delivers the images in the best scaling, so there is no need to scale images down manually.",
+                "image_field": "image",
+                "size": "l",
+                "styles": {
+                  "align:noprefix": "center",
+                  "blockWidth:noprefix": "narrow",
+                  "size:noprefix": "l"
+                },
+                "theme": "default",
+                "title": "Image - Light",
+                "url": "../../../resolveuid/970ec24c76784c66a06d8c8d8b6522b2"
+              },
+              "b31f491b-d340-4f10-9e01-007e06bd7f7b": {
+                "@type": "image",
+                "align": "center",
+                "credit": {},
+                "description": " The Image content type can be used to upload an image in various formats (JPG, GIF, PNG, SVG). The uploaded image should always have a high resolution so that it can be used flexibly, for example as a banner image. Plone automatically delivers the images in the best scaling, so there is no need to scale images down manually.",
+                "image_field": "image",
+                "size": "l",
+                "styles": {
+                  "align:noprefix": "center",
+                  "blockWidth:noprefix": "narrow",
+                  "size:noprefix": "l"
+                },
+                "theme": "default",
+                "title": "Image - Light",
+                "url": "../../../resolveuid/ac94c9f5bc894fe0813ed8446eb426b5"
+              },
+              "ee0d02f1-ff2c-4dee-a79f-a1ed105cc84c": {
+                "@type": "slate",
+                "plaintext": "Lorem ipsum dolor sit amet adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.",
+                "styles": {},
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": "Lorem ipsum dolor sit amet adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi."
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              }
+            },
+            "blocks_layout": {
+              "items": [
+                "6e94c839-855c-43ff-92fa-a2f9dfac2bc9",
+                "1da28f76-9d9c-4a98-af0b-2e8c7abc1c35",
+                "b31f491b-d340-4f10-9e01-007e06bd7f7b",
+                "ee0d02f1-ff2c-4dee-a79f-a1ed105cc84c"
+              ]
+            },
+            "selected": "b31f491b-d340-4f10-9e01-007e06bd7f7b",
+            "title": "Images"
+          },
+          "d80e4d6f-b708-4f45-8c3a-fc8f8ccc07c0": {
+            "@type": "accordionPanel",
+            "blocks": {
+              "f56375fe-70a1-4ac1-a94c-adc9998db548": {
+                "@type": "slateTable",
+                "styles": {
+                  "backgroundColor": "transparent"
+                },
+                "table": {
+                  "basic": false,
+                  "celled": true,
+                  "compact": false,
+                  "fixed": true,
+                  "hideHeaders": false,
+                  "inverted": false,
+                  "rows": [
+                    {
+                      "cells": [
+                        {
+                          "key": "f446n",
+                          "type": "header",
+                          "value": [
+                            {
+                              "children": [
+                                {
+                                  "text": "Title Tablehead "
+                                }
+                              ],
+                              "type": "p"
+                            }
+                          ]
+                        },
+                        {
+                          "key": "26qcg",
+                          "type": "header",
+                          "value": [
+                            {
+                              "children": [
+                                {
+                                  "text": "Title Tablehead "
+                                }
+                              ],
+                              "type": "p"
+                            }
+                          ]
+                        },
+                        {
+                          "key": "dhv72",
+                          "type": "header",
+                          "value": [
+                            {
+                              "children": [
+                                {
+                                  "text": "Title Tablehead "
+                                }
+                              ],
+                              "type": "p"
+                            }
+                          ]
+                        }
+                      ],
+                      "key": "dda2b"
+                    },
+                    {
+                      "cells": [
+                        {
+                          "key": "52vlv",
+                          "type": "data",
+                          "value": [
+                            {
+                              "children": [
+                                {
+                                  "text": "Heading H3"
+                                }
+                              ],
+                              "type": "h2"
+                            },
+                            {
+                              "children": [
+                                {
+                                  "text": "Heading H2"
+                                }
+                              ],
+                              "type": "h3"
+                            },
+                            {
+                              "children": [
+                                {
+                                  "text": "Text can be "
+                                },
+                                {
+                                  "children": [
+                                    {
+                                      "text": "bold"
+                                    }
+                                  ],
+                                  "type": "strong"
+                                },
+                                {
+                                  "text": " or "
+                                },
+                                {
+                                  "children": [
+                                    {
+                                      "text": "italic"
+                                    }
+                                  ],
+                                  "type": "em"
+                                },
+                                {
+                                  "text": " or a "
+                                },
+                                {
+                                  "children": [
+                                    {
+                                      "text": "Link"
+                                    }
+                                  ],
+                                  "data": {
+                                    "url": "../../resolveuid/1367ce64d3d440b7975652f6f36be9be"
+                                  },
+                                  "type": "link"
+                                },
+                                {
+                                  "text": " "
+                                }
+                              ],
+                              "type": "p"
+                            }
+                          ]
+                        },
+                        {
+                          "key": "5ko7h",
+                          "type": "data",
+                          "value": [
+                            {
+                              "children": [
+                                {
+                                  "text": "Heading H3"
+                                }
+                              ],
+                              "type": "h2"
+                            },
+                            {
+                              "children": [
+                                {
+                                  "text": "Heading H2"
+                                }
+                              ],
+                              "type": "h3"
+                            },
+                            {
+                              "children": [
+                                {
+                                  "text": "Text can be "
+                                },
+                                {
+                                  "children": [
+                                    {
+                                      "text": "bold"
+                                    }
+                                  ],
+                                  "type": "strong"
+                                },
+                                {
+                                  "text": " or "
+                                },
+                                {
+                                  "children": [
+                                    {
+                                      "text": "italic"
+                                    }
+                                  ],
+                                  "type": "em"
+                                },
+                                {
+                                  "text": " or a "
+                                },
+                                {
+                                  "children": [
+                                    {
+                                      "text": "Link"
+                                    }
+                                  ],
+                                  "data": {
+                                    "url": "../../resolveuid/1367ce64d3d440b7975652f6f36be9be"
+                                  },
+                                  "type": "link"
+                                },
+                                {
+                                  "text": " "
+                                }
+                              ],
+                              "type": "p"
+                            }
+                          ]
+                        },
+                        {
+                          "key": "878jv",
+                          "type": "data",
+                          "value": [
+                            {
+                              "children": [
+                                {
+                                  "text": "Heading H3"
+                                }
+                              ],
+                              "type": "h2"
+                            },
+                            {
+                              "children": [
+                                {
+                                  "text": "Heading H2"
+                                }
+                              ],
+                              "type": "h3"
+                            },
+                            {
+                              "children": [
+                                {
+                                  "text": "Text can be "
+                                },
+                                {
+                                  "children": [
+                                    {
+                                      "text": "bold"
+                                    }
+                                  ],
+                                  "type": "strong"
+                                },
+                                {
+                                  "text": " or "
+                                },
+                                {
+                                  "children": [
+                                    {
+                                      "text": "italic"
+                                    }
+                                  ],
+                                  "type": "em"
+                                },
+                                {
+                                  "text": " or a "
+                                },
+                                {
+                                  "children": [
+                                    {
+                                      "text": "Link"
+                                    }
+                                  ],
+                                  "data": {
+                                    "url": "../../resolveuid/1367ce64d3d440b7975652f6f36be9be"
+                                  },
+                                  "type": "link"
+                                },
+                                {
+                                  "text": " "
+                                }
+                              ],
+                              "type": "p"
+                            }
+                          ]
+                        }
+                      ],
+                      "key": "3ihrs"
+                    },
+                    {
+                      "cells": [
+                        {
+                          "key": "754if",
+                          "type": "data",
+                          "value": [
+                            {
+                              "children": [
+                                {
+                                  "text": "Heading H3"
+                                }
+                              ],
+                              "type": "h2"
+                            },
+                            {
+                              "children": [
+                                {
+                                  "text": "Heading H2"
+                                }
+                              ],
+                              "type": "h3"
+                            },
+                            {
+                              "children": [
+                                {
+                                  "text": "Text can be "
+                                },
+                                {
+                                  "children": [
+                                    {
+                                      "text": "bold"
+                                    }
+                                  ],
+                                  "type": "strong"
+                                },
+                                {
+                                  "text": " or "
+                                },
+                                {
+                                  "children": [
+                                    {
+                                      "text": "italic"
+                                    }
+                                  ],
+                                  "type": "em"
+                                },
+                                {
+                                  "text": " or a "
+                                },
+                                {
+                                  "children": [
+                                    {
+                                      "text": "Link"
+                                    }
+                                  ],
+                                  "data": {
+                                    "url": "../../resolveuid/1367ce64d3d440b7975652f6f36be9be"
+                                  },
+                                  "type": "link"
+                                },
+                                {
+                                  "text": " "
+                                }
+                              ],
+                              "type": "p"
+                            }
+                          ]
+                        },
+                        {
+                          "key": "1bjdt",
+                          "type": "data",
+                          "value": [
+                            {
+                              "children": [
+                                {
+                                  "text": "Heading H3"
+                                }
+                              ],
+                              "type": "h2"
+                            },
+                            {
+                              "children": [
+                                {
+                                  "text": "Heading H2"
+                                }
+                              ],
+                              "type": "h3"
+                            },
+                            {
+                              "children": [
+                                {
+                                  "text": "Text can be "
+                                },
+                                {
+                                  "children": [
+                                    {
+                                      "text": "bold"
+                                    }
+                                  ],
+                                  "type": "strong"
+                                },
+                                {
+                                  "text": " or "
+                                },
+                                {
+                                  "children": [
+                                    {
+                                      "text": "italic"
+                                    }
+                                  ],
+                                  "type": "em"
+                                },
+                                {
+                                  "text": " or a "
+                                },
+                                {
+                                  "children": [
+                                    {
+                                      "text": "Link"
+                                    }
+                                  ],
+                                  "data": {
+                                    "url": "../../resolveuid/1367ce64d3d440b7975652f6f36be9be"
+                                  },
+                                  "type": "link"
+                                },
+                                {
+                                  "text": " "
+                                }
+                              ],
+                              "type": "p"
+                            }
+                          ]
+                        },
+                        {
+                          "key": "32g6k",
+                          "type": "data",
+                          "value": [
+                            {
+                              "children": [
+                                {
+                                  "text": "Heading H3"
+                                }
+                              ],
+                              "type": "h2"
+                            },
+                            {
+                              "children": [
+                                {
+                                  "text": "Heading H2"
+                                }
+                              ],
+                              "type": "h3"
+                            },
+                            {
+                              "children": [
+                                {
+                                  "text": "Text can be "
+                                },
+                                {
+                                  "children": [
+                                    {
+                                      "text": "bold"
+                                    }
+                                  ],
+                                  "type": "strong"
+                                },
+                                {
+                                  "text": " or "
+                                },
+                                {
+                                  "children": [
+                                    {
+                                      "text": "italic"
+                                    }
+                                  ],
+                                  "type": "em"
+                                },
+                                {
+                                  "text": " or a "
+                                },
+                                {
+                                  "children": [
+                                    {
+                                      "text": "Link"
+                                    }
+                                  ],
+                                  "data": {
+                                    "url": "../../resolveuid/1367ce64d3d440b7975652f6f36be9be"
+                                  },
+                                  "type": "link"
+                                },
+                                {
+                                  "text": " "
+                                }
+                              ],
+                              "type": "p"
+                            }
+                          ]
+                        }
+                      ],
+                      "key": "au6so"
+                    }
+                  ],
+                  "striped": true
+                },
+                "theme": "default"
+              }
+            },
+            "blocks_layout": {
+              "items": [
+                "f56375fe-70a1-4ac1-a94c-adc9998db548"
+              ]
+            },
+            "title": "Tables"
+          },
+          "e62a2478-3a63-445a-aab7-edf55cceebcf": {
+            "@type": "accordionPanel",
+            "blocks": {
+              "c9580c7a-ab67-44f7-8532-59a4ba9fd846": {
+                "@type": "listing",
+                "headline": "Lastest Events",
+                "headlineTag": "h2",
+                "querystring": {
+                  "limit": "3",
+                  "query": [
+                    {
+                      "i": "portal_type",
+                      "o": "plone.app.querystring.operation.selection.any",
+                      "v": [
+                        "Event"
+                      ]
+                    }
+                  ],
+                  "sort_order": "descending",
+                  "sort_order_boolean": true
+                },
+                "styles": {},
+                "theme": "default",
+                "variation": "grid"
+              }
+            },
+            "blocks_layout": {
+              "items": [
+                "c9580c7a-ab67-44f7-8532-59a4ba9fd846"
+              ]
+            },
+            "selected": "58f244db-9609-49d7-bb9c-4ddecb92467e",
+            "title": "Listings"
+          }
+        },
+        "blocks_layout": {
+          "items": [
+            "bc2c120e-51df-4c47-b4d0-5a11311d020d",
+            "d2168440-888d-4081-8409-b59392abc189",
+            "b58c92b4-6604-4408-9039-a147965fa4bd",
+            "e62a2478-3a63-445a-aab7-edf55cceebcf",
+            "d80e4d6f-b708-4f45-8c3a-fc8f8ccc07c0"
+          ]
+        }
+      },
+      "filtering": false,
+      "non_exclusive": false,
+      "right_arrows": true,
+      "styles": {},
+      "theme": "default"
+    },
+    "6705853a-66d5-455d-b87c-17fe09889721": {
+      "@type": "separator",
+      "styles": {
+        "align:noprefix": "left",
+        "blockWidth:noprefix": "default",
+        "shortLine": false
+      },
+      "theme": "default"
+    },
+    "8d4e523c-7473-471b-9e6b-f89cae30c143": {
+      "@type": "__button",
+      "href": [
+        {
+          "@id": "../../../resolveuid/9bd6f630c6694f0a8d35097c62e9949f",
+          "Description": "The banner block displays a full-width image banner with one or two lines of text overlaid on a gradient. It can be shown at layout or full width.",
+          "Title": "Banner",
+          "hasPreviewImage": null,
+          "title": "Banner"
+        }
+      ],
+      "styles": {
+        "align:noprefix": "right",
+        "blockWidth:noprefix": "default"
+      },
+      "theme": "default",
+      "title": "Next block: Banner"
+    },
+    "9ccb92e9-69d9-478b-8f3f-1667e559c17b": {
+      "@type": "introduction",
+      "plaintext": " -> See full example matrix of the Accordion block ",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": ""
+            },
+            {
+              "children": [
+                {
+                  "text": "-> See full example matrix of the Accordion block"
+                }
+              ],
+              "data": {
+                "url": "../../../resolveuid/324b7e4552434c74a82d59847669d3b3"
+              },
+              "type": "link"
+            },
+            {
+              "text": ""
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "c85ca865-3970-4bef-8915-4e2218efe654": {
+      "@type": "heading",
+      "heading": "1 \u00b7 What goes inside a panel",
+      "theme": "default"
+    },
+    "fec13476-1231-42fc-84d5-b110e8e3c6e7": {
+      "@type": "title"
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "fec13476-1231-42fc-84d5-b110e8e3c6e7",
+      "3369f366-e001-49c3-93b6-bbc420edb471",
+      "6705853a-66d5-455d-b87c-17fe09889721",
+      "c85ca865-3970-4bef-8915-4e2218efe654",
+      "41a82a93-c00c-4a40-bac8-53a3e3420c8e",
+      "9ccb92e9-69d9-478b-8f3f-1667e559c17b",
+      "8d4e523c-7473-471b-9e6b-f89cae30c143"
+    ]
+  },
+  "changeNote": "",
+  "contributors": [],
+  "created": "2023-07-27T19:48:00+00:00",
+  "creators": [
+    "admin"
+  ],
+  "description": "The accordion contains other blocks in an accordion behavior layout.",
+  "effective": "2023-09-22T16:09:00+00:00",
+  "exclude_from_nav": true,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "head_title": null,
+  "id": "block-accordion",
+  "is_folderish": true,
+  "language": "##DEFAULT##",
+  "layout": "document_view",
+  "lock": {
+    "locked": false,
+    "stealable": true
+  },
+  "modified": "2026-09-11T13:37:55+00:00",
+  "nav_title": null,
+  "preview_caption_link": null,
+  "review_state": "published",
+  "rights": "",
+  "subjects": [],
+  "title": "Accordion",
+  "type_title": "Page",
+  "version": "current",
+  "versioning_enabled": true,
+  "workflow_history": {
+    "simple_publication_workflow": [
+      {
+        "action": null,
+        "actor": "admin",
+        "comments": "",
+        "review_state": "private",
+        "time": "2026-09-10T12:05:35+00:00"
+      },
+      {
+        "action": "publish",
+        "actor": "admin",
+        "comments": "",
+        "review_state": "published",
+        "time": "2026-09-10T13:52:55+00:00"
+      }
+    ]
+  },
+  "working_copy": null,
+  "working_copy_of": null
+}

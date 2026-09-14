@@ -11,7 +11,7 @@
       "blocks": {
         "41863fc3-5e05-4e50-8166-607686a34758": {
           "@type": "teaser",
-          "description": "",
+          "description": "Search that let's you find all the content in your site.",
           "head_title": null,
           "href": [
             {
@@ -24,19 +24,19 @@
               "contact_email": null,
               "contact_phone": null,
               "contact_room": null,
-              "description": "A full text search that let's you find all the content in your site.",
+              "description": "Searching that let's you find all the content in your site.",
               "effective": "2024-05-17T11:53:00+00:00",
               "end": null,
               "getObjSize": "0 KB",
               "getRemoteUrl": null,
-              "hasPreviewImage": null,
+              "hasPreviewImage": true,
               "head_title": null,
               "image_field": "preview_image_link",
               "mime_type": "text/plain",
               "nav_title": null,
               "review_state": "published",
               "start": null,
-              "title": "Full Text Search",
+              "title": "Search",
               "type_title": "Page"
             }
           ],
@@ -44,11 +44,11 @@
           "styles": {
             "align": "left"
           },
-          "title": "Full Text Search"
+          "title": "Search"
         },
         "b44ca6dd-a55f-4a15-9727-3297eeaade15": {
           "@type": "teaser",
-          "description": "",
+          "description": "Present your employees with personal profile pages. Sync their data with your AD/LDAP or any other source.",
           "head_title": null,
           "href": [
             {
@@ -66,7 +66,7 @@
               "end": null,
               "getObjSize": "0 KB",
               "getRemoteUrl": null,
-              "hasPreviewImage": null,
+              "hasPreviewImage": true,
               "head_title": null,
               "image_field": "preview_image_link",
               "mime_type": "text/plain",
@@ -85,13 +85,13 @@
         },
         "dc468cc2-ccda-4e25-a3db-116ca9f99ef2": {
           "@type": "teaser",
-          "description": "",
+          "description": "Volto Light Theme, a beautifully crafted Plone theme with a minimalistic design that let's your site content shine.",
           "head_title": null,
           "href": [
             {
               "@id": "resolveuid/239b6e7bb69e4cd79b71be7a4e90a285",
               "@type": "Document",
-              "Description": "",
+              "Description": "Volto Light Theme, a beautifully crafted Plone theme with a minimalistic design that let's your site content shine.",
               "Subject": [],
               "Title": "Theme",
               "contact_building": null,
@@ -103,7 +103,7 @@
               "end": null,
               "getObjSize": "0 KB",
               "getRemoteUrl": null,
-              "hasPreviewImage": null,
+              "hasPreviewImage": true,
               "head_title": null,
               "image_field": "preview_image_link",
               "mime_type": "text/plain",
@@ -128,45 +128,58 @@
           "b44ca6dd-a55f-4a15-9727-3297eeaade15"
         ]
       },
-      "styles": {}
+      "styles": {},
+      "theme": "default"
     },
-    "72d64f8a-cca6-444d-a497-482daba7e970": {
-      "@type": "slate"
+    "4d21f5c6-20e2-412d-bc9d-fa96184c681b": {
+      "@type": "separator",
+      "styles": {
+        "align:noprefix": "left",
+        "blockWidth:noprefix": "default",
+        "shortLine": false
+      },
+      "theme": "default"
     },
-    "7815392a-f32a-45cf-b633-09f1cabf49bc": {
-      "@type": "title"
+    "83b575b8-6b68-4715-b2a1-bdb5d11b7a1c": {
+      "@type": "separator",
+      "styles": {
+        "align:noprefix": "left",
+        "blockWidth:noprefix": "default",
+        "shortLine": false
+      },
+      "theme": "default"
     },
     "cf694a86-6ef4-43e2-b249-24f7ca3a55e9": {
       "@type": "gridBlock",
       "blocks": {
         "71047227-7fac-4012-8c5f-e2f54cc9ad70": {
           "@type": "teaser",
-          "description": "kitconcept Site ist Barrierefrei nach BITV 2.0 und WCAG 2.2.",
+          "description": "kitconcept Website is accessible following BITV 2.0 and WCAG 2.2 guidelines.",
           "head_title": null,
           "href": [
             {
               "@id": "resolveuid/f255cc2bd29849d19428b865f52819d9",
               "@type": "Document",
-              "Description": "kitconcept Site ist Barrierefrei nach BITV 2.0 und WCAG 2.2.",
+              "Description": "kitconcept Website is accessible following BITV 2.0 and WCAG 2.2 guidelines.",
               "Subject": [],
-              "Title": "Barrierefreiheit",
+              "Title": "Accessibility",
               "contact_building": null,
               "contact_email": null,
               "contact_phone": null,
               "contact_room": null,
-              "description": "kitconcept Site ist Barrierefrei nach BITV 2.0 und WCAG 2.2.",
+              "description": "kitconcept Website is accessible following BITV 2.0 and WCAG 2.2 guidelines.",
               "effective": "1969-12-30T22:00:00+00:00",
               "end": null,
               "getObjSize": "0 KB",
               "getRemoteUrl": null,
-              "hasPreviewImage": null,
+              "hasPreviewImage": true,
               "head_title": null,
               "image_field": "preview_image_link",
               "mime_type": "text/plain",
               "nav_title": null,
               "review_state": "published",
               "start": null,
-              "title": "Barrierefreiheit",
+              "title": "Accessibility",
               "type_title": "Page"
             }
           ],
@@ -174,19 +187,19 @@
           "styles": {
             "align": "left"
           },
-          "title": "Barrierefreiheit"
+          "title": "Accessibility"
         },
         "86acbd7e-e3df-42cf-8b65-00e0b881a205": {
           "@type": "teaser",
-          "description": "",
+          "description": "Design forms, collect responses that can be mailed out or downloaded for further processing.",
           "head_title": null,
           "href": [
             {
               "@id": "resolveuid/0e78d2b30abb4d4283068556dc58c9e2",
               "@type": "Document",
-              "Description": "",
+              "Description": "Design forms, collect responses that can be mailed out or downloaded for further processing.",
               "Subject": [],
-              "Title": "Formulare",
+              "Title": "Forms",
               "contact_building": null,
               "contact_email": null,
               "contact_phone": null,
@@ -196,7 +209,7 @@
               "end": null,
               "getObjSize": "0 KB",
               "getRemoteUrl": null,
-              "hasPreviewImage": null,
+              "hasPreviewImage": true,
               "head_title": null,
               "image_field": "preview_image_link",
               "mime_type": "text/plain",
@@ -211,7 +224,7 @@
           "styles": {
             "align": "left"
           },
-          "title": "Formulare"
+          "title": "Forms"
         },
         "a5ff65b5-7029-41f7-96a1-810a008e51a2": {
           "@type": "teaser",
@@ -233,7 +246,7 @@
               "end": null,
               "getObjSize": "0 KB",
               "getRemoteUrl": null,
-              "hasPreviewImage": null,
+              "hasPreviewImage": true,
               "head_title": null,
               "image_field": "preview_image_link",
               "mime_type": "text/plain",
@@ -258,7 +271,8 @@
           "71047227-7fac-4012-8c5f-e2f54cc9ad70"
         ]
       },
-      "styles": {}
+      "styles": {},
+      "theme": "default"
     },
     "e5fb316f-f3af-4df1-b3d8-fb46ac07cc11": {
       "@type": "slider",
@@ -281,22 +295,38 @@
               "title": "About"
             }
           ],
-          "title": "kitconcept site"
+          "title": "kitconcept website"
         }
       ],
       "styles": {},
       "theme": "default",
       "variation": "default"
+    },
+    "ffd77b79-b8c3-4f37-bf01-7db565d45096": {
+      "@type": "introduction",
+      "plaintext": "This is the demonstration site for the kitconcept Website Distribution, a ready-to-run version of Plone for public websites. It is also its own documentation: every section explains part of the product and is built with the same editing tools it describes. Start with About for what the distribution is, or Features for what it can do.",
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "This is the demonstration site for the kitconcept Website Distribution, a ready-to-run version of Plone for public websites. It is also its own documentation: every section explains part of the product and is built with the same editing tools it describes. Start with About for what the distribution is, or Features for what it can do."
+            }
+          ],
+          "type": "p"
+        }
+      ]
     }
   },
   "blocks_config_mutator": {},
   "blocks_layout": {
     "items": [
       "e5fb316f-f3af-4df1-b3d8-fb46ac07cc11",
-      "7815392a-f32a-45cf-b633-09f1cabf49bc",
+      "4d21f5c6-20e2-412d-bc9d-fa96184c681b",
+      "ffd77b79-b8c3-4f37-bf01-7db565d45096",
+      "83b575b8-6b68-4715-b2a1-bdb5d11b7a1c",
       "4979b879-0499-494e-9ca9-967aae7af1f4",
-      "cf694a86-6ef4-43e2-b249-24f7ca3a55e9",
-      "72d64f8a-cca6-444d-a497-482daba7e970"
+      "cf694a86-6ef4-43e2-b249-24f7ca3a55e9"
     ]
   },
   "complementary_logo": null,
@@ -306,7 +336,7 @@
   "exportimport.conversation": [],
   "facebook_app_id": "",
   "facebook_username": "",
-  "footer_address": "kitconcept GmbH\nRieststr. 21\n53113 Bonn",
+  "footer_address": "kitconcept GmbH\nRiesstra\u00dfe 21\n53113 Bonn",
   "footer_colophon_text": [
     {
       "children": [
@@ -322,59 +352,46 @@
       "@id": "6ffa227c-965d-4eec-b76c-6cf34dc80739",
       "href": [
         {
-          "@id": "resolveuid/2c2f8092acfc4f55830b16af13273882",
+          "@id": "resolveuid/239b6e7bb69e4cd79b71be7a4e90a285",
           "@type": "Document",
-          "Description": "A full text search that let's you find all the content in your site.",
-          "Title": "Full Text Search",
-          "title": "Full Text Search"
+          "Description": "Volto Light Theme, a beautifully crafted Plone theme with a minimalistic design that let's your site content shine.",
+          "Title": "Theme",
+          "title": "Theme"
         }
       ],
-      "title": "Link Eins"
+      "title": "Theme"
     },
     {
       "@id": "0b015842-63a5-42dd-81bc-9c50e75fe856",
       "href": [
         {
-          "@id": "resolveuid/6b1c57b5651546eab14fd5e0e1e32aeb",
+          "@id": "resolveuid/2c2f8092acfc4f55830b16af13273882",
           "@type": "Document",
-          "Description": "",
-          "Title": "Bilder",
-          "title": "Bilder"
+          "Description": "Searching that let's you find all the content in your site.",
+          "Title": "Search",
+          "title": "Search"
         }
       ],
-      "title": "Link Zwei"
+      "title": "Search"
     },
     {
       "@id": "99446de0-1179-40a3-b3af-9893b31662d8",
       "href": [
         {
-          "@id": "resolveuid/f29a0a79ff974cbab0ea9b016944336a",
+          "@id": "resolveuid/7a63e0f30eef4793851f46766f47e286",
           "@type": "Document",
-          "Description": "",
-          "Title": "Features",
-          "title": "Features"
+          "Description": "Reference pages demonstrating each available Volto block.",
+          "Title": "Blocks catalogue",
+          "title": "Blocks catalogue"
         }
       ],
-      "title": "Link Drei"
+      "title": "Blocks catalogue"
     }
   ],
-  "footer_column_left_header": "Menu Eins",
+  "footer_column_left_header": "Features",
   "footer_column_middle": [
     {
-      "@id": "c49ab957-cd5d-4888-8bd5-479a709fef5e",
-      "href": [
-        {
-          "@id": "resolveuid/6b1c57b5651546eab14fd5e0e1e32aeb",
-          "@type": "Document",
-          "Description": "",
-          "Title": "Images",
-          "title": "Images"
-        }
-      ],
-      "title": "Link Eins"
-    },
-    {
-      "@id": "56e1da4e-155b-45b9-9282-8b8404d81947",
+      "@id": "f5798cd1-782f-4e7c-a00d-b2b3f15c1179",
       "href": [
         {
           "@id": "resolveuid/1e7262f173a54700a5ca2578506b1bc1",
@@ -384,117 +401,82 @@
           "title": "About"
         }
       ],
-      "title": "Link Zwei"
+      "title": "Distribution"
     },
     {
-      "@id": "47403a90-4c92-479d-8c46-9a129ee9477f",
+      "@id": "2f87018a-8f73-4c53-a87a-e9e109183e02",
       "href": [
         {
-          "@id": "resolveuid/f29a0a79ff974cbab0ea9b016944336a",
-          "@type": "Document",
-          "Description": "",
-          "Title": "Features",
-          "title": "Features"
+          "@id": "https://kitconcept.com/en",
+          "title": "kitconcept.com/en"
         }
       ],
-      "title": "Link Drei"
-    },
-    {
-      "@id": "58e6894d-d949-4be1-9e81-4cfbcc8c7ba1",
-      "href": [
-        {
-          "@id": "resolveuid/1b6e35fdcbec4e17b41208b4c268996a",
-          "@type": "Document",
-          "Description": "",
-          "Title": "Person",
-          "title": "Person"
-        }
-      ],
-      "title": "Link Vier"
+      "title": "kitconcept GmbH"
     }
   ],
-  "footer_column_middle_header": "Menu Zwei",
+  "footer_column_middle_header": "About",
   "footer_column_right": [
     {
       "@id": "38140612-deb6-49e4-ace6-0685c42447b8",
       "href": [
         {
-          "@id": "resolveuid/6b1c57b5651546eab14fd5e0e1e32aeb",
-          "@type": "Document",
-          "Description": "",
-          "Title": "Images",
-          "title": "Images"
+          "@id": "https://6.docs.plone.org/",
+          "title": "6.docs.plone.org/"
         }
       ],
-      "title": "Link Eins"
+      "title": "Documentation"
     },
     {
       "@id": "f5bc9491-4f47-4c25-a18c-a8130b4cd1ec",
       "href": [
         {
-          "@id": "resolveuid/1e7262f173a54700a5ca2578506b1bc1",
-          "@type": "Document",
-          "Description": "",
-          "Title": "About",
-          "title": "About"
+          "@id": "https://plone.org/community/",
+          "title": "plone.org/community/"
         }
       ],
-      "title": "Link Zwei"
-    },
-    {
-      "@id": "336bb576-7430-45b1-974e-13516935b78e",
-      "href": [
-        {
-          "@id": "resolveuid/f29a0a79ff974cbab0ea9b016944336a",
-          "@type": "Document",
-          "Description": "",
-          "Title": "Features",
-          "title": "Features"
-        }
-      ],
-      "title": "Link Drei"
+      "title": "Community"
     }
   ],
-  "footer_column_right_header": "Menu Drei",
+  "footer_column_right_header": "Plone",
   "footer_links": [
     {
       "@id": "67cadddf-24bf-429a-aa87-63b13c19aa9d",
       "href": [
         {
-          "@id": "resolveuid/6b1c57b5651546eab14fd5e0e1e32aeb",
+          "@id": "resolveuid/7ab9c48ede33415fa2a66a99549c8f70",
           "@type": "Document",
-          "Description": "",
-          "Title": "Images",
-          "title": "Images"
+          "Description": "The Page content type can be used to display content on a single page of the website. Pages can be structured using text, images and blocks.",
+          "Title": "Page",
+          "title": "Page"
         }
       ],
-      "title": "Datenschutz"
+      "title": "Privacy"
     },
     {
       "@id": "f200359a-da42-438e-9297-e63e00e7c8c7",
       "href": [
         {
-          "@id": "resolveuid/1e7262f173a54700a5ca2578506b1bc1",
+          "@id": "resolveuid/f255cc2bd29849d19428b865f52819d9",
           "@type": "Document",
-          "Description": "",
-          "Title": "About",
-          "title": "About"
+          "Description": "kitconcept Website is accessible following BITV 2.0 and WCAG 2.2 guidelines.",
+          "Title": "Accessibility",
+          "title": "Accessibility"
         }
       ],
-      "title": "Barrierefreiheit"
+      "title": "Accesibility"
     },
     {
       "@id": "a14c0d06-a170-489f-96b7-8bfbee3c3ee7",
       "href": [
         {
-          "@id": "resolveuid/f29a0a79ff974cbab0ea9b016944336a",
+          "@id": "resolveuid/7ab9c48ede33415fa2a66a99549c8f70",
           "@type": "Document",
-          "Description": "",
-          "Title": "Features",
-          "title": "Features"
+          "Description": "The Page content type can be used to display content on a single page of the website. Pages can be structured using text, images and blocks.",
+          "Title": "Page",
+          "title": "Page"
         }
       ],
-      "title": "Impressum"
+      "title": "Imprint"
     }
   ],
   "footer_logo": null,
@@ -503,7 +485,21 @@
   "footer_logos_size": "s",
   "has_fat_menu": true,
   "has_intranet_header": false,
-  "header_actions": [],
+  "header_actions": [
+    {
+      "@id": "b99b9e84-4e3a-4f83-8dfa-487746b55810",
+      "href": [
+        {
+          "@id": "resolveuid/f10b7bca6e014ff7a56598f1cfcc4d2b",
+          "@type": "Document",
+          "Description": "Present your employees with personal profile pages. Sync their data with your AD/LDAP or any other source.",
+          "Title": "Person Profiles",
+          "title": "Person Profiles"
+        }
+      ],
+      "title": "Contact"
+    }
+  ],
   "header_foreground": null,
   "id": "Plone",
   "intranet_flag": null,
@@ -523,7 +519,41 @@
   "secondary_color": null,
   "secondary_foreground_color": null,
   "share_social_data": true,
-  "social_links": [],
+  "social_links": [
+    {
+      "@id": "6977af94-60b4-4895-83b6-14428f7f3189",
+      "href": [
+        {
+          "@id": "https://github.com/kitconcept/",
+          "title": "github.com/kitconcept/"
+        }
+      ],
+      "id": "github",
+      "title": "github"
+    },
+    {
+      "@id": "80ff5966-514c-4830-9af0-312ebd2703d2",
+      "href": [
+        {
+          "@id": "https://de.linkedin.com/company/kitconcept-gmbh",
+          "title": "de.linkedin.com/company/kitconcept-gmbh"
+        }
+      ],
+      "id": "linkedin",
+      "title": "linkedin"
+    },
+    {
+      "@id": "9b34f3a8-c0b9-4aa9-b5bc-2f6636c2ca43",
+      "href": [
+        {
+          "@id": "https://www.youtube.com/@kitconcept",
+          "title": "www.youtube.com/@kitconcept"
+        }
+      ],
+      "id": "youtube",
+      "title": "youtube"
+    }
+  ],
   "sticky_menu": [],
   "sticky_menu_color": null,
   "sticky_menu_foreground_color": null,

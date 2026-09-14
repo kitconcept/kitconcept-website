@@ -1,0 +1,395 @@
+{
+  "@id": "/features/blocks-catalogue/form-block",
+  "@type": "Document",
+  "UID": "27b632d4690344849c42850f93f1f3db",
+  "allow_discussion": null,
+  "blocks": {
+    "03980cdc-fc0c-4834-a15d-06bfa8643555": {
+      "@type": "title"
+    },
+    "1f5bc6e8-746e-4604-88f6-c13b93bc48f7": {
+      "@type": "separator",
+      "styles": {
+        "align:noprefix": "left",
+        "blockWidth:noprefix": "default"
+      },
+      "theme": "default"
+    },
+    "402c7a33-0947-4865-98e0-19d2a715f49b": {
+      "@type": "separator",
+      "styles": {
+        "align:noprefix": "left",
+        "blockWidth:noprefix": "default",
+        "shortLine": false
+      },
+      "theme": "default"
+    },
+    "58f27a46-e497-447b-8708-0e9a25b88940": {
+      "@type": "slate",
+      "plaintext": " Choices \u2014 Dropdowns, radio buttons and checkboxes when the answers are known in advance.  ",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": ""
+            },
+            {
+              "children": [
+                {
+                  "text": "Choices"
+                }
+              ],
+              "type": "strong"
+            },
+            {
+              "text": "\u00a0\u2014 Dropdowns, radio buttons and checkboxes when the answers are known in advance."
+            },
+            {
+              "children": [
+                {
+                  "text": ""
+                }
+              ],
+              "type": "strong"
+            },
+            {
+              "text": ""
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "5a1652a1-3ba9-443b-8cc8-6ce0723297c9": {
+      "@type": "slate",
+      "plaintext": " Required fields \u2014 Marked, and checked before sending. Require only what you genuinely need.",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": ""
+            },
+            {
+              "children": [
+                {
+                  "text": "Required fields"
+                }
+              ],
+              "type": "strong"
+            },
+            {
+              "text": "\u00a0\u2014 Marked, and checked before sending. Require only what you genuinely need."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "60429458-091e-4145-adf4-3b6ca3d82f5b": {
+      "@type": "heading",
+      "heading": "2 \u00b7 Helping people answer",
+      "theme": "default"
+    },
+    "672da89f-8f63-4f45-8c61-1e5d47bc76aa": {
+      "@type": "introduction",
+      "plaintext": " -> See full example matrix of the Form block ",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": ""
+            },
+            {
+              "children": [
+                {
+                  "text": "-> See full example matrix of the Form block"
+                }
+              ],
+              "data": {
+                "url": "../../../resolveuid/fed5de9c3a9d44d38f2034bae767a75a"
+              },
+              "type": "link"
+            },
+            {
+              "text": ""
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "8a00f5eb-3759-434a-8127-4c945f231f99": {
+      "@type": "slate",
+      "plaintext": " Dates, times, files and more \u2014 Pickers and an upload field, for bookings and applications.",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": ""
+            },
+            {
+              "children": [
+                {
+                  "text": "Dates, times, files and more"
+                }
+              ],
+              "type": "strong"
+            },
+            {
+              "text": "\u00a0\u2014 Pickers and an upload field, for bookings and applications."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "8c7853e9-755e-40fb-89eb-ffe4608a94d7": {
+      "@type": "__button",
+      "href": [
+        {
+          "@id": "../../../resolveuid/dce4d6b7cd86463b8df8d4f3c8235f62",
+          "Description": " The Grid block allows adding multi-column blocks. A grid block can contain between one and four columns of different blocks. Teasers and images can be added in a grid block.",
+          "Title": "Grid",
+          "hasPreviewImage": null,
+          "title": "Grid"
+        }
+      ],
+      "styles": {
+        "align:noprefix": "right",
+        "blockWidth:noprefix": "default"
+      },
+      "theme": "default",
+      "title": "Next block: Grid"
+    },
+    "997c57cc-6a1a-4deb-a7d2-adb04374375a": {
+      "@type": "heading",
+      "heading": "1 \u00b7 Kinds of question",
+      "styles": {},
+      "theme": "default"
+    },
+    "9a510ec6-5318-4ec8-a23c-e47bd0181f28": {
+      "@type": "schemaForm",
+      "cancel_label": "Cancel",
+      "data_wipe": -1,
+      "description": "If you are interested in applying, reach out using this awesome form!",
+      "schema": {
+        "fieldsets": [
+          {
+            "fields": [
+              "name",
+              "message"
+            ],
+            "id": "default",
+            "title": "Default"
+          },
+          {
+            "fields": [
+              "uploade_your_file"
+            ],
+            "id": "more",
+            "title": "More fields"
+          }
+        ],
+        "properties": {
+          "message": {
+            "default": "I would like to know more about...",
+            "description": "Send us a message",
+            "factory": "textarea",
+            "id": "message",
+            "placeholder": "I would like to know more about...",
+            "title": "Message",
+            "type": "string",
+            "values": "",
+            "widget": "textarea"
+          },
+          "name": {
+            "description": "Add your name",
+            "factory": {
+              "label": "Text",
+              "value": "label_text_field"
+            },
+            "id": "name",
+            "placeholder": "Jane Doe",
+            "title": "Name",
+            "type": "string",
+            "values": ""
+          },
+          "uploade_your_file": {
+            "factory": "File Upload",
+            "id": "uploade_your_file",
+            "title": "Uploade your file",
+            "type": "object"
+          }
+        },
+        "required": [
+          "name"
+        ]
+      },
+      "sender": "noreply@plone.org",
+      "sender_name": "Plone",
+      "show_cancel": false,
+      "subject": "Form",
+      "submit_label": "Apply now",
+      "success": "Thank you! You have submitted the following data:",
+      "thankyou": "${formfields}",
+      "title": "An awesome application form"
+    },
+    "b39623ae-9b08-499c-ad9e-75287d445777": {
+      "@type": "introduction",
+      "plaintext": "The form block collects answers from readers and sends them to an address you choose. Use it for enquiries, registrations and feedback \u2014 anything short enough that people will finish it.",
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "The form block collects answers from readers and sends them to an address you choose. Use it for enquiries, registrations and feedback \u2014 anything short enough that people will finish it."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "c5ecd695-207b-40a9-b3a0-0e93d3fb32c9": {
+      "@type": "slate",
+      "plaintext": " Short and long answers \u2014 Single-line fields for names and subjects, a text area for anything over a sentence.  ",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": ""
+            },
+            {
+              "children": [
+                {
+                  "text": "Short and long answers"
+                }
+              ],
+              "type": "strong"
+            },
+            {
+              "text": "\u00a0\u2014 Single-line fields for names and subjects, a text area for anything over a sentence."
+            },
+            {
+              "children": [
+                {
+                  "text": ""
+                }
+              ],
+              "type": "strong"
+            },
+            {
+              "text": ""
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "d72e6cc8-eedd-4528-9b5d-8c6ccd808ab5": {
+      "@type": "slate",
+      "plaintext": " Placeholders and default values \u2014 A hint inside the field, or a pre-filled answer for the common case.",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": ""
+            },
+            {
+              "children": [
+                {
+                  "text": "Placeholders and default values"
+                }
+              ],
+              "type": "strong"
+            },
+            {
+              "text": "\u00a0\u2014 A hint inside the field, or a pre-filled answer for the common case."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "03980cdc-fc0c-4834-a15d-06bfa8643555",
+      "b39623ae-9b08-499c-ad9e-75287d445777",
+      "402c7a33-0947-4865-98e0-19d2a715f49b",
+      "997c57cc-6a1a-4deb-a7d2-adb04374375a",
+      "c5ecd695-207b-40a9-b3a0-0e93d3fb32c9",
+      "58f27a46-e497-447b-8708-0e9a25b88940",
+      "8a00f5eb-3759-434a-8127-4c945f231f99",
+      "60429458-091e-4145-adf4-3b6ca3d82f5b",
+      "5a1652a1-3ba9-443b-8cc8-6ce0723297c9",
+      "d72e6cc8-eedd-4528-9b5d-8c6ccd808ab5",
+      "1f5bc6e8-746e-4604-88f6-c13b93bc48f7",
+      "9a510ec6-5318-4ec8-a23c-e47bd0181f28",
+      "672da89f-8f63-4f45-8c61-1e5d47bc76aa",
+      "8c7853e9-755e-40fb-89eb-ffe4608a94d7"
+    ]
+  },
+  "changeNote": "",
+  "contributors": [],
+  "created": "2025-09-19T09:29:28+00:00",
+  "creators": [
+    "admin"
+  ],
+  "description": "The form block lets you build forms with a wide range of field types (text, email, number, date, time, file upload, radio groups, checkboxes and more), including required fields, default values and placeholders.",
+  "effective": "2025-09-19T11:48:00+00:00",
+  "exclude_from_nav": true,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "head_title": null,
+  "id": "form-block",
+  "is_folderish": true,
+  "language": "##DEFAULT##",
+  "layout": "document_view",
+  "lock": {
+    "locked": false,
+    "stealable": true
+  },
+  "modified": "2026-09-14T07:59:25+00:00",
+  "nav_title": null,
+  "preview_caption_link": null,
+  "review_state": "published",
+  "rights": "",
+  "subjects": [],
+  "title": "Form",
+  "type_title": "Page",
+  "version": "current",
+  "versioning_enabled": true,
+  "workflow_history": {
+    "simple_publication_workflow": [
+      {
+        "action": null,
+        "actor": "admin",
+        "comments": "",
+        "review_state": "private",
+        "time": "2026-09-10T12:05:36+00:00"
+      },
+      {
+        "action": "publish",
+        "actor": "admin",
+        "comments": "",
+        "review_state": "published",
+        "time": "2026-09-10T13:52:55+00:00"
+      }
+    ]
+  },
+  "working_copy": null,
+  "working_copy_of": null
+}

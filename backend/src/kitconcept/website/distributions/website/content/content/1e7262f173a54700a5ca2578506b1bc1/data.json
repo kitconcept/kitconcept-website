@@ -4,28 +4,218 @@
   "UID": "1e7262f173a54700a5ca2578506b1bc1",
   "allow_discussion": false,
   "blocks": {
-    "9bdc943a-3a45-4cf5-854b-8f5238cb714a": {
-      "@type": "slate"
+    "0a468c41-1810-4127-8966-69f390cb661f": {
+      "@type": "slate",
+      "plaintext": "The distribution is aimed at the people who run a website day to day: editors who write and publish pages, communications teams responsible for how the site reads and looks, and administrators who manage accounts and permissions. Ordinary editorial work requires no development effort and no technical knowledge beyond the editing interface itself.",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "The distribution is aimed at the people who run a website day to day: editors who write and publish pages, communications teams responsible for how the site reads and looks, and administrators who manage accounts and permissions. Ordinary editorial work requires no development effort and no technical knowledge beyond the editing interface itself."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "0adc23ba-7c04-4569-9d88-ed4bcea96873": {
+      "@type": "separator",
+      "styles": {
+        "align:noprefix": "left",
+        "blockWidth:noprefix": "default",
+        "shortLine": false
+      },
+      "theme": "default"
+    },
+    "2fa57d1f-a421-4ddb-83ca-a5634df159b9": {
+      "@type": "slate",
+      "plaintext": "What it is",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "What it is"
+            }
+          ],
+          "type": "h2"
+        }
+      ]
+    },
+    "48f5acb7-0883-4f58-8d09-9e2d4552c90a": {
+      "@type": "slate",
+      "plaintext": "Who it is for",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Who it is for"
+            }
+          ],
+          "type": "h2"
+        }
+      ]
+    },
+    "4dca4564-66ca-40e6-a231-81755253032e": {
+      "@type": "slate",
+      "plaintext": "Publishing runs through Plone's review workflow, so drafts stay private until someone with the right permission publishes them. Sign-in can be handled by the site itself or delegated to an existing identity provider, and a site can be set up in more than one language.",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Publishing runs through Plone's review workflow, so drafts stay private until someone with the right permission publishes them. Sign-in can be handled by the site itself or delegated to an existing identity provider, and a site can be set up in more than one language."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "9393223c-e7bf-434d-935e-476f61026d32": {
+      "@type": "slate",
+      "plaintext": "How you work with it",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "How you work with it"
+            }
+          ],
+          "type": "h2"
+        }
+      ]
+    },
+    "b3cc2ac0-c6bc-4db3-a1ef-3a8d4aa67d6d": {
+      "@type": "slate",
+      "plaintext": "Where to go next",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Where to go next"
+            }
+          ],
+          "type": "h2"
+        }
+      ]
+    },
+    "b9c95fea-a668-4ed7-b8f8-80903d7c1714": {
+      "@type": "slate",
+      "plaintext": "A distribution is a packaged version of Plone that arrives configured for a particular purpose. This one is built for public-facing websites: the sites an organisation shows to the outside world. When a new site is created from it, the theme, the content types, the editing tools and the default settings are all put in place in a single step, so the starting point is a working site rather than an empty one.",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "A distribution is a packaged version of Plone that arrives configured for a particular purpose. This one is built for public-facing websites: the sites an organisation shows to the outside world. When a new site is created from it, the theme, the content types, the editing tools and the default settings are all put in place in a single step, so the starting point is a working site rather than an empty one."
+            }
+          ],
+          "type": "p"
+        }
+      ]
     },
     "bafa192c-a61e-499b-9e22-f1799d22aaad": {
       "@type": "title"
     },
+    "bfbd5a3d-f766-4135-86f1-ff9351d5a566": {
+      "@type": "slate",
+      "plaintext": " Features walks through what the distribution can do, one capability at a time. The source code and release notes are published at kitconcept/kitconcept-website .",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": ""
+            },
+            {
+              "children": [
+                {
+                  "text": "Features"
+                }
+              ],
+              "data": {
+                "url": "../resolveuid/f29a0a79ff974cbab0ea9b016944336a"
+              },
+              "type": "link"
+            },
+            {
+              "text": " walks through what the distribution can do, one capability at a time. The source code and release notes are published at "
+            },
+            {
+              "children": [
+                {
+                  "text": "kitconcept/kitconcept-website"
+                }
+              ],
+              "data": {
+                "url": "https://github.com/kitconcept/kitconcept-website"
+              },
+              "type": "link"
+            },
+            {
+              "text": "."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
     "c30a11c1-a250-47b2-bab3-63380c662442": {
       "@type": "image",
-      "align": "full",
       "credit": {},
       "description": "",
       "image_field": "image",
-      "size": "l",
-      "title": "codioful-formerly-gradienta-lweK7Wme_jo-unsplash.jpg",
+      "styles": {
+        "align:noprefix": "center",
+        "blockWidth:noprefix": "default",
+        "size:noprefix": "l"
+      },
+      "theme": "default",
       "url": "../resolveuid/75f2d0b5a1f04f7a922c47be34f9f532"
+    },
+    "ce99f93a-148d-4a84-be61-69e2f1a54e8a": {
+      "@type": "introduction",
+      "plaintext": "This site is a working example of the kitconcept Website Distribution. Every page you see here was built with the same editing tools the distribution provides, and the site doubles as its own documentation: each section explains a part of the product and demonstrates it at the same time.",
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "This site is a working example of the kitconcept Website Distribution. Every page you see here was built with the same editing tools the distribution provides, and the site doubles as its own documentation: each section explains a part of the product and demonstrates it at the same time."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "f868b38d-a918-4cf4-b82c-30909cca66dd": {
+      "@type": "slate",
+      "plaintext": "Pages are assembled from blocks. You add a block for each element you need \u2014 a passage of text, an image, a teaser pointing at another page, a grid of several items, a listing that fills itself automatically \u2014 and arrange them in the order you want. Content types cover the recurring kinds of material a public site holds: pages, news items, events, files, links and people.",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Pages are assembled from blocks. You add a block for each element you need \u2014 a passage of text, an image, a teaser pointing at another page, a grid of several items, a listing that fills itself automatically \u2014 and arrange them in the order you want. Content types cover the recurring kinds of material a public site holds: pages, news items, events, files, links and people."
+            }
+          ],
+          "type": "p"
+        }
+      ]
     }
   },
   "blocks_layout": {
     "items": [
       "bafa192c-a61e-499b-9e22-f1799d22aaad",
+      "ce99f93a-148d-4a84-be61-69e2f1a54e8a",
       "c30a11c1-a250-47b2-bab3-63380c662442",
-      "9bdc943a-3a45-4cf5-854b-8f5238cb714a"
+      "0adc23ba-7c04-4569-9d88-ed4bcea96873",
+      "2fa57d1f-a421-4ddb-83ca-a5634df159b9",
+      "b9c95fea-a668-4ed7-b8f8-80903d7c1714",
+      "48f5acb7-0883-4f58-8d09-9e2d4552c90a",
+      "0a468c41-1810-4127-8966-69f390cb661f",
+      "9393223c-e7bf-434d-935e-476f61026d32",
+      "f868b38d-a918-4cf4-b82c-30909cca66dd",
+      "4dca4564-66ca-40e6-a231-81755253032e",
+      "b3cc2ac0-c6bc-4db3-a1ef-3a8d4aa67d6d",
+      "bfbd5a3d-f766-4135-86f1-ff9351d5a566"
     ]
   },
   "changeNote": "",
@@ -49,7 +239,7 @@
     "locked": false,
     "stealable": true
   },
-  "modified": "2024-06-24T17:09:41+00:00",
+  "modified": "2026-09-11T13:43:40+00:00",
   "nav_title": null,
   "preview_caption_link": null,
   "review_state": "published",

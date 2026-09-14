@@ -1,7 +1,7 @@
 {
   "@id": "/qa/block/carousel-block",
   "@type": "Document",
-  "UID": "44d3ce2daae64cd0a481691e30e6a4d8",
+  "UID": "923cd2d4921f449194e2ceaebcedbaab",
   "allow_discussion": null,
   "blocks": {
     "15d55dbe-c842-4543-b6f1-a06616cda233": {
@@ -901,7 +901,7 @@
   },
   "changeNote": "",
   "contributors": [],
-  "created": "2025-06-09T12:25:52+00:00",
+  "created": "2026-09-10T11:21:17+00:00",
   "creators": [
     "admin"
   ],
@@ -920,7 +920,7 @@
     "locked": false,
     "stealable": true
   },
-  "modified": "2025-12-02T08:59:42+00:00",
+  "modified": "2026-09-10T12:06:55+00:00",
   "nav_title": null,
   "preview_caption_link": null,
   "review_state": "published",

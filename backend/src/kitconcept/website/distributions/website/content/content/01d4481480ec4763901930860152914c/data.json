@@ -1,0 +1,285 @@
+{
+  "@id": "/features/blocks-catalogue/event-calendar",
+  "@type": "Document",
+  "UID": "01d4481480ec4763901930860152914c",
+  "allow_discussion": null,
+  "blocks": {
+    "0a4d6119-8af5-42dd-8a7f-43db3849693d": {
+      "@type": "title"
+    },
+    "408fe74a-cba7-444f-bd80-09a08590ce4e": {
+      "@type": "separator",
+      "styles": {
+        "align:noprefix": "left",
+        "blockWidth:noprefix": "default",
+        "shortLine": false
+      },
+      "theme": "default"
+    },
+    "5175502b-8c90-4864-8bb1-ab9a974bebf1": {
+      "@type": "eventCalendar",
+      "facets": [
+        {
+          "@id": "02351ea9-66ed-491a-9ab4-58a59e0139b7",
+          "advanced": false,
+          "field": {
+            "label": "Review state",
+            "value": "review_state"
+          },
+          "hidden": false,
+          "multiple": false,
+          "title": "Status",
+          "type": "selectFacet"
+        }
+      ],
+      "headline": "Latest Events",
+      "showSearchInput": true,
+      "showTotalResults": true
+    },
+    "5cc8ff7f-19c2-4782-a5f4-8d4a2952f277": {
+      "@type": "slate",
+      "plaintext": " Keyword search \u2014 For readers who already know the name of what they want.",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": ""
+            },
+            {
+              "children": [
+                {
+                  "text": "Keyword search"
+                }
+              ],
+              "type": "strong"
+            },
+            {
+              "text": "\u00a0\u2014 For readers who already know the name of what they want."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "717ba2e5-ee30-440c-81d9-7282b4a7a328": {
+      "@type": "__button",
+      "href": [
+        {
+          "@id": "../../../resolveuid/27b632d4690344849c42850f93f1f3db",
+          "Description": "The form block lets you build forms with a wide range of field types (text, email, number, date, time, file upload, radio groups, checkboxes and more), including required fields, default values and placeholders.",
+          "Title": "Form",
+          "hasPreviewImage": null,
+          "title": "Form"
+        }
+      ],
+      "styles": {
+        "align:noprefix": "right",
+        "blockWidth:noprefix": "default"
+      },
+      "theme": "default",
+      "title": "Next block: Form"
+    },
+    "8b716884-2d5f-42ca-a3f2-167cbfb8feca": {
+      "@type": "slate",
+      "plaintext": " Date range \u2014 Two date fields narrow the list to a period; the unfiltered view lists everything.  ",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": ""
+            },
+            {
+              "children": [
+                {
+                  "text": "Date range"
+                }
+              ],
+              "type": "strong"
+            },
+            {
+              "text": "\u00a0\u2014 Two date fields narrow the list to a period; the unfiltered view lists everything."
+            },
+            {
+              "children": [
+                {
+                  "text": ""
+                }
+              ],
+              "type": "strong"
+            },
+            {
+              "text": ""
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "aa999c47-3f7b-4040-a3eb-a6680d58d9b7": {
+      "@type": "introduction",
+      "plaintext": "The event calendar block lists events from the site and lets readers filter them. Use it wherever people come to find out what is happening and when.",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "The event calendar block lists events from the site and lets readers filter them. Use it wherever people come to find out what is happening and when."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "b3ebe60e-c943-42cf-b75e-4426cae93462": {
+      "@type": "slate",
+      "plaintext": " Custom facets \u2014 In addition to the filters that editors can set, the user can futher narrow the list by a status, tag, or many other attributes.",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": ""
+            },
+            {
+              "children": [
+                {
+                  "text": "Custom facets"
+                }
+              ],
+              "type": "strong"
+            },
+            {
+              "text": "\u00a0\u2014 In addition to the filters that editors can set, the user can futher narrow the list by a status, tag, or many other attributes."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "bbd008bb-79fe-4a75-a5d6-d5a092e769ed": {
+      "@type": "heading",
+      "heading": "1 \u00b7 Finding an event",
+      "theme": "default"
+    },
+    "fe2baaa8-f7c0-46eb-bf84-1bfad427f30b": {
+      "@type": "introduction",
+      "plaintext": " -> See full example matrix of the Event Calendar block ",
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": ""
+            },
+            {
+              "children": [
+                {
+                  "text": "-> See full example matrix of the Event Calendar block"
+                }
+              ],
+              "data": {
+                "url": "../../../resolveuid/31b35cc864a148eabb7fca0569cd6d89"
+              },
+              "type": "link"
+            },
+            {
+              "text": ""
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "undefined": {
+      "@type": "eventCalendar",
+      "facets": [
+        {
+          "@id": "02351ea9-66ed-491a-9ab4-58a59e0139b7",
+          "advanced": false,
+          "field": {
+            "label": "Review state",
+            "value": "review_state"
+          },
+          "hidden": false,
+          "multiple": false,
+          "title": "Status",
+          "type": "selectFacet"
+        }
+      ],
+      "headline": "Latest Events",
+      "showSearchInput": true,
+      "showTotalResults": true
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "0a4d6119-8af5-42dd-8a7f-43db3849693d",
+      "aa999c47-3f7b-4040-a3eb-a6680d58d9b7",
+      "408fe74a-cba7-444f-bd80-09a08590ce4e",
+      "bbd008bb-79fe-4a75-a5d6-d5a092e769ed",
+      "8b716884-2d5f-42ca-a3f2-167cbfb8feca",
+      "5cc8ff7f-19c2-4782-a5f4-8d4a2952f277",
+      "b3ebe60e-c943-42cf-b75e-4426cae93462",
+      "5175502b-8c90-4864-8bb1-ab9a974bebf1",
+      "fe2baaa8-f7c0-46eb-bf84-1bfad427f30b",
+      "717ba2e5-ee30-440c-81d9-7282b4a7a328"
+    ]
+  },
+  "changeNote": "",
+  "contributors": [],
+  "created": "2025-07-02T13:56:08+00:00",
+  "creators": [
+    "admin"
+  ],
+  "description": "Event Calendar block can be used to search and display events in a listing format.",
+  "effective": "2025-07-02T13:56:00+00:00",
+  "exclude_from_nav": true,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "head_title": null,
+  "id": "event-calendar",
+  "is_folderish": true,
+  "language": "##DEFAULT##",
+  "layout": "document_view",
+  "lock": {
+    "locked": false,
+    "stealable": true
+  },
+  "modified": "2026-09-11T13:38:28+00:00",
+  "nav_title": null,
+  "preview_caption_link": null,
+  "review_state": "published",
+  "rights": "",
+  "subjects": [],
+  "title": "Event Calendar",
+  "type_title": "Page",
+  "version": "current",
+  "versioning_enabled": true,
+  "workflow_history": {
+    "simple_publication_workflow": [
+      {
+        "action": null,
+        "actor": "admin",
+        "comments": "",
+        "review_state": "private",
+        "time": "2026-09-10T12:05:35+00:00"
+      },
+      {
+        "action": "publish",
+        "actor": "admin",
+        "comments": "",
+        "review_state": "published",
+        "time": "2026-09-10T13:52:55+00:00"
+      }
+    ]
+  },
+  "working_copy": null,
+  "working_copy_of": null
+}

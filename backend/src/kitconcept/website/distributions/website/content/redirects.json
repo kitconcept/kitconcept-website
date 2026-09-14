@@ -1,1 +1,25 @@
-{}
+{
+  "/Plone/qa/blocks-catalogue": "/Plone/features/blocks-catalogue",
+  "/Plone/qa/blocks-catalogue/banner-block": "/Plone/features/blocks-catalogue/banner-block",
+  "/Plone/qa/blocks-catalogue/block-accordion": "/Plone/features/blocks-catalogue/block-accordion",
+  "/Plone/qa/blocks-catalogue/button-block": "/Plone/features/blocks-catalogue/button-block",
+  "/Plone/qa/blocks-catalogue/carousel-block": "/Plone/features/blocks-catalogue/carousel-block",
+  "/Plone/qa/blocks-catalogue/event-calendar": "/Plone/features/blocks-catalogue/event-calendar",
+  "/Plone/qa/blocks-catalogue/form-block": "/Plone/features/blocks-catalogue/form-block",
+  "/Plone/qa/blocks-catalogue/grid-block": "/Plone/features/blocks-catalogue/grid-block",
+  "/Plone/qa/blocks-catalogue/heading-block": "/Plone/features/blocks-catalogue/heading-block",
+  "/Plone/qa/blocks-catalogue/highlight-block": "/Plone/features/blocks-catalogue/highlight-block",
+  "/Plone/qa/blocks-catalogue/image-block": "/Plone/features/blocks-catalogue/image-block",
+  "/Plone/qa/blocks-catalogue/introduction-block": "/Plone/features/blocks-catalogue/introduction-block",
+  "/Plone/qa/blocks-catalogue/listing-block": "/Plone/features/blocks-catalogue/listing-block",
+  "/Plone/qa/blocks-catalogue/logos-block": "/Plone/features/blocks-catalogue/logos-block",
+  "/Plone/qa/blocks-catalogue/maps-block": "/Plone/features/blocks-catalogue/maps-block",
+  "/Plone/qa/blocks-catalogue/search-block": "/Plone/features/blocks-catalogue/search-block",
+  "/Plone/qa/blocks-catalogue/separator-block": "/Plone/features/blocks-catalogue/separator-block",
+  "/Plone/qa/blocks-catalogue/slider": "/Plone/features/blocks-catalogue/slider",
+  "/Plone/qa/blocks-catalogue/table-block": "/Plone/features/blocks-catalogue/table-block",
+  "/Plone/qa/blocks-catalogue/teaser-block": "/Plone/features/blocks-catalogue/teaser-block",
+  "/Plone/qa/blocks-catalogue/text-block": "/Plone/features/blocks-catalogue/text-block",
+  "/Plone/qa/blocks-catalogue/toc-block": "/Plone/features/blocks-catalogue/toc-block",
+  "/Plone/qa/blocks-catalogue/video-block": "/Plone/features/blocks-catalogue/video-block"
+}

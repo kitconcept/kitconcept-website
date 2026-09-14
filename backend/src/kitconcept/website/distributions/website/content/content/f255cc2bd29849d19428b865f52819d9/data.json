@@ -8,6 +8,7 @@
       "@type": "slate",
       "plaintext": "WCAG 2.2 / BITV (https://bitvtest.de/blog/detail/wcag-22-ist-da)",
       "styles": {},
+      "theme": "default",
       "value": [
         {
           "children": [
@@ -19,21 +20,132 @@
         }
       ]
     },
-    "7784791d-da31-4253-8f9f-5b5c90827d12": {
-      "@type": "banner",
-      "credit": {},
-      "description": "Kiasma Museum, Helsinki, Finland",
-      "title": "stefan-spassov-k87dHceae1w-unsplash.jpg",
-      "url": "../../resolveuid/50c969b05290465da8e38b46fcfb4cf7"
+    "23b19006-4580-40d0-a9e5-286f9b3ec278": {
+      "@type": "slate",
+      "plaintext": "The work follows WCAG 2.2 at level AA, the international guidelines published by the W3C, and BITV 2.0, the German regulation that applies to public bodies. The two overlap substantially \u2014 BITV takes its technical requirements from the same European standard that WCAG underpins \u2014 with BITV adding an accessibility statement and provision for plain language and sign language.",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "The work follows WCAG 2.2 at level AA, the international guidelines published by the W3C, and BITV 2.0, the German regulation that applies to public bodies. The two overlap substantially \u2014 BITV takes its technical requirements from the same European standard that WCAG underpins \u2014 with BITV adding an accessibility statement and provision for plain language and sign language."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "4f8306a5-2a7b-497f-8744-a8086ec40d14": {
+      "@type": "slate",
+      "plaintext": "The standards behind it",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "The standards behind it"
+            }
+          ],
+          "type": "h2"
+        }
+      ]
+    },
+    "9ea2e306-eec1-4d5f-a0d1-7149000e1f41": {
+      "@type": "slate",
+      "plaintext": "The site is built so that its content is available to everyone, regardless of how they read it. Pages can be navigated by keyboard, work with screen readers, and hold up when text is enlarged or colours are overridden. Images carry text alternatives, headings follow a real structure, and contrast is set so that text stays legible in poor light or on a dim screen.",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "The site is built so that its content is available to everyone, regardless of how they read it. Pages can be navigated by keyboard, work with screen readers, and hold up when text is enlarged or colours are overridden. Images carry text alternatives, headings follow a real structure, and contrast is set so that text stays legible in poor light or on a dim screen."
+            }
+          ],
+          "type": "p"
+        }
+      ]
     },
     "af4de70e-dd9e-42d3-ab81-0ef15f468cc0": {
       "@type": "title"
+    },
+    "af9a68e1-a869-4940-864f-7415c77c5a8a": {
+      "@type": "introduction",
+      "plaintext": "People read the web in different ways \u2014 with a screen reader, by keyboard alone, with text enlarged, or with colours adjusted to suit their sight. The site is built so that none of these routes leads to a page that shuts someone out.",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "People read the web in different ways \u2014 with a screen reader, by keyboard alone, with text enlarged, or with colours adjusted to suit their sight. The site is built so that none of these routes leads to a page that shuts someone out."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "b2f8ad7b-c236-4d7a-a97c-498d77966b5c": {
+      "@type": "gridBlock",
+      "blocks": {
+        "45f49a83-816c-41eb-9582-20ff99151aa3": {
+          "@type": "image",
+          "align": "center",
+          "credit": {},
+          "description": "Kiasma Museum, Helsinki, Finland",
+          "image_field": "image",
+          "size": "l",
+          "styles": {
+            "size:noprefix": "l"
+          },
+          "url": "../../resolveuid/50c969b05290465da8e38b46fcfb4cf7"
+        }
+      },
+      "blocks_layout": {
+        "items": [
+          "45f49a83-816c-41eb-9582-20ff99151aa3"
+        ]
+      },
+      "styles": {},
+      "theme": "default"
+    },
+    "ec2e7079-69ac-4191-9479-2f3fc9240f6e": {
+      "@type": "slate",
+      "plaintext": "What it means",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "What it means"
+            }
+          ],
+          "type": "h2"
+        }
+      ]
+    },
+    "ef2ded49-9e1f-4738-b939-80943e98ecbc": {
+      "@type": "separator",
+      "styles": {
+        "align:noprefix": "left",
+        "blockWidth:noprefix": "default"
+      },
+      "theme": "default"
     }
   },
   "blocks_layout": {
     "items": [
       "af4de70e-dd9e-42d3-ab81-0ef15f468cc0",
-      "7784791d-da31-4253-8f9f-5b5c90827d12",
+      "af9a68e1-a869-4940-864f-7415c77c5a8a",
+      "b2f8ad7b-c236-4d7a-a97c-498d77966b5c",
+      "ef2ded49-9e1f-4738-b939-80943e98ecbc",
+      "ec2e7079-69ac-4191-9479-2f3fc9240f6e",
+      "9ea2e306-eec1-4d5f-a0d1-7149000e1f41",
+      "4f8306a5-2a7b-497f-8744-a8086ec40d14",
+      "23b19006-4580-40d0-a9e5-286f9b3ec278",
       "09f97051-24bf-4548-b774-e7688dcc0bce"
     ]
   },
@@ -43,7 +155,7 @@
   "creators": [
     "admin"
   ],
-  "description": "kitconcept Site ist Barrierefrei nach BITV 2.0 und WCAG 2.2.",
+  "description": "kitconcept Website is accessible following BITV 2.0 and WCAG 2.2 guidelines.",
   "effective": null,
   "exclude_from_nav": false,
   "expires": null,
@@ -58,13 +170,13 @@
     "locked": false,
     "stealable": true
   },
-  "modified": "2024-06-24T17:09:41+00:00",
+  "modified": "2026-09-14T08:44:54+00:00",
   "nav_title": null,
   "preview_caption_link": null,
   "review_state": "published",
   "rights": "",
   "subjects": [],
-  "title": "Barrierefreiheit",
+  "title": "Accessibility",
   "type_title": "Page",
   "version": "current",
   "versioning_enabled": true,

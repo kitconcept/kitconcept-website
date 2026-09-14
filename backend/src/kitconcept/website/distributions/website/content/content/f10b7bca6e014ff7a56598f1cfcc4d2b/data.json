@@ -4,28 +4,185 @@
   "UID": "f10b7bca6e014ff7a56598f1cfcc4d2b",
   "allow_discussion": false,
   "blocks": {
-    "e357b468-f727-465a-8280-93a569213589": {
-      "@type": "image",
-      "align": "full",
-      "credit": {},
-      "description": "",
-      "image_field": "image",
-      "size": "l",
-      "title": "christopher-campbell-rDEOVtE7vOs-unsplash (4).jpg",
-      "url": "../../resolveuid/70e63351448f45968af7bca53f418e6b"
+    "07b6f9b3-6238-41bb-b235-8505a1635196": {
+      "@type": "slate",
+      "plaintext": "Drawing details from an external staff directory instead \u2014 an LDAP server, for instance \u2014 is possible, but it is not part of the standard setup and has to be arranged separately.",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Drawing details from an external staff directory instead \u2014 an LDAP server, for instance \u2014 is possible, but it is not part of the standard setup and has to be arranged separately."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "58f524b3-28ee-473d-be12-e91f0d42a425": {
+      "@type": "slate",
+      "plaintext": "A name, a photograph, an email address, a telephone number, a room and a building, and a short piece of text. Fields left empty simply do not appear, so a record carrying only a name and an email address still displays cleanly rather than leaving gaps.",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "A name, a photograph, an email address, a telephone number, a room and a building, and a short piece of text. Fields left empty simply do not appear, so a record carrying only a name and an email address still displays cleanly rather than leaving gaps."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "61dcec9c-5fb1-4432-a16e-1d1f955be3bc": {
+      "@type": "separator",
+      "styles": {
+        "align:noprefix": "left",
+        "blockWidth:noprefix": "default"
+      },
+      "theme": "default"
+    },
+    "766425f8-9576-4dff-b156-6d083fdcf2ab": {
+      "@type": "slate",
+      "plaintext": "Where person records appear",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Where person records appear"
+            }
+          ],
+          "type": "h2"
+        }
+      ]
+    },
+    "793fa625-1629-4a0b-b7fc-20e61eb9c0d1": {
+      "@type": "slate",
+      "plaintext": "A person can be shown on a page of their own, gathered into a listing of a team or department. Every one of those draws on the same underlying record, so correcting a telephone number once corrects it everywhere it is shown \u2014 which is the main reason for keeping people as records rather than typing their details into pages.",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "A person can be shown on a page of their own, gathered into a listing of a team or department. Every one of those draws on the same underlying record, so correcting a telephone number once corrects it everywhere it is shown \u2014 which is the main reason for keeping people as records rather than typing their details into pages."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "79c04632-8184-49a9-abbb-5b721a4b8972": {
+      "@type": "slate",
+      "plaintext": "Person records correspond to the site's own user accounts, so the people who can sign in and the people presented to visitors stay aligned rather than drifting apart into two separate lists.",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Person records correspond to the site's own user accounts, so the people who can sign in and the people presented to visitors stay aligned rather than drifting apart into two separate lists."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "b00697dc-27cd-4ed4-ae3b-7807d91ced5f": {
+      "@type": "slate",
+      "plaintext": "What a person record holds",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "What a person record holds"
+            }
+          ],
+          "type": "h2"
+        }
+      ]
+    },
+    "b7023967-6f5e-40ab-a1e3-29b72082e4a9": {
+      "@type": "slate",
+      "plaintext": "Where the details come from",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Where the details come from"
+            }
+          ],
+          "type": "h2"
+        }
+      ]
+    },
+    "b8f83d1f-2e82-440e-9752-6bb0b61c1581": {
+      "@type": "slate",
+      "plaintext": "Person records correspond to the site's own user accounts, so the people who can sign in and the people presented to visitors stay aligned rather than drifting apart into two separate lists.",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Person records correspond to the site's own user accounts, so the people who can sign in and the people presented to visitors stay aligned rather than drifting apart into two separate lists."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "de7c7227-1cba-4147-ba22-8b246b5c6317": {
+      "@type": "listing",
+      "headlineTag": "h2",
+      "querystring": {
+        "limit": "4",
+        "offset": "2",
+        "query": [
+          {
+            "i": "portal_type",
+            "o": "plone.app.querystring.operation.selection.any",
+            "v": [
+              "Person"
+            ]
+          }
+        ],
+        "sort_order": "descending",
+        "sort_order_boolean": true
+      },
+      "styles": {},
+      "theme": "default",
+      "variation": "grid"
     },
     "f0f05a82-9857-4636-b1cf-9f6ed9c5fb74": {
       "@type": "title"
     },
     "f25613c9-8d70-495f-bcd5-58d99aa04c36": {
-      "@type": "slate"
+      "@type": "introduction",
+      "plaintext": "Public sites usually need to show people: who leads a department, who to ask about a service, who to approach about a project. The Person type holds those details once, in one place, so they can be shown wherever they are needed.",
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Public sites usually need to show people: who leads a department, who to ask about a service, who to approach about a project. The Person type holds those details once, in one place, so they can be shown wherever they are needed."
+            }
+          ],
+          "type": "p"
+        }
+      ]
     }
   },
   "blocks_layout": {
     "items": [
       "f0f05a82-9857-4636-b1cf-9f6ed9c5fb74",
-      "e357b468-f727-465a-8280-93a569213589",
-      "f25613c9-8d70-495f-bcd5-58d99aa04c36"
+      "f25613c9-8d70-495f-bcd5-58d99aa04c36",
+      "61dcec9c-5fb1-4432-a16e-1d1f955be3bc",
+      "de7c7227-1cba-4147-ba22-8b246b5c6317",
+      "b00697dc-27cd-4ed4-ae3b-7807d91ced5f",
+      "58f524b3-28ee-473d-be12-e91f0d42a425",
+      "766425f8-9576-4dff-b156-6d083fdcf2ab",
+      "793fa625-1629-4a0b-b7fc-20e61eb9c0d1",
+      "79c04632-8184-49a9-abbb-5b721a4b8972",
+      "b7023967-6f5e-40ab-a1e3-29b72082e4a9",
+      "b8f83d1f-2e82-440e-9752-6bb0b61c1581",
+      "07b6f9b3-6238-41bb-b235-8505a1635196"
     ]
   },
   "changeNote": "",
@@ -49,7 +206,7 @@
     "locked": false,
     "stealable": true
   },
-  "modified": "2024-06-24T17:09:41+00:00",
+  "modified": "2026-09-11T13:35:30+00:00",
   "nav_title": null,
   "preview_caption_link": null,
   "review_state": "published",

@@ -1,0 +1,250 @@
+{
+  "@id": "/features/blocks-catalogue/heading-block",
+  "@type": "Document",
+  "UID": "c48f50e5f6d345ba84b69c2143eddc62",
+  "allow_discussion": false,
+  "blocks": {
+    "06a960a6-795c-409d-a55f-94d5047e3514": {
+      "@type": "slate",
+      "plaintext": " Headline H2 \u2014 Most headings in the text are this one.",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": ""
+            },
+            {
+              "children": [
+                {
+                  "text": "Headline H2"
+                }
+              ],
+              "type": "strong"
+            },
+            {
+              "text": "\u00a0\u2014 Most headings in the text are this one."
+            }
+          ],
+          "type": "h2"
+        }
+      ]
+    },
+    "37a5d9f9-fec8-441f-ba34-36578d7f751f": {
+      "@type": "separator",
+      "styles": {
+        "align:noprefix": "left",
+        "blockWidth:noprefix": "default",
+        "shortLine": false
+      },
+      "theme": "default"
+    },
+    "7a405d27-e5ca-426c-bca4-e40cc338f7ba": {
+      "@type": "slate",
+      "plaintext": " Headline H3 \u2014 A subsection within an H2. Screen readers and table of contents both follow the order.",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": ""
+            },
+            {
+              "children": [
+                {
+                  "text": "Headline H3"
+                }
+              ],
+              "type": "strong"
+            },
+            {
+              "text": "\u00a0\u2014 A subsection within an H2. Screen readers and table of contents both follow the order."
+            }
+          ],
+          "type": "h3"
+        }
+      ]
+    },
+    "7ebc67e3-e666-43f4-9fce-5dc14f98834f": {
+      "@type": "slate",
+      "plaintext": "Lorem ipsum dolor sit amet adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Lorem ipsum dolor sit amet adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "afb9e216-fa9e-428d-8486-b44b359ed7db": {
+      "@type": "introduction",
+      "plaintext": " -> See full example matrix of the Heading block ",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": ""
+            },
+            {
+              "children": [
+                {
+                  "text": "-> See full example matrix of the Heading block"
+                }
+              ],
+              "data": {
+                "url": "../../../resolveuid/d38bd8d3325e4450bdf8844a7f988f79"
+              },
+              "type": "link"
+            },
+            {
+              "text": ""
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "b4691078-153d-451f-9b47-fa6f852a1e6c": {
+      "@type": "slate",
+      "plaintext": "Lorem ipsum dolor sit amet adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Lorem ipsum dolor sit amet adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "bc58bb25-7471-425a-9006-23901d82733d": {
+      "@type": "heading",
+      "heading": "1 \u00b7 Which heading to use",
+      "styles": {},
+      "theme": "default"
+    },
+    "d97a3818-eb5b-40d9-a7b6-3d8878103310": {
+      "@type": "heading",
+      "alignment": "left",
+      "heading": "Heading Block \u2014 Rendered as H2. It uses default width, better used when starting a section with large blocks.",
+      "styles": {},
+      "tag": "h2",
+      "theme": "default"
+    },
+    "e58cca3c-95d4-4819-951d-48415706bf41": {
+      "@type": "title"
+    },
+    "ec811b82-394d-41fd-87cb-32b4334bc2c5": {
+      "@type": "__button",
+      "href": [
+        {
+          "@id": "../../../resolveuid/14af58222dbd4259a84553013ba7ad8f",
+          "Description": " The highlight block allows you to highlight and tease a single piece of content. The content is displayed with a large image and a title and description in a banderole.",
+          "Title": "Highlight",
+          "hasPreviewImage": null,
+          "title": "Highlight"
+        }
+      ],
+      "styles": {
+        "align:noprefix": "right",
+        "blockWidth:noprefix": "default"
+      },
+      "theme": "default",
+      "title": "Next block: Highlight"
+    },
+    "faabad67-4aa2-4774-a48c-b1accf288700": {
+      "@type": "introduction",
+      "plaintext": "The heading block puts a  subtitle into the page, at level two. Use it to open a section, specially before another block with a default width.",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "The heading block puts a  subtitle into the page, at level two. Use it to open a section, specially before another block with a default width."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "e58cca3c-95d4-4819-951d-48415706bf41",
+      "faabad67-4aa2-4774-a48c-b1accf288700",
+      "37a5d9f9-fec8-441f-ba34-36578d7f751f",
+      "bc58bb25-7471-425a-9006-23901d82733d",
+      "d97a3818-eb5b-40d9-a7b6-3d8878103310",
+      "06a960a6-795c-409d-a55f-94d5047e3514",
+      "b4691078-153d-451f-9b47-fa6f852a1e6c",
+      "7a405d27-e5ca-426c-bca4-e40cc338f7ba",
+      "7ebc67e3-e666-43f4-9fce-5dc14f98834f",
+      "afb9e216-fa9e-428d-8486-b44b359ed7db",
+      "ec811b82-394d-41fd-87cb-32b4334bc2c5"
+    ]
+  },
+  "changeNote": "",
+  "contributors": [],
+  "created": "2023-07-06T21:35:08+00:00",
+  "creators": [
+    "admin"
+  ],
+  "description": "\nThe heading block allows you to display headings to group multiple blocks under one topic.",
+  "effective": "2023-07-06T18:35:00+00:00",
+  "exclude_from_nav": true,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "head_title": null,
+  "id": "heading-block",
+  "is_folderish": true,
+  "language": "##DEFAULT##",
+  "layout": "document_view",
+  "lock": {
+    "locked": false,
+    "stealable": true
+  },
+  "modified": "2026-09-11T13:38:53+00:00",
+  "nav_title": null,
+  "preview_caption_link": null,
+  "review_state": "published",
+  "rights": null,
+  "subjects": [],
+  "title": "Heading",
+  "type_title": "Page",
+  "version": "current",
+  "versioning_enabled": true,
+  "workflow_history": {
+    "simple_publication_workflow": [
+      {
+        "action": null,
+        "actor": "admin",
+        "comments": "",
+        "review_state": "private",
+        "time": "2026-09-10T12:05:35+00:00"
+      },
+      {
+        "action": "publish",
+        "actor": "admin",
+        "comments": "",
+        "review_state": "published",
+        "time": "2026-09-10T13:52:56+00:00"
+      }
+    ]
+  },
+  "working_copy": null,
+  "working_copy_of": null
+}

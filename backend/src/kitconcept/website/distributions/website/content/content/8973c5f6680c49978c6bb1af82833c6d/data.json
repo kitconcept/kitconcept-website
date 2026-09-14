@@ -1,0 +1,655 @@
+{
+  "@id": "/features/blocks-catalogue/listing-block",
+  "@type": "Document",
+  "UID": "8973c5f6680c49978c6bb1af82833c6d",
+  "allow_discussion": false,
+  "blocks": {
+    "24280e07-e962-4414-8ee5-cdaf58ca5f35": {
+      "@type": "listing",
+      "block": "24280e07-e962-4414-8ee5-cdaf58ca5f35",
+      "headlineTag": "h2",
+      "query": [],
+      "querystring": {
+        "b_size": "5",
+        "query": [
+          {
+            "i": "path",
+            "o": "plone.app.querystring.operation.string.absolutePath",
+            "v": "7a63e0f30eef4793851f46766f47e286::1"
+          }
+        ],
+        "sort_on": "getObjPositionInParent",
+        "sort_order": "ascending"
+      },
+      "styles": {},
+      "theme": "default",
+      "variation": "default"
+    },
+    "2b076bc9-5ebc-4995-b235-d8b06f165b6b": {
+      "@type": "slate",
+      "plaintext": "Image gallery",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Image gallery"
+            }
+          ],
+          "type": "h3"
+        }
+      ]
+    },
+    "30d24878-28d8-49b8-a3a2-b68222fcc37b": {
+      "@type": "slate",
+      "plaintext": "Adds a picture per item; good for news and publications.",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Adds a picture per item; good for news and publications."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "34d0401e-0eda-4cb7-b061-53d6ff977584": {
+      "@type": "slate",
+      "plaintext": "Pages, news, events, files and people each show what matters for them: a date for an event, a file size for a download, contact details for a person.",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Pages, news, events, files and people each show what matters for them: a date for an event, a file size for a download, contact details for a person."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "3689b1eb-d012-4d10-b453-d2a48288841d": {
+      "@type": "slate",
+      "plaintext": "Long results",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Long results"
+            }
+          ],
+          "type": "h3"
+        }
+      ]
+    },
+    "3a16b7c4-2944-4852-b3d8-45e3f7722142": {
+      "@type": "listing",
+      "block": "24280e07-e962-4414-8ee5-cdaf58ca5f35",
+      "headline": "",
+      "headlineTag": "h2",
+      "query": [],
+      "querystring": {
+        "b_size": "5",
+        "query": [
+          {
+            "i": "path",
+            "o": "plone.app.querystring.operation.string.absolutePath",
+            "v": "7a63e0f30eef4793851f46766f47e286::1"
+          }
+        ],
+        "sort_on": "getObjPositionInParent",
+        "sort_order": "ascending"
+      },
+      "styles": {},
+      "theme": "default",
+      "variation": "grid"
+    },
+    "421584e6-7b1c-41f4-ad8a-528b014bb4ff": {
+      "@type": "separator",
+      "styles": {
+        "align:noprefix": "left",
+        "blockWidth:noprefix": "default",
+        "shortLine": false
+      },
+      "theme": "default"
+    },
+    "42a5315d-3249-4d61-b9c2-023278457967": {
+      "@type": "__button",
+      "href": [
+        {
+          "@id": "../../../resolveuid/b7dbd273beae4b33a2279173258d05dc",
+          "Description": "The logos block displays a grid of logos, optionally linked. Logos can be shown in different sizes (S / L) and container widths (default / layout).",
+          "Title": "Logos",
+          "hasPreviewImage": null,
+          "title": "Logos"
+        }
+      ],
+      "styles": {
+        "align:noprefix": "right",
+        "blockWidth:noprefix": "default"
+      },
+      "theme": "default",
+      "title": "Next block: Logos"
+    },
+    "43068b6d-d8e9-4acc-912b-eabcdc650939": {
+      "@type": "title"
+    },
+    "445242e4-b168-46e9-8de1-dd566d15c18c": {
+      "@type": "slate",
+      "plaintext": "List",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "List"
+            }
+          ],
+          "type": "h3"
+        }
+      ]
+    },
+    "44c40409-04fc-4cf5-ace4-14a3428d202d": {
+      "@type": "heading",
+      "alignment": "left",
+      "heading": "2 \u00b7 What each item shows",
+      "styles": {},
+      "tag": "h2",
+      "theme": "default"
+    },
+    "4666b6db-cd19-46cd-a894-a6898949a889": {
+      "@type": "slate",
+      "plaintext": "One large picture with a filmstrip beneath. For photo sets only.",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "One large picture with a filmstrip beneath. For photo sets only."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "5117e7e5-4c9e-4d23-86be-c24ad51c08f9": {
+      "@type": "listing",
+      "headline": "Files",
+      "headlineTag": "h2",
+      "querystring": {
+        "query": [
+          {
+            "i": "portal_type",
+            "o": "plone.app.querystring.operation.selection.any",
+            "v": [
+              "File"
+            ]
+          }
+        ],
+        "sort_order": "ascending"
+      },
+      "styles": {},
+      "theme": "default",
+      "variation": "summary"
+    },
+    "54820001-cbe7-402f-8863-87eac42a0a14": {
+      "@type": "slate",
+      "plaintext": "Pagination appears automatically. Keep the page size small so the page stays quick.",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Pagination appears automatically. Keep the page size small so the page stays quick."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "58583e53-2368-456d-8d05-b6ba3a3f9417": {
+      "@type": "listing",
+      "headline": "Events",
+      "headlineTag": "h2",
+      "querystring": {
+        "b_size": "5",
+        "query": [
+          {
+            "i": "portal_type",
+            "o": "plone.app.querystring.operation.selection.any",
+            "v": [
+              "Event"
+            ]
+          }
+        ],
+        "sort_on": "sortable_title",
+        "sort_order": "ascending"
+      },
+      "styles": {},
+      "theme": "default",
+      "variation": "summary"
+    },
+    "63b61ec2-bb83-4fdc-a6b7-3e3794b2cc3c": {
+      "@type": "listing",
+      "headline": "News Items",
+      "headlineTag": "h2",
+      "querystring": {
+        "b_size": "6",
+        "query": [
+          {
+            "i": "portal_type",
+            "o": "plone.app.querystring.operation.selection.any",
+            "v": [
+              "News Item"
+            ]
+          }
+        ],
+        "sort_on": "sortable_title",
+        "sort_order": "ascending"
+      },
+      "styles": {},
+      "theme": "default",
+      "variation": "summary"
+    },
+    "676fdb69-3748-40df-8a60-8a910f774f07": {
+      "@type": "slate",
+      "plaintext": "Title and description, one item under the other. The default, and the best for reading.",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Title and description, one item under the other. The default, and the best for reading."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "6ccabf4a-8270-4e3c-b8cb-b1dbf6003aa5": {
+      "@type": "listing",
+      "headline": "Pages",
+      "headlineTag": "h2",
+      "querystring": {
+        "limit": "2",
+        "query": [
+          {
+            "i": "portal_type",
+            "o": "plone.app.querystring.operation.selection.any",
+            "v": [
+              "Document"
+            ]
+          },
+          {
+            "i": "path",
+            "o": "plone.app.querystring.operation.string.absolutePath",
+            "v": "/qa"
+          }
+        ],
+        "sort_on": "sortable_title",
+        "sort_order": "ascending"
+      },
+      "styles": {},
+      "theme": "default",
+      "variation": "summary"
+    },
+    "740584f4-a6b3-49ca-9e38-a61c5a8c4ad8": {
+      "@type": "heading",
+      "alignment": "left",
+      "heading": "1 \u00b7 How the items look",
+      "plaintext": "",
+      "styles": {},
+      "tag": "h2",
+      "theme": "default",
+      "value": []
+    },
+    "75241770-9072-47e8-9e08-f5d0cd7568d6": {
+      "@type": "slate",
+      "plaintext": "A listing follows a folder and updates itself; a grid is hand-built and stays as you left it.",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "A listing follows a folder and updates itself; a grid is hand-built and stays as you left it."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "8f1c06d2-d0f1-4325-8ce7-c98da563eb71": {
+      "@type": "separator",
+      "styles": {
+        "align:noprefix": "left",
+        "blockWidth:noprefix": "default",
+        "shortLine": false
+      },
+      "theme": "default"
+    },
+    "9114b0f8-9ff3-4599-8909-cb2e4fe98f97": {
+      "@type": "introduction",
+      "plaintext": " -> See full example matrix of the Listing Block block ",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": ""
+            },
+            {
+              "children": [
+                {
+                  "text": "-> See full example matrix of the Listing Block block"
+                }
+              ],
+              "data": {
+                "url": "../../../resolveuid/80749460ef534448a0d9610f8e72888b"
+              },
+              "type": "link"
+            },
+            {
+              "text": ""
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "ae6ec948-28d3-4fd6-9940-5cffde5acdc5": {
+      "@type": "heading",
+      "alignment": "left",
+      "heading": "3 \u00b7 Where the listing fits",
+      "styles": {},
+      "tag": "h2",
+      "theme": "default"
+    },
+    "b3d7ff94-3aa2-47c9-91a0-fc5658708e9b": {
+      "@type": "listing",
+      "block": "24280e07-e962-4414-8ee5-cdaf58ca5f35",
+      "headline": "",
+      "headlineTag": "h2",
+      "query": [],
+      "querystring": {
+        "b_size": "5",
+        "query": [
+          {
+            "i": "path",
+            "o": "plone.app.querystring.operation.string.absolutePath",
+            "v": "7a63e0f30eef4793851f46766f47e286::1"
+          }
+        ],
+        "sort_on": "getObjPositionInParent",
+        "sort_order": "ascending"
+      },
+      "styles": {},
+      "theme": "default",
+      "variation": "summary"
+    },
+    "c2eaacd0-4e96-4344-a0ac-26ed644fc503": {
+      "@type": "listing",
+      "block": "c2eaacd0-4e96-4344-a0ac-26ed644fc503",
+      "headline": "",
+      "headlineTag": "h2",
+      "query": [],
+      "querystring": {
+        "query": [
+          {
+            "i": "portal_type",
+            "o": "plone.app.querystring.operation.selection.any",
+            "v": [
+              "Image"
+            ]
+          },
+          {
+            "i": "path",
+            "o": "plone.app.querystring.operation.string.absolutePath",
+            "v": "/qa"
+          }
+        ],
+        "sort_order": "ascending"
+      },
+      "styles": {},
+      "theme": "default",
+      "variation": "imageGallery"
+    },
+    "d6133e6b-6481-4e71-aa1a-3ee158d505e6": {
+      "@type": "slate",
+      "plaintext": "Grid",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Grid"
+            }
+          ],
+          "type": "h3"
+        }
+      ]
+    },
+    "de9c3d31-b19e-4e6c-b0ba-13d2ae088a8e": {
+      "@type": "separator",
+      "styles": {
+        "align:noprefix": "left",
+        "blockWidth:noprefix": "default",
+        "shortLine": false
+      },
+      "theme": "default"
+    },
+    "e405a8b2-9a83-47b7-a1c6-52a919f01e08": {
+      "@type": "listing",
+      "headline": "Persons",
+      "headlineTag": "h2",
+      "querystring": {
+        "limit": "2",
+        "query": [
+          {
+            "i": "portal_type",
+            "o": "plone.app.querystring.operation.selection.any",
+            "v": [
+              "Person"
+            ]
+          }
+        ],
+        "sort_on": "sortable_title",
+        "sort_order": "ascending"
+      },
+      "styles": {},
+      "theme": "default",
+      "variation": "summary"
+    },
+    "e47b260f-6ef1-42cc-b5e2-97c0fe14ae94": {
+      "@type": "slate",
+      "plaintext": "It depends on the content type",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "It depends on the content type"
+            }
+          ],
+          "type": "h3"
+        }
+      ]
+    },
+    "e8097721-f152-4c7f-b67e-ab85ded04dd8": {
+      "@type": "separator",
+      "styles": {
+        "align:noprefix": "left",
+        "blockWidth:noprefix": "default",
+        "shortLine": false
+      },
+      "theme": "default"
+    },
+    "eb3f58ca-1efd-4bda-b7b4-eaceebb89fd4": {
+      "@type": "slate",
+      "plaintext": "Items as cards side by side, for browsing rather than reading.",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Items as cards side by side, for browsing rather than reading."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "fe48f3a2-a5b5-4e00-a7a6-d55c425f3422": {
+      "@type": "introduction",
+      "plaintext": "The listing block shows content pulled from a folder or a search, and keeps itself current as that content changes. Use it whenever the items are maintained elsewhere \u2014 news, events, documents, people.",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "The listing block shows content pulled from a folder or a search, and keeps itself current as that content changes. Use it whenever the items are maintained elsewhere \u2014 news, events, documents, people."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "fe669788-bf4c-4134-acd1-cac737f064da": {
+      "@type": "slate",
+      "plaintext": "List with images",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "List with images"
+            }
+          ],
+          "type": "h3"
+        }
+      ]
+    },
+    "fff395e1-84b5-467b-9996-35be73a7bcf6": {
+      "@type": "slate",
+      "plaintext": "Listing or Grid",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Listing or Grid"
+            }
+          ],
+          "type": "h3"
+        }
+      ]
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "43068b6d-d8e9-4acc-912b-eabcdc650939",
+      "fe48f3a2-a5b5-4e00-a7a6-d55c425f3422",
+      "de9c3d31-b19e-4e6c-b0ba-13d2ae088a8e",
+      "740584f4-a6b3-49ca-9e38-a61c5a8c4ad8",
+      "445242e4-b168-46e9-8de1-dd566d15c18c",
+      "676fdb69-3748-40df-8a60-8a910f774f07",
+      "24280e07-e962-4414-8ee5-cdaf58ca5f35",
+      "fe669788-bf4c-4134-acd1-cac737f064da",
+      "30d24878-28d8-49b8-a3a2-b68222fcc37b",
+      "b3d7ff94-3aa2-47c9-91a0-fc5658708e9b",
+      "d6133e6b-6481-4e71-aa1a-3ee158d505e6",
+      "eb3f58ca-1efd-4bda-b7b4-eaceebb89fd4",
+      "3a16b7c4-2944-4852-b3d8-45e3f7722142",
+      "2b076bc9-5ebc-4995-b235-d8b06f165b6b",
+      "4666b6db-cd19-46cd-a894-a6898949a889",
+      "c2eaacd0-4e96-4344-a0ac-26ed644fc503",
+      "8f1c06d2-d0f1-4325-8ce7-c98da563eb71",
+      "44c40409-04fc-4cf5-ace4-14a3428d202d",
+      "e47b260f-6ef1-42cc-b5e2-97c0fe14ae94",
+      "34d0401e-0eda-4cb7-b061-53d6ff977584",
+      "6ccabf4a-8270-4e3c-b8cb-b1dbf6003aa5",
+      "63b61ec2-bb83-4fdc-a6b7-3e3794b2cc3c",
+      "58583e53-2368-456d-8d05-b6ba3a3f9417",
+      "5117e7e5-4c9e-4d23-86be-c24ad51c08f9",
+      "e405a8b2-9a83-47b7-a1c6-52a919f01e08",
+      "e8097721-f152-4c7f-b67e-ab85ded04dd8",
+      "ae6ec948-28d3-4fd6-9940-5cffde5acdc5",
+      "fff395e1-84b5-467b-9996-35be73a7bcf6",
+      "75241770-9072-47e8-9e08-f5d0cd7568d6",
+      "3689b1eb-d012-4d10-b453-d2a48288841d",
+      "54820001-cbe7-402f-8863-87eac42a0a14",
+      "421584e6-7b1c-41f4-ad8a-528b014bb4ff",
+      "9114b0f8-9ff3-4599-8909-cb2e4fe98f97",
+      "42a5315d-3249-4d61-b9c2-023278457967"
+    ]
+  },
+  "changeNote": "",
+  "contributors": [],
+  "created": "2023-07-06T21:35:19+00:00",
+  "creators": [
+    "admin"
+  ],
+  "description": "The listing block allows the display of various listings of content. Editors can configure a number of criteria for listing content (e.g. all news from 2022 with the keyword 'research').",
+  "effective": "2023-07-06T18:35:00+00:00",
+  "exclude_from_nav": true,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "head_title": null,
+  "id": "listing-block",
+  "is_folderish": true,
+  "language": "##DEFAULT##",
+  "layout": "document_view",
+  "lock": {
+    "locked": false,
+    "stealable": true
+  },
+  "modified": "2026-09-11T13:54:48+00:00",
+  "nav_title": null,
+  "preview_caption_link": null,
+  "review_state": "published",
+  "rights": "",
+  "subjects": [],
+  "title": "Listing",
+  "type_title": "Page",
+  "version": "current",
+  "versioning_enabled": true,
+  "workflow_history": {
+    "simple_publication_workflow": [
+      {
+        "action": null,
+        "actor": "admin",
+        "comments": "",
+        "review_state": "private",
+        "time": "2026-09-10T12:05:36+00:00"
+      },
+      {
+        "action": "publish",
+        "actor": "admin",
+        "comments": "",
+        "review_state": "published",
+        "time": "2026-09-10T13:52:55+00:00"
+      }
+    ]
+  },
+  "working_copy": null,
+  "working_copy_of": null
+}

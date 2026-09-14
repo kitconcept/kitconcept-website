@@ -53,6 +53,7 @@
               "title": "Content Types"
             }
           ],
+          "overwrite": true,
           "styles": {
             "align": "left"
           },
@@ -74,6 +75,7 @@
               "title": "Content Types"
             }
           ],
+          "overwrite": true,
           "styles": {
             "align": "left"
           },
@@ -145,10 +147,10 @@
               "hasPreviewImage": null,
               "head_title": null,
               "image_field": "image",
-              "image_scales": null,
               "title": "Content Types"
             }
           ],
+          "overwrite": true,
           "styles": {
             "align": "left"
           },
@@ -407,6 +409,7 @@
     },
     "caa483f6-bc0f-4a5a-94d2-925897969928": {
       "@type": "slateTable",
+      "styles": {},
       "table": {
         "basic": false,
         "celled": true,
@@ -483,36 +486,28 @@
           }
         ],
         "striped": false
-      }
+      },
+      "theme": "default"
     },
     "dc27e427-babe-4497-a6ae-fdefeaba2d13": {
       "@type": "__button",
-      "inneralign": "left",
-      "styles": {},
+      "styles": {
+        "align:noprefix": "left",
+        "blockWidth:noprefix": "narrow"
+      },
       "title": "Button text (button, 18/24px)"
-    },
-    "e770913c-fb7b-4cf1-94a8-7eb6e24ff66e": {
-      "@type": "slate",
-      "plaintext": "",
-      "value": [
-        {
-          "children": [
-            {
-              "text": ""
-            }
-          ],
-          "type": "p"
-        }
-      ]
     },
     "f4104455-1f80-4209-827d-416f2f07dec9": {
       "@type": "image",
-      "align": "center",
       "allow_image_download": false,
       "credit": {},
       "description": "Caption Description (14/18px). The Image content type can be used to upload an image in various formats (JPG, GIF, PNG, SVG). The uploaded image should always have a high resolution so that it can be used flexibly, for example as a banner image. Plone automatically delivers the images in the best scaling, so there is no need to scale images down manually.",
       "image_field": "image",
-      "size": "l",
+      "styles": {
+        "align:noprefix": "center",
+        "blockWidth:noprefix": "narrow",
+        "size:noprefix": "l"
+      },
       "title": "Caption Title (14/18px). Image",
       "url": "http://host.docker.internal:8080/Plone/content-types/image"
     },
@@ -553,9 +548,8 @@
       "dc27e427-babe-4497-a6ae-fdefeaba2d13",
       "bde519a7-d6c0-4bf5-b84b-d832f7f4cdd6",
       "af96daae-955d-42f8-a5e7-c7943fb2e321",
-      "47cef702-7d66-4313-b3ec-585408735218",
       "caa483f6-bc0f-4a5a-94d2-925897969928",
-      "e770913c-fb7b-4cf1-94a8-7eb6e24ff66e"
+      "47cef702-7d66-4313-b3ec-585408735218"
     ]
   },
   "changeNote": "",
@@ -579,7 +573,7 @@
     "locked": false,
     "stealable": true
   },
-  "modified": "2025-08-01T14:10:56+00:00",
+  "modified": "2026-09-14T08:20:27+00:00",
   "nav_title": "Typography",
   "preview_caption_link": null,
   "review_state": "published",

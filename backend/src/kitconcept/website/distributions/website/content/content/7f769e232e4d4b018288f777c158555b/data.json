@@ -1,0 +1,1203 @@
+{
+  "@id": "/features/blocks-catalogue/table-block",
+  "@type": "Document",
+  "UID": "7f769e232e4d4b018288f777c158555b",
+  "allow_discussion": false,
+  "blocks": {
+    "02d35c51-2822-4a49-b8b3-68be4cef3aa6": {
+      "@type": "introduction",
+      "plaintext": "The table block arranges facts in rows and columns. Use it when readers compare values across items \u2014 prices, dates, opening hours \u2014 and never to lay out a page.",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "The table block arranges facts in rows and columns. Use it when readers compare values across items \u2014 prices, dates, opening hours \u2014 and never to lay out a page."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "0c538bf4-2508-48a5-9551-9e282673b4e7": {
+      "@type": "separator",
+      "styles": {
+        "align:noprefix": "left",
+        "blockWidth:noprefix": "default"
+      },
+      "theme": "default"
+    },
+    "0d727fc0-71c0-4e2c-918a-35b726636569": {
+      "@type": "slateTable",
+      "styles": {},
+      "table": {
+        "basic": false,
+        "celled": true,
+        "compact": false,
+        "fixed": true,
+        "hideHeaders": false,
+        "inverted": false,
+        "rows": [
+          {
+            "cells": [
+              {
+                "key": "2616q",
+                "type": "header",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": "Title Tablehead"
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              },
+              {
+                "key": "9c5fm",
+                "type": "header",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": "Title Tablehead"
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              },
+              {
+                "key": "ljf3",
+                "type": "header",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": "Title Tablehead"
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              },
+              {
+                "key": "fgtdt",
+                "type": "header",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": "Title Tablehead"
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              }
+            ],
+            "key": "36un"
+          },
+          {
+            "cells": [
+              {
+                "key": "flhhb",
+                "type": "data",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": "Malesuada Bibendum Vehicula"
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              },
+              {
+                "key": "9biso",
+                "type": "data",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": "Quam Porta Mollis"
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              },
+              {
+                "key": "56ea8",
+                "type": "data",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": "Tristique Sem Tellus"
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              },
+              {
+                "key": "47ahr",
+                "type": "data",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": "Vehicula Mollis Amet"
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              }
+            ],
+            "key": "6qrch"
+          },
+          {
+            "cells": [
+              {
+                "key": "21kbu",
+                "type": "data",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": "Sollicitudin Pellentesque Aenean"
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              },
+              {
+                "key": "1ph74",
+                "type": "data",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": "Dolor Risus Lorem"
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              },
+              {
+                "key": "5m4uq",
+                "type": "data",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": "Ultricies Cursus Bibendum"
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              },
+              {
+                "key": "6474i",
+                "type": "data",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": "Ligula Tellus Ridiculus"
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              }
+            ],
+            "key": "7ujhi"
+          },
+          {
+            "cells": [
+              {
+                "key": "99oe4",
+                "type": "data",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": "Magna Nibh Amet"
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              },
+              {
+                "key": "d896l",
+                "type": "data",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": "Inceptos Magna Mattis"
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              },
+              {
+                "key": "ack6p",
+                "type": "data",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": "Vestibulum Inceptos Etiam"
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              },
+              {
+                "key": "fkour",
+                "type": "data",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": "Vulputate Parturient Lorem"
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              }
+            ],
+            "key": "8f7ih"
+          }
+        ],
+        "striped": true
+      },
+      "theme": "default"
+    },
+    "445e5c14-c314-423e-9b18-546d37f27cf6": {
+      "@type": "__button",
+      "href": [
+        {
+          "@id": "../../../resolveuid/c1f1e8abe5e04969b7960892aacf978d",
+          "Description": "The table of contents block automatically generates a table of contents with links to the corresponding positions on the page from the headings used.",
+          "Title": "Table of Contents",
+          "hasPreviewImage": null,
+          "title": "Table of Contents"
+        }
+      ],
+      "styles": {
+        "align:noprefix": "right",
+        "blockWidth:noprefix": "default"
+      },
+      "theme": "default",
+      "title": "Next block: Table of contents"
+    },
+    "4a5779a4-fda5-431c-80e5-3c789375ce10": {
+      "@type": "slateTable",
+      "styles": {},
+      "table": {
+        "basic": false,
+        "celled": true,
+        "compact": false,
+        "fixed": true,
+        "hideHeaders": false,
+        "inverted": false,
+        "rows": [
+          {
+            "cells": [
+              {
+                "key": "2616q",
+                "type": "header",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": "Title Tablehead"
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              },
+              {
+                "key": "9c5fm",
+                "type": "header",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": "Title Tablehead"
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              },
+              {
+                "key": "ljf3",
+                "type": "header",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": "Title Tablehead"
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              },
+              {
+                "key": "fgtdt",
+                "type": "header",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": "Title Tablehead"
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              }
+            ],
+            "key": "36un"
+          },
+          {
+            "cells": [
+              {
+                "key": "flhhb",
+                "type": "data",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": "Heading H2"
+                      }
+                    ],
+                    "type": "h2"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": "Heading H3"
+                      }
+                    ],
+                    "type": "h3"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ],
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": "Text can be "
+                      },
+                      {
+                        "children": [
+                          {
+                            "text": "bold"
+                          }
+                        ],
+                        "type": "strong"
+                      },
+                      {
+                        "text": " or "
+                      },
+                      {
+                        "children": [
+                          {
+                            "text": "italic"
+                          }
+                        ],
+                        "type": "em"
+                      },
+                      {
+                        "text": " or a "
+                      },
+                      {
+                        "children": [
+                          {
+                            "text": "Link"
+                          }
+                        ],
+                        "data": {
+                          "url": "../../resolveuid/1367ce64d3d440b7975652f6f36be9be"
+                        },
+                        "type": "link"
+                      },
+                      {
+                        "text": " "
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              },
+              {
+                "key": "9biso",
+                "type": "data",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": "Heading H2"
+                      }
+                    ],
+                    "type": "h2"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": "Heading H3"
+                      }
+                    ],
+                    "type": "h3"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ],
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": "Text can be "
+                      },
+                      {
+                        "children": [
+                          {
+                            "text": "bold"
+                          }
+                        ],
+                        "type": "strong"
+                      },
+                      {
+                        "text": " or "
+                      },
+                      {
+                        "children": [
+                          {
+                            "text": "italic"
+                          }
+                        ],
+                        "type": "em"
+                      },
+                      {
+                        "text": " or a "
+                      },
+                      {
+                        "children": [
+                          {
+                            "text": "Link"
+                          }
+                        ],
+                        "data": {
+                          "url": "../../resolveuid/1367ce64d3d440b7975652f6f36be9be"
+                        },
+                        "type": "link"
+                      },
+                      {
+                        "text": ""
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              },
+              {
+                "key": "56ea8",
+                "type": "data",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": "Heading H2"
+                      }
+                    ],
+                    "type": "h2"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": "Heading H3"
+                      }
+                    ],
+                    "type": "h3"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ],
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": "Text can be "
+                      },
+                      {
+                        "children": [
+                          {
+                            "text": "bold"
+                          }
+                        ],
+                        "type": "strong"
+                      },
+                      {
+                        "text": " or "
+                      },
+                      {
+                        "children": [
+                          {
+                            "text": "italic"
+                          }
+                        ],
+                        "type": "em"
+                      },
+                      {
+                        "text": " or a "
+                      },
+                      {
+                        "children": [
+                          {
+                            "text": "Link"
+                          }
+                        ],
+                        "data": {
+                          "url": "../../resolveuid/1367ce64d3d440b7975652f6f36be9be"
+                        },
+                        "type": "link"
+                      },
+                      {
+                        "text": ""
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              },
+              {
+                "key": "47ahr",
+                "type": "data",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": "Heading H2"
+                      }
+                    ],
+                    "type": "h2"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": "Heading H3"
+                      }
+                    ],
+                    "type": "h3"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ],
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": "Text can be "
+                      },
+                      {
+                        "children": [
+                          {
+                            "text": "bold"
+                          }
+                        ],
+                        "type": "strong"
+                      },
+                      {
+                        "text": " or "
+                      },
+                      {
+                        "children": [
+                          {
+                            "text": "italic"
+                          }
+                        ],
+                        "type": "em"
+                      },
+                      {
+                        "text": " or a "
+                      },
+                      {
+                        "children": [
+                          {
+                            "text": "Link"
+                          }
+                        ],
+                        "data": {
+                          "url": "../../resolveuid/1367ce64d3d440b7975652f6f36be9be"
+                        },
+                        "type": "link"
+                      },
+                      {
+                        "text": ""
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              }
+            ],
+            "key": "6qrch"
+          },
+          {
+            "cells": [
+              {
+                "key": "21kbu",
+                "type": "data",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": "Heading H2"
+                      }
+                    ],
+                    "type": "h2"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": "Heading H3"
+                      }
+                    ],
+                    "type": "h3"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ],
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": "Text can be "
+                      },
+                      {
+                        "children": [
+                          {
+                            "text": "bold"
+                          }
+                        ],
+                        "type": "strong"
+                      },
+                      {
+                        "text": " or "
+                      },
+                      {
+                        "children": [
+                          {
+                            "text": "italic"
+                          }
+                        ],
+                        "type": "em"
+                      },
+                      {
+                        "text": " or a "
+                      },
+                      {
+                        "children": [
+                          {
+                            "text": "Link"
+                          }
+                        ],
+                        "data": {
+                          "url": "../../resolveuid/1367ce64d3d440b7975652f6f36be9be"
+                        },
+                        "type": "link"
+                      },
+                      {
+                        "text": ""
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              },
+              {
+                "key": "1ph74",
+                "type": "data",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": "Heading H2"
+                      }
+                    ],
+                    "type": "h2"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": "Heading H3"
+                      }
+                    ],
+                    "type": "h3"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ],
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": "Text can be "
+                      },
+                      {
+                        "children": [
+                          {
+                            "text": "bold"
+                          }
+                        ],
+                        "type": "strong"
+                      },
+                      {
+                        "text": " or "
+                      },
+                      {
+                        "children": [
+                          {
+                            "text": "italic"
+                          }
+                        ],
+                        "type": "em"
+                      },
+                      {
+                        "text": " or a "
+                      },
+                      {
+                        "children": [
+                          {
+                            "text": "Link"
+                          }
+                        ],
+                        "data": {
+                          "url": "../../resolveuid/1367ce64d3d440b7975652f6f36be9be"
+                        },
+                        "type": "link"
+                      },
+                      {
+                        "text": ""
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              },
+              {
+                "key": "5m4uq",
+                "type": "data",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": "Heading H2"
+                      }
+                    ],
+                    "type": "h2"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": "Heading H3"
+                      }
+                    ],
+                    "type": "h3"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ],
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": "Text can be "
+                      },
+                      {
+                        "children": [
+                          {
+                            "text": "bold"
+                          }
+                        ],
+                        "type": "strong"
+                      },
+                      {
+                        "text": " or "
+                      },
+                      {
+                        "children": [
+                          {
+                            "text": "italic"
+                          }
+                        ],
+                        "type": "em"
+                      },
+                      {
+                        "text": " or a "
+                      },
+                      {
+                        "children": [
+                          {
+                            "text": "Link"
+                          }
+                        ],
+                        "data": {
+                          "url": "../../resolveuid/1367ce64d3d440b7975652f6f36be9be"
+                        },
+                        "type": "link"
+                      },
+                      {
+                        "text": ""
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              },
+              {
+                "key": "6474i",
+                "type": "data",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": "Heading H2"
+                      }
+                    ],
+                    "type": "h2"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": "Heading H3"
+                      }
+                    ],
+                    "type": "h3"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ],
+                    "type": "p"
+                  },
+                  {
+                    "children": [
+                      {
+                        "text": "Text can be "
+                      },
+                      {
+                        "children": [
+                          {
+                            "text": "bold"
+                          }
+                        ],
+                        "type": "strong"
+                      },
+                      {
+                        "text": " or "
+                      },
+                      {
+                        "children": [
+                          {
+                            "text": "italic"
+                          }
+                        ],
+                        "type": "em"
+                      },
+                      {
+                        "text": " or a "
+                      },
+                      {
+                        "children": [
+                          {
+                            "text": "Link"
+                          }
+                        ],
+                        "data": {
+                          "url": "../../resolveuid/1367ce64d3d440b7975652f6f36be9be"
+                        },
+                        "type": "link"
+                      },
+                      {
+                        "text": ""
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              }
+            ],
+            "key": "7ujhi"
+          }
+        ],
+        "striped": false
+      },
+      "theme": "default"
+    },
+    "56356b6b-ac36-4ce2-b1b0-4c272f82f99d": {
+      "@type": "heading",
+      "heading": "1 \u00b7 Making it readable",
+      "theme": "default"
+    },
+    "5d2afddb-d759-4ae2-989b-34ea933c2aab": {
+      "@type": "slate",
+      "plaintext": " Striped rows \u2014 Alternating tints help the eye hold its place across a wide table.",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": ""
+            },
+            {
+              "children": [
+                {
+                  "text": "Striped rows"
+                }
+              ],
+              "type": "strong"
+            },
+            {
+              "text": " \u2014 Alternating tints help the eye hold its place across a wide table."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "78bc33a5-3b96-4fed-8768-cca12eaf0f0e": {
+      "@type": "separator",
+      "styles": {
+        "align:noprefix": "left",
+        "blockWidth:noprefix": "default",
+        "shortLine": false
+      },
+      "theme": "default"
+    },
+    "7aafc602-902a-4d21-bf63-2e7c5c8d4839": {
+      "@type": "heading",
+      "alignment": "left",
+      "heading": "2 \u00b7 What fits in a cell\u00a0",
+      "styles": {},
+      "tag": "h2",
+      "theme": "default"
+    },
+    "999ace2a-0711-43d5-af4a-7869fab060ff": {
+      "@type": "slate",
+      "plaintext": " Formatted content \u2014 Headings, bold, italic and links all work inside cells. Keep them short: a paragraph belongs in a Text block.",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": ""
+            },
+            {
+              "children": [
+                {
+                  "text": "Formatted content"
+                }
+              ],
+              "type": "strong"
+            },
+            {
+              "text": " \u2014 Headings, bold, italic and links all work inside cells. Keep them short: a paragraph belongs in a Text block."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "de8ee926-d041-4828-b35c-9ce72c65d3b1": {
+      "@type": "introduction",
+      "plaintext": " -> See full example matrix of the Table block ",
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": ""
+            },
+            {
+              "children": [
+                {
+                  "text": "-> See full example matrix of the Table block"
+                }
+              ],
+              "data": {
+                "url": "../../../resolveuid/ab3958c51a794b11887d265f99f7f2f7"
+              },
+              "type": "link"
+            },
+            {
+              "text": ""
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "f821c4d3-28d6-4be6-9b5e-b12d52be1fc2": {
+      "@type": "slate",
+      "plaintext": " Header row \u2014 Names the columns and is announced by screen readers. Always keep it.  ",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": ""
+            },
+            {
+              "children": [
+                {
+                  "text": "Header row"
+                }
+              ],
+              "type": "strong"
+            },
+            {
+              "text": " \u2014 Names the columns and is announced by screen readers. Always keep it."
+            },
+            {
+              "children": [
+                {
+                  "text": ""
+                }
+              ],
+              "type": "strong"
+            },
+            {
+              "text": ""
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "fb451586-3dab-4b40-a5f8-f73056685165": {
+      "@type": "title"
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "fb451586-3dab-4b40-a5f8-f73056685165",
+      "02d35c51-2822-4a49-b8b3-68be4cef3aa6",
+      "78bc33a5-3b96-4fed-8768-cca12eaf0f0e",
+      "56356b6b-ac36-4ce2-b1b0-4c272f82f99d",
+      "f821c4d3-28d6-4be6-9b5e-b12d52be1fc2",
+      "5d2afddb-d759-4ae2-989b-34ea933c2aab",
+      "0d727fc0-71c0-4e2c-918a-35b726636569",
+      "7aafc602-902a-4d21-bf63-2e7c5c8d4839",
+      "999ace2a-0711-43d5-af4a-7869fab060ff",
+      "4a5779a4-fda5-431c-80e5-3c789375ce10",
+      "0c538bf4-2508-48a5-9551-9e282673b4e7",
+      "de8ee926-d041-4828-b35c-9ce72c65d3b1",
+      "445e5c14-c314-423e-9b18-546d37f27cf6"
+    ]
+  },
+  "changeNote": "",
+  "contributors": [],
+  "created": "2023-07-06T21:35:20+00:00",
+  "creators": [
+    "admin"
+  ],
+  "description": "The Table block allows you to add a table to a page.",
+  "effective": "2023-07-06T18:35:00+00:00",
+  "exclude_from_nav": true,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "head_title": null,
+  "id": "table-block",
+  "is_folderish": true,
+  "language": "##DEFAULT##",
+  "layout": "document_view",
+  "lock": {
+    "locked": false,
+    "stealable": true
+  },
+  "modified": "2026-09-11T13:40:37+00:00",
+  "nav_title": null,
+  "preview_caption_link": null,
+  "review_state": "published",
+  "rights": "",
+  "subjects": [],
+  "title": "Table",
+  "type_title": "Page",
+  "version": "current",
+  "versioning_enabled": true,
+  "workflow_history": {
+    "simple_publication_workflow": [
+      {
+        "action": null,
+        "actor": "admin",
+        "comments": "",
+        "review_state": "private",
+        "time": "2026-09-10T12:05:36+00:00"
+      },
+      {
+        "action": "publish",
+        "actor": "admin",
+        "comments": "",
+        "review_state": "published",
+        "time": "2026-09-10T13:52:55+00:00"
+      }
+    ]
+  },
+  "working_copy": null,
+  "working_copy_of": null
+}

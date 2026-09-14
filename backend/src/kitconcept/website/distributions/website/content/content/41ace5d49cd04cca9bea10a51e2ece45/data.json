@@ -1,0 +1,309 @@
+{
+  "@id": "/features/blocks-catalogue/video-block",
+  "@type": "Document",
+  "UID": "41ace5d49cd04cca9bea10a51e2ece45",
+  "allow_discussion": false,
+  "blocks": {
+    "050926ce-7683-41d2-b694-881c4f08d104": {
+      "@type": "slate",
+      "plaintext": "Lorem ipsum dolor sit amet adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam. Lorem ipsum dolor sit amet adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat quis nostrud exerci tation ullamcorper ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat quis Lorem ipsum dolor sit amet adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam.",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Lorem ipsum dolor sit amet adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam. Lorem ipsum dolor sit amet adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat quis nostrud exerci tation ullamcorper ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat quis Lorem ipsum dolor sit amet adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "107f12cf-f11d-4229-b9c7-91110e772f9d": {
+      "@type": "__button",
+      "href": [
+        {
+          "@id": "../../../resolveuid/7a63e0f30eef4793851f46766f47e286",
+          "Description": "QA reference pages demonstrating each available Volto block and its variants.",
+          "Title": "Blocks catalogue",
+          "hasPreviewImage": null,
+          "title": "Blocks catalogue"
+        }
+      ],
+      "styles": {
+        "align:noprefix": "right",
+        "blockWidth:noprefix": "default"
+      },
+      "theme": "default",
+      "title": "Back to blocks catalogue"
+    },
+    "144a72f2-f67a-488e-92e1-a9ae2cf3801a": {
+      "@type": "separator",
+      "styles": {
+        "align:noprefix": "left",
+        "blockWidth:noprefix": "default",
+        "shortLine": false
+      },
+      "theme": "default"
+    },
+    "282ad529-83c4-4056-9453-1c23d3bba02e": {
+      "@type": "slate",
+      "plaintext": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. "
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "44a9b113-c0ac-46dc-92a6-da8271249ae1": {
+      "@type": "video",
+      "preview_image": "../../../resolveuid/902fad18bb584693bac78e5ffeaf39d3",
+      "styles": {
+        "align:noprefix": "left",
+        "blockWidth:noprefix": "default"
+      },
+      "theme": "default",
+      "url": "https://www.youtube.com/watch?v=_yaYy86jdk8"
+    },
+    "604e5248-8521-403d-9e5f-3f50d1229454": {
+      "@type": "title"
+    },
+    "62959630-7a3f-4dce-b7ad-d35d008eeb7f": {
+      "@type": "introduction",
+      "plaintext": " -> See full example matrix of the Video block ",
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": ""
+            },
+            {
+              "children": [
+                {
+                  "text": "-> See full example matrix of the Video block"
+                }
+              ],
+              "data": {
+                "url": "../../../resolveuid/220bc67910f34ffc9e81b732f7b2e1f8"
+              },
+              "type": "link"
+            },
+            {
+              "text": ""
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "6f6e3c1d-34b2-4953-872f-e8defcc02d52": {
+      "@type": "slate",
+      "plaintext": " Block width \u2014  how far the video reaches across the page, from the narrow text column out to the full edge of the screen",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": ""
+            },
+            {
+              "children": [
+                {
+                  "text": "Block width"
+                }
+              ],
+              "type": "strong"
+            },
+            {
+              "text": " \u2014  how far the video reaches across the page, from the narrow text column out to the full edge of the screen"
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "7253e783-fa71-44be-9990-703461c0b61f": {
+      "@type": "video",
+      "preview_image": "../../../resolveuid/eec82559bf3242a6be4d43bc2096f399",
+      "styles": {
+        "align:noprefix": "right",
+        "blockWidth:noprefix": "default"
+      },
+      "theme": "default",
+      "url": "https://www.youtube.com/watch?v=_yaYy86jdk8"
+    },
+    "793b8fd3-396b-46c8-9fde-ba33a930bb2b": {
+      "@type": "slate",
+      "plaintext": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. "
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "7ace8ba6-13cb-4a5c-ab1c-fc6f8ce8737c": {
+      "@type": "heading",
+      "alignment": "left",
+      "heading": "1 \u00b7 How wide the block runs",
+      "styles": {},
+      "tag": "h2",
+      "theme": "default"
+    },
+    "817173c3-0ec5-48b8-831c-e7bf29410dab": {
+      "@type": "separator",
+      "styles": {
+        "align:noprefix": "left",
+        "blockWidth:noprefix": "default",
+        "shortLine": false
+      },
+      "theme": "default"
+    },
+    "85ba8f90-9fdc-48c9-b772-278e0a28bff9": {
+      "@type": "heading",
+      "alignment": "left",
+      "heading": "2 \u00b7 How the video is aligned",
+      "styles": {},
+      "tag": "h2",
+      "theme": "default"
+    },
+    "8c48d71b-d163-4edf-9a38-57e286739720": {
+      "@type": "introduction",
+      "plaintext": "The video block places a video into the page, with control over its alignment, and how wide it runs. Set the video URL and decide where it should fit in your layout.",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "The video block places a video into the page, with control over its alignment, and how wide it runs. Set the video URL and decide where it should fit in your layout."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "9c64f654-47f1-43c4-85d7-1dacf19a6fdb": {
+      "@type": "separator",
+      "styles": {
+        "align:noprefix": "left",
+        "blockWidth:noprefix": "default",
+        "shortLine": false
+      },
+      "theme": "default"
+    },
+    "bc648fc3-ca48-4223-b92c-7c2a0a7045d8": {
+      "@type": "video",
+      "preview_image": "../../../resolveuid/902fad18bb584693bac78e5ffeaf39d3",
+      "styles": {
+        "align:noprefix": "center",
+        "blockWidth:noprefix": "narrow"
+      },
+      "theme": "default",
+      "url": "https://www.youtube.com/watch?v=_yaYy86jdk8"
+    },
+    "c9b94a6e-ef64-44d7-813f-334beaf383fb": {
+      "@type": "video",
+      "preview_image": "../../../resolveuid/902fad18bb584693bac78e5ffeaf39d3",
+      "styles": {
+        "align:noprefix": "center",
+        "blockWidth:noprefix": "full"
+      },
+      "theme": "default",
+      "url": "https://www.youtube.com/watch?v=_yaYy86jdk8"
+    },
+    "def2a10d-c659-4138-8333-b4a5ae03333e": {
+      "@type": "heading",
+      "theme": "default"
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "604e5248-8521-403d-9e5f-3f50d1229454",
+      "8c48d71b-d163-4edf-9a38-57e286739720",
+      "9c64f654-47f1-43c4-85d7-1dacf19a6fdb",
+      "def2a10d-c659-4138-8333-b4a5ae03333e",
+      "7ace8ba6-13cb-4a5c-ab1c-fc6f8ce8737c",
+      "6f6e3c1d-34b2-4953-872f-e8defcc02d52",
+      "bc648fc3-ca48-4223-b92c-7c2a0a7045d8",
+      "c9b94a6e-ef64-44d7-813f-334beaf383fb",
+      "144a72f2-f67a-488e-92e1-a9ae2cf3801a",
+      "85ba8f90-9fdc-48c9-b772-278e0a28bff9",
+      "44a9b113-c0ac-46dc-92a6-da8271249ae1",
+      "282ad529-83c4-4056-9453-1c23d3bba02e",
+      "050926ce-7683-41d2-b694-881c4f08d104",
+      "7253e783-fa71-44be-9990-703461c0b61f",
+      "793b8fd3-396b-46c8-9fde-ba33a930bb2b",
+      "817173c3-0ec5-48b8-831c-e7bf29410dab",
+      "62959630-7a3f-4dce-b7ad-d35d008eeb7f",
+      "107f12cf-f11d-4229-b9c7-91110e772f9d"
+    ]
+  },
+  "changeNote": "",
+  "contributors": [],
+  "created": "2023-07-06T21:35:22+00:00",
+  "creators": [
+    "admin"
+  ],
+  "description": "\nThe video block can contain videos from YouTube.",
+  "effective": "2023-07-06T18:35:00+00:00",
+  "exclude_from_nav": true,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "head_title": null,
+  "id": "video-block",
+  "is_folderish": true,
+  "language": "##DEFAULT##",
+  "layout": "document_view",
+  "lock": {
+    "locked": false,
+    "stealable": true
+  },
+  "modified": "2026-09-11T13:41:18+00:00",
+  "nav_title": null,
+  "preview_caption_link": null,
+  "review_state": "published",
+  "rights": "",
+  "subjects": [],
+  "title": "Video",
+  "type_title": "Page",
+  "version": "current",
+  "versioning_enabled": true,
+  "workflow_history": {
+    "simple_publication_workflow": [
+      {
+        "action": null,
+        "actor": "admin",
+        "comments": "",
+        "review_state": "private",
+        "time": "2026-09-10T12:05:36+00:00"
+      },
+      {
+        "action": "publish",
+        "actor": "admin",
+        "comments": "",
+        "review_state": "published",
+        "time": "2026-09-10T13:52:55+00:00"
+      }
+    ]
+  },
+  "working_copy": null,
+  "working_copy_of": null
+}

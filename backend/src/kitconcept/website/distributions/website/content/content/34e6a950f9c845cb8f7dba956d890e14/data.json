@@ -1,7 +1,7 @@
 {
   "@id": "/qa/block/banner-block",
   "@type": "Document",
-  "UID": "cb935595f537479487e193e5fd144806",
+  "UID": "34e6a950f9c845cb8f7dba956d890e14",
   "allow_discussion": null,
   "blocks": {
     "2b3aa81e-5b90-412f-8e77-c7a8cdbe890c": {
@@ -103,7 +103,7 @@
   },
   "changeNote": "",
   "contributors": [],
-  "created": "2025-06-09T13:54:52+00:00",
+  "created": "2026-09-10T11:21:17+00:00",
   "creators": [
     "admin"
   ],
@@ -122,7 +122,7 @@
     "locked": false,
     "stealable": true
   },
-  "modified": "2025-12-02T08:59:42+00:00",
+  "modified": "2026-09-10T12:06:32+00:00",
   "nav_title": null,
   "preview_caption_link": null,
   "review_state": "published",

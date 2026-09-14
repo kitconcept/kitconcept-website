@@ -1,0 +1,282 @@
+{
+  "@id": "/features/blocks-catalogue/introduction-block",
+  "@type": "Document",
+  "UID": "9a552f6c8abe4c6cac937efc27014aba",
+  "allow_discussion": false,
+  "blocks": {
+    "1d40d10b-2d73-46af-9e6b-08119f0e3b72": {
+      "@type": "slate",
+      "plaintext": "The standard opening",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "The standard opening"
+            }
+          ],
+          "type": "h3"
+        }
+      ]
+    },
+    "1f98c693-1c16-4fa5-8862-0d9a96290bb7": {
+      "@type": "__button",
+      "href": [
+        {
+          "@id": "../../../resolveuid/8973c5f6680c49978c6bb1af82833c6d",
+          "Description": "The listing block allows the display of various listings of content. Editors can configure a number of criteria for listing content (e.g. all news from 2022 with the keyword 'research').",
+          "Title": "Listing Block",
+          "hasPreviewImage": null,
+          "title": "Listing Block"
+        }
+      ],
+      "styles": {
+        "align:noprefix": "right",
+        "blockWidth:noprefix": "default"
+      },
+      "theme": "default",
+      "title": "Next block: Listing Block"
+    },
+    "2852d680-2de8-4277-b26b-c5a0fbe24983": {
+      "@type": "introduction",
+      "plaintext": " -> See full example matrix of the Introduction block ",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": ""
+            },
+            {
+              "children": [
+                {
+                  "text": "-> See full example matrix of the Introduction block"
+                }
+              ],
+              "data": {
+                "url": "../../../resolveuid/41164f17d41f47d0ba0226735751ed00"
+              },
+              "type": "link"
+            },
+            {
+              "text": ""
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "3aa7586b-f6b7-4282-87fe-4e4f9ea1f05e": {
+      "@type": "slate",
+      "plaintext": "Two to four sentences. Beyond that it stops reading as an introduction.",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Two to four sentences. Beyond that it stops reading as an introduction."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "490f9586-d259-4cfe-a671-1ef5d71323ce": {
+      "@type": "slate",
+      "plaintext": "The same words in both blocks, shown one after the other: same content, different weight. Everything after the opening is Text.",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "The same words in both blocks, shown one after the other: same content, different weight. Everything after the opening is Text."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "4f47941b-aefd-4786-9240-5ace8963136e": {
+      "@type": "slate",
+      "plaintext": "Requests made before four in the afternoon are usually ready the same day. Anything held offsite takes two working days to arrive.",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Requests made before four in the afternoon are usually ready the same day. Anything held offsite takes two working days to arrive."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "501d6834-36b4-483a-b871-a5d91986bb03": {
+      "@type": "separator",
+      "styles": {
+        "align:noprefix": "left",
+        "blockWidth:noprefix": "default",
+        "shortLine": false
+      },
+      "theme": "default"
+    },
+    "50727b9a-1f8a-4857-aab5-8acc6985bfc6": {
+      "@type": "title"
+    },
+    "6b2c3037-b5f2-4952-b7e7-e53eabfb2c8d": {
+      "@type": "introduction",
+      "plaintext": "Requests made before four in the afternoon are usually ready the same day. Anything held offsite takes two working days to arrive.",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Requests made before four in the afternoon are usually ready the same day. Anything held offsite takes two working days to arrive."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "a0495352-17ed-4ebd-a636-f12999275e3e": {
+      "@type": "introduction",
+      "plaintext": "The reading rooms are open to anyone holding a valid reader's card. Around forty thousand volumes sit on open shelves, and the rest can be called up from the closed stacks. Staff at the enquiry desk will help you find your way around the catalogue.",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "The reading rooms are open to anyone holding a valid reader's card. Around forty thousand volumes sit on open shelves, and the rest can be called up from the closed stacks. Staff at the enquiry desk will help you find your way around the catalogue."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "b940e362-ee50-4b47-a615-54f9bc1aa9fb": {
+      "@type": "slate",
+      "plaintext": "Introduction next to Text",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Introduction next to Text"
+            }
+          ],
+          "type": "h3"
+        }
+      ]
+    },
+    "d0438a28-aaaf-4db1-8887-c9b3351787d3": {
+      "@type": "separator",
+      "styles": {
+        "align:noprefix": "left",
+        "blockWidth:noprefix": "default",
+        "shortLine": false
+      },
+      "theme": "default"
+    },
+    "ed441bb2-fa85-46bf-af80-0f9b93bf01aa": {
+      "@type": "heading",
+      "alignment": "left",
+      "heading": "1 \u00b7 Using it well",
+      "styles": {},
+      "tag": "h2",
+      "theme": "default"
+    },
+    "f2aebdf9-98b6-48c5-9fca-a8e0583a2799": {
+      "@type": "introduction",
+      "plaintext": "The introduction block holds the opening paragraph of a page, set larger than body text. Use exactly one, directly under the title, to say what the page is for.",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "The introduction block holds the opening paragraph of a page, set larger than body text. Use exactly one, directly under the title, to say what the page is for."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "50727b9a-1f8a-4857-aab5-8acc6985bfc6",
+      "f2aebdf9-98b6-48c5-9fca-a8e0583a2799",
+      "d0438a28-aaaf-4db1-8887-c9b3351787d3",
+      "ed441bb2-fa85-46bf-af80-0f9b93bf01aa",
+      "1d40d10b-2d73-46af-9e6b-08119f0e3b72",
+      "3aa7586b-f6b7-4282-87fe-4e4f9ea1f05e",
+      "a0495352-17ed-4ebd-a636-f12999275e3e",
+      "b940e362-ee50-4b47-a615-54f9bc1aa9fb",
+      "490f9586-d259-4cfe-a671-1ef5d71323ce",
+      "6b2c3037-b5f2-4952-b7e7-e53eabfb2c8d",
+      "4f47941b-aefd-4786-9240-5ace8963136e",
+      "501d6834-36b4-483a-b871-a5d91986bb03",
+      "2852d680-2de8-4277-b26b-c5a0fbe24983",
+      "1f98c693-1c16-4fa5-8862-0d9a96290bb7"
+    ]
+  },
+  "changeNote": "",
+  "contributors": [],
+  "created": "2023-07-06T21:35:19+00:00",
+  "creators": [
+    "admin"
+  ],
+  "description": "\nThe introductory block allows the display of an introductory text, which is displayed larger than normal continuous text.",
+  "effective": "2023-07-06T18:35:00+00:00",
+  "exclude_from_nav": true,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "head_title": null,
+  "id": "introduction-block",
+  "is_folderish": true,
+  "language": "##DEFAULT##",
+  "layout": "document_view",
+  "lock": {
+    "locked": false,
+    "stealable": true
+  },
+  "modified": "2026-09-11T13:39:18+00:00",
+  "nav_title": null,
+  "preview_caption_link": null,
+  "review_state": "published",
+  "rights": "",
+  "subjects": [],
+  "title": "Introduction",
+  "type_title": "Page",
+  "version": "current",
+  "versioning_enabled": true,
+  "workflow_history": {
+    "simple_publication_workflow": [
+      {
+        "action": null,
+        "actor": "admin",
+        "comments": "",
+        "review_state": "private",
+        "time": "2026-09-10T12:05:36+00:00"
+      },
+      {
+        "action": "publish",
+        "actor": "admin",
+        "comments": "",
+        "review_state": "published",
+        "time": "2026-09-10T13:52:55+00:00"
+      }
+    ]
+  },
+  "working_copy": null,
+  "working_copy_of": null
+}

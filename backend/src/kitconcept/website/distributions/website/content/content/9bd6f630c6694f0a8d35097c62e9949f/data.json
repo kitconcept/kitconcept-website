@@ -1,0 +1,302 @@
+{
+  "@id": "/features/blocks-catalogue/banner-block",
+  "@type": "Document",
+  "UID": "9bd6f630c6694f0a8d35097c62e9949f",
+  "allow_discussion": null,
+  "blocks": {
+    "088aed05-e653-4c78-b28c-36ca442e1cb9": {
+      "@type": "slate",
+      "plaintext": " One or two lines of text \u2014 A title plus a short qualifier.",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": ""
+            },
+            {
+              "children": [
+                {
+                  "text": "One or two lines of text"
+                }
+              ],
+              "type": "strong"
+            },
+            {
+              "text": "\u00a0\u2014 A title plus a short qualifier."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "4f8582d1-6711-4ac1-9cc9-affa47dd437a": {
+      "@type": "introduction",
+      "plaintext": "The banner block lays one or two lines of text over a full-width image. Use it at the top of a page to name where the reader has arrived, not as decoration between sections.",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "The banner block lays one or two lines of text over a full-width image. Use it at the top of a page to name where the reader has arrived, not as decoration between sections."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "5daf7348-5834-4d0b-b88f-92fc1f37795d": {
+      "@type": "__button",
+      "href": [
+        {
+          "@id": "../../../resolveuid/65e96494f19d4c03a341c04f3844f22f",
+          "Description": " The button block shows a button for which a link (internal or external) can be stored. The button can be displayed left, right or center and have a background color.",
+          "Title": "Button",
+          "hasPreviewImage": null,
+          "title": "Button"
+        }
+      ],
+      "styles": {
+        "align:noprefix": "right",
+        "blockWidth:noprefix": "default"
+      },
+      "theme": "default",
+      "title": "Next block: Button"
+    },
+    "5e5177b5-f5cd-486e-acaa-329c907039ea": {
+      "@type": "separator",
+      "styles": {
+        "align:noprefix": "left",
+        "blockWidth:noprefix": "default",
+        "shortLine": false
+      },
+      "theme": "default"
+    },
+    "5ffa4bb6-32c9-445e-bff6-e6fdf3b0b756": {
+      "@type": "banner",
+      "additionalText": "Commodo 10.07.26",
+      "alt": "",
+      "styles": {
+        "blockWidth:noprefix": {
+          "--block-width": "var(--layout-container-width)"
+        }
+      },
+      "text": "Dolor Adipiscing Cras Consectetur",
+      "theme": "default",
+      "url": "../../../resolveuid/970ec24c76784c66a06d8c8d8b6522b2"
+    },
+    "658e4216-a8de-44d8-b63f-d2b85ae6d242": {
+      "@type": "banner",
+      "alt": "",
+      "styles": {
+        "blockWidth:noprefix": "full"
+      },
+      "text": "Full block width",
+      "theme": "default",
+      "url": "../../../resolveuid/970ec24c76784c66a06d8c8d8b6522b2"
+    },
+    "879e7fd7-ef4b-47dd-a8ae-8b7b72a2255a": {
+      "@type": "title"
+    },
+    "ab1c1e9b-7f63-4280-b7e5-b80f5ac3b0ee": {
+      "@type": "slate",
+      "plaintext": " Edge to edge \u2014 Breaks out to the full window for arrival moments. At most one per page is recommended.",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": ""
+            },
+            {
+              "children": [
+                {
+                  "text": "Edge to edge"
+                }
+              ],
+              "type": "strong"
+            },
+            {
+              "text": "\u00a0\u2014 Breaks out to the full window for arrival moments. At most one per page is recommended."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "b743b4a3-56ea-4444-be9f-e0b9e3365ec0": {
+      "@type": "heading",
+      "alignment": "left",
+      "heading": "1 \u00b7 What the banner says",
+      "styles": {},
+      "tag": "h2",
+      "theme": "default"
+    },
+    "ce596a66-d5b0-46f3-891f-ed5b7cb403ad": {
+      "@type": "heading",
+      "alignment": "left",
+      "heading": "2 \u00b7 How wide it runs",
+      "styles": {},
+      "tag": "h2",
+      "theme": "default"
+    },
+    "edfb1e37-e4bb-4b3a-9a43-66cbeb757f49": {
+      "@type": "introduction",
+      "plaintext": " -> See full example matrix of the Banner block ",
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": ""
+            },
+            {
+              "children": [
+                {
+                  "text": "-> See full example matrix of the Banner block"
+                }
+              ],
+              "data": {
+                "url": "../../../resolveuid/34e6a950f9c845cb8f7dba956d890e14"
+              },
+              "type": "link"
+            },
+            {
+              "text": ""
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "f0575269-56fe-4522-bb7b-783bac1c8b49": {
+      "@type": "banner",
+      "alt": "",
+      "styles": {
+        "blockWidth:noprefix": "layout"
+      },
+      "text": "Layout block width",
+      "theme": "default",
+      "url": "../../../resolveuid/970ec24c76784c66a06d8c8d8b6522b2"
+    },
+    "fac84d5b-fd5a-4f21-92df-30e45423325a": {
+      "@type": "separator",
+      "styles": {
+        "align:noprefix": "left",
+        "blockWidth:noprefix": "default",
+        "shortLine": false
+      },
+      "theme": "default"
+    },
+    "fea253ff-8429-4b16-9849-891dec87ac64": {
+      "@type": "slate",
+      "plaintext": " Layout width \u2014 Aligned with the main elements in the page, like the header.  ",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": ""
+            },
+            {
+              "children": [
+                {
+                  "text": "Layout width"
+                }
+              ],
+              "type": "strong"
+            },
+            {
+              "text": "\u00a0\u2014 Aligned with the main elements in the page, like the header."
+            },
+            {
+              "children": [
+                {
+                  "text": ""
+                }
+              ],
+              "type": "strong"
+            },
+            {
+              "text": ""
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "879e7fd7-ef4b-47dd-a8ae-8b7b72a2255a",
+      "4f8582d1-6711-4ac1-9cc9-affa47dd437a",
+      "fac84d5b-fd5a-4f21-92df-30e45423325a",
+      "b743b4a3-56ea-4444-be9f-e0b9e3365ec0",
+      "088aed05-e653-4c78-b28c-36ca442e1cb9",
+      "5ffa4bb6-32c9-445e-bff6-e6fdf3b0b756",
+      "5e5177b5-f5cd-486e-acaa-329c907039ea",
+      "ce596a66-d5b0-46f3-891f-ed5b7cb403ad",
+      "fea253ff-8429-4b16-9849-891dec87ac64",
+      "f0575269-56fe-4522-bb7b-783bac1c8b49",
+      "ab1c1e9b-7f63-4280-b7e5-b80f5ac3b0ee",
+      "658e4216-a8de-44d8-b63f-d2b85ae6d242",
+      "edfb1e37-e4bb-4b3a-9a43-66cbeb757f49",
+      "5daf7348-5834-4d0b-b88f-92fc1f37795d"
+    ]
+  },
+  "changeNote": "",
+  "contributors": [],
+  "created": "2025-06-09T13:54:52+00:00",
+  "creators": [
+    "admin"
+  ],
+  "description": "The banner block displays a full-width image banner with one or two lines of text overlaid on a gradient. It can be shown at layout or full width.",
+  "effective": "2025-07-09T10:52:00+00:00",
+  "exclude_from_nav": true,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "head_title": null,
+  "id": "banner-block",
+  "is_folderish": true,
+  "language": "##DEFAULT##",
+  "layout": "document_view",
+  "lock": {
+    "locked": false,
+    "stealable": true
+  },
+  "modified": "2026-09-11T13:38:04+00:00",
+  "nav_title": null,
+  "preview_caption_link": null,
+  "review_state": "published",
+  "rights": "",
+  "subjects": [],
+  "title": "Banner",
+  "type_title": "Page",
+  "version": "current",
+  "versioning_enabled": true,
+  "workflow_history": {
+    "simple_publication_workflow": [
+      {
+        "action": null,
+        "actor": "admin",
+        "comments": "",
+        "review_state": "private",
+        "time": "2026-09-10T12:05:35+00:00"
+      },
+      {
+        "action": "publish",
+        "actor": "admin",
+        "comments": "",
+        "review_state": "published",
+        "time": "2026-09-10T13:52:55+00:00"
+      }
+    ]
+  },
+  "working_copy": null,
+  "working_copy_of": null
+}

@@ -1,0 +1,349 @@
+{
+  "@id": "/features/blocks-catalogue/separator-block",
+  "@type": "Document",
+  "UID": "8ece26145b6d478d9e94278b2663b477",
+  "allow_discussion": false,
+  "blocks": {
+    "138fa750-c6f8-48ab-b8df-64bf61e151ba": {
+      "@type": "introduction",
+      "plaintext": "Lorem ipsum dolor sit amet adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Lorem ipsum dolor sit amet adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "227b5f43-4e34-4fb4-8f19-12751245a2f7": {
+      "@type": "separator",
+      "styles": {
+        "align:noprefix": "left",
+        "blockWidth:noprefix": "narrow",
+        "shortLine": false
+      },
+      "theme": "default"
+    },
+    "360c5f14-05d0-4292-afcb-e4edb164addc": {
+      "@type": "slate",
+      "plaintext": "Lorem ipsum dolor sit amet adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Lorem ipsum dolor sit amet adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "4595034c-f4f0-4f77-b2b5-5753ccdffd1a": {
+      "@type": "slate",
+      "plaintext": "Lorem ipsum dolor sit amet adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Lorem ipsum dolor sit amet adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "47b1e791-6f01-4b9b-a923-6658e7bc7871": {
+      "@type": "title"
+    },
+    "7d31e4b1-ec1f-489d-ad3e-94eac65bd9e9": {
+      "@type": "separator",
+      "styles": {
+        "align:noprefix": "left",
+        "blockWidth:noprefix": "default",
+        "shortLine": false
+      },
+      "theme": "default"
+    },
+    "86b7b8f8-0531-4c35-ae99-53999ee9ff29": {
+      "@type": "introduction",
+      "plaintext": " -> See full example matrix of the Separator block ",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": ""
+            },
+            {
+              "children": [
+                {
+                  "text": "-> See full example matrix of the Separator block"
+                }
+              ],
+              "data": {
+                "url": "../../../resolveuid/c38ccacb47234e85962597b5256cf1ca"
+              },
+              "type": "link"
+            },
+            {
+              "text": ""
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "87b4c48e-6960-4d9b-9d4c-f913c92e0b68": {
+      "@type": "__button",
+      "href": [
+        {
+          "@id": "../../../resolveuid/7890c70216a34ec2a5c3c9bc0055001e",
+          "Description": "Mit dem Slider-Block k\u00f6nnen verschieden Inhalte der Seite prominent angeteasert werden. Der Slider-Block  wird \u00fcblicherweise als erstes Element als Eye-Catcher eingesetzt. Ein Slider-Block kann beliebig viele Elemente anzeigen. Verlinkte Inhalte werden mit einem Bild, einem Titel, einer Beschreibung, einem Kopftitel dargestellt. Optional kann ein Button mit einem angepassten Text eingef\u00fcgt werden.",
+          "Title": "Slider Block",
+          "hasPreviewImage": null,
+          "title": "Slider Block"
+        }
+      ],
+      "styles": {
+        "align:noprefix": "right",
+        "blockWidth:noprefix": "default"
+      },
+      "theme": "default",
+      "title": "Next block: Slider"
+    },
+    "914ff2b0-ff87-46d0-b7e3-8e0185e2d311": {
+      "@type": "slate",
+      "plaintext": " Short line \u2014 A quieter pause inside a section.  ",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": ""
+            },
+            {
+              "children": [
+                {
+                  "text": "Short line"
+                }
+              ],
+              "type": "strong"
+            },
+            {
+              "text": " \u2014 A quieter pause inside a section."
+            },
+            {
+              "children": [
+                {
+                  "text": ""
+                }
+              ],
+              "type": "strong"
+            },
+            {
+              "text": ""
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "9d7db13a-92d6-46c1-ba77-12bd23bd84b8": {
+      "@type": "slate",
+      "plaintext": " Block width \u2014 Matches the text column, or runs the block default width for a major break.",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": ""
+            },
+            {
+              "children": [
+                {
+                  "text": "Block width"
+                }
+              ],
+              "type": "strong"
+            },
+            {
+              "text": " \u2014 Matches the text column, or runs the block default width for a major break."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "a4eccaa5-e954-4c35-9d1d-bd3ce3a68691": {
+      "@type": "separator",
+      "styles": {
+        "align:noprefix": "center",
+        "blockWidth:noprefix": "narrow",
+        "shortLine": true
+      },
+      "theme": "default"
+    },
+    "ba1a3f5f-6039-4fb1-9b60-007de22b1ddd": {
+      "@type": "separator",
+      "styles": {
+        "align:noprefix": "left",
+        "blockWidth:noprefix": "narrow",
+        "shortLine": true
+      },
+      "theme": "default"
+    },
+    "be9ea3ae-29e1-41b8-b338-f32070a82675": {
+      "@type": "introduction",
+      "plaintext": "The separator block draws one horizontal line between blocks. Use it to mark a change of subject \u2014 spacing alone is usually enough for anything smaller.",
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "The separator block draws one horizontal line between blocks. Use it to mark a change of subject \u2014 spacing alone is usually enough for anything smaller."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "cf7e08f3-b9a8-4604-b208-e3a8bc88ec83": {
+      "@type": "separator",
+      "styles": {
+        "align:noprefix": "left",
+        "blockWidth:noprefix": "default",
+        "shortLine": false
+      },
+      "theme": "default"
+    },
+    "d058ceba-cf31-443c-9802-2953a9ee1c58": {
+      "@type": "heading",
+      "alignment": "left",
+      "heading": "1 \u00b7 The line",
+      "styles": {},
+      "tag": "h2",
+      "theme": "default"
+    },
+    "fb302810-1006-43e8-93fc-177c41c7781c": {
+      "@type": "slate",
+      "plaintext": " Alignment \u2014 Left, centred or right. Only visible on the short line.  ",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": ""
+            },
+            {
+              "children": [
+                {
+                  "text": "Alignment"
+                }
+              ],
+              "type": "strong"
+            },
+            {
+              "text": " \u2014 Left, centred or right. Only visible on the short line."
+            },
+            {
+              "children": [
+                {
+                  "text": ""
+                }
+              ],
+              "type": "strong"
+            },
+            {
+              "text": ""
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "47b1e791-6f01-4b9b-a923-6658e7bc7871",
+      "be9ea3ae-29e1-41b8-b338-f32070a82675",
+      "cf7e08f3-b9a8-4604-b208-e3a8bc88ec83",
+      "d058ceba-cf31-443c-9802-2953a9ee1c58",
+      "914ff2b0-ff87-46d0-b7e3-8e0185e2d311",
+      "ba1a3f5f-6039-4fb1-9b60-007de22b1ddd",
+      "fb302810-1006-43e8-93fc-177c41c7781c",
+      "360c5f14-05d0-4292-afcb-e4edb164addc",
+      "a4eccaa5-e954-4c35-9d1d-bd3ce3a68691",
+      "9d7db13a-92d6-46c1-ba77-12bd23bd84b8",
+      "4595034c-f4f0-4f77-b2b5-5753ccdffd1a",
+      "227b5f43-4e34-4fb4-8f19-12751245a2f7",
+      "138fa750-c6f8-48ab-b8df-64bf61e151ba",
+      "7d31e4b1-ec1f-489d-ad3e-94eac65bd9e9",
+      "86b7b8f8-0531-4c35-ae99-53999ee9ff29",
+      "87b4c48e-6960-4d9b-9d4c-f913c92e0b68"
+    ]
+  },
+  "changeNote": "",
+  "contributors": [],
+  "created": "2023-07-06T21:35:20+00:00",
+  "creators": [
+    "admin"
+  ],
+  "description": "\nThe separator block allows blocks or groups of blocks to be visually separated by a horizontal line.",
+  "effective": "2023-07-06T18:35:00+00:00",
+  "exclude_from_nav": true,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "head_title": null,
+  "id": "separator-block",
+  "is_folderish": true,
+  "language": "##DEFAULT##",
+  "layout": "document_view",
+  "lock": {
+    "locked": false,
+    "stealable": true
+  },
+  "modified": "2026-09-11T13:40:23+00:00",
+  "nav_title": null,
+  "preview_caption_link": null,
+  "review_state": "published",
+  "rights": "",
+  "subjects": [],
+  "title": "Separator",
+  "type_title": "Page",
+  "version": "current",
+  "versioning_enabled": true,
+  "workflow_history": {
+    "simple_publication_workflow": [
+      {
+        "action": null,
+        "actor": "admin",
+        "comments": "",
+        "review_state": "private",
+        "time": "2026-09-10T12:05:36+00:00"
+      },
+      {
+        "action": "publish",
+        "actor": "admin",
+        "comments": "",
+        "review_state": "published",
+        "time": "2026-09-10T13:52:55+00:00"
+      }
+    ]
+  },
+  "working_copy": null,
+  "working_copy_of": null
+}

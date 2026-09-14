@@ -1,0 +1,407 @@
+{
+  "@id": "/features/blocks-catalogue/maps-block",
+  "@type": "Document",
+  "UID": "60d95502d13b40808ac93ad1b00c1052",
+  "allow_discussion": false,
+  "blocks": {
+    "1f84b8a2-9725-4156-b423-75513255ad1d": {
+      "@type": "slate",
+      "plaintext": " OpenStreetMap \u2014 The same, from openstreetmap.org, when an open source is preferred.",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": ""
+            },
+            {
+              "children": [
+                {
+                  "text": "OpenStreetMap"
+                }
+              ],
+              "type": "strong"
+            },
+            {
+              "text": " \u2014 The same, from openstreetmap.org, when an open source is preferred."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "2e297525-837b-4b2c-812c-3009f3518bc3": {
+      "@type": "slate",
+      "plaintext": "Nullam quis risus eget urna mollis ornare vel eu leo. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Nullam id dolor id nibh ultricies vehicula ut id elit. Nullam id dolor id nibh ultricies vehicula ut id elit.",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Nullam quis risus eget urna mollis ornare vel eu leo. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Nullam id dolor id nibh ultricies vehicula ut id elit. Nullam id dolor id nibh ultricies vehicula ut id elit."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "640b3221-2957-4256-80bb-b9a9f89b6196": {
+      "@type": "introduction",
+      "plaintext": " -> See full example matrix of the Maps block ",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": ""
+            },
+            {
+              "children": [
+                {
+                  "text": "-> See full example matrix of the Maps block"
+                }
+              ],
+              "data": {
+                "url": "../../../resolveuid/c41c6beb72e44ba59e3bf2b683192e0e"
+              },
+              "type": "link"
+            },
+            {
+              "text": ""
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "642c75ac-0c4a-4138-8ad7-954a3fa561e6": {
+      "@type": "maps",
+      "styles": {
+        "align:noprefix": "left",
+        "blockWidth:noprefix": "default"
+      },
+      "theme": "default",
+      "title": "kitconcept , Riesstra\u00dfe 21, 53113 Bonn, Germany",
+      "url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2525.497302522086!2d7.10273717832893!3d50.729264671646604!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47bee1b954c6ab87%3A0xafb410d310340cc2!2skitconcept%20GmbH!5e0!3m2!1sen!2sin!4v1690535017060!5m2!1sen!2sin"
+    },
+    "67115c95-bc28-4a87-b7ed-2729f883bbb4": {
+      "@type": "separator",
+      "styles": {
+        "align:noprefix": "left",
+        "blockWidth:noprefix": "default",
+        "shortLine": false
+      },
+      "theme": "default"
+    },
+    "68370edd-bfe5-47fb-937e-16a19a3a92ad": {
+      "@type": "title"
+    },
+    "697f51a5-2254-4c1d-a890-34483a15077b": {
+      "@type": "__button",
+      "href": [
+        {
+          "@id": "../../../resolveuid/50c9a06205be46deb632dd2c9bd507e8",
+          "Description": "The search block allows the content of the website to be listed. Users can use so-called facets to select certain properties of the listed content in order to filter them (e.g. filtering the news of 2022).",
+          "Title": "Search",
+          "hasPreviewImage": null,
+          "title": "Search"
+        }
+      ],
+      "styles": {
+        "align:noprefix": "right",
+        "blockWidth:noprefix": "default"
+      },
+      "theme": "default",
+      "title": "Next block: Search"
+    },
+    "7856e50a-ecdf-40c9-b9e9-3a9d04841545": {
+      "@type": "introduction",
+      "plaintext": "The maps block embeds an interactive map of one location. Use it where someone has to physically arrive: a campus, an office, a venue.",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "The maps block embeds an interactive map of one location. Use it where someone has to physically arrive: a campus, an office, a venue."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "848173f9-9f87-4f96-a138-53f8fd94ccd5": {
+      "@type": "slate",
+      "plaintext": "Maecenas sed diam eget risus varius blandit sit amet non magna. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec ullamcorper nulla non metus auctor fringilla.",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Maecenas sed diam eget risus varius blandit sit amet non magna. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec ullamcorper nulla non metus auctor fringilla."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "94694228-eb23-4e67-a5fc-843b9e83ad93": {
+      "@type": "separator",
+      "styles": {
+        "align:noprefix": "left",
+        "blockWidth:noprefix": "default",
+        "shortLine": false
+      },
+      "theme": "default"
+    },
+    "9dda6abd-9ae4-49be-93d8-011e86b2e062": {
+      "@type": "heading",
+      "alignment": "left",
+      "heading": "2 \u00b7 Placing it on the page",
+      "styles": {},
+      "tag": "h2",
+      "theme": "default"
+    },
+    "ae2ddf5c-ebaf-4849-b63f-882bcd7f8871": {
+      "@type": "separator",
+      "styles": {
+        "align:noprefix": "left",
+        "blockWidth:noprefix": "default",
+        "shortLine": false
+      },
+      "theme": "default"
+    },
+    "b7b12e5f-0849-4570-a51f-88607b176e26": {
+      "@type": "slate",
+      "plaintext": " Google Maps \u2014 Paste the embed code from the map you want; the block takes the map out of it.",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": ""
+            },
+            {
+              "children": [
+                {
+                  "text": "Google Maps"
+                }
+              ],
+              "type": "strong"
+            },
+            {
+              "text": " \u2014 Paste the embed code from the map you want; the block takes the map out of it."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "bd950eb2-f462-4146-9d4a-3c8139abbb94": {
+      "@type": "maps",
+      "styles": {
+        "align:noprefix": "center",
+        "blockWidth:noprefix": "narrow"
+      },
+      "theme": "default",
+      "title": "kitconcept GmbH, Riesstra\u00dfe 21, Germany",
+      "url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2525.497302522086!2d7.10273717832893!3d50.729264671646604!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47bee1b954c6ab87%3A0xafb410d310340cc2!2skitconcept%20GmbH!5e0!3m2!1sen!2sin!4v1690535017060!5m2!1sen!2sin"
+    },
+    "caa078bb-700f-4ab9-963f-f72facf168d9": {
+      "@type": "slate",
+      "plaintext": " Block width \u2014 Full width for an arrival page, default width inside an ordinary article.",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": ""
+            },
+            {
+              "children": [
+                {
+                  "text": "Block width"
+                }
+              ],
+              "type": "strong"
+            },
+            {
+              "text": " \u2014 Full width for an arrival page, default width inside an ordinary article."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "ceee1cfa-80ff-44f1-b3af-3cfd4be3f4ba": {
+      "@type": "maps",
+      "styles": {
+        "align:noprefix": "center",
+        "blockWidth:noprefix": "full"
+      },
+      "theme": "default",
+      "title": "kitconcept GmbH, 53113 Bonn, Riesstra\u00dfe 21, Germany",
+      "url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2525.497302522086!2d7.10273717832893!3d50.729264671646604!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47bee1b954c6ab87%3A0xafb410d310340cc2!2skitconcept%20GmbH!5e0!3m2!1sen!2sin!4v1690535017060!5m2!1sen!2sin"
+    },
+    "da8feb9f-5df7-4cec-a05e-e0787e7c307b": {
+      "@type": "slate",
+      "plaintext": " Alignment \u2014 Centred by default; left or right lets written directions sit beside the map.",
+      "value": [
+        {
+          "children": [
+            {
+              "text": ""
+            },
+            {
+              "children": [
+                {
+                  "text": "Alignment"
+                }
+              ],
+              "type": "strong"
+            },
+            {
+              "text": " \u2014 Centred by default; left or right lets written directions sit beside the map."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "e36a9020-5e7e-4ef5-97f7-862c45fea81c": {
+      "@type": "maps",
+      "styles": {
+        "align:noprefix": "center",
+        "blockWidth:noprefix": "default"
+      },
+      "theme": "default",
+      "title": "kitconcept GmbH Germany",
+      "url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2525.497302522086!2d7.10273717832893!3d50.729264671646604!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47bee1b954c6ab87%3A0xafb410d310340cc2!2skitconcept%20GmbH!5e0!3m2!1sen!2sin!4v1690535017060!5m2!1sen!2sin"
+    },
+    "e7772afc-8be2-499b-a775-8e1be36a7baa": {
+      "@type": "slate",
+      "plaintext": "Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Nulla vitae elit libero, a pharetra augue. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit. Sed posuere consectetur est at lobortis. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Nulla vitae elit libero, a pharetra augue. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit. Sed posuere consectetur est at lobortis. Praesent commodo cursus magna, vel scelerisque nisl consectetur et."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "e9823c89-229a-4a54-805a-1a2fb30b3df2": {
+      "@type": "maps",
+      "plaintext": "",
+      "styles": {
+        "align:noprefix": "center",
+        "blockWidth:noprefix": "default"
+      },
+      "theme": "default",
+      "title": "kitconcept GmbH, Bonn (OpenStreetMap)",
+      "url": "https://www.openstreetmap.org/export/embed.html?bbox=7.09846%2C50.72757%2C7.10692%2C50.73096&layer=mapnik&marker=50.72926%2C7.10274",
+      "value": []
+    },
+    "f35f6a43-df1a-45c3-8727-2799236db921": {
+      "@type": "heading",
+      "alignment": "left",
+      "heading": "1 \u00b7 Where the map comes from",
+      "plaintext": "1 \u00b7 Where the map comes from",
+      "styles": {},
+      "tag": "h2",
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "1 \u00b7 Where the map comes from"
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "68370edd-bfe5-47fb-937e-16a19a3a92ad",
+      "7856e50a-ecdf-40c9-b9e9-3a9d04841545",
+      "ae2ddf5c-ebaf-4849-b63f-882bcd7f8871",
+      "f35f6a43-df1a-45c3-8727-2799236db921",
+      "b7b12e5f-0849-4570-a51f-88607b176e26",
+      "1f84b8a2-9725-4156-b423-75513255ad1d",
+      "e36a9020-5e7e-4ef5-97f7-862c45fea81c",
+      "e9823c89-229a-4a54-805a-1a2fb30b3df2",
+      "94694228-eb23-4e67-a5fc-843b9e83ad93",
+      "9dda6abd-9ae4-49be-93d8-011e86b2e062",
+      "da8feb9f-5df7-4cec-a05e-e0787e7c307b",
+      "caa078bb-700f-4ab9-963f-f72facf168d9",
+      "bd950eb2-f462-4146-9d4a-3c8139abbb94",
+      "848173f9-9f87-4f96-a138-53f8fd94ccd5",
+      "642c75ac-0c4a-4138-8ad7-954a3fa561e6",
+      "e7772afc-8be2-499b-a775-8e1be36a7baa",
+      "2e297525-837b-4b2c-812c-3009f3518bc3",
+      "ceee1cfa-80ff-44f1-b3af-3cfd4be3f4ba",
+      "67115c95-bc28-4a87-b7ed-2729f883bbb4",
+      "640b3221-2957-4256-80bb-b9a9f89b6196",
+      "697f51a5-2254-4c1d-a890-34483a15077b"
+    ]
+  },
+  "changeNote": "",
+  "contributors": [],
+  "created": "2023-07-28T09:10:43+00:00",
+  "creators": [
+    "admin"
+  ],
+  "description": "The maps block can have embeded a Map (Google Maps, OpenMaps, etc).",
+  "effective": "2023-09-22T16:09:00+00:00",
+  "exclude_from_nav": true,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "head_title": null,
+  "id": "maps-block",
+  "is_folderish": true,
+  "language": "##DEFAULT##",
+  "layout": "document_view",
+  "lock": {
+    "locked": false,
+    "stealable": true
+  },
+  "modified": "2026-09-11T13:40:03+00:00",
+  "nav_title": null,
+  "preview_caption_link": null,
+  "review_state": "published",
+  "rights": "",
+  "subjects": [],
+  "title": "Maps",
+  "type_title": "Page",
+  "version": "current",
+  "versioning_enabled": true,
+  "workflow_history": {
+    "simple_publication_workflow": [
+      {
+        "action": null,
+        "actor": "admin",
+        "comments": "",
+        "review_state": "private",
+        "time": "2026-09-10T12:05:36+00:00"
+      },
+      {
+        "action": "publish",
+        "actor": "admin",
+        "comments": "",
+        "review_state": "published",
+        "time": "2026-09-10T13:52:55+00:00"
+      }
+    ]
+  },
+  "working_copy": null,
+  "working_copy_of": null
+}

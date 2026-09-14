@@ -4,25 +4,180 @@
   "UID": "2c2f8092acfc4f55830b16af13273882",
   "allow_discussion": false,
   "blocks": {
-    "5612d8d3-5119-41fa-ac6c-e6ea1352e6e4": {
-      "@type": "slate"
+    "028ae476-dde2-44e0-ad3c-0a18760a2057": {
+      "@type": "slate",
+      "plaintext": "Helping people find things",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Helping people find things"
+            }
+          ],
+          "type": "h2"
+        }
+      ]
     },
-    "ba4ed86f-f53a-47b8-a17d-e802d1aa8ab1": {
-      "@type": "banner",
-      "credit": {},
-      "description": "",
-      "title": "valeria-nikitina-n99YXHGyQj8-unsplash.jpg",
-      "url": "../../resolveuid/da07e218ea5e4c6c8582be7936d4686d"
+    "0cc9a103-0a5d-4f90-b3fb-0f66fbbd0f88": {
+      "@type": "slate",
+      "plaintext": "For larger sites, search can be handed to Solr, a dedicated search engine that runs alongside the site. It copes better with a great deal of content, returns results faster, and more gracefully than a general-purpose index.",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "For larger sites, search can be handed to Solr, a dedicated search engine that runs alongside the site. It copes better with a great deal of content, returns results faster, and more gracefully than a general-purpose index."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "36f53999-d585-4f97-8f98-a306c3266743": {
+      "@type": "slate",
+      "plaintext": "Solr also opens the door to newer approaches. With it in place, a site can offer search that answers a question in sentences, drawing on its own content to do so, rather than only handing back a list of links.",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Solr also opens the door to newer approaches. With it in place, a site can offer search that answers a question in sentences, drawing on its own content to do so, rather than only handing back a list of links. "
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "40d04ef8-3bc5-43ef-94ef-2b4e6a126d8b": {
+      "@type": "slate",
+      "plaintext": "Permissions are respected throughout. A visitor only ever sees results they are allowed to open, and unpublished drafts stay out of public results until they are published.",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Permissions are respected throughout. A visitor only ever sees results they are allowed to open, and unpublished drafts stay out of public results until they are published."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "4eab5736-584f-4f65-ab1a-e6746447287a": {
+      "@type": "slate",
+      "plaintext": "Taking permissions in account",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Taking permissions in account"
+            }
+          ],
+          "type": "h2"
+        }
+      ]
+    },
+    "5612d8d3-5119-41fa-ac6c-e6ea1352e6e4": {
+      "@type": "introduction",
+      "plaintext": "Every site built on the distribution comes with search across all of its content, working from the moment the site is created. Nothing needs to be configured for it to start returning results.",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Every site built on the distribution comes with search across all of its content, working from the moment the site is created. Nothing needs to be configured for it to start returning results."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "642ebe78-56f4-4faa-9c12-fb2bcddf69c6": {
+      "@type": "slate",
+      "plaintext": "Good search depends on the content, not only on the engine. Titles that describe what a page actually is, and descriptions written in the words a visitor would use, do more for findability than any setting. The description you write for a page is also what appears beneath it in the results.",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Good search depends on the content, not only on the engine. Titles that describe what a page actually is, and descriptions written in the words a visitor would use, do more for findability than any setting. The description you write for a page is also what appears beneath it in the results."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "74ea7b6a-886b-4caf-a902-c7397af8370c": {
+      "@type": "slate",
+      "plaintext": "Going further with Solr",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Going further with Solr"
+            }
+          ],
+          "type": "h2"
+        }
+      ]
+    },
+    "97cc19ee-71a7-4741-a3fa-5b3f76266a1b": {
+      "@type": "separator",
+      "styles": {
+        "align:noprefix": "left",
+        "blockWidth:noprefix": "default",
+        "shortLine": false
+      },
+      "theme": "default"
     },
     "d4a1c14f-b3e5-4583-af83-d3cb00986f35": {
       "@type": "title"
+    },
+    "e6963eb8-cb93-44f0-8673-221c700c98ce": {
+      "@type": "gridBlock",
+      "blocks": {
+        "a8f19ff7-a108-4fde-ad09-577b390c595b": {
+          "@type": "image",
+          "credit": {},
+          "description": "",
+          "image_field": "image",
+          "styles": {
+            "align:noprefix": "center",
+            "blockWidth:noprefix": "narrow",
+            "size:noprefix": "l"
+          },
+          "url": "../../resolveuid/da07e218ea5e4c6c8582be7936d4686d"
+        }
+      },
+      "blocks_layout": {
+        "items": [
+          "a8f19ff7-a108-4fde-ad09-577b390c595b"
+        ]
+      },
+      "styles": {},
+      "theme": "default"
     }
   },
   "blocks_layout": {
     "items": [
-      "ba4ed86f-f53a-47b8-a17d-e802d1aa8ab1",
       "d4a1c14f-b3e5-4583-af83-d3cb00986f35",
-      "5612d8d3-5119-41fa-ac6c-e6ea1352e6e4"
+      "5612d8d3-5119-41fa-ac6c-e6ea1352e6e4",
+      "e6963eb8-cb93-44f0-8673-221c700c98ce",
+      "97cc19ee-71a7-4741-a3fa-5b3f76266a1b",
+      "028ae476-dde2-44e0-ad3c-0a18760a2057",
+      "642ebe78-56f4-4faa-9c12-fb2bcddf69c6",
+      "4eab5736-584f-4f65-ab1a-e6746447287a",
+      "40d04ef8-3bc5-43ef-94ef-2b4e6a126d8b",
+      "74ea7b6a-886b-4caf-a902-c7397af8370c",
+      "0cc9a103-0a5d-4f90-b3fb-0f66fbbd0f88",
+      "36f53999-d585-4f97-8f98-a306c3266743"
     ]
   },
   "changeNote": "",
@@ -31,7 +186,7 @@
   "creators": [
     "admin"
   ],
-  "description": "A full text search that let's you find all the content in your site.",
+  "description": "Searching that let's you find all the content in your site.",
   "effective": "2024-05-17T11:53:00+00:00",
   "exclude_from_nav": false,
   "expires": null,
@@ -46,13 +201,13 @@
     "locked": false,
     "stealable": true
   },
-  "modified": "2024-06-24T17:09:41+00:00",
+  "modified": "2026-09-14T07:52:55+00:00",
   "nav_title": null,
   "preview_caption_link": null,
   "review_state": "published",
   "rights": "",
   "subjects": [],
-  "title": "Full Text Search",
+  "title": "Search",
   "type_title": "Page",
   "version": "current",
   "versioning_enabled": true,

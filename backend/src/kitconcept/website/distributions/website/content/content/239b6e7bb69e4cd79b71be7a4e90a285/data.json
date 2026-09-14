@@ -4,28 +4,161 @@
   "UID": "239b6e7bb69e4cd79b71be7a4e90a285",
   "allow_discussion": false,
   "blocks": {
+    "1793413c-2cf8-4113-9a95-81d018570f40": {
+      "@type": "separator",
+      "styles": {
+        "align:noprefix": "left",
+        "blockWidth:noprefix": "default",
+        "shortLine": false
+      },
+      "theme": "default"
+    },
+    "1bc2dc14-bcb2-44d0-a8c4-8b6783675a07": {
+      "@type": "slate",
+      "plaintext": "Adapting it to an organisation",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Adapting it to an organisation"
+            }
+          ],
+          "type": "h2"
+        }
+      ]
+    },
+    "24400e76-99d1-4771-9d85-b49e42136118": {
+      "@type": "slate",
+      "plaintext": "What you can still control",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "What you can still control"
+            }
+          ],
+          "type": "h2"
+        }
+      ]
+    },
+    "40e23306-35cd-4ed9-8a79-561860be4b64": {
+      "@type": "slate",
+      "plaintext": "What the theme decides for you",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "What the theme decides for you"
+            }
+          ],
+          "type": "h2"
+        }
+      ]
+    },
+    "4d065af2-6185-4ba7-8fcf-8e49e48fd50a": {
+      "@type": "introduction",
+      "plaintext": "The appearance of this site comes from Volto Light Theme, the theme included in the kitconcept Website Distribution. It is deliberately restrained: the design stays in the background so that the text and images on a page are what a visitor notices first.",
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "The appearance of this site comes from Volto Light Theme, the theme included in the kitconcept Website Distribution. It is deliberately restrained: the design stays in the background so that the text and images on a page are what a visitor notices first."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
     "8f93decd-ecaa-4cb2-bad3-2a0198b87cd1": {
       "@type": "title"
     },
+    "93818fba-c353-4155-af39-59f2ea2839bc": {
+      "@type": "slate",
+      "plaintext": "The theme can be matched to an organisation's visual identity \u2014 its colours, logo and typography \u2014 without rebuilding the site or changing the way editing works. That is set up once, centrally, rather than page by page, which is why the choices you see while editing stay simple. The theme's full technical documentation is published at volto-light-theme.readthedocs.io .",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "The theme can be matched to an organisation's visual identity \u2014 its colours, logo and typography \u2014 without rebuilding the site or changing the way editing works. That is set up once, centrally, rather than page by page, which is why the choices you see while editing stay simple. The theme's full technical documentation is published at "
+            },
+            {
+              "children": [
+                {
+                  "text": "volto-light-theme.readthedocs.io"
+                }
+              ],
+              "data": {
+                "url": "https://volto-light-theme.readthedocs.io"
+              },
+              "type": "link"
+            },
+            {
+              "text": "."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "d5a871e4-c0df-4036-939d-30c694a51057": {
+      "@type": "slate",
+      "plaintext": "Within those rules you have a set of choices, and they are much the same on every block: how wide the block is, whether it sits on a plain or a shaded background, and in some cases the block alignment. Keeping the set small is intentional, so you can concentrate on what the page says instead of how to lay it out.",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Within those rules you have a set of choices, and they are much the same on every block: how wide the block is, whether it sits on a plain or a shaded background, and in some cases the block alignment. Keeping the set small is intentional, so you can concentrate on what the page says instead of how to lay it out."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
     "dea1bfe1-28eb-4f61-8264-309d8ccc46f3": {
       "@type": "image",
-      "align": "full",
       "credit": {},
       "description": "",
       "image_field": "image",
-      "size": "l",
-      "title": "jr-korpa-SFT9G3pAxLY-unsplash.jpg",
+      "styles": {
+        "align:noprefix": "center",
+        "blockWidth:noprefix": "default",
+        "size:noprefix": "l"
+      },
+      "theme": "default",
       "url": "../../resolveuid/5f1077b5414743429689927de357c350"
     },
-    "fa4c83af-3fa5-45d9-b465-fbfb55d72af1": {
-      "@type": "slate"
+    "f93a77ee-ae90-46d5-91b8-b1b1757b9152": {
+      "@type": "slate",
+      "plaintext": "Most visual decisions have already been made. Headings, body text, link styles, button shapes and the spacing between elements are defined once by the theme and applied consistently to every page. You do not pick fonts or type sizes while writing, and that is the point: it is what keeps a site with many editors looking like a single site rather than a collection of individual pages.",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Most visual decisions have already been made. Headings, body text, link styles, button shapes and the spacing between elements are defined once by the theme and applied consistently to every page. You do not pick fonts or type sizes while writing, and that is the point: it is what keeps a site with many editors looking like a single site rather than a collection of individual pages."
+            }
+          ],
+          "type": "p"
+        }
+      ]
     }
   },
   "blocks_layout": {
     "items": [
       "8f93decd-ecaa-4cb2-bad3-2a0198b87cd1",
+      "4d065af2-6185-4ba7-8fcf-8e49e48fd50a",
       "dea1bfe1-28eb-4f61-8264-309d8ccc46f3",
-      "fa4c83af-3fa5-45d9-b465-fbfb55d72af1"
+      "1793413c-2cf8-4113-9a95-81d018570f40",
+      "40e23306-35cd-4ed9-8a79-561860be4b64",
+      "f93a77ee-ae90-46d5-91b8-b1b1757b9152",
+      "24400e76-99d1-4771-9d85-b49e42136118",
+      "d5a871e4-c0df-4036-939d-30c694a51057",
+      "1bc2dc14-bcb2-44d0-a8c4-8b6783675a07",
+      "93818fba-c353-4155-af39-59f2ea2839bc"
     ]
   },
   "changeNote": "",
@@ -49,7 +182,7 @@
     "locked": false,
     "stealable": true
   },
-  "modified": "2024-06-24T17:09:41+00:00",
+  "modified": "2026-09-14T07:49:03+00:00",
   "nav_title": null,
   "preview_caption_link": null,
   "review_state": "published",

@@ -1,0 +1,538 @@
+{
+  "@id": "/features/blocks-catalogue/logos-block",
+  "@type": "Document",
+  "UID": "b7dbd273beae4b33a2279173258d05dc",
+  "allow_discussion": null,
+  "blocks": {
+    "0d8d4761-aebd-42c4-9dab-0d060230dfc4": {
+      "@type": "heading",
+      "alignment": "left",
+      "heading": "2 \u00b7 Size and width",
+      "styles": {},
+      "tag": "h2",
+      "theme": "default"
+    },
+    "0f5cafc7-71bb-4216-83f9-975a8d8034b7": {
+      "@type": "slate",
+      "alignment": "left",
+      "heading": "",
+      "plaintext": "Block width",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Block width"
+            }
+          ],
+          "type": "h3"
+        }
+      ]
+    },
+    "1b59ab79-d107-4c97-97de-61ca6d3f28a6": {
+      "@type": "separator",
+      "styles": {
+        "align:noprefix": "left",
+        "blockWidth:noprefix": "default",
+        "shortLine": false
+      },
+      "theme": "default"
+    },
+    "2f3269b9-281e-4e3b-b7b1-39d6564fc119": {
+      "@type": "slate",
+      "plaintext": "Small keeps a long list quiet; large is for a handful of principal partners.",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Small keeps a long list quiet; large is for a handful of principal partners."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "370d3acd-59c1-4de2-b5c1-f985cf25c435": {
+      "@type": "logos",
+      "logos": [
+        {
+          "@id": "ab404eb9-ed4f-4aab-96af-524b896d46d2",
+          "href": [],
+          "logo": [
+            {
+              "@id": "../../../resolveuid/3f86e910ec474fc48a7f9b107d0b0be9",
+              "@type": "Image",
+              "Description": "",
+              "Title": "Plone SVG",
+              "image_field": "image",
+              "title": "Plone SVG"
+            }
+          ],
+          "openLinkInNewTab": true
+        }
+      ],
+      "logos_container_width": "layout",
+      "logos_size": "l"
+    },
+    "3c7c6b40-947d-49fb-b537-bca241955bfc": {
+      "@type": "logos",
+      "logos": [
+        {
+          "@id": "ab404eb9-ed4f-4aab-96af-524b896d46d2",
+          "href": [],
+          "logo": [
+            {
+              "@id": "../../../resolveuid/3f86e910ec474fc48a7f9b107d0b0be9",
+              "@type": "Image",
+              "Description": "",
+              "Title": "Plone SVG",
+              "image_field": "image",
+              "title": "Plone SVG"
+            }
+          ],
+          "openLinkInNewTab": true
+        }
+      ],
+      "logos_container_width": "layout",
+      "logos_size": "s"
+    },
+    "45fb33e2-1603-4216-9ae5-2aadbbc8ff13": {
+      "@type": "separator",
+      "styles": {
+        "align:noprefix": "left",
+        "blockWidth:noprefix": "default",
+        "shortLine": false
+      },
+      "theme": "default"
+    },
+    "72480f37-bf2c-4d0e-a0d9-4fbc3401523b": {
+      "@type": "slate",
+      "plaintext": "Marks wrap onto as many rows as they need and stay evenly spaced. Supply them on transparent backgrounds so the row looks even.",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Marks wrap onto as many rows as they need and stay evenly spaced. Supply them on transparent backgrounds so the row looks even."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "78f275e3-178b-4a86-9931-d32e38147a5e": {
+      "@type": "introduction",
+      "plaintext": "The logos block shows a set of partner or sponsor marks in an even row. Use it to credit organisations \u2014 not to navigate to parts of your own site.",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "The logos block shows a set of partner or sponsor marks in an even row. Use it to credit organisations \u2014 not to navigate to parts of your own site."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "7a932d00-e921-4e85-85c8-4529940b6d85": {
+      "@type": "logos",
+      "logos": [
+        {
+          "@id": "9fbe4f2f-2960-4a29-a3b3-2f0e06d55e3b",
+          "alt": "",
+          "logo": [
+            {
+              "@id": "../../../resolveuid/3f86e910ec474fc48a7f9b107d0b0be9",
+              "@type": "Image",
+              "Description": "",
+              "Title": "Plone SVG",
+              "image_field": "image",
+              "title": "Plone SVG"
+            }
+          ]
+        },
+        {
+          "@id": "9c239184-e26f-4dc9-9344-fe46c6abbade",
+          "alt": "",
+          "logo": [
+            {
+              "@id": "../../../resolveuid/3f86e910ec474fc48a7f9b107d0b0be9",
+              "@type": "Image",
+              "Description": "",
+              "Title": "Plone SVG",
+              "image_field": "image",
+              "title": "Plone SVG"
+            }
+          ]
+        }
+      ],
+      "logos_container_width": "layout",
+      "logos_size": "s"
+    },
+    "93989a82-c360-44e5-8c45-4997e9af53f4": {
+      "@type": "slate",
+      "plaintext": "Logo size",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Logo size"
+            }
+          ],
+          "type": "h3"
+        }
+      ]
+    },
+    "b06db490-17c1-4739-851b-4ae288ef7baa": {
+      "@type": "heading",
+      "alignment": "left",
+      "heading": "1 \u00b7 The set of marks",
+      "styles": {},
+      "tag": "h2",
+      "theme": "default"
+    },
+    "c2538bc2-c013-4000-b615-78028b9cacc3": {
+      "@type": "introduction",
+      "plaintext": " -> See full example matrix of the Logos block ",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": ""
+            },
+            {
+              "children": [
+                {
+                  "text": "-> See full example matrix of the Logos block"
+                }
+              ],
+              "data": {
+                "url": "../../../resolveuid/187310adc80e4f298cbf0dd4f5f94542"
+              },
+              "type": "link"
+            },
+            {
+              "text": ""
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "c93a2a41-bfaf-4429-966d-9385c5aaff6a": {
+      "@type": "__button",
+      "href": [
+        {
+          "@id": "../../../resolveuid/60d95502d13b40808ac93ad1b00c1052",
+          "Description": "The maps block can have embeded a Map (Google Maps, OpenMaps, etc).",
+          "Title": "Maps",
+          "hasPreviewImage": null,
+          "title": "Maps"
+        }
+      ],
+      "styles": {
+        "align:noprefix": "right",
+        "blockWidth:noprefix": "default"
+      },
+      "theme": "default",
+      "title": "Next block: Maps"
+    },
+    "cc4014d5-5fe8-4b12-b55b-8a72e551a89a": {
+      "@type": "title"
+    },
+    "cdc5bf06-1749-49cb-b19f-2e8724be61c4": {
+      "@type": "logos",
+      "logos": [
+        {
+          "@id": "9fbe4f2f-2960-4a29-a3b3-2f0e06d55e3b",
+          "alt": "",
+          "logo": [
+            {
+              "@id": "../../../resolveuid/3f86e910ec474fc48a7f9b107d0b0be9",
+              "@type": "Image",
+              "Description": "",
+              "Title": "Plone SVG",
+              "image_field": "image",
+              "title": "Plone SVG"
+            }
+          ]
+        },
+        {
+          "@id": "9c239184-e26f-4dc9-9344-fe46c6abbade",
+          "alt": "",
+          "logo": [
+            {
+              "@id": "../../../resolveuid/3f86e910ec474fc48a7f9b107d0b0be9",
+              "@type": "Image",
+              "Description": "",
+              "Title": "Plone SVG",
+              "image_field": "image",
+              "title": "Plone SVG"
+            }
+          ]
+        }
+      ],
+      "logos_container_width": "default",
+      "logos_size": "s"
+    },
+    "e013b9d5-9c1c-4d89-bd08-549ba9d729bd": {
+      "@type": "separator",
+      "styles": {
+        "align:noprefix": "left",
+        "blockWidth:noprefix": "default",
+        "shortLine": false
+      },
+      "theme": "default"
+    },
+    "e783a3b8-70a3-4369-ad1c-8518a4dd4879": {
+      "@type": "logos",
+      "logos": [
+        {
+          "@id": "05abdcfa-88e3-4348-862d-a294c638d846",
+          "alt": "",
+          "logo": [
+            {
+              "@id": "../../../resolveuid/3f86e910ec474fc48a7f9b107d0b0be9",
+              "@type": "Image",
+              "Description": "",
+              "Title": "Plone SVG",
+              "image_field": "image",
+              "title": "Plone SVG"
+            }
+          ]
+        },
+        {
+          "@id": "fcd6d41a-a3ca-418c-b9e5-a3e8e1f0546d",
+          "alt": "",
+          "logo": [
+            {
+              "@id": "../../../resolveuid/3f86e910ec474fc48a7f9b107d0b0be9",
+              "@type": "Image",
+              "Description": "",
+              "Title": "Plone SVG",
+              "image_field": "image",
+              "title": "Plone SVG"
+            }
+          ]
+        },
+        {
+          "@id": "304267e9-430e-4c92-90cd-30f9d7de65e0",
+          "alt": "",
+          "logo": [
+            {
+              "@id": "../../../resolveuid/3f86e910ec474fc48a7f9b107d0b0be9",
+              "@type": "Image",
+              "Description": "",
+              "Title": "Plone SVG",
+              "image_field": "image",
+              "title": "Plone SVG"
+            }
+          ]
+        },
+        {
+          "@id": "7d4161c3-e642-49ce-8b63-309a30b06444",
+          "alt": "",
+          "logo": [
+            {
+              "@id": "../../../resolveuid/3f86e910ec474fc48a7f9b107d0b0be9",
+              "@type": "Image",
+              "Description": "",
+              "Title": "Plone SVG",
+              "image_field": "image",
+              "title": "Plone SVG"
+            }
+          ]
+        },
+        {
+          "@id": "97bb2d9d-e9d4-4b6d-bfc5-3c60f9b17afa",
+          "alt": "",
+          "logo": [
+            {
+              "@id": "../../../resolveuid/3f86e910ec474fc48a7f9b107d0b0be9",
+              "@type": "Image",
+              "Description": "",
+              "Title": "Plone SVG",
+              "image_field": "image",
+              "title": "Plone SVG"
+            }
+          ]
+        },
+        {
+          "@id": "f3ab38f7-0ff7-4d68-92f7-05dde78bcfca",
+          "alt": "",
+          "logo": [
+            {
+              "@id": "../../../resolveuid/3f86e910ec474fc48a7f9b107d0b0be9",
+              "@type": "Image",
+              "Description": "",
+              "Title": "Plone SVG",
+              "image_field": "image",
+              "title": "Plone SVG"
+            }
+          ]
+        },
+        {
+          "@id": "c7212231-9f2b-4045-8b22-0c83c246d1c1",
+          "alt": "",
+          "logo": [
+            {
+              "@id": "../../../resolveuid/3f86e910ec474fc48a7f9b107d0b0be9",
+              "@type": "Image",
+              "Description": "",
+              "Title": "Plone SVG",
+              "image_field": "image",
+              "title": "Plone SVG"
+            }
+          ]
+        },
+        {
+          "@id": "db07c49d-1e4a-4dd3-b81e-5ac268c0a86a",
+          "alt": "",
+          "logo": [
+            {
+              "@id": "../../../resolveuid/3f86e910ec474fc48a7f9b107d0b0be9",
+              "@type": "Image",
+              "Description": "",
+              "Title": "Plone SVG",
+              "image_field": "image",
+              "title": "Plone SVG"
+            }
+          ]
+        },
+        {
+          "@id": "8b996908-7bfe-473c-99ee-5b890633602d",
+          "alt": "",
+          "logo": [
+            {
+              "@id": "../../../resolveuid/3f86e910ec474fc48a7f9b107d0b0be9",
+              "@type": "Image",
+              "Description": "",
+              "Title": "Plone SVG",
+              "image_field": "image",
+              "title": "Plone SVG"
+            }
+          ]
+        }
+      ],
+      "logos_container_width": "default",
+      "logos_size": "s"
+    },
+    "f1d6cc94-1e65-42ca-ac6f-0feb6daa8b5d": {
+      "@type": "slate",
+      "plaintext": "Default sits in most blocks' column; full width suits a closing band of many marks.",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Default sits in most blocks' column; full width suits a closing band of many marks."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "f29d7d5a-9e0e-4798-8dfa-ffb5e9a27775": {
+      "@type": "slate",
+      "plaintext": "Several logos",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Several logos"
+            }
+          ],
+          "type": "h3"
+        }
+      ]
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "cc4014d5-5fe8-4b12-b55b-8a72e551a89a",
+      "78f275e3-178b-4a86-9931-d32e38147a5e",
+      "45fb33e2-1603-4216-9ae5-2aadbbc8ff13",
+      "b06db490-17c1-4739-851b-4ae288ef7baa",
+      "f29d7d5a-9e0e-4798-8dfa-ffb5e9a27775",
+      "72480f37-bf2c-4d0e-a0d9-4fbc3401523b",
+      "e783a3b8-70a3-4369-ad1c-8518a4dd4879",
+      "1b59ab79-d107-4c97-97de-61ca6d3f28a6",
+      "0d8d4761-aebd-42c4-9dab-0d060230dfc4",
+      "93989a82-c360-44e5-8c45-4997e9af53f4",
+      "2f3269b9-281e-4e3b-b7b1-39d6564fc119",
+      "3c7c6b40-947d-49fb-b537-bca241955bfc",
+      "370d3acd-59c1-4de2-b5c1-f985cf25c435",
+      "0f5cafc7-71bb-4216-83f9-975a8d8034b7",
+      "f1d6cc94-1e65-42ca-ac6f-0feb6daa8b5d",
+      "cdc5bf06-1749-49cb-b19f-2e8724be61c4",
+      "7a932d00-e921-4e85-85c8-4529940b6d85",
+      "e013b9d5-9c1c-4d89-bd08-549ba9d729bd",
+      "c2538bc2-c013-4000-b615-78028b9cacc3",
+      "c93a2a41-bfaf-4429-966d-9385c5aaff6a"
+    ]
+  },
+  "changeNote": "",
+  "contributors": [],
+  "created": "2025-06-09T12:53:13+00:00",
+  "creators": [
+    "admin"
+  ],
+  "description": "The logos block displays a grid of logos, optionally linked. Logos can be shown in different sizes (S / L) and container widths (default / layout).",
+  "effective": "2025-07-09T10:52:00+00:00",
+  "exclude_from_nav": true,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "head_title": null,
+  "id": "logos-block",
+  "is_folderish": true,
+  "language": "##DEFAULT##",
+  "layout": "document_view",
+  "lock": {
+    "locked": false,
+    "stealable": true
+  },
+  "modified": "2026-09-11T13:39:47+00:00",
+  "nav_title": null,
+  "preview_caption_link": null,
+  "review_state": "published",
+  "rights": "",
+  "subjects": [],
+  "title": "Logos",
+  "type_title": "Page",
+  "version": "current",
+  "versioning_enabled": true,
+  "workflow_history": {
+    "simple_publication_workflow": [
+      {
+        "action": null,
+        "actor": "admin",
+        "comments": "",
+        "review_state": "private",
+        "time": "2026-09-10T12:05:36+00:00"
+      },
+      {
+        "action": "publish",
+        "actor": "admin",
+        "comments": "",
+        "review_state": "published",
+        "time": "2026-09-10T13:52:55+00:00"
+      }
+    ]
+  },
+  "working_copy": null,
+  "working_copy_of": null
+}

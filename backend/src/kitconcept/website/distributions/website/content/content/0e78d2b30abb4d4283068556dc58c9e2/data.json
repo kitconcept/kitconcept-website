@@ -4,28 +4,133 @@
   "UID": "0e78d2b30abb4d4283068556dc58c9e2",
   "allow_discussion": false,
   "blocks": {
-    "0b0e9336-0097-4bc4-8061-2bfbc1efb02e": {
-      "@type": "slate"
+    "0f23e514-a304-4360-a275-6264dc6299ae": {
+      "@type": "slate",
+      "plaintext": "Because a form is a block, it sits on an ordinary page alongside the text that introduces it. There is no separate place to go and no separate thing to maintain. Easy and effective.",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Because a form is a block, it sits on an ordinary page alongside the text that introduces it. There is no separate place to go and no separate thing to maintain. Easy and effective."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "5b74a5ee-4a4d-46ff-9a94-6af7ec8db26d": {
+      "@type": "slate",
+      "plaintext": "You assemble a form field by field: single lines of text, longer messages, dates, checkboxes, choices from a list. Each field takes a label and can carry a short hint explaining what is wanted, and can be marked as required so the form cannot be sent without it.",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "You assemble a form field by field: single lines of text, longer messages, dates, checkboxes, choices from a list. Each field takes a label and can carry a short hint explaining what is wanted, and can be marked as required so the form cannot be sent without it."
+            }
+          ],
+          "type": "p"
+        }
+      ]
     },
     "6219cc1b-fcb2-4de0-901b-ec647f28d2c4": {
       "@type": "title"
     },
+    "772706a1-b8ed-4ac2-a26f-43bd9c40a1f0": {
+      "@type": "separator",
+      "styles": {
+        "align:noprefix": "left",
+        "blockWidth:noprefix": "default",
+        "shortLine": false
+      },
+      "theme": "default"
+    },
     "7c4d362e-1388-43a8-94f5-37b111e5c579": {
       "@type": "image",
-      "align": "full",
       "credit": {},
       "description": "",
       "image_field": "image",
-      "size": "l",
-      "title": "scott-graham-OQMZwNd3ThU-unsplash.jpg",
+      "styles": {
+        "align:noprefix": "center",
+        "blockWidth:noprefix": "default",
+        "size:noprefix": "l"
+      },
+      "theme": "default",
       "url": "../../resolveuid/b25ac9b29c9247c7bde7c6b5eca71720"
+    },
+    "bcb949ac-d19f-47dd-ad8b-7d8365783583": {
+      "@type": "slate",
+      "plaintext": "Building a form",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Building a form"
+            }
+          ],
+          "type": "h2"
+        }
+      ]
+    },
+    "cafc7aa4-3898-44e7-93a6-6c34cb7b5f52": {
+      "@type": "slate",
+      "plaintext": " -> Look at the Form in the block catalogue ",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": ""
+            },
+            {
+              "children": [
+                {
+                  "text": "-> Look at the Form in the block catalogue"
+                }
+              ],
+              "data": {
+                "url": "../../resolveuid/27b632d4690344849c42850f93f1f3db"
+              },
+              "type": "link"
+            },
+            {
+              "text": ""
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "f874c2d5-c5d5-4536-8bf3-041c5bf8d378": {
+      "@type": "introduction",
+      "plaintext": "Forms let editors collect information from visitors \u2014 an enquiry, a registration, a piece of feedback \u2014 without anything having to be built specially. A form is added to a page as a block, in the same way as any other element.",
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Forms let editors collect information from visitors \u2014 an enquiry, a registration, a piece of feedback \u2014 without anything having to be built specially. A form is added to a page as a block, in the same way as any other element."
+            }
+          ],
+          "type": "p"
+        }
+      ]
     }
   },
   "blocks_layout": {
     "items": [
       "6219cc1b-fcb2-4de0-901b-ec647f28d2c4",
+      "f874c2d5-c5d5-4536-8bf3-041c5bf8d378",
       "7c4d362e-1388-43a8-94f5-37b111e5c579",
-      "0b0e9336-0097-4bc4-8061-2bfbc1efb02e"
+      "772706a1-b8ed-4ac2-a26f-43bd9c40a1f0",
+      "bcb949ac-d19f-47dd-ad8b-7d8365783583",
+      "5b74a5ee-4a4d-46ff-9a94-6af7ec8db26d",
+      "0f23e514-a304-4360-a275-6264dc6299ae",
+      "cafc7aa4-3898-44e7-93a6-6c34cb7b5f52"
     ]
   },
   "changeNote": "",
@@ -49,7 +154,7 @@
     "locked": false,
     "stealable": true
   },
-  "modified": "2024-06-24T17:09:41+00:00",
+  "modified": "2026-09-14T07:54:21+00:00",
   "nav_title": null,
   "preview_caption_link": null,
   "review_state": "published",

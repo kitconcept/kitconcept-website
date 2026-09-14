@@ -1,0 +1,530 @@
+{
+  "@id": "/features/blocks-catalogue/text-block",
+  "@type": "Document",
+  "UID": "873316c6a6b74deaaf109256a8f64313",
+  "allow_discussion": false,
+  "blocks": {
+    "00146980-5c86-4ecd-a84e-d373183231ad": {
+      "@type": "slate",
+      "plaintext": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gu bergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gu bergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet"
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "01534ebf-48c5-4df2-a6e6-5d9483f89d7d": {
+      "@type": "heading",
+      "heading": "2 \u00b7 Where the text block fits",
+      "theme": "default"
+    },
+    "0d2b26f9-8393-4e0c-9c75-54a90d0022ae": {
+      "@type": "slate",
+      "plaintext": " Headings inside the text \u2014 H2 and H3 within the flow, for sections too short to need their own Heading block.",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": ""
+            },
+            {
+              "children": [
+                {
+                  "text": "Headings inside the text"
+                }
+              ],
+              "type": "strong"
+            },
+            {
+              "text": " \u2014 H2 and H3 within the flow, for sections too short to need their own Heading block."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "291012a9-ca10-4011-9121-32a210f24d58": {
+      "@type": "slate",
+      "plaintext": "This is unordered list This is unordered list This is unordered list",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "text": "This is unordered list"
+                }
+              ],
+              "type": "li"
+            },
+            {
+              "children": [
+                {
+                  "text": "This is unordered list"
+                }
+              ],
+              "type": "li"
+            },
+            {
+              "children": [
+                {
+                  "text": "This is unordered list"
+                }
+              ],
+              "type": "li"
+            }
+          ],
+          "type": "ul"
+        }
+      ]
+    },
+    "2abcc2af-dc78-4ca6-8882-6682f7e9a5b9": {
+      "@type": "slate",
+      "plaintext": "   This is link. ",
+      "value": [
+        {
+          "children": [
+            {
+              "text": ""
+            },
+            {
+              "children": [
+                {
+                  "text": ""
+                }
+              ],
+              "type": "em"
+            },
+            {
+              "text": ""
+            },
+            {
+              "children": [
+                {
+                  "text": "This is link."
+                }
+              ],
+              "data": {
+                "url": "https://www.google.com/"
+              },
+              "type": "link"
+            },
+            {
+              "text": ""
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "3a2f8507-01bf-49a4-a670-2159005075df": {
+      "@type": "slate",
+      "plaintext": "This is H3",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "This is H3"
+            }
+          ],
+          "type": "h3"
+        }
+      ]
+    },
+    "486c4646-de10-40a9-9470-58b7b1449240": {
+      "@type": "introduction",
+      "plaintext": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": " Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. "
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "49c674b5-b694-4f98-b0d5-b0b194d72f81": {
+      "@type": "heading",
+      "heading": "1 \u00b7 The formatting available",
+      "theme": "default"
+    },
+    "4fd04478-50eb-4d61-a38b-6bca029bf660": {
+      "@type": "slate",
+      "plaintext": " Lists \u2014 Numbered for steps that have an order, bulleted for sets that do not.",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": ""
+            },
+            {
+              "children": [
+                {
+                  "text": "Lists"
+                }
+              ],
+              "type": "strong"
+            },
+            {
+              "text": " \u2014 Numbered for steps that have an order, bulleted for sets that do not."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "5348d3fb-9639-44a3-a069-1938eab6062e": {
+      "@type": "introduction",
+      "plaintext": " -> See full example matrix of the Text block ",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": ""
+            },
+            {
+              "children": [
+                {
+                  "text": "-> See full example matrix of the Text block"
+                }
+              ],
+              "data": {
+                "url": "../../../resolveuid/f10cccf8033140d4b13bacac0b9094e4"
+              },
+              "type": "link"
+            },
+            {
+              "text": ""
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "55df52be-8681-4d09-a17b-f32f31632213": {
+      "@type": "separator",
+      "styles": {
+        "align:noprefix": "left",
+        "blockWidth:noprefix": "narrow",
+        "shortLine": false
+      },
+      "theme": "default"
+    },
+    "5783a103-3129-48f8-80af-f7ad7af1efa4": {
+      "@type": "slate",
+      "plaintext": " This is bold text. ",
+      "value": [
+        {
+          "children": [
+            {
+              "text": ""
+            },
+            {
+              "children": [
+                {
+                  "text": "This is bold text."
+                }
+              ],
+              "type": "strong"
+            },
+            {
+              "text": ""
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "8df2a31d-76a5-445c-aacc-0437c48331d8": {
+      "@type": "slate",
+      "plaintext": "This is H2",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "This is H2"
+            }
+          ],
+          "type": "h2"
+        }
+      ]
+    },
+    "96d4be37-35ca-4d96-a542-c334d8db9e85": {
+      "@type": "separator",
+      "styles": {
+        "align:noprefix": "left",
+        "blockWidth:noprefix": "default",
+        "shortLine": false
+      },
+      "theme": "default"
+    },
+    "9704c0d2-3e17-41c6-b3f6-9ae051d8c2f8": {
+      "@type": "slate",
+      "plaintext": " This is Italics. ",
+      "value": [
+        {
+          "children": [
+            {
+              "text": ""
+            },
+            {
+              "children": [
+                {
+                  "text": "This is Italics."
+                }
+              ],
+              "type": "em"
+            },
+            {
+              "text": ""
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "979ca53c-e4cc-4c4a-ad90-226bdf86450c": {
+      "@type": "__button",
+      "href": [
+        {
+          "@id": "../../../resolveuid/41ace5d49cd04cca9bea10a51e2ece45",
+          "Description": " The video block can contain videos from YouTube.",
+          "Title": "Video",
+          "hasPreviewImage": null,
+          "title": "Video"
+        }
+      ],
+      "styles": {
+        "align:noprefix": "right",
+        "blockWidth:noprefix": "default"
+      },
+      "theme": "default",
+      "title": "Next block: Video"
+    },
+    "9aa1cf78-c6dd-4f31-8673-4a3fc2653add": {
+      "@type": "slate",
+      "plaintext": "one two three",
+      "value": [
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "text": "one"
+                }
+              ],
+              "type": "li"
+            },
+            {
+              "children": [
+                {
+                  "text": "two"
+                }
+              ],
+              "type": "li"
+            },
+            {
+              "children": [
+                {
+                  "text": "three"
+                }
+              ],
+              "type": "li"
+            }
+          ],
+          "type": "ol"
+        }
+      ]
+    },
+    "ae3b3c26-a149-4d74-8c8b-8ff10fa8fcba": {
+      "@type": "slate",
+      "plaintext": " Text or Introduction \u2014 The introduction is the one larger opening paragraph; everything after it is Text. That is the whole difference.",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": ""
+            },
+            {
+              "children": [
+                {
+                  "text": "Text or Introduction"
+                }
+              ],
+              "type": "strong"
+            },
+            {
+              "text": " \u2014 The introduction is the one larger opening paragraph; everything after it is Text. That is the whole difference."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "b62232cf-904b-4ba6-97cc-7ae8680cffa9": {
+      "@type": "separator",
+      "styles": {
+        "align:noprefix": "left",
+        "blockWidth:noprefix": "default"
+      },
+      "theme": "default"
+    },
+    "ccff41c6-b733-4b88-b02e-4c07460a19e2": {
+      "@type": "title"
+    },
+    "cd44a7ba-b521-41fb-a609-0d1b8d9df592": {
+      "@type": "heading",
+      "alignment": "left",
+      "heading": "The text block holds ordinary body copy with the formatting the site supports. Most pages are mostly this block.",
+      "styles": {},
+      "tag": "h2",
+      "theme": "default"
+    },
+    "d092a462-8a09-4aa8-8764-d7424ed14a92": {
+      "@type": "slate",
+      "plaintext": " Bold, italic and links \u2014 Inline emphasis, and links to pages inside or outside the site. External links are marked for you.",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": ""
+            },
+            {
+              "children": [
+                {
+                  "text": "Bold, italic and links"
+                }
+              ],
+              "type": "strong"
+            },
+            {
+              "text": " \u2014 Inline emphasis, and links to pages inside or outside the site. External links are marked for you."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "f0a56edf-a963-4177-877c-76d9a4d6c20b": {
+      "@type": "slate",
+      "plaintext": "Heading H2",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Heading H2"
+            }
+          ],
+          "type": "h3"
+        }
+      ]
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "ccff41c6-b733-4b88-b02e-4c07460a19e2",
+      "cd44a7ba-b521-41fb-a609-0d1b8d9df592",
+      "96d4be37-35ca-4d96-a542-c334d8db9e85",
+      "49c674b5-b694-4f98-b0d5-b0b194d72f81",
+      "d092a462-8a09-4aa8-8764-d7424ed14a92",
+      "0d2b26f9-8393-4e0c-9c75-54a90d0022ae",
+      "4fd04478-50eb-4d61-a38b-6bca029bf660",
+      "5783a103-3129-48f8-80af-f7ad7af1efa4",
+      "9704c0d2-3e17-41c6-b3f6-9ae051d8c2f8",
+      "2abcc2af-dc78-4ca6-8882-6682f7e9a5b9",
+      "8df2a31d-76a5-445c-aacc-0437c48331d8",
+      "3a2f8507-01bf-49a4-a670-2159005075df",
+      "9aa1cf78-c6dd-4f31-8673-4a3fc2653add",
+      "291012a9-ca10-4011-9121-32a210f24d58",
+      "55df52be-8681-4d09-a17b-f32f31632213",
+      "01534ebf-48c5-4df2-a6e6-5d9483f89d7d",
+      "ae3b3c26-a149-4d74-8c8b-8ff10fa8fcba",
+      "486c4646-de10-40a9-9470-58b7b1449240",
+      "f0a56edf-a963-4177-877c-76d9a4d6c20b",
+      "00146980-5c86-4ecd-a84e-d373183231ad",
+      "b62232cf-904b-4ba6-97cc-7ae8680cffa9",
+      "5348d3fb-9639-44a3-a069-1938eab6062e",
+      "979ca53c-e4cc-4c4a-ad90-226bdf86450c"
+    ]
+  },
+  "changeNote": "",
+  "contributors": [],
+  "created": "2023-07-06T21:35:21+00:00",
+  "creators": [
+    "admin"
+  ],
+  "description": "\nThe Text Block allows you to add text to a web page. The text can be formatted and structured in different ways (bold, headings, etc.).",
+  "effective": "2023-07-06T18:35:00+00:00",
+  "exclude_from_nav": true,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "head_title": null,
+  "id": "text-block",
+  "is_folderish": true,
+  "language": "##DEFAULT##",
+  "layout": "document_view",
+  "lock": {
+    "locked": false,
+    "stealable": true
+  },
+  "modified": "2026-09-11T13:41:09+00:00",
+  "nav_title": null,
+  "preview_caption_link": null,
+  "review_state": "published",
+  "rights": "",
+  "subjects": [],
+  "title": "Text",
+  "type_title": "Page",
+  "version": "current",
+  "versioning_enabled": true,
+  "workflow_history": {
+    "simple_publication_workflow": [
+      {
+        "action": null,
+        "actor": "admin",
+        "comments": "",
+        "review_state": "private",
+        "time": "2026-09-10T12:05:36+00:00"
+      },
+      {
+        "action": "publish",
+        "actor": "admin",
+        "comments": "",
+        "review_state": "published",
+        "time": "2026-09-10T13:52:55+00:00"
+      }
+    ]
+  },
+  "working_copy": null,
+  "working_copy_of": null
+}

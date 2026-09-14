@@ -1,0 +1,114 @@
+{
+  "@id": "/features/blocks-catalogue",
+  "@type": "Document",
+  "UID": "7a63e0f30eef4793851f46766f47e286",
+  "allow_discussion": null,
+  "blocks": {
+    "271b8b39-d277-490d-be06-f63ef953b4b4": {
+      "@type": "listing",
+      "headlineTag": "h2",
+      "querystring": {
+        "b_size": "40",
+        "query": [
+          {
+            "i": "path",
+            "o": "plone.app.querystring.operation.string.absolutePath",
+            "v": "7a63e0f30eef4793851f46766f47e286::1"
+          }
+        ],
+        "sort_on": "sortable_title",
+        "sort_order": "ascending"
+      },
+      "styles": {},
+      "theme": "default",
+      "variation": "default"
+    },
+    "50f4539e-bc1e-49c0-ab9d-6cd299919cd9": {
+      "@type": "introduction",
+      "plaintext": "This catalogue is a reference for the Volto blocks available on this site. Each page below demonstrates one block type together with its main variants: themes, alignments, widths and content sources.",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "This catalogue is a reference for the Volto blocks available on this site. Each page below demonstrates one block type together with its main variants: themes, alignments, widths and content sources."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "8f168ef3-0d18-4d23-8b6b-18dc2e7599e0": {
+      "@type": "title"
+    },
+    "f3043917-2865-4262-a859-113e50cd037f": {
+      "@type": "separator",
+      "styles": {
+        "align:noprefix": "left",
+        "blockWidth:noprefix": "default",
+        "shortLine": true
+      },
+      "theme": "default"
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "8f168ef3-0d18-4d23-8b6b-18dc2e7599e0",
+      "50f4539e-bc1e-49c0-ab9d-6cd299919cd9",
+      "f3043917-2865-4262-a859-113e50cd037f",
+      "271b8b39-d277-490d-be06-f63ef953b4b4"
+    ]
+  },
+  "changeNote": "",
+  "contributors": [],
+  "created": "2026-09-10T12:05:17+00:00",
+  "creators": [
+    "admin"
+  ],
+  "description": "Reference pages demonstrating each available Volto block.",
+  "effective": "2026-09-10T13:52:47+00:00",
+  "exclude_from_nav": false,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "head_title": null,
+  "id": "blocks-catalogue",
+  "is_folderish": true,
+  "language": "##DEFAULT##",
+  "layout": "document_view",
+  "lock": {
+    "locked": false,
+    "stealable": true
+  },
+  "modified": "2026-09-11T14:00:01+00:00",
+  "nav_title": null,
+  "preview_caption_link": null,
+  "review_state": "published",
+  "rights": "",
+  "subjects": [],
+  "title": "Blocks catalogue",
+  "type_title": "Page",
+  "version": "current",
+  "versioning_enabled": true,
+  "workflow_history": {
+    "simple_publication_workflow": [
+      {
+        "action": null,
+        "actor": "admin",
+        "comments": "",
+        "review_state": "private",
+        "time": "2026-09-10T12:05:17+00:00"
+      },
+      {
+        "action": "publish",
+        "actor": "admin",
+        "comments": "",
+        "review_state": "published",
+        "time": "2026-09-10T13:52:47+00:00"
+      }
+    ]
+  },
+  "working_copy": null,
+  "working_copy_of": null
+}
