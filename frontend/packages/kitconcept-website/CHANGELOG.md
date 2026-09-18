@@ -1,3 +1,10 @@
+## 2.0.0 (2026-09-18)
+
+### Internal
+
+- Stamp the distribution's `volto_version` during release with `uvx repoplone deps stamp-volto-version` instead of an inline Node one-liner in `.release-it.json`. @sneridagh 
+- Update core and VLT. @sneridagh 
+
 ## 2.0.0-beta.10 (2026-09-10)
 
 ### Internal

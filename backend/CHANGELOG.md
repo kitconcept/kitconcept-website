@@ -2,6 +2,19 @@
 
 <!-- towncrier release notes start -->
 
+## 2.0.0 (2026-09-18)
+
+
+### Feature
+
+- Enable the `kitconcept.seo` behavior (SEO metadata fields) on all content types shipped by the distribution. @sneridagh [#91](https://gitlab.kitconcept.io/kitconcept/distribution-kitconcept-website/-/work_items/91)
+
+
+### Internal
+
+- Update core and VLT. @sneridagh 
+- Update example content. @danalvrz 
+
 ## 2.0.0b10 (2026-09-10)
 
 

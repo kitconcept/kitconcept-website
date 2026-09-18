@@ -1,6 +1,39 @@
 # Changelog
 
 <!-- towncrier release notes start -->
+## 2.0.0 (2026-09-18)
+
+### Backend
+
+
+#### Feature
+
+- Enable the `kitconcept.seo` behavior (SEO metadata fields) on all content types shipped by the distribution. @sneridagh [#91](https://gitlab.kitconcept.io/kitconcept/distribution-kitconcept-website/-/work_items/91)
+
+
+#### Internal
+
+- Update core and VLT. @sneridagh 
+- Update example content. @danalvrz 
+
+
+
+### Frontend
+
+#### Internal
+
+- Stamp the distribution's `volto_version` during release with `uvx repoplone deps stamp-volto-version` instead of an inline Node one-liner in `.release-it.json`. @sneridagh 
+- Update core and VLT. @sneridagh 
+
+
+
+### Project
+
+No significant changes.
+
+
+
+
 ## 2.0.0b10 (2026-09-10)
 
 ### Backend
