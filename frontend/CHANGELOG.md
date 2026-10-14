@@ -1,3 +1,9 @@
+## 2.0.2 (2026-10-14)
+
+### Internal
+
+- Update to Volto 19.5.0. @sneridagh 
+
 ## 2.0.1 (2026-10-14)
 
 ### Internal

@@ -1,6 +1,30 @@
 # Changelog
 
 <!-- towncrier release notes start -->
+## 2.0.2 (2026-10-14)
+
+### Backend
+
+No significant changes.
+
+
+
+
+### Frontend
+
+#### Internal
+
+- Update to Volto 19.5.0. @sneridagh 
+
+
+
+### Project
+
+No significant changes.
+
+
+
+
 ## 2.0.1 (2026-10-14)
 
 ### Backend
