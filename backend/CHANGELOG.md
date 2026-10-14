@@ -2,6 +2,13 @@
 
 <!-- towncrier release notes start -->
 
+## 2.0.1 (2026-10-14)
+
+
+### Internal
+
+- Update to kitconcept.voltolighttheme 8.1.1. @sneridagh 
+
 ## 2.0.0 (2026-09-18)
 
 

@@ -1,3 +1,9 @@
+## 2.0.1 (2026-10-14)
+
+### Internal
+
+- Update to @kitconcept/volto-light-theme 8.1.1 and @kitconcept/core 2.1.0, and bump @kitconcept/volto-introduction-block to 1.4.2 and @kitconcept/volto-logos-block to 4.0.1 to match the VLT recommended add-ons. @sneridagh 
+
 ## 2.0.0 (2026-09-18)
 
 ### Internal
