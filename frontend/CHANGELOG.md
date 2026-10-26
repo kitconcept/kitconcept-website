@@ -1,3 +1,9 @@
+## 2.0.3 (2026-10-26)
+
+### Bugfix
+
+- Update to Volto 19.5.1 and rebuild the frontend image with Node 24.22.1. @davisagli 
+
 ## 2.0.2 (2026-10-14)
 
 ### Internal

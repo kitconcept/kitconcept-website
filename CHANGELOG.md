@@ -1,6 +1,32 @@
 # Changelog
 
 <!-- towncrier release notes start -->
+## 2.0.3 (2026-10-26)
+
+### Backend
+
+
+#### Bugfix
+
+- Update to Plone 6.2.2.1. This includes security fixes for certifi, pip, plone.app.content, and Pillow. @davisagli 
+
+
+
+### Frontend
+
+#### Bugfix
+
+- Update to Volto 19.5.1 and rebuild the frontend image with Node 24.22.1. @davisagli 
+
+
+
+### Project
+
+No significant changes.
+
+
+
+
 ## 2.0.2 (2026-10-14)
 
 ### Backend
