@@ -87,5 +87,5 @@
     "@plone/volto-form-block": "^1.0.0-alpha.3",
     "@plone-collective/volto-image-editor": "1.0.1"
   },
-  "volto_version": "19.5.0"
+  "volto_version": "19.5.1"
 }
