@@ -11,8 +11,8 @@ A CMS solution for public websites. Created by kitconcept.
 
 Ensure you have the following installed:
 
-- Python 3.12 🐍
-- Node 20 🟩
+- Python 3.14 🐍
+- Node 24 🟩
 - pnpm 🧶
 - Docker 🐳
 

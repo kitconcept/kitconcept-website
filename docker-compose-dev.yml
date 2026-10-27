@@ -23,7 +23,7 @@ x-backend: &backend
   build:
     context: ./backend
     args:
-      - PYTHON_VERSION=${PYTHON_VERSION:-3.12}
+      - PYTHON_VERSION=${PYTHON_VERSION:-3.14}
   platform: linux/amd64
 
 x-backend-acceptance: &backend-acceptance
@@ -33,7 +33,7 @@ x-backend-acceptance: &backend-acceptance
     context: ./backend
     dockerfile: Dockerfile.acceptance
     args:
-      - PYTHON_VERSION=${PYTHON_VERSION:-3.12}
+      - PYTHON_VERSION=${PYTHON_VERSION:-3.14}
   pull_policy: build
 
 x-solr: &solr
@@ -49,7 +49,6 @@ x-solr: &solr
     - /plone-config
 
 services:
-
   traefik:
     image: traefik:v2.11
     profiles: ["dev"]
