@@ -1,0 +1,7 @@
+// The collapsed header search bar is parked above the header (top: -135px)
+// inside the header container (z-index: 12) and would otherwise cover the
+// maintenance banner.
+.maintenance-banner {
+  position: relative;
+  z-index: 13;
+}

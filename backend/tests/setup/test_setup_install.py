@@ -19,3 +19,9 @@ class TestSetupInstall:
         from kitconcept.seo.interfaces import IKitconceptSeoLayer
 
         assert IKitconceptSeoLayer in browser_layers
+
+    def test_maintenancebanner_browserlayer(self, browser_layers):
+        """The kitconcept.maintenancebanner profile dependency is installed."""
+        from kitconcept.maintenancebanner.interfaces import IBrowserLayer
+
+        assert IBrowserLayer in browser_layers

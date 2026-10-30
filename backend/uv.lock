@@ -1445,6 +1445,21 @@ wheels = [
 ]
 
 [[package]]
+name = "kitconcept-maintenancebanner"
+version = "1.0.0a1"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "plone-api" },
+    { name = "plone-restapi" },
+    { name = "plone-volto" },
+    { name = "products-cmfplone" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/01/df/bbf2dccb5575f08b2743a39aae482679cab5bdb5c79354f856943236c4fc/kitconcept_maintenancebanner-1.0.0a1.tar.gz", hash = "sha256:7060359d605a027386ebf58e4125da0cb2c22fc153104996f257978c0b8e1b28", size = 76504, upload-time = "2026-10-30T03:41:08.938Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/1c/16/51e3ee87f231901e96cbd8e9ad51b8f12435860ac063f5f3f3c9318794f0/kitconcept_maintenancebanner-1.0.0a1-py3-none-any.whl", hash = "sha256:d1a667ab06c25995039b62765261b2948a575f6f573dcbbb61eeb49c574169fe", size = 86684, upload-time = "2026-10-30T03:41:07.63Z" },
+]
+
+[[package]]
 name = "kitconcept-seo"
 version = "3.0.0a2"
 source = { registry = "https://pypi.org/simple" }
@@ -1481,6 +1496,7 @@ default-groups = ["build", "test"]
 dependencies = [
     { name = "kitconcept-contactblock" },
     { name = "kitconcept-core" },
+    { name = "kitconcept-maintenancebanner" },
     { name = "kitconcept-seo" },
     { name = "plone-api" },
     { name = "plone-distribution" },
@@ -1517,6 +1533,7 @@ test = [
 requires-dist = [
     { name = "kitconcept-contactblock", specifier = "==1.0.0a5" },
     { name = "kitconcept-core", specifier = "==2.1.1" },
+    { name = "kitconcept-maintenancebanner", specifier = "==1.0.0a1" },
     { name = "kitconcept-seo" },
     { name = "plone-api" },
     { name = "plone-distribution" },

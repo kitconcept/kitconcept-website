@@ -32,6 +32,7 @@ dependencies = [
     "plone.volto",
     "python-dateutil",
     "kitconcept.contactblock==1.0.0a5",
+    "kitconcept.maintenancebanner==1.0.0a1",
 ]
 
 [dependency-groups]
