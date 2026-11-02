@@ -65,6 +65,7 @@
     "7f769e232e4d4b018288f777c158555b/data.json",
     "dc5ee0462bb844388ebaa9cc7c6e1bc5/data.json",
     "873316c6a6b74deaaf109256a8f64313/data.json",
+    "5381d4e87f5e477db45321266c11e040/data.json",
     "c1f1e8abe5e04969b7960892aacf978d/data.json",
     "41ace5d49cd04cca9bea10a51e2ece45/data.json",
     "37bcbfabfe6b47bca2af52fc08fead0a/data.json",
@@ -155,6 +156,7 @@
     "ab3958c51a794b11887d265f99f7f2f7/data.json",
     "8c6dfccd377440c2879627ceaa8e7834/data.json",
     "f10cccf8033140d4b13bacac0b9094e4/data.json",
+    "91e820e2004b4e6e87d5acf6960d923f/data.json",
     "f6b63c341a4e451bba5ed4355838035e/data.json",
     "220bc67910f34ffc9e81b732f7b2e1f8/data.json",
     "9faea2810c2e4c3798d6fe1f3c69a2ff/data.json",
@@ -230,6 +232,7 @@
     "50c969b05290465da8e38b46fcfb4cf7": {},
     "50c9a06205be46deb632dd2c9bd507e8": {},
     "51aa57a0fb694d528ee5a76af0107131": {},
+    "5381d4e87f5e477db45321266c11e040": {},
     "575ada43fa3047218a8824890fd3355a": {},
     "5f1077b5414743429689927de357c350": {},
     "60d95502d13b40808ac93ad1b00c1052": {},
@@ -264,6 +267,7 @@
     "902fad18bb584693bac78e5ffeaf39d3": {},
     "90c526e4f845489f85aeaca8431e7d05": {},
     "91961f69e49240d9abfff31bc8c37002": {},
+    "91e820e2004b4e6e87d5acf6960d923f": {},
     "921d2652873f4ea99f6acf9d01624055": {},
     "923cd2d4921f449194e2ceaebcedbaab": {},
     "92f0ea7fba7e4a939ba223320f0d8621": {},
@@ -328,6 +332,13 @@
           "Manager",
           "Site Administrator",
           "Owner"
+        ]
+      },
+      "Can edit TTW blocks configuration": {
+        "acquire": false,
+        "roles": [
+          "Manager",
+          "Site Administrator"
         ]
       },
       "Content rules: Manage rules": {
@@ -775,6 +786,13 @@
         ]
       }
     },
+    "5381d4e87f5e477db45321266c11e040": {
+      "local_roles": {
+        "admin": [
+          "Owner"
+        ]
+      }
+    },
     "575ada43fa3047218a8824890fd3355a": {
       "local_roles": {
         "admin": [
@@ -1007,6 +1025,13 @@
       }
     },
     "91961f69e49240d9abfff31bc8c37002": {
+      "local_roles": {
+        "admin": [
+          "Owner"
+        ]
+      }
+    },
+    "91e820e2004b4e6e87d5acf6960d923f": {
       "local_roles": {
         "admin": [
           "Owner"
@@ -1469,6 +1494,7 @@
     "50c969b05290465da8e38b46fcfb4cf7": 0,
     "50c9a06205be46deb632dd2c9bd507e8": 14,
     "51aa57a0fb694d528ee5a76af0107131": 6,
+    "5381d4e87f5e477db45321266c11e040": 22,
     "575ada43fa3047218a8824890fd3355a": 13,
     "5f1077b5414743429689927de357c350": 6,
     "60d95502d13b40808ac93ad1b00c1052": 13,
@@ -1503,6 +1529,7 @@
     "902fad18bb584693bac78e5ffeaf39d3": 16,
     "90c526e4f845489f85aeaca8431e7d05": 2,
     "91961f69e49240d9abfff31bc8c37002": 6,
+    "91e820e2004b4e6e87d5acf6960d923f": 22,
     "921d2652873f4ea99f6acf9d01624055": 0,
     "923cd2d4921f449194e2ceaebcedbaab": 3,
     "92f0ea7fba7e4a939ba223320f0d8621": 5,
