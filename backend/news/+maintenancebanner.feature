@@ -1,1 +1,1 @@
-Add kitconcept.maintenancebanner. @Tishasoumya-02
+Add kitconcept.maintenancebanner. Note: There is an upgrade step to run. @Tishasoumya-02
