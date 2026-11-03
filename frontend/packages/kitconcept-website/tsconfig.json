@@ -20,6 +20,9 @@
       "@kitconcept/website/*": ["./src/*"],
       "@kitconcept/volto-light-theme/*": [
         "./node_modules/@kitconcept/volto-light-theme/src/*"
+      ],
+      "@kitconcept/volto-maintenance-banner/*": [
+        "./node_modules/@kitconcept/volto-maintenance-banner/src/*"
       ]
     }
   },
