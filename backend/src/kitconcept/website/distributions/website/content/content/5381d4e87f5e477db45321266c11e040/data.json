@@ -1,0 +1,426 @@
+{
+  "@id": "/features/blocks-catalogue/timeline-block",
+  "@type": "Document",
+  "UID": "5381d4e87f5e477db45321266c11e040",
+  "allow_discussion": null,
+  "blocks": {
+    "0824fd23-4371-46be-848c-8fe709a893ef": {
+      "@type": "separator",
+      "styles": {
+        "align:noprefix": "left",
+        "blockWidth:noprefix": "default",
+        "shortLine": false
+      },
+      "theme": "default"
+    },
+    "1797a467-0433-4515-bc68-4715b8e5b1ad": {
+      "@type": "separator",
+      "styles": {
+        "align:noprefix": "left",
+        "blockWidth:noprefix": "default",
+        "shortLine": false
+      },
+      "theme": "default"
+    },
+    "19c3f8c3-abd2-4926-a63f-be758aa6bc33": {
+      "@type": "slate",
+      "plaintext": "Label is optional",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Label is optional"
+            }
+          ],
+          "type": "h3"
+        }
+      ]
+    },
+    "31827803-b649-428b-81a3-4e9d2bf4b1b7": {
+      "@type": "slate",
+      "plaintext": "Like other blocks, the timeline can sit on the default background or a coloured one.",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Like other blocks, the timeline can sit on the default background or a coloured one."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "350b226d-eb1b-41c6-a47e-f3f271132244": {
+      "@type": "timeline",
+      "data": [
+        {
+          "@id": "52f89077-76e8-4faa-b320-b8b0896c955d",
+          "content": "Kick-off: requirements and project scope are defined.",
+          "time": "2022"
+        },
+        {
+          "@id": "e99e0159-33b5-422e-8473-a4e429b18873",
+          "content": "Concept and design: wireframes and visual design are agreed.",
+          "time": "2023"
+        },
+        {
+          "@id": "a0219589-8979-4ea1-89bb-1ce5a6c0b3aa",
+          "content": "Development: features are built and tested.",
+          "time": "2024"
+        },
+        {
+          "@id": "5119bc43-6758-4870-97ba-a9c4b97db505",
+          "content": "Launch: the new website goes live.",
+          "time": "2025"
+        }
+      ],
+      "styles": {},
+      "theme": "default"
+    },
+    "35c163a3-59ff-4cf8-b313-ff408e05cedc": {
+      "@type": "separator",
+      "styles": {
+        "align:noprefix": "left",
+        "blockWidth:noprefix": "default",
+        "shortLine": false
+      },
+      "theme": "default"
+    },
+    "5281cc57-bd04-4d53-a885-5c96bd23ceb3": {
+      "@type": "slate",
+      "plaintext": "Each item has a short label (a year, date or phase) and a description. Items alternate sides automatically. Drag them to reorder.",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Each item has a short label (a year, date or phase) and a description. Items alternate sides automatically. Drag them to reorder."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "58c8bb5e-b5a7-4b9b-a6eb-c59d03cb03a2": {
+      "@type": "timeline",
+      "data": [
+        {
+          "@id": "be59cbfb-4985-40f1-885d-8209a3d50767",
+          "content": "Kick-off: requirements and project scope are defined.",
+          "time": "2022"
+        },
+        {
+          "@id": "e5648794-b4a1-4b2b-84fb-9f48bb217dc5",
+          "content": "Concept and design: wireframes and visual design are agreed.",
+          "time": "2023"
+        },
+        {
+          "@id": "f47be165-d2d8-419c-bea9-7c2cb30653a0",
+          "content": "Development: features are built and tested.",
+          "time": "2024"
+        }
+      ],
+      "styles": {},
+      "theme": "grey"
+    },
+    "5bb8a024-957a-484b-8eca-04f8a1ec3e53": {
+      "@type": "slate",
+      "plaintext": "The add-on also adds a Timeline variation to the listing block. It builds the timeline from a query: each item's title becomes the label and its description the text.",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "The add-on also adds a Timeline variation to the listing block. It builds the timeline from a query: each item's title becomes the label and its description the text."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "6060c88c-49ce-427c-b4ba-a587caade9d0": {
+      "@type": "heading",
+      "alignment": "left",
+      "heading": "3 \u00b7 Timeline listing variation",
+      "styles": {},
+      "tag": "h2",
+      "theme": "default"
+    },
+    "7d14e43b-6262-447f-a272-6b5b1b3efb43": {
+      "@type": "introduction",
+      "plaintext": "The timeline block shows a sequence of events in chronological order, alternating left and right along a vertical line. Use it for histories, milestones and roadmaps, not for content readers need to compare side by side.",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "The timeline block shows a sequence of events in chronological order, alternating left and right along a vertical line. Use it for histories, milestones and roadmaps, not for content readers need to compare side by side."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "9221d0ba-b815-431d-9511-91107dd3b4f4": {
+      "@type": "slate",
+      "plaintext": "Several items",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Several items"
+            }
+          ],
+          "type": "h3"
+        }
+      ]
+    },
+    "9380d6f1-6ec2-4b52-b999-bef0db5c75f0": {
+      "@type": "__button",
+      "href": [
+        {
+          "@id": "../../../resolveuid/41ace5d49cd04cca9bea10a51e2ece45",
+          "Description": "The video block can contain videos from YouTube.",
+          "Title": "Video",
+          "hasPreviewImage": null,
+          "title": "Video"
+        }
+      ],
+      "styles": {
+        "align:noprefix": "right",
+        "blockWidth:noprefix": "default"
+      },
+      "theme": "default",
+      "title": "Next block: Video"
+    },
+    "975904a4-be36-4821-91ef-5e0c048498d4": {
+      "@type": "timeline",
+      "data": [
+        {
+          "@id": "64dc9fd2-f4e7-4ea8-b8f1-b7c2dcf22f3e",
+          "content": "Kick-off: requirements and project scope are defined.",
+          "time": "2022"
+        },
+        {
+          "@id": "c0d57f35-bd1a-45d2-866a-ed82629233bc",
+          "content": "An item without a label shows only its description."
+        }
+      ],
+      "styles": {},
+      "theme": "default"
+    },
+    "9bb60de2-aa3d-43d2-9bdb-40e9d9e968fc": {
+      "@type": "timeline",
+      "data": [
+        {
+          "@id": "83945286-01ed-4e19-99e5-9124ed8117c0",
+          "content": "Kick-off: requirements and project scope are defined.",
+          "time": "2022"
+        },
+        {
+          "@id": "40a60f8a-f3a4-4999-aff4-a4bc149fc72f",
+          "content": "Concept and design: wireframes and visual design are agreed.",
+          "time": "2023"
+        },
+        {
+          "@id": "53144ef8-67e0-42e7-9c7d-af6237fc30e3",
+          "content": "Development: features are built and tested.",
+          "time": "2024"
+        }
+      ],
+      "styles": {},
+      "theme": "default"
+    },
+    "9c5d5d7e-817d-46fc-9a35-3510cda2be97": {
+      "@type": "heading",
+      "alignment": "left",
+      "heading": "2 \u00b7 Background color",
+      "styles": {},
+      "tag": "h2",
+      "theme": "default"
+    },
+    "9d0d13d5-9e0f-435f-8b92-4633a300aae9": {
+      "@type": "slate",
+      "plaintext": "Leave the label empty and only the description is shown.",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Leave the label empty and only the description is shown."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "a687035e-b4e8-4149-87ff-0d693753b4ee": {
+      "@type": "introduction",
+      "plaintext": " -> See full example matrix of the Timeline block ",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": ""
+            },
+            {
+              "children": [
+                {
+                  "text": "-> See full example matrix of the Timeline block"
+                }
+              ],
+              "data": {
+                "url": "../../../resolveuid/91e820e2004b4e6e87d5acf6960d923f"
+              },
+              "type": "link"
+            },
+            {
+              "text": ""
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "ac77eaad-0a57-4ea8-884b-b1fa4a96e5fb": {
+      "@type": "separator",
+      "styles": {
+        "align:noprefix": "left",
+        "blockWidth:noprefix": "default",
+        "shortLine": false
+      },
+      "theme": "default"
+    },
+    "b144e226-e0a6-4bee-844f-f0825929bbdd": {
+      "@type": "heading",
+      "alignment": "left",
+      "heading": "1 \u00b7 Timeline items",
+      "styles": {},
+      "tag": "h2",
+      "theme": "default"
+    },
+    "e0865619-44e0-449a-b7fd-5fb70cff8e5e": {
+      "@type": "title"
+    },
+    "edc4ce98-1755-4707-879c-8f2a0d1274c2": {
+      "@type": "listing",
+      "block": "edc4ce98-1755-4707-879c-8f2a0d1274c2",
+      "headlineTag": "h2",
+      "query": [],
+      "querystring": {
+        "b_size": "4",
+        "query": [
+          {
+            "i": "portal_type",
+            "o": "plone.app.querystring.operation.selection.any",
+            "v": [
+              "News Item"
+            ]
+          }
+        ],
+        "sort_on": "effective",
+        "sort_order": "ascending"
+      },
+      "styles": {},
+      "theme": "default",
+      "variation": "timeline"
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "e0865619-44e0-449a-b7fd-5fb70cff8e5e",
+      "7d14e43b-6262-447f-a272-6b5b1b3efb43",
+      "1797a467-0433-4515-bc68-4715b8e5b1ad",
+      "b144e226-e0a6-4bee-844f-f0825929bbdd",
+      "9221d0ba-b815-431d-9511-91107dd3b4f4",
+      "5281cc57-bd04-4d53-a885-5c96bd23ceb3",
+      "350b226d-eb1b-41c6-a47e-f3f271132244",
+      "19c3f8c3-abd2-4926-a63f-be758aa6bc33",
+      "9d0d13d5-9e0f-435f-8b92-4633a300aae9",
+      "975904a4-be36-4821-91ef-5e0c048498d4",
+      "0824fd23-4371-46be-848c-8fe709a893ef",
+      "9c5d5d7e-817d-46fc-9a35-3510cda2be97",
+      "31827803-b649-428b-81a3-4e9d2bf4b1b7",
+      "9bb60de2-aa3d-43d2-9bdb-40e9d9e968fc",
+      "58c8bb5e-b5a7-4b9b-a6eb-c59d03cb03a2",
+      "35c163a3-59ff-4cf8-b313-ff408e05cedc",
+      "6060c88c-49ce-427c-b4ba-a587caade9d0",
+      "5bb8a024-957a-484b-8eca-04f8a1ec3e53",
+      "edc4ce98-1755-4707-879c-8f2a0d1274c2",
+      "ac77eaad-0a57-4ea8-884b-b1fa4a96e5fb",
+      "a687035e-b4e8-4149-87ff-0d693753b4ee",
+      "9380d6f1-6ec2-4b52-b999-bef0db5c75f0"
+    ]
+  },
+  "changeNote": "",
+  "contributors": [],
+  "created": "2026-11-02T11:21:17+00:00",
+  "creators": [
+    "admin"
+  ],
+  "description": "The timeline block allows you to display events in chronological order along a vertical timeline.",
+  "effective": "2026-11-02T11:21:20+00:00",
+  "exclude_from_nav": true,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "google_preview": null,
+  "head_title": null,
+  "id": "timeline-block",
+  "is_folderish": true,
+  "language": "##DEFAULT##",
+  "layout": "document_view",
+  "lock": {
+    "locked": false,
+    "stealable": true
+  },
+  "modified": "2026-11-02T11:23:13+00:00",
+  "nav_title": null,
+  "opengraph_description": null,
+  "opengraph_image": null,
+  "opengraph_title": null,
+  "preview_caption_link": null,
+  "review_state": "published",
+  "rights": "",
+  "seo_canonical_url": null,
+  "seo_description": null,
+  "seo_noindex": null,
+  "seo_title": null,
+  "subjects": [],
+  "title": "Timeline",
+  "type_title": "Page",
+  "version": "current",
+  "versioning_enabled": true,
+  "workflow_history": {
+    "simple_publication_workflow": [
+      {
+        "action": null,
+        "actor": "admin",
+        "comments": "",
+        "review_state": "private",
+        "time": "2026-11-02T11:21:17+00:00"
+      },
+      {
+        "action": "publish",
+        "actor": "admin",
+        "comments": "",
+        "review_state": "published",
+        "time": "2026-11-02T11:21:20+00:00"
+      }
+    ]
+  },
+  "working_copy": null,
+  "working_copy_of": null
+}

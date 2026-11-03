@@ -1,0 +1,566 @@
+{
+  "@id": "/qa/block/timeline-block",
+  "@type": "Document",
+  "UID": "91e820e2004b4e6e87d5acf6960d923f",
+  "allow_discussion": null,
+  "blocks": {
+    "0e2436ec-be35-4ff8-a84e-6aa736b20455": {
+      "@type": "heading",
+      "alignment": "left",
+      "heading": "Timeline Listing",
+      "styles": {},
+      "tag": "h2",
+      "theme": "grey"
+    },
+    "10d1ef44-3c6f-4281-b21e-47229ba96ebe": {
+      "@type": "heading",
+      "alignment": "left",
+      "heading": "Single Item",
+      "styles": {},
+      "tag": "h2",
+      "theme": "default"
+    },
+    "139f80ca-2cb5-4694-a20b-025cda9e5615": {
+      "@type": "timeline",
+      "data": [
+        {
+          "@id": "b70ece3d-a0d3-46f5-9139-6d43cef29a79",
+          "content": "Lorem ipsum dolor sit amet adipiscing elit, sed diam nonummy nibh euismod tincidunt.",
+          "time": "2016"
+        },
+        {
+          "@id": "4a7a460a-c74a-4551-bae9-b5a579639290",
+          "content": "Lorem ipsum dolor sit amet adipiscing elit, sed diam nonummy nibh euismod tincidunt.",
+          "time": "2017"
+        },
+        {
+          "@id": "ba5fceb8-429f-44a3-89d8-4a5ee952a567",
+          "content": "Lorem ipsum dolor sit amet adipiscing elit, sed diam nonummy nibh euismod tincidunt.",
+          "time": "2018"
+        },
+        {
+          "@id": "63b52fb2-8d6f-470c-8505-3a2be73c0ff8",
+          "content": "Lorem ipsum dolor sit amet adipiscing elit, sed diam nonummy nibh euismod tincidunt.",
+          "time": "2019"
+        }
+      ],
+      "styles": {},
+      "theme": "default"
+    },
+    "16caa152-48cf-45e3-b934-f2fd14e8d55e": {
+      "@type": "title"
+    },
+    "2e8c03ca-1941-4ff8-aa91-c4c109b51198": {
+      "@type": "heading",
+      "alignment": "left",
+      "heading": "Without Label",
+      "styles": {},
+      "tag": "h2",
+      "theme": "grey"
+    },
+    "2fa5b638-9882-47dd-933f-a4365a272e2e": {
+      "@type": "timeline",
+      "data": [
+        {
+          "@id": "dfc19212-4bc6-4020-841c-4a2d01a172df",
+          "content": "Lorem ipsum dolor sit amet adipiscing elit, sed diam nonummy nibh euismod tincidunt.",
+          "time": "2016"
+        },
+        {
+          "@id": "620fde77-de10-4cae-a42d-694ba682eade",
+          "content": "Lorem ipsum dolor sit amet adipiscing elit, sed diam nonummy nibh euismod tincidunt.",
+          "time": "2017"
+        },
+        {
+          "@id": "c395b10e-8251-40c3-8848-0cb1a90660e4",
+          "content": "Lorem ipsum dolor sit amet adipiscing elit, sed diam nonummy nibh euismod tincidunt.",
+          "time": "2018"
+        },
+        {
+          "@id": "94ec4315-2156-4987-adb2-0948209208e8",
+          "content": "Lorem ipsum dolor sit amet adipiscing elit, sed diam nonummy nibh euismod tincidunt.",
+          "time": "2019"
+        },
+        {
+          "@id": "28af09ba-4fe2-481c-87b3-a467688cf9a7",
+          "content": "Lorem ipsum dolor sit amet adipiscing elit, sed diam nonummy nibh euismod tincidunt.",
+          "time": "2020"
+        }
+      ],
+      "styles": {},
+      "theme": "default"
+    },
+    "34408a19-b09d-42eb-bd7c-59080caaae31": {
+      "@type": "heading",
+      "alignment": "left",
+      "heading": "Long Unbroken Word",
+      "styles": {},
+      "tag": "h2",
+      "theme": "default"
+    },
+    "3497156f-3c88-4e6e-86cb-2f59d879d0e3": {
+      "@type": "timeline",
+      "data": [
+        {
+          "@id": "dab14561-269a-4f7b-b71c-5357838116b4",
+          "content": "Lorem ipsum dolor sit amet adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.",
+          "time": "2016"
+        },
+        {
+          "@id": "90dd4f06-84c6-4e38-9128-34ed9e45bb08",
+          "content": "Lorem ipsum dolor sit amet adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.",
+          "time": "2017"
+        },
+        {
+          "@id": "f6b9c8c5-d537-4fb9-aafc-439756fbb6ce",
+          "content": "Lorem ipsum dolor sit amet adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.",
+          "time": "2018"
+        }
+      ],
+      "styles": {},
+      "theme": "default"
+    },
+    "3770862b-48f3-4a79-b6e5-fdd188c0e898": {
+      "@type": "listing",
+      "block": "3770862b-48f3-4a79-b6e5-fdd188c0e898",
+      "headlineTag": "h2",
+      "query": [],
+      "querystring": {
+        "b_size": "4",
+        "query": [
+          {
+            "i": "portal_type",
+            "o": "plone.app.querystring.operation.selection.any",
+            "v": [
+              "News Item"
+            ]
+          }
+        ],
+        "sort_on": "effective",
+        "sort_order": "ascending"
+      },
+      "styles": {},
+      "theme": "grey",
+      "variation": "timeline"
+    },
+    "40ef288a-8ca9-463a-a9e5-7ad3e4fad2d2": {
+      "@type": "timeline",
+      "data": [
+        {
+          "@id": "c6740897-cd6e-4a46-b749-ee899622e96d",
+          "content": "Lorem ipsum dolor sit amet adipiscing elit, sed diam nonummy nibh euismod tincidunt.",
+          "time": "Q3 2024 \u2013 Phase two: Implementation and rollout"
+        },
+        {
+          "@id": "67193146-9720-41f3-a961-db2bbe508e5f",
+          "content": "Lorem ipsum dolor sit amet adipiscing elit, sed diam nonummy nibh euismod tincidunt.",
+          "time": "Q1 2025 \u2013 Phase three: Evaluation and optimisation"
+        }
+      ],
+      "styles": {},
+      "theme": "default"
+    },
+    "4b4b6674-7918-4220-9a99-61d161963cf5": {
+      "@type": "heading",
+      "alignment": "left",
+      "heading": "Without Label",
+      "styles": {},
+      "tag": "h2",
+      "theme": "default"
+    },
+    "58e4892d-786b-4b63-bde7-ba873e8e0ffd": {
+      "@type": "timeline",
+      "data": [
+        {
+          "@id": "d70926d7-2831-490a-b606-da1ab922be35",
+          "content": "Lorem ipsum dolor sit amet adipiscing elit, sed diam nonummy nibh euismod tincidunt.",
+          "time": "2016"
+        },
+        {
+          "@id": "f9674b4e-4a65-4cc0-93ae-f0e210a4af80",
+          "content": "Lorem ipsum dolor sit amet adipiscing elit, sed diam nonummy nibh euismod tincidunt.",
+          "time": "2017"
+        },
+        {
+          "@id": "792256dc-513a-4a01-aa98-1b629b562cce",
+          "content": "Lorem ipsum dolor sit amet adipiscing elit, sed diam nonummy nibh euismod tincidunt.",
+          "time": "2018"
+        },
+        {
+          "@id": "f3beb956-94d0-4ea4-97e9-0bacf38ea8a7",
+          "content": "Lorem ipsum dolor sit amet adipiscing elit, sed diam nonummy nibh euismod tincidunt.",
+          "time": "2019"
+        },
+        {
+          "@id": "95330f5d-b7d4-410d-9530-653fd7d0c704",
+          "content": "Lorem ipsum dolor sit amet adipiscing elit, sed diam nonummy nibh euismod tincidunt.",
+          "time": "2020"
+        },
+        {
+          "@id": "d7d31b96-804e-4864-a117-2cca49d7c23b",
+          "content": "Lorem ipsum dolor sit amet adipiscing elit, sed diam nonummy nibh euismod tincidunt.",
+          "time": "2021"
+        },
+        {
+          "@id": "fde801df-a99a-4ced-a4d5-b997cc2470df",
+          "content": "Lorem ipsum dolor sit amet adipiscing elit, sed diam nonummy nibh euismod tincidunt.",
+          "time": "2022"
+        },
+        {
+          "@id": "4305d044-3ff3-4c68-95c5-4e20dc4bfd33",
+          "content": "Lorem ipsum dolor sit amet adipiscing elit, sed diam nonummy nibh euismod tincidunt.",
+          "time": "2023"
+        },
+        {
+          "@id": "0883c197-9951-490c-861f-c11fb5c77a23",
+          "content": "Lorem ipsum dolor sit amet adipiscing elit, sed diam nonummy nibh euismod tincidunt.",
+          "time": "2024"
+        },
+        {
+          "@id": "be6e0fb8-ec75-403e-9213-bcc3fc0a143e",
+          "content": "Lorem ipsum dolor sit amet adipiscing elit, sed diam nonummy nibh euismod tincidunt.",
+          "time": "2025"
+        }
+      ],
+      "styles": {},
+      "theme": "default"
+    },
+    "59727416-fbde-4369-8f28-7f904589d778": {
+      "@type": "heading",
+      "alignment": "left",
+      "heading": "Long Label",
+      "styles": {},
+      "tag": "h2",
+      "theme": "default"
+    },
+    "6a5fa23b-2d9c-41a4-9ee8-98b56dc3ad39": {
+      "@type": "listing",
+      "block": "6a5fa23b-2d9c-41a4-9ee8-98b56dc3ad39",
+      "headlineTag": "h2",
+      "query": [],
+      "querystring": {
+        "b_size": "4",
+        "query": [
+          {
+            "i": "portal_type",
+            "o": "plone.app.querystring.operation.selection.any",
+            "v": [
+              "News Item"
+            ]
+          }
+        ],
+        "sort_on": "effective",
+        "sort_order": "ascending"
+      },
+      "styles": {},
+      "theme": "default",
+      "variation": "timeline"
+    },
+    "705e2d0b-1f8b-462a-9807-e65a5a583c6d": {
+      "@type": "heading",
+      "alignment": "left",
+      "heading": "Basic Timeline",
+      "styles": {},
+      "tag": "h2",
+      "theme": "default"
+    },
+    "750e614f-0a7f-41a3-a1b8-b8e786beabcb": {
+      "@type": "timeline",
+      "data": [
+        {
+          "@id": "4f3f509a-754b-41b4-906d-d70958d04b69",
+          "content": "Lorem ipsum https://www.example.com/a-very-long-unbroken-url-segment-that-should-wrap-inside-the-timeline-item/and-keeps-going dolor sit amet.",
+          "time": "2016"
+        },
+        {
+          "@id": "364aa6e1-fee5-486a-8e6c-1aedf30b25b7",
+          "content": "Lorem ipsum https://www.example.com/a-very-long-unbroken-url-segment-that-should-wrap-inside-the-timeline-item/and-keeps-going dolor sit amet.",
+          "time": "2017"
+        }
+      ],
+      "styles": {},
+      "theme": "default"
+    },
+    "75a89ccc-ab76-42aa-901e-ae829ee27fca": {
+      "@type": "heading",
+      "alignment": "left",
+      "heading": "Many Items",
+      "styles": {},
+      "tag": "h2",
+      "theme": "default"
+    },
+    "7a4d55e6-9d83-4b3a-b5af-88f25c66d53f": {
+      "@type": "heading",
+      "alignment": "left",
+      "heading": "Basic Timeline",
+      "styles": {},
+      "tag": "h2",
+      "theme": "grey"
+    },
+    "8b33eb24-7567-4935-9200-0d2a61c2d038": {
+      "@type": "heading",
+      "alignment": "left",
+      "heading": "Mixed Labels",
+      "styles": {},
+      "tag": "h2",
+      "theme": "default"
+    },
+    "8e2d753b-cc68-4714-a149-9e0f143767e1": {
+      "@type": "timeline",
+      "data": [
+        {
+          "@id": "82278139-9454-4212-aa39-38f62faf07c7",
+          "content": "Lorem ipsum dolor sit amet adipiscing elit, sed diam nonummy nibh euismod tincidunt."
+        },
+        {
+          "@id": "da5c17bd-3b43-4648-921d-232b8f8e5fbc",
+          "content": "Lorem ipsum dolor sit amet adipiscing elit, sed diam nonummy nibh euismod tincidunt."
+        },
+        {
+          "@id": "ac6dc154-6b43-4c1b-8b64-89fbc9219c57",
+          "content": "Lorem ipsum dolor sit amet adipiscing elit, sed diam nonummy nibh euismod tincidunt."
+        }
+      ],
+      "styles": {},
+      "theme": "default"
+    },
+    "ade8b233-843d-433d-a8bf-eba94fa88655": {
+      "@type": "heading",
+      "alignment": "left",
+      "heading": "Odd Number of Items",
+      "styles": {},
+      "tag": "h2",
+      "theme": "default"
+    },
+    "b3e5bf82-97b5-4f10-8a42-7a251b663ab6": {
+      "@type": "heading",
+      "alignment": "left",
+      "heading": "Long Description",
+      "styles": {},
+      "tag": "h2",
+      "theme": "default"
+    },
+    "bf5592a8-4199-4e51-9eff-78a8b703fd17": {
+      "@type": "heading",
+      "alignment": "left",
+      "heading": "Timeline on Grey Background",
+      "styles": {},
+      "tag": "h2",
+      "theme": "grey"
+    },
+    "c62c7774-eff1-44ab-9633-1c8a3ce45bbb": {
+      "@type": "timeline",
+      "data": [
+        {
+          "@id": "c7eed95f-28fe-4b33-96c9-1291f0bf3204",
+          "content": "Lorem ipsum dolor sit amet adipiscing elit, sed diam nonummy nibh euismod tincidunt."
+        },
+        {
+          "@id": "5b127906-a8e4-4a44-8d0b-e117b020b320",
+          "content": "Lorem ipsum dolor sit amet adipiscing elit, sed diam nonummy nibh euismod tincidunt."
+        },
+        {
+          "@id": "c6afa120-7c48-4a63-a36d-80342a80a677",
+          "content": "Lorem ipsum dolor sit amet adipiscing elit, sed diam nonummy nibh euismod tincidunt."
+        }
+      ],
+      "styles": {},
+      "theme": "grey"
+    },
+    "cda7d8d5-424c-41a8-ae5c-3f7a99dc279e": {
+      "@type": "timeline",
+      "data": [
+        {
+          "@id": "653be35d-0af9-4193-8221-66a493715b94",
+          "content": "Lorem ipsum dolor sit amet adipiscing elit, sed diam nonummy nibh euismod tincidunt.",
+          "time": "2022"
+        },
+        {
+          "@id": "237816f4-78d6-452e-8f65-3e00732f3462",
+          "content": "Lorem ipsum dolor sit amet adipiscing elit, sed diam nonummy nibh euismod tincidunt."
+        },
+        {
+          "@id": "d572d42d-13a7-40fb-b945-c5a307721b40",
+          "content": "Lorem ipsum dolor sit amet adipiscing elit, sed diam nonummy nibh euismod tincidunt.",
+          "time": "2024"
+        },
+        {
+          "@id": "b361f079-582f-4e59-b003-773a79c196d5",
+          "content": "Lorem ipsum dolor sit amet adipiscing elit, sed diam nonummy nibh euismod tincidunt."
+        }
+      ],
+      "styles": {},
+      "theme": "default"
+    },
+    "d8a996be-67f5-47eb-930b-38647d401665": {
+      "@type": "heading",
+      "alignment": "left",
+      "heading": "Long Description",
+      "styles": {},
+      "tag": "h2",
+      "theme": "grey"
+    },
+    "da518ad9-b758-493e-9cd4-c31a0be79ba4": {
+      "@type": "heading",
+      "alignment": "left",
+      "heading": "Timeline Listing",
+      "styles": {},
+      "tag": "h2",
+      "theme": "default"
+    },
+    "e2324afd-1db7-4e5f-879e-871e2aabcb32": {
+      "@type": "timeline",
+      "data": [
+        {
+          "@id": "b2fa5973-2bb6-4150-9fd0-94af2a27929f",
+          "content": "Lorem ipsum dolor sit amet adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.",
+          "time": "2016"
+        },
+        {
+          "@id": "9b4fe5b1-60ad-4bb9-8b5b-8ed667a49ba5",
+          "content": "Lorem ipsum dolor sit amet adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.",
+          "time": "2017"
+        },
+        {
+          "@id": "fe486440-8c1e-4b43-b4a0-c490fb1ead6d",
+          "content": "Lorem ipsum dolor sit amet adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.",
+          "time": "2018"
+        }
+      ],
+      "styles": {},
+      "theme": "grey"
+    },
+    "f572cebd-f6ee-4364-b5cb-102d1af4b130": {
+      "@type": "timeline",
+      "data": [
+        {
+          "@id": "13cc4bc6-df95-473b-9728-af13dcfdc990",
+          "content": "Lorem ipsum dolor sit amet adipiscing elit, sed diam nonummy nibh euismod tincidunt.",
+          "time": "2016"
+        }
+      ],
+      "styles": {},
+      "theme": "default"
+    },
+    "f6b0d787-b90e-470c-a589-4962f1a742e9": {
+      "@type": "timeline",
+      "data": [
+        {
+          "@id": "a3a197bf-0c92-4a44-9256-7bbc08b768e9",
+          "content": "Lorem ipsum dolor sit amet adipiscing elit, sed diam nonummy nibh euismod tincidunt.",
+          "time": "2016"
+        },
+        {
+          "@id": "e8500a20-f889-45f0-a07c-6c07de0f09d3",
+          "content": "Lorem ipsum dolor sit amet adipiscing elit, sed diam nonummy nibh euismod tincidunt.",
+          "time": "2017"
+        },
+        {
+          "@id": "ea3dd4de-39b6-43fd-bb6a-7668775f19d6",
+          "content": "Lorem ipsum dolor sit amet adipiscing elit, sed diam nonummy nibh euismod tincidunt.",
+          "time": "2018"
+        },
+        {
+          "@id": "fd9b8b91-1954-4ee0-949c-fcf9675ee5d9",
+          "content": "Lorem ipsum dolor sit amet adipiscing elit, sed diam nonummy nibh euismod tincidunt.",
+          "time": "2019"
+        }
+      ],
+      "styles": {},
+      "theme": "grey"
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "16caa152-48cf-45e3-b934-f2fd14e8d55e",
+      "705e2d0b-1f8b-462a-9807-e65a5a583c6d",
+      "139f80ca-2cb5-4694-a20b-025cda9e5615",
+      "10d1ef44-3c6f-4281-b21e-47229ba96ebe",
+      "f572cebd-f6ee-4364-b5cb-102d1af4b130",
+      "ade8b233-843d-433d-a8bf-eba94fa88655",
+      "2fa5b638-9882-47dd-933f-a4365a272e2e",
+      "75a89ccc-ab76-42aa-901e-ae829ee27fca",
+      "58e4892d-786b-4b63-bde7-ba873e8e0ffd",
+      "4b4b6674-7918-4220-9a99-61d161963cf5",
+      "8e2d753b-cc68-4714-a149-9e0f143767e1",
+      "8b33eb24-7567-4935-9200-0d2a61c2d038",
+      "cda7d8d5-424c-41a8-ae5c-3f7a99dc279e",
+      "59727416-fbde-4369-8f28-7f904589d778",
+      "40ef288a-8ca9-463a-a9e5-7ad3e4fad2d2",
+      "b3e5bf82-97b5-4f10-8a42-7a251b663ab6",
+      "3497156f-3c88-4e6e-86cb-2f59d879d0e3",
+      "34408a19-b09d-42eb-bd7c-59080caaae31",
+      "750e614f-0a7f-41a3-a1b8-b8e786beabcb",
+      "da518ad9-b758-493e-9cd4-c31a0be79ba4",
+      "6a5fa23b-2d9c-41a4-9ee8-98b56dc3ad39",
+      "bf5592a8-4199-4e51-9eff-78a8b703fd17",
+      "7a4d55e6-9d83-4b3a-b5af-88f25c66d53f",
+      "f6b0d787-b90e-470c-a589-4962f1a742e9",
+      "2e8c03ca-1941-4ff8-aa91-c4c109b51198",
+      "c62c7774-eff1-44ab-9633-1c8a3ce45bbb",
+      "d8a996be-67f5-47eb-930b-38647d401665",
+      "e2324afd-1db7-4e5f-879e-871e2aabcb32",
+      "0e2436ec-be35-4ff8-a84e-6aa736b20455",
+      "3770862b-48f3-4a79-b6e5-fdd188c0e898"
+    ]
+  },
+  "changeNote": "",
+  "contributors": [],
+  "created": "2026-11-02T11:21:44+00:00",
+  "creators": [
+    "admin"
+  ],
+  "description": "The timeline block allows you to display events in chronological order along a vertical timeline.",
+  "effective": "2026-11-02T11:22:50+00:00",
+  "exclude_from_nav": false,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "google_preview": null,
+  "head_title": null,
+  "id": "timeline-block",
+  "is_folderish": true,
+  "language": "##DEFAULT##",
+  "layout": "document_view",
+  "lock": {
+    "locked": false,
+    "stealable": true
+  },
+  "modified": "2026-11-02T11:24:12+00:00",
+  "nav_title": null,
+  "opengraph_description": null,
+  "opengraph_image": null,
+  "opengraph_title": null,
+  "preview_caption_link": null,
+  "review_state": "published",
+  "rights": "",
+  "seo_canonical_url": null,
+  "seo_description": null,
+  "seo_noindex": null,
+  "seo_title": null,
+  "subjects": [],
+  "title": "Timeline",
+  "type_title": "Page",
+  "version": "current",
+  "versioning_enabled": true,
+  "workflow_history": {
+    "simple_publication_workflow": [
+      {
+        "action": null,
+        "actor": "admin",
+        "comments": "",
+        "review_state": "private",
+        "time": "2026-11-02T11:21:44+00:00"
+      },
+      {
+        "action": "publish",
+        "actor": "admin",
+        "comments": "",
+        "review_state": "published",
+        "time": "2026-11-02T11:22:50+00:00"
+      }
+    ]
+  },
+  "working_copy": null,
+  "working_copy_of": null
+}

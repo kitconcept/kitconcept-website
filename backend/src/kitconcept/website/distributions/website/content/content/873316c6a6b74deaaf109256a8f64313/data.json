@@ -310,11 +310,11 @@
       "@type": "__button",
       "href": [
         {
-          "@id": "../../../resolveuid/41ace5d49cd04cca9bea10a51e2ece45",
-          "Description": " The video block can contain videos from YouTube.",
-          "Title": "Video",
+          "@id": "../../../resolveuid/5381d4e87f5e477db45321266c11e040",
+          "Description": "The timeline block allows you to display events in chronological order along a vertical timeline.",
+          "Title": "Timeline",
           "hasPreviewImage": null,
-          "title": "Video"
+          "title": "Timeline"
         }
       ],
       "styles": {
@@ -322,7 +322,7 @@
         "blockWidth:noprefix": "default"
       },
       "theme": "default",
-      "title": "Next block: Video"
+      "title": "Next block: Timeline"
     },
     "9aa1cf78-c6dd-4f31-8673-4a3fc2653add": {
       "@type": "slate",
@@ -390,7 +390,8 @@
       "@type": "separator",
       "styles": {
         "align:noprefix": "left",
-        "blockWidth:noprefix": "default"
+        "blockWidth:noprefix": "default",
+        "shortLine": false
       },
       "theme": "default"
     },
@@ -488,6 +489,7 @@
   "expires": null,
   "exportimport.constrains": {},
   "exportimport.conversation": [],
+  "google_preview": null,
   "head_title": null,
   "id": "text-block",
   "is_folderish": true,
@@ -497,11 +499,18 @@
     "locked": false,
     "stealable": true
   },
-  "modified": "2026-09-11T13:41:09+00:00",
+  "modified": "2026-11-02T11:39:18+00:00",
   "nav_title": null,
+  "opengraph_description": null,
+  "opengraph_image": null,
+  "opengraph_title": null,
   "preview_caption_link": null,
   "review_state": "published",
   "rights": "",
+  "seo_canonical_url": null,
+  "seo_description": null,
+  "seo_noindex": null,
+  "seo_title": null,
   "subjects": [],
   "title": "Text",
   "type_title": "Page",

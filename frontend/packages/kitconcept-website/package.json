@@ -64,6 +64,7 @@
     "@plonegovbr/volto-social-media",
     "@plone/volto-form-block",
     "@plone-collective/volto-image-editor",
+    "@kitconcept/volto-timeline-block",
     "@kitconcept/volto-light-theme",
     "@kitconcept/core"
   ],
@@ -85,6 +86,7 @@
     "@kitconcept/volto-maintenance-banner": "workspace:*",
     "@kitconcept/volto-separator-block": "workspace:*",
     "@kitconcept/volto-slider-block": "workspace:*",
+    "@kitconcept/volto-timeline-block": "workspace:*",
     "@plonegovbr/volto-social-media": "^3.0.0",
     "@plone/volto-form-block": "^1.0.0-alpha.3",
     "@plone-collective/volto-image-editor": "1.0.1"
