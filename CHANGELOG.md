@@ -1,6 +1,45 @@
 # Changelog
 
 <!-- towncrier release notes start -->
+## 2.1.0 (2026-11-05)
+
+### Backend
+
+
+#### Feature
+
+- Add kitconcept.maintenancebanner. Note: There is an upgrade step to run. @Tishasoumya-02 
+
+
+#### Internal
+
+- Add Timeline block pages to the blocks catalogue and QA example content. @Tishasoumya-02 
+- Update to kitconcept.voltolighttheme 8.1.3. No significant changes.
+  @davisagli 
+
+
+
+### Frontend
+
+#### Feature
+
+- Add @kitconcept/volto-maintenance-banner. @Tishasoumya-02 
+- Add `@kitconcept/volto-timeline-block` add-on. @Tishasoumya-02 
+
+#### Bugfix
+
+- Update to volto-light-theme 8.1.3. Fixes for sharing view width, event calendar block variations, accordion block width in edit mode, and mobile navigation overflow.
+  @davisagli 
+
+
+
+### Project
+
+No significant changes.
+
+
+
+
 ## 2.0.3 (2026-10-26)
 
 ### Backend

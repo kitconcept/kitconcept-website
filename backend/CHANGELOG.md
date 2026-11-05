@@ -2,6 +2,20 @@
 
 <!-- towncrier release notes start -->
 
+## 2.1.0 (2026-11-05)
+
+
+### Feature
+
+- Add kitconcept.maintenancebanner. Note: There is an upgrade step to run. @Tishasoumya-02 
+
+
+### Internal
+
+- Add Timeline block pages to the blocks catalogue and QA example content. @Tishasoumya-02 
+- Update to kitconcept.voltolighttheme 8.1.3. No significant changes.
+  @davisagli 
+
 ## 2.0.3 (2026-10-26)
 
 

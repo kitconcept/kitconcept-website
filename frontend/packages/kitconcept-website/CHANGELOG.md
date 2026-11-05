@@ -1,3 +1,15 @@
+## 2.1.0 (2026-11-05)
+
+### Feature
+
+- Add @kitconcept/volto-maintenance-banner. @Tishasoumya-02 
+- Add `@kitconcept/volto-timeline-block` add-on. @Tishasoumya-02 
+
+### Bugfix
+
+- Update to volto-light-theme 8.1.3. Fixes for sharing view width, event calendar block variations, accordion block width in edit mode, and mobile navigation overflow.
+  @davisagli 
+
 ## 2.0.3 (2026-10-26)
 
 ### Bugfix
