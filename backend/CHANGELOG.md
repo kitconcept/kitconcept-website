@@ -2,6 +2,13 @@
 
 <!-- towncrier release notes start -->
 
+## 2.2.0 (2026-11-12)
+
+
+### Bugfix
+
+- Update to kitconcept.core 2.1.2 and Plone 6.2.3. @davisagli 
+
 ## 2.1.0 (2026-11-05)
 
 
