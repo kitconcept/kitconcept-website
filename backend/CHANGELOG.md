@@ -2,6 +2,13 @@
 
 <!-- towncrier release notes start -->
 
+## 2.2.1 (2026-11-24)
+
+
+### Internal
+
+- Update to kitconcept.core 2.2.1. @jnptk 
+
 ## 2.2.0 (2026-11-12)
 
 
