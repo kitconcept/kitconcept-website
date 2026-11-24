@@ -37,8 +37,8 @@ class TestContentTypeFTI:
         [
             ("title", "Language Root Folder"),
             ("global_allow", False),
-            ("default_view", "summary_view"),
-            ("view_methods", ("summary_view",)),
+            ("default_view", "document_view"),
+            ("view_methods", ("document_view",)),
         ],
     )
     def test_fti(self, attr: str, expected):
