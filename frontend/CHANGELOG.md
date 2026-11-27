@@ -1,3 +1,19 @@
+## 2.3.0 (2026-11-27)
+
+### Feature
+
+- Update to volto-light-theme 8.2.0. Pasting a table into a Text block now creates a Table block. Fixes for breadcrumb overflow on mobile, untranslated Anontools aria-labels, Table block width in view mode, footer logo fallback sizing, and language selector accessible names.
+  @jnptk 
+
+### Bugfix
+
+- Update to @kitconcept/core 2.2.1. The blocks configuration of a site or subsite no longer stays active after navigating away from it, and the Highlight and Slider block colors can now be changed through the web. @jnptk 
+
+### Internal
+
+- Update add-ons to match volto-light-theme 8.2.0: volto-banner-block 1.3.0, volto-button-block 5.1.0, volto-calendar-block 1.1.0, volto-carousel-block 3.1.0, volto-heading-block 2.6.0, volto-highlight-block 5.3.0, volto-introduction-block 1.5.0, volto-logos-block 4.1.0, volto-separator-block 5.1.0, volto-slider-block 7.2.0 and volto-social-media 3.1.0. Also update volto-iframe-block to 2.5.0.
+  @jnptk 
+
 ## 2.2.1 (2026-11-24)
 
 ### Internal

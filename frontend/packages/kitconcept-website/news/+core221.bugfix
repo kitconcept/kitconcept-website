@@ -1,1 +1,0 @@
-Update to @kitconcept/core 2.2.1. The blocks configuration of a site or subsite no longer stays active after navigating away from it, and the Highlight and Slider block colors can now be changed through the web. @jnptk

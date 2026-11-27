@@ -2,6 +2,15 @@
 
 <!-- towncrier release notes start -->
 
+## 2.3.0 (2026-11-27)
+
+
+### Internal
+
+- Update to kitconcept.core 2.2.1, with pas.plugins.authomatic 3.1.0, pas.plugins.oidc 2.1.0 and collective.person 1.0.0b7. Existing sites need to run the distribution upgrade steps. @jnptk 
+- Update to kitconcept.voltolighttheme 8.2.0. No significant changes.
+  @jnptk 
+
 ## 2.2.1 (2026-11-24)
 
 
